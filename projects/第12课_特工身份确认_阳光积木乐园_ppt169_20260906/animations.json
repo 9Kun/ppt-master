@@ -28,15 +28,31 @@
         "q1-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q1-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
           "restart": "always"
         },
         "q2-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q2-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
+          "restart": "always"
+        },
+        "q1-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q1-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
+          "restart": "always"
+        },
+        "q2-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q2-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
           "restart": "always"
         }
       }
@@ -46,15 +62,31 @@
         "q1-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q1-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
           "restart": "always"
         },
         "q2-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q2-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
+          "restart": "always"
+        },
+        "q1-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q1-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
+          "restart": "always"
+        },
+        "q2-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q2-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
           "restart": "always"
         }
       }
@@ -64,15 +96,31 @@
         "q1-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q1-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
           "restart": "always"
         },
         "q2-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q2-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
+          "restart": "always"
+        },
+        "q1-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q1-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
+          "restart": "always"
+        },
+        "q2-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q2-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
           "restart": "always"
         }
       }
@@ -82,15 +130,31 @@
         "q1-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q1-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
           "restart": "always"
         },
         "q2-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q2-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
+          "restart": "always"
+        },
+        "q1-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q1-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
+          "restart": "always"
+        },
+        "q2-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q2-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
           "restart": "always"
         }
       }
@@ -100,15 +164,31 @@
         "q1-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q1-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
           "restart": "always"
         },
         "q2-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q2-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
+          "restart": "always"
+        },
+        "q1-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q1-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
+          "restart": "always"
+        },
+        "q2-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q2-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
           "restart": "always"
         }
       }
@@ -180,14 +260,16 @@
             {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             }
@@ -198,118 +280,16 @@
             {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "code-task-1": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 5,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "run-task-1": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 6,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "code-task-2": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 5,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "run-task-2": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 6,
-              "delay": 0.05,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             }
@@ -319,23 +299,278 @@
           "effects": [
             {
               "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 3,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 3,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
               "trigger_shape": "run-initial-hit",
+              "order": 3,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-task-1": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
               "order": 1,
-              "duration": 0.04,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-task-1": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-task-2": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-task-2": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "guide-active": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 12,
+              "delay": 0.1,
+              "duration": 0.08,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-1-hit",
-              "order": 1,
-              "duration": 0.04,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 12,
+              "delay": 0.1,
+              "duration": 0.08,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 1,
-              "duration": 0.04,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "run-initial-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             }
           ]
@@ -344,46 +579,81 @@
           "effects": [
             {
               "effect": "entrance_appear",
-              "trigger_shape": "run-initial-hit",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
               "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 3,
-              "delay": 0.18,
+              "order": 20,
+              "delay": 0.04,
+              "duration": 0.06,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "run-initial-hit",
+              "order": 88,
+              "delay": 1.12,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-1-hit",
-              "order": 2,
-              "duration": 0.05,
+              "order": 20,
+              "delay": 0.04,
+              "duration": 0.06,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-1-hit",
-              "order": 3,
-              "delay": 0.18,
+              "order": 88,
+              "delay": 1.12,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 2,
-              "duration": 0.05,
+              "order": 20,
+              "delay": 0.04,
+              "duration": 0.06,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 3,
-              "delay": 0.18,
+              "order": 88,
+              "delay": 1.56,
               "duration": 0.05,
               "restart": "always"
             }
@@ -393,9 +663,41 @@
           "effects": [
             {
               "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
               "order": 90,
-              "delay": 0.18,
+              "delay": 1.1800000000000002,
               "duration": 0.08,
               "restart": "always"
             },
@@ -403,7 +705,7 @@
               "effect": "entrance_appear",
               "trigger_shape": "run-task-1-hit",
               "order": 90,
-              "delay": 0.18,
+              "delay": 1.1800000000000002,
               "duration": 0.08,
               "restart": "always"
             },
@@ -411,7 +713,7 @@
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
               "order": 90,
-              "delay": 0.18,
+              "delay": 1.62,
               "duration": 0.08,
               "restart": "always"
             }
@@ -420,25 +722,51 @@
         "out-1-line-01": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 11,
-              "delay": 0.08,
-              "duration": 0.04,
+              "order": 31,
+              "delay": 0.22,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 31,
+              "delay": 0.22,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -446,25 +774,51 @@
         "out-1-line-02": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 12,
-              "delay": 0.16,
-              "duration": 0.04,
+              "order": 32,
+              "delay": 0.44,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 32,
+              "delay": 0.44,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -472,25 +826,51 @@
         "out-1-line-03": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 13,
-              "delay": 0.24,
-              "duration": 0.04,
+              "order": 33,
+              "delay": 0.66,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 33,
+              "delay": 0.66,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -498,25 +878,51 @@
         "out-1-line-04": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 14,
-              "delay": 0.32,
-              "duration": 0.04,
+              "order": 34,
+              "delay": 0.88,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 34,
+              "delay": 0.88,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -524,25 +930,43 @@
         "out-2-line-01": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 11,
-              "delay": 0.08,
-              "duration": 0.04,
+              "order": 31,
+              "delay": 0.22,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -550,25 +974,43 @@
         "out-2-line-02": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 12,
-              "delay": 0.16,
-              "duration": 0.04,
+              "order": 32,
+              "delay": 0.44,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -576,25 +1018,43 @@
         "out-2-line-03": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 13,
-              "delay": 0.24,
-              "duration": 0.04,
+              "order": 33,
+              "delay": 0.66,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -602,25 +1062,43 @@
         "out-2-line-04": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 14,
-              "delay": 0.32,
-              "duration": 0.04,
+              "order": 34,
+              "delay": 0.88,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -628,25 +1106,43 @@
         "out-2-line-05": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 15,
-              "delay": 0.4,
-              "duration": 0.04,
+              "order": 35,
+              "delay": 1.1,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -654,25 +1150,43 @@
         "out-2-line-06": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 16,
-              "delay": 0.48,
-              "duration": 0.04,
+              "order": 36,
+              "delay": 1.32,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -695,15 +1209,31 @@
         "q1-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q1-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
           "restart": "always"
         },
         "q2-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q2-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
+          "restart": "always"
+        },
+        "q1-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q1-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
+          "restart": "always"
+        },
+        "q2-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q2-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
           "restart": "always"
         }
       }
@@ -713,15 +1243,31 @@
         "q1-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q1-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
           "restart": "always"
         },
         "q2-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q2-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
+          "restart": "always"
+        },
+        "q1-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q1-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
+          "restart": "always"
+        },
+        "q2-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q2-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
           "restart": "always"
         }
       }
@@ -731,15 +1277,31 @@
         "q1-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q1-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
           "restart": "always"
         },
         "q2-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q2-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
+          "restart": "always"
+        },
+        "q1-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q1-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
+          "restart": "always"
+        },
+        "q2-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q2-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
           "restart": "always"
         }
       }
@@ -749,15 +1311,31 @@
         "q1-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q1-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
           "restart": "always"
         },
         "q2-answer": {
           "effect": "entrance_appear",
           "trigger_shape": "q2-reveal-hit",
-          "order": 1,
-          "duration": 0.12,
+          "order": 20,
+          "delay": 0.04,
+          "duration": 0.08,
+          "restart": "always"
+        },
+        "q1-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q1-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
+          "restart": "always"
+        },
+        "q2-options-reveal": {
+          "effect": "entrance_appear",
+          "trigger_shape": "q2-reveal-hit",
+          "order": 10,
+          "duration": 0.06,
           "restart": "always"
         }
       }
@@ -770,14 +1348,16 @@
             {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             }
@@ -788,118 +1368,16 @@
             {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "code-task-1": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 5,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "run-task-1": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 6,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "code-task-2": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 5,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "run-task-2": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 6,
-              "delay": 0.05,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             }
@@ -909,23 +1387,278 @@
           "effects": [
             {
               "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 3,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 3,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
               "trigger_shape": "run-initial-hit",
+              "order": 3,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-task-1": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
               "order": 1,
-              "duration": 0.04,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-task-1": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-task-2": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-task-2": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "guide-active": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 12,
+              "delay": 0.1,
+              "duration": 0.08,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-1-hit",
-              "order": 1,
-              "duration": 0.04,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 12,
+              "delay": 0.1,
+              "duration": 0.08,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 1,
-              "duration": 0.04,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "run-initial-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             }
           ]
@@ -934,46 +1667,81 @@
           "effects": [
             {
               "effect": "entrance_appear",
-              "trigger_shape": "run-initial-hit",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
               "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 3,
-              "delay": 0.18,
+              "order": 20,
+              "delay": 0.04,
+              "duration": 0.06,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "run-initial-hit",
+              "order": 88,
+              "delay": 0.8,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-1-hit",
-              "order": 2,
-              "duration": 0.05,
+              "order": 20,
+              "delay": 0.04,
+              "duration": 0.06,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-1-hit",
-              "order": 3,
-              "delay": 0.18,
+              "order": 88,
+              "delay": 0.8,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 2,
-              "duration": 0.05,
+              "order": 20,
+              "delay": 0.04,
+              "duration": 0.06,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 3,
-              "delay": 0.18,
+              "order": 88,
+              "delay": 0.9,
               "duration": 0.05,
               "restart": "always"
             }
@@ -983,9 +1751,41 @@
           "effects": [
             {
               "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
               "order": 90,
-              "delay": 0.18,
+              "delay": 0.8600000000000001,
               "duration": 0.08,
               "restart": "always"
             },
@@ -993,7 +1793,7 @@
               "effect": "entrance_appear",
               "trigger_shape": "run-task-1-hit",
               "order": 90,
-              "delay": 0.18,
+              "delay": 0.8600000000000001,
               "duration": 0.08,
               "restart": "always"
             },
@@ -1001,7 +1801,7 @@
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
               "order": 90,
-              "delay": 0.18,
+              "delay": 0.96,
               "duration": 0.08,
               "restart": "always"
             }
@@ -1010,25 +1810,51 @@
         "out-1-char-01": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 11,
+              "order": 31,
               "delay": 0.08,
-              "duration": 0.04,
+              "duration": 0.06,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 31,
+              "delay": 0.08,
+              "duration": 0.06,
               "restart": "always"
             }
           ]
@@ -1036,25 +1862,51 @@
         "out-1-char-02": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 12,
+              "order": 32,
               "delay": 0.16,
-              "duration": 0.04,
+              "duration": 0.06,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 32,
+              "delay": 0.16,
+              "duration": 0.06,
               "restart": "always"
             }
           ]
@@ -1062,25 +1914,51 @@
         "out-1-char-03": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 13,
+              "order": 33,
               "delay": 0.24,
-              "duration": 0.04,
+              "duration": 0.06,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 33,
+              "delay": 0.24,
+              "duration": 0.06,
               "restart": "always"
             }
           ]
@@ -1088,25 +1966,51 @@
         "out-1-char-04": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 14,
+              "order": 34,
               "delay": 0.32,
-              "duration": 0.04,
+              "duration": 0.06,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 34,
+              "delay": 0.32,
+              "duration": 0.06,
               "restart": "always"
             }
           ]
@@ -1114,25 +2018,51 @@
         "out-1-char-05": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 15,
+              "order": 35,
               "delay": 0.4,
-              "duration": 0.04,
+              "duration": 0.06,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 35,
+              "delay": 0.4,
+              "duration": 0.06,
               "restart": "always"
             }
           ]
@@ -1140,25 +2070,51 @@
         "out-1-char-06": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 16,
+              "order": 36,
               "delay": 0.48,
-              "duration": 0.04,
+              "duration": 0.06,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 36,
+              "delay": 0.48,
+              "duration": 0.06,
               "restart": "always"
             }
           ]
@@ -1166,25 +2122,51 @@
         "out-1-char-07": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 17,
+              "order": 37,
               "delay": 0.56,
-              "duration": 0.04,
+              "duration": 0.06,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 37,
+              "delay": 0.56,
+              "duration": 0.06,
               "restart": "always"
             }
           ]
@@ -1192,25 +2174,43 @@
         "out-2-line-01": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 11,
-              "delay": 0.08,
-              "duration": 0.04,
+              "order": 31,
+              "delay": 0.22,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -1218,25 +2218,43 @@
         "out-2-line-02": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 12,
-              "delay": 0.16,
-              "duration": 0.04,
+              "order": 32,
+              "delay": 0.44,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -1244,25 +2262,43 @@
         "out-2-line-03": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 13,
-              "delay": 0.24,
-              "duration": 0.04,
+              "order": 33,
+              "delay": 0.66,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -1277,21 +2313,24 @@
             {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-3-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             }
@@ -1302,219 +2341,24 @@
             {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "code-task-1": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 5,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "run-task-1": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 6,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "code-task-2": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 5,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "run-task-2": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 6,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "code-task-3": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 5,
-              "delay": 0.05,
-              "duration": 0.05,
-              "restart": "always"
-            }
-          ]
-        },
-        "run-task-3": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 2,
-              "duration": 0.04,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 6,
-              "delay": 0.05,
+              "order": 3,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             }
@@ -1524,30 +2368,446 @@
           "effects": [
             {
               "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 3,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 3,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 3,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
               "trigger_shape": "run-initial-hit",
+              "order": 3,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-task-1": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
               "order": 1,
-              "duration": 0.04,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-task-1": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-task-2": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-task-2": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-task-3": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-task-3": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 10,
+              "delay": 0.08,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "guide-active": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 12,
+              "delay": 0.1,
+              "duration": 0.08,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-1-hit",
-              "order": 1,
-              "duration": 0.04,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 12,
+              "delay": 0.1,
+              "duration": 0.08,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 1,
-              "duration": 0.04,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 12,
+              "delay": 0.1,
+              "duration": 0.08,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-3-hit",
-              "order": 1,
-              "duration": 0.04,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "run-initial-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             }
           ]
@@ -1556,61 +2816,105 @@
           "effects": [
             {
               "effect": "entrance_appear",
-              "trigger_shape": "run-initial-hit",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
               "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 3,
-              "delay": 0.18,
+              "order": 20,
+              "delay": 0.04,
+              "duration": 0.06,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "run-initial-hit",
+              "order": 88,
+              "delay": 0.6799999999999999,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-1-hit",
-              "order": 2,
-              "duration": 0.05,
+              "order": 20,
+              "delay": 0.04,
+              "duration": 0.06,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-1-hit",
-              "order": 3,
-              "delay": 0.18,
+              "order": 88,
+              "delay": 0.6799999999999999,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 2,
-              "duration": 0.05,
+              "order": 20,
+              "delay": 0.04,
+              "duration": 0.06,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 3,
-              "delay": 0.18,
+              "order": 88,
+              "delay": 1.12,
               "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-3-hit",
-              "order": 2,
-              "duration": 0.05,
+              "order": 20,
+              "delay": 0.04,
+              "duration": 0.06,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "run-task-3-hit",
-              "order": 3,
-              "delay": 0.18,
+              "order": 88,
+              "delay": 0.6799999999999999,
               "duration": 0.05,
               "restart": "always"
             }
@@ -1620,9 +2924,49 @@
           "effects": [
             {
               "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-1-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-2-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger_shape": "task-3-hit",
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
               "order": 90,
-              "delay": 0.18,
+              "delay": 0.74,
               "duration": 0.08,
               "restart": "always"
             },
@@ -1630,7 +2974,7 @@
               "effect": "entrance_appear",
               "trigger_shape": "run-task-1-hit",
               "order": 90,
-              "delay": 0.18,
+              "delay": 0.74,
               "duration": 0.08,
               "restart": "always"
             },
@@ -1638,7 +2982,7 @@
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
               "order": 90,
-              "delay": 0.18,
+              "delay": 1.1800000000000002,
               "duration": 0.08,
               "restart": "always"
             },
@@ -1646,239 +2990,128 @@
               "effect": "entrance_appear",
               "trigger_shape": "run-task-3-hit",
               "order": 90,
-              "delay": 0.18,
+              "delay": 0.74,
               "duration": 0.08,
               "restart": "always"
             }
           ]
         },
-        "out-1-char-01": {
+        "out-1-line-01": {
           "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 11,
-              "delay": 0.08,
-              "duration": 0.04,
+              "order": 31,
+              "delay": 0.22,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger_shape": "run-task-1-hit",
+              "order": 31,
+              "delay": 0.22,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
         },
-        "out-1-char-02": {
+        "out-1-line-02": {
           "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-initial-hit",
-              "order": 12,
-              "delay": 0.16,
-              "duration": 0.04,
-              "restart": "always"
-            }
-          ]
-        },
-        "out-1-char-03": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 32,
+              "delay": 0.44,
+              "duration": 0.08,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
-              "trigger_shape": "run-initial-hit",
-              "order": 13,
-              "delay": 0.24,
-              "duration": 0.04,
-              "restart": "always"
-            }
-          ]
-        },
-        "out-1-char-04": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "run-initial-hit",
-              "order": 14,
-              "delay": 0.32,
-              "duration": 0.04,
-              "restart": "always"
-            }
-          ]
-        },
-        "out-1-char-05": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "run-initial-hit",
-              "order": 15,
-              "delay": 0.4,
-              "duration": 0.04,
-              "restart": "always"
-            }
-          ]
-        },
-        "out-1-char-06": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "run-initial-hit",
-              "order": 16,
-              "delay": 0.48,
-              "duration": 0.04,
-              "restart": "always"
-            }
-          ]
-        },
-        "out-1-char-07": {
-          "effects": [
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "exit_appear",
-              "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
-              "restart": "always"
-            },
-            {
-              "effect": "entrance_appear",
-              "trigger_shape": "run-initial-hit",
-              "order": 17,
-              "delay": 0.56,
-              "duration": 0.04,
+              "trigger_shape": "run-task-1-hit",
+              "order": 32,
+              "delay": 0.44,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -1886,32 +3119,51 @@
         "out-2-line-01": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 11,
-              "delay": 0.08,
-              "duration": 0.04,
+              "order": 31,
+              "delay": 0.22,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -1919,32 +3171,51 @@
         "out-2-line-02": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 12,
-              "delay": 0.16,
-              "duration": 0.04,
+              "order": 32,
+              "delay": 0.44,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -1952,32 +3223,51 @@
         "out-2-line-03": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 13,
-              "delay": 0.24,
-              "duration": 0.04,
+              "order": 33,
+              "delay": 0.66,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -1985,32 +3275,51 @@
         "out-2-line-04": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-2-hit",
-              "order": 14,
-              "delay": 0.32,
-              "duration": 0.04,
+              "order": 34,
+              "delay": 0.88,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -2018,32 +3327,51 @@
         "out-3-line-01": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-3-hit",
-              "order": 11,
-              "delay": 0.08,
-              "duration": 0.04,
+              "order": 31,
+              "delay": 0.22,
+              "duration": 0.08,
               "restart": "always"
             }
           ]
@@ -2051,32 +3379,51 @@
         "out-3-line-02": {
           "effects": [
             {
+              "effect": "entrance_appear",
+              "trigger": "with-previous",
+              "order": 1,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "with-previous",
+              "order": 2,
+              "delay": 0,
+              "duration": 0.01,
+              "restart": "always"
+            },
+            {
               "effect": "exit_appear",
               "trigger_shape": "task-1-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-2-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "exit_appear",
               "trigger_shape": "task-3-hit",
-              "order": 1,
-              "duration": 0.03,
+              "order": 4,
+              "delay": 0,
+              "duration": 0.05,
               "restart": "always"
             },
             {
               "effect": "entrance_appear",
               "trigger_shape": "run-task-3-hit",
-              "order": 12,
-              "delay": 0.16,
-              "duration": 0.04,
+              "order": 32,
+              "delay": 0.44,
+              "duration": 0.08,
               "restart": "always"
             }
           ]

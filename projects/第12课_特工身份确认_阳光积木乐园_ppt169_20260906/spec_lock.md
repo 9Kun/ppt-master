@@ -44,6 +44,8 @@
 - subtitle: 26
 - annotation: 18
 - code: 18
+- display_accent: 29
+- dense_code: 17
 - footer: 14
 - chapter_number: 180
 - section_title: 56

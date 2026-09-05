@@ -1,0 +1,1 @@
+PASS: every direct-root group has bounds; interaction overlays use explicit structural overlap exemptions.
