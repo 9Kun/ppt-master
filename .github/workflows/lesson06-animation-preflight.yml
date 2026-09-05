@@ -1,4 +1,4 @@
-name: Lesson06 animation preflight
+name: Lesson06 WPS animation validation
 
 on:
   push:
@@ -6,41 +6,99 @@ on:
       - fix/lesson06-code-demo-wps-animations
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  preflight:
+  validate-export:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     env:
       PROJECT: projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: PPT Master attribution guard
+        with:
+          fetch-depth: 0
+
+      - name: Attribution guard first
         run: python3 skills/ppt-master/scripts/attribution_guard.py
+
       - name: WPS companion status
         continue-on-error: true
         working-directory: skills/ppt-master-wps-compat
         run: python scripts/maintain.py status
-      - name: Prototype one-click WPS serialization
+
+      - name: Install PPT Master dependencies
+        run: python3 -m pip install -r skills/ppt-master/requirements.txt
+
+      - name: Official SVG quality gate
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT"
+
+      - name: Rebuild canonical svg_final
+        run: python3 skills/ppt-master/scripts/finalize_svg.py "$PROJECT"
+
+      - name: Canonical final release SVG gate
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT" --canonical-authoring --stage final --json
+
+      - name: Export fresh native PPTX then apply WPS one-click serializer
         shell: bash
         run: |
-          LATEST=$(find "$PROJECT/exports" -maxdepth 1 -name '*.pptx' -printf '%f\n' | sort | tail -n 1)
-          test -n "$LATEST"
-          echo "Using baseline export: $LATEST"
+          BEFORE=$(mktemp)
+          find "$PROJECT/exports" -maxdepth 1 -type f -name '*.pptx' -printf '%f\n' | sort > "$BEFORE"
+          python3 skills/ppt-master/scripts/svg_to_pptx.py "$PROJECT"
+          AFTER=$(mktemp)
+          find "$PROJECT/exports" -maxdepth 1 -type f -name '*.pptx' -printf '%f\n' | sort > "$AFTER"
+          NEW=$(comm -13 "$BEFORE" "$AFTER" | tail -n 1)
+          test -n "$NEW"
+          INPUT="$PROJECT/exports/$NEW"
+          STEM="${NEW%.pptx}"
+          OUTPUT="$PROJECT/exports/${STEM}_wps.pptx"
           python3 "$PROJECT/tools/wps_fix_code_demo_animations.py" \
-            "$PROJECT" "$PROJECT/exports/$LATEST" \
-            --output /tmp/lesson06-wps-prototype.pptx
+            "$PROJECT" "$INPUT" --output "$OUTPUT"
           python3 "$PROJECT/tools/wps_fix_code_demo_animations.py" \
-            "$PROJECT" /tmp/lesson06-wps-prototype.pptx --check
+            "$PROJECT" "$OUTPUT" --check
+          rm -f "$INPUT"
+          echo "FINAL_PPTX=$OUTPUT" >> "$GITHUB_ENV"
+
+      - name: Validate final PPTX package
+        shell: bash
+        run: |
           python3 - <<'PY'
-          import zipfile
-          p = '/tmp/lesson06-wps-prototype.pptx'
-          with zipfile.ZipFile(p) as z:
+          import os, zipfile
+          from pathlib import Path
+          from pptx import Presentation
+          path = Path(os.environ['FINAL_PPTX'])
+          with zipfile.ZipFile(path) as z:
               bad = z.testzip()
               if bad:
                   raise SystemExit(f'bad zip member: {bad}')
               slides = [n for n in z.namelist() if n.startswith('ppt/slides/slide') and n.endswith('.xml')]
               assert len(slides) == 36, len(slides)
-          print('ZIP/package smoke check OK: 36 slides')
+          prs = Presentation(str(path))
+          assert len(prs.slides) == 36, len(prs.slides)
+          print(f'Native PPTX package opens correctly: {path.name}; 36 slides')
           PY
+
+      - name: Restore SVG files and verify no slide source changed
+        shell: bash
+        run: |
+          git checkout HEAD -- "$PROJECT/svg_final" "$PROJECT/validation/svg_quality_report.json"
+          git diff --exit-code HEAD -- "$PROJECT/svg_output" "$PROJECT/svg_final" "$PROJECT/animations.json"
+          git diff --exit-code HEAD -- \
+            "$PROJECT/svg_output/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_output/02_今天的120分钟.svg" \
+            "$PROJECT/svg_output/03_今天要带走什么.svg" \
+            "$PROJECT/svg_output/04_十题热身赛.svg" \
+            "$PROJECT/svg_final/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_final/02_今天的120分钟.svg" \
+            "$PROJECT/svg_final/03_今天要带走什么.svg" \
+            "$PROJECT/svg_final/04_十题热身赛.svg"
+
+      - name: Commit WPS animation serializer and final PPTX
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$PROJECT/tools/wps_fix_code_demo_animations.py" "$FINAL_PPTX"
+          git commit -m "fix(slides): autoplay lesson06 code demos after one click"
+          git push origin HEAD:fix/lesson06-code-demo-wps-animations
