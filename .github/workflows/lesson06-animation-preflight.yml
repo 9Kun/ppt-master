@@ -11,11 +11,44 @@ permissions:
 jobs:
   preflight:
     runs-on: ubuntu-latest
+    env:
+      PROJECT: projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: PPT Master attribution guard
         run: python3 skills/ppt-master/scripts/attribution_guard.py
       - name: WPS compatibility status
+        continue-on-error: true
         working-directory: skills/ppt-master-wps-compat
         run: python scripts/maintain.py status
+      - name: Audit code-demo trigger timelines
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+          project = Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
+          cfg = json.loads((project / "animations.json").read_text(encoding="utf-8"))
+          for slide, scfg in cfg.get("slides", {}).items():
+              groups = scfg.get("groups", {}) or {}
+              rows = []
+              for gid, gcfg in groups.items():
+                  effs = gcfg.get("effects") if isinstance(gcfg, dict) else None
+                  if effs is None and isinstance(gcfg, dict) and gcfg.get("effect"):
+                      effs = [gcfg]
+                  for idx, row in enumerate(effs or []):
+                      trig = row.get("trigger_shape")
+                      if trig and (trig.startswith("run-") or trig.startswith("task-")):
+                          rows.append((trig, row.get("order"), gid, idx, row.get("effect"), row.get("trigger"), row.get("delay"), row.get("duration")))
+              if rows:
+                  print(f"SLIDE {slide}")
+                  for item in sorted(rows, key=lambda x: ((x[0] or ''), x[1] or 0, x[2], x[3])):
+                      print("  ", item)
+                  stem = slide + ".svg"
+                  svg = project / "svg_output" / stem
+                  if svg.exists():
+                      text = svg.read_text(encoding="utf-8")
+                      ids = re.findall(r'<g\b[^>]*\bid="([^"]+)"', text)
+                      print("  GROUPS", ", ".join(i for i in ids if i.startswith(("run-","task-","preview-","term-","terminal-","status-","code-","editor-","canvas-"))))
+          PY
