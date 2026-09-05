@@ -25,6 +25,7 @@ jobs:
       - name: Install PPT Master dependencies
         run: |
           python3 -m pip install -r skills/ppt-master/requirements.txt
+          python3 -m pip install playwright
           python3 -m playwright install chromium
 
       - name: Official SVG quality gate before visual review
