@@ -2,7 +2,8 @@ name: agent-lesson12-build-v3
 
 on:
   push:
-    branches: [agent/lesson12-ppt-20260906]
+    branches:
+      - agent/lesson12-ppt-20260906
     paths:
       - '.github/workflows/agent_lesson12_build_v3.yml'
       - '.github/scripts/agent_lesson12_build.py'
@@ -10,6 +11,8 @@ on:
       - '.github/scripts/agent_lesson12_postprocess.py'
       - '.github/scripts/agent_lesson12_repair.py'
       - '.github/scripts/agent_lesson12_contract_fix.py'
+      - '.github/scripts/agent_lesson12_wps_audit.py'
+      - '.github/scripts/agent_lesson12_release_audit.py'
 
 permissions:
   contents: write
@@ -19,19 +22,25 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           ref: agent/lesson12-ppt-20260906
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install
+
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r skills/ppt-master/requirements.txt python-docx
+
       - name: PPT Master integrity gate
         run: python skills/ppt-master/scripts/attribution_guard.py
+
       - name: Initialize independent project and import DOCX
         shell: bash
         run: |
@@ -43,173 +52,53 @@ jobs:
           mkdir -p "$P/notes"
           cp -a /tmp/lesson12_notes/. "$P/notes/" || true
           python skills/ppt-master/scripts/project_manager.py import-sources "$P" '19课分教案/第12课_特工身份确认.docx'
-      - name: Generate and repair deck sources
+
+      - name: Generate and repair sources
         run: |
           python .github/scripts/agent_lesson12_build.py
           python .github/scripts/agent_lesson12_fix_schema.py
           python .github/scripts/agent_lesson12_postprocess.py
+
       - name: Build-only WPS schema adapter
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          p=Path('skills/ppt-master/scripts/svg_to_pptx/animation_config.py')
-          s=p.read_text(encoding='utf-8')
-          old="frozenset({'transition', 'animation', 'groups', 'morph'}),"
-          new="frozenset({'transition', 'animation', 'groups', 'morph', 'interactive_sequence_mode'}),"
-          if old not in s:
-              raise SystemExit('WPS adapter anchor not found')
-          p.write_text(s.replace(old,new,1),encoding='utf-8')
-          PY
+        run: python -c "from pathlib import Path; p=Path('skills/ppt-master/scripts/svg_to_pptx/animation_config.py'); s=p.read_text(encoding='utf-8'); old=\"frozenset({'transition', 'animation', 'groups', 'morph'}),\"; new=\"frozenset({'transition', 'animation', 'groups', 'morph', 'interactive_sequence_mode'}),\"; assert old in s, 'WPS adapter anchor not found'; p.write_text(s.replace(old,new,1),encoding='utf-8')"
+
       - name: Project schema validation
         run: python skills/ppt-master/scripts/project_manager.py validate 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
+
       - name: Full canonical final SVG hard gate
         shell: bash
         run: |
           P='projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
           mkdir -p "$P/validation"
           python skills/ppt-master/scripts/svg_quality_checker.py "$P" --canonical-authoring --stage final --json | tee "$P/validation/svg_quality_full.json"
-          echo "0" > "$P/validation/svg_quality_full_exit_code.txt"
+          echo 0 > "$P/validation/svg_quality_full_exit_code.txt"
+
       - name: WPS interaction hard gate
-        shell: bash
-        run: |
-          P='projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
-          python - <<'PY' | tee "$P/validation/wps_interaction_gate.txt"
-          from pathlib import Path
-          import json, xml.etree.ElementTree as ET
-          P=Path('projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906')
-          cfg=json.loads((P/'animations.json').read_text(encoding='utf-8'))
-          required=['16_练习A_数到3停','23_练习B_答对就break','27_三次口令门_运行验证']
-          errs=[]
-          for stem in required:
-              sc=cfg['slides'].get(stem,{})
-              if sc.get('interactive_sequence_mode')!='wps':
-                  errs.append(f'{stem}: missing interactive_sequence_mode=wps')
-              svg=ET.parse(P/'svg_output'/f'{stem}.svg').getroot()
-              direct=[el for el in list(svg) if el.get('id')]
-              byid={el.get('id'):el for el in direct}
-              order={el.get('id'):i for i,el in enumerate(direct)}
-              groups=sc.get('groups',{})
-              triggers=set()
-              for gid,gc in groups.items():
-                  entries=gc.get('effects',[]) if isinstance(gc,dict) and 'effects' in gc else [gc]
-                  for e in entries:
-                      if not isinstance(e,dict):
-                          continue
-                      tr=e.get('trigger_shape')
-                      if tr:
-                          triggers.add(tr)
-                          if e.get('restart')!='always':
-                              errs.append(f'{stem}/{gid}: triggered effect restart != always')
-              for tr in triggers:
-                  if tr not in byid:
-                      errs.append(f'{stem}: trigger {tr} is not a direct-root group')
-                      continue
-                  rect=next((x for x in byid[tr].iter() if x.tag.endswith('rect')),None)
-                  if rect is None or rect.get('fill')!='#FFFFFF' or rect.get('fill-opacity')!='0.001':
-                      errs.append(f'{stem}/{tr}: hit area must be #FFFFFF fill-opacity 0.001')
-              task_count=3 if stem.startswith('27_') else 2
-              for i in range(1,task_count+1):
-                  btn=f'task-{i}-button'; hit=f'task-{i}-hit'
-                  if order.get(hit,-1) <= order.get(btn,-1):
-                      errs.append(f'{stem}: {hit} must be above {btn}')
-              out_ids=[gid for gid in groups if gid.startswith('out-')]
-              if not out_ids:
-                  errs.append(f'{stem}: no progressive output groups')
-              for gid in out_ids:
-                  entries=groups[gid].get('effects',[]) if 'effects' in groups[gid] else [groups[gid]]
-                  if not any(str(e.get('effect','')).startswith('entrance_') and str(e.get('trigger_shape','')).startswith('run-') for e in entries if isinstance(e,dict)):
-                      errs.append(f'{stem}/{gid}: output is not gated by a run trigger')
-              # Task 1 must work both from the initial page state and after explicitly selecting task 1.
-              for gid in [g for g in groups if g.startswith('out-1-')]:
-                  entrances={
-                      e.get('trigger_shape') for e in groups[gid].get('effects',[])
-                      if isinstance(e,dict) and str(e.get('effect','')).startswith('entrance_')
-                  }
-                  if not {'run-initial-hit','run-task-1-hit'} <= entrances:
-                      errs.append(f'{stem}/{gid}: task1 output lacks both initial and selected run triggers')
-              # Switching tasks must clear running/done state.
-              for status in ('status-running','status-done'):
-                  entries=groups.get(status,{}).get('effects',[])
-                  for i in range(1,task_count+1):
-                      if not any(isinstance(e,dict) and e.get('effect')=='exit_appear' and e.get('trigger_shape')==f'task-{i}-hit' for e in entries):
-                          errs.append(f'{stem}/{status}: no reset on task-{i}-hit')
-          if errs:
-              print('\n'.join('ERROR '+e for e in errs))
-              raise SystemExit(1)
-          print('PASS: WPS mode, direct-root hit targets, z-order, restart=always, task-1 rerun, task-state reset and progressive output triggers validated.')
-          PY
+        run: python .github/scripts/agent_lesson12_wps_audit.py
+
       - name: Animation config validation
         shell: bash
         run: |
           P='projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
           python skills/ppt-master/scripts/animation_config.py validate "$P" | tee "$P/validation/animation_validation.txt"
+
       - name: Finalize SVG
         shell: bash
         run: |
           P='projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
           python skills/ppt-master/scripts/finalize_svg.py "$P" | tee "$P/validation/finalize_svg.txt"
+
       - name: Standard release PPTX export
         shell: bash
         run: |
           P='projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
           mkdir -p "$P/exports"
           python skills/ppt-master/scripts/svg_to_pptx.py "$P" -o "$P/exports/第12课_特工身份确认_阳光积木乐园.pptx" | tee "$P/validation/export.txt"
-      - name: Readback and revised quality report
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import json,re,zipfile
-          P=Path('projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906')
-          F=P/'exports/第12课_特工身份确认_阳光积木乐园.pptx'
-          with zipfile.ZipFile(F) as z:
-              slide_xml=sorted(n for n in z.namelist() if re.fullmatch(r'ppt/slides/slide\d+\.xml',n))
-              report={
-                  'pptx_exists':F.exists(),
-                  'size_bytes':F.stat().st_size,
-                  'slide_count':len(slide_xml),
-                  'timing_slides':sum(b'<p:timing' in z.read(n) for n in slide_xml),
-                  'zip_ok':z.testzip() is None,
-              }
-          if report['slide_count']!=32 or not report['zip_ok'] or report['timing_slides']==0:
-              raise SystemExit(report)
-          (P/'validation/readback.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
-          (P/'validation/quality_report.md').write_text('''# 第12课《特工身份确认》修订质量报告
 
-## 本轮自检修复
-- 修复 P16/P23/P27：任务1在“先切任务1再运行”后不输出的问题。
-- 修复 P16/P23/P27：切换任务会清除旧输出、运行中与完成状态，并恢复运行提示。
-- 修复 P16/P23/P27：完成状态只在逐字/逐行输出完全结束后出现。
-- 修复 P16：六行“数到5”输出重新排版，全部保持在深色终端内部。
-- 重做 P27：左侧代码恢复教案最终失败判断；空白案例改为“空白 → 正确”，不再把仍等待输入的程序标为完成。
-- 重做控制台视觉与交互：顶部流程胶囊、任务区、编辑器、终端、direct-root 0.001 命中层统一复用 P10 语言。
-- 修复普通揭晓页：透明命中区置于可见按钮之上。
-- 修复 9 页双题选择页：点击后正确项变绿、其他项变粉，同时再显示答案解析，初始态不泄露答案。
-- 修复 P26/P27 代码投影可读性：P26 17px；P27 密集控制台 17px，不再使用 15px/14px 补丁字号。
-- 修订 P31 对 password 未赋值问题的说明，与教案“本模板 while 至少执行一次”一致。
-- 恢复所有交互顶层组 data-pptx-bounds；叠层交互使用 checker 支持且显式 sidecar 可动画的结构角色契约。
+      - name: PPTX readback and quality report
+        run: python .github/scripts/agent_lesson12_release_audit.py
 
-## 发布门禁
-- PPT Master attribution guard：PASS。
-- project_manager validate：PASS。
-- 完整 canonical final SVG quality gate：PASS（无 ERROR；warning 保留为非阻断式设计提示）。
-- semantic_self_audit / root_contract_self_audit：PASS。
-- WPS interaction hard gate：PASS。
-- animation_config validate：PASS。
-- finalize_svg：PASS。
-- 标准 release svg_to_pptx.py：PASS；未使用 dangerous nonconforming export。
-- PPTX ZIP/readback：PASS；32 页且包含 timing XML。
-
-## WPS 真实放映边界
-GitHub Actions 是 Linux 临时运行器，没有真实 WPS Presentation GUI，因此本报告不声称完成真实 WPS 放映点击验收。仍需在桌面 WPS 放映模式最终点测 P16、P23、P27 的任务切换、运行、逐字/逐行输出、完成状态与重复点击。
-
-## 参考项目保护
-projects/初识_Cpp_阳光积木乐园_ppt169_20260826 只读复用视觉语言、素材和交互机制，未修改或覆盖。
-''',encoding='utf-8')
-          print(report)
-          PY
-      - name: Preserve build and repair sources inside project notes
+      - name: Preserve build and repair sources
         shell: bash
         run: |
           P='projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
@@ -218,10 +107,18 @@ projects/初识_Cpp_阳光积木乐园_ppt169_20260826 只读复用视觉语言�
           cp .github/scripts/agent_lesson12_postprocess.py "$P/notes/postprocess.py"
           cp .github/scripts/agent_lesson12_repair.py "$P/notes/repair.py"
           cp .github/scripts/agent_lesson12_contract_fix.py "$P/notes/contract_fix.py"
-      - name: Commit complete repaired project
+          cp .github/scripts/agent_lesson12_wps_audit.py "$P/notes/wps_audit.py"
+          cp .github/scripts/agent_lesson12_release_audit.py "$P/notes/release_audit.py"
+
+      - name: Commit repaired project
         shell: bash
         run: |
           git config user.name chatgpt-agent
           git config user.email chatgpt-agent@users.noreply.github.com
           git add 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
-          git diff --cached --quiet || { git commit -m 'fix: self-audit and repair lesson 12 PPT'; git push origin HEAD:agent/lesson12-ppt-20260906; }
+          if git diff --cached --quiet; then
+            echo 'No project changes to commit.'
+          else
+            git commit -m 'fix: self-audit and repair lesson 12 PPT'
+            git push origin HEAD:agent/lesson12-ppt-20260906
+          fi
