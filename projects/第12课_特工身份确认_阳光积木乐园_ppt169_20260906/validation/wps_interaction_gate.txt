@@ -1,1 +1,1 @@
-PASS: WPS interactive pages preserve mode, trigger hit regions, restart=always and run-gated progressive outputs.
+PASS: WPS mode, direct-root 0.001 hit regions, trigger z-order, restart=always, task-1 dual run path, stale-state reset, progressive output and completion ordering validated.

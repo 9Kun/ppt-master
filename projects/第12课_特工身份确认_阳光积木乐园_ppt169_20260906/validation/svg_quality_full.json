@@ -3,139 +3,170 @@
 
 [WARN] 01_特工身份确认.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-1:fill None -> '#7A8A9B'; footer-1:font-size None -> '14'; text[16]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
    [WARN] 12 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id="...">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as "background" or "decoration"
 
 [WARN] 02_今天的任务路线.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-2:fill None -> '#7A8A9B'; footer-2:font-size None -> '14'; text[35]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 03_复习抢答规则.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-3:fill None -> '#7A8A9B'; footer-3:font-size None -> '14'; text[23]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 04_复习抢答_1_2.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-4:fill None -> '#7A8A9B'; footer-4:font-size None -> '14'; text[62]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 05_复习抢答_3_4.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-5:fill None -> '#7A8A9B'; footer-5:font-size None -> '14'; text[62]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 06_复习抢答_5_6.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-6:fill None -> '#7A8A9B'; footer-6:font-size None -> '14'; text[62]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 07_复习抢答_7_8.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-7:fill None -> '#7A8A9B'; footer-7:font-size None -> '14'; text[62]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 08_复习抢答_9_10.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-8:fill None -> '#7A8A9B'; footer-8:font-size None -> '14'; text[62]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 09_任务启动.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-9:fill None -> '#7A8A9B'; footer-9:font-size None -> '14'; text[26]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 10_新知精学.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-10:fill None -> '#7A8A9B'; footer-10:font-size None -> '14'; text[12]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 11_while像值班守卫.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-11:fill None -> '#7A8A9B'; footer-11:font-size None -> '14'; text[25]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
    [WARN] Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id="while-rule"> x=866.0, y=404.0..438.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
 
 [WARN] 12_计数防止不停.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-12:fill None -> '#7A8A9B'; footer-12:font-size None -> '14'; text[28]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 13_break提前下车.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-13:fill None -> '#7A8A9B'; footer-13:font-size None -> '14'; text[23]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 14_continue跳过本轮.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-14:fill None -> '#7A8A9B'; footer-14:font-size None -> '14'; text[23]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 15_for和while怎么选.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-15:fill None -> '#7A8A9B'; footer-15:font-size None -> '14'; text[23]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
-[ERROR] 16_练习A_数到3停.svg - Failed
+[WARN] 16_练习A_数到3停.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
-   [ERROR] <text> (x=820, y=560; text='检查结束') exceeds <g id="out-2-line-06"> data-pptx-bounds on the vertical axis: content (820.0, 544.7)-(896.3, 566.3), container (796.0, 320.0)-(1208.0, 540.0), overflow horizontal 0.0%, vertical 12.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (54 change(s)); examples: code-initial:font-family None -> 'Consolas, Microsoft YaHei, monospace'; code-initial:font-size None -> '18'; text[43]:font-family 'Consolas, Microsoft YaHei, monospace' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+   [WARN] Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (2 attribute(s)); examples: task-1-button:data-pptx-bounds '68.0 128 565.0 62' -> '68 128 565 62'; task-2-button:data-pptx-bounds '647.0 128 565.0 62' -> '647 128 565 62' (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
-   [WARN] <text> (x=1026, y=76; text='① 选任务 → ② 看代码 → ③ 运行…') exceeds <g id="console-header"> data-pptx-bounds on the horizontal axis: content (813.2, 60.7)-(1238.8, 82.3), container (48.0, 30.0)-(1232.0, 112.0), overflow horizontal 0.6%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈23.6 px per mixed char at 18px incl. headroom; ≈50 chars fit in 1184 px
    [WARN] Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id="code-initial"> x=94.0, y=404.0..434.0, 2 lines; <g id="code-task-1"> x=94.0, y=404.0..434.0, 2 lines; <g id="code-task-2"> x=94.0, y=404.0..434.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
 
 [WARN] 17_易错_漏掉计数增加.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-17:fill None -> '#7A8A9B'; footer-17:font-size None -> '14'; text[25]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 18_本课选择题_1_2.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-18:fill None -> '#7A8A9B'; footer-18:font-size None -> '14'; text[62]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 19_本课选择题_3_4.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-19:fill None -> '#7A8A9B'; footer-19:font-size None -> '14'; text[62]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 20_本课选择题_5_6.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-20:fill None -> '#7A8A9B'; footer-20:font-size None -> '14'; text[62]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 21_本课选择题_7_8.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-21:fill None -> '#7A8A9B'; footer-21:font-size None -> '14'; text[62]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 22_break实战.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-22:fill None -> '#7A8A9B'; footer-22:font-size None -> '14'; text[12]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 23_练习B_答对就break.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (48 change(s)); examples: code-initial:font-family None -> 'Consolas, Microsoft YaHei, monospace'; code-initial:font-size None -> '18'; text[43]:font-family 'Consolas, Microsoft YaHei, monospace' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+   [WARN] Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (2 attribute(s)); examples: task-1-button:data-pptx-bounds '68.0 128 565.0 62' -> '68 128 565 62'; task-2-button:data-pptx-bounds '647.0 128 565.0 62' -> '647 128 565 62' (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
-   [WARN] <text> (x=1026, y=76; text='① 选任务 → ② 看代码 → ③ 运行…') exceeds <g id="console-header"> data-pptx-bounds on the horizontal axis: content (813.2, 60.7)-(1238.8, 82.3), container (48.0, 30.0)-(1232.0, 112.0), overflow horizontal 0.6%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈23.6 px per mixed char at 18px incl. headroom; ≈50 chars fit in 1184 px
 
 [WARN] 24_break执行路径.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-24:fill None -> '#7A8A9B'; footer-24:font-size None -> '14'; text[34]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 25_微项目三次口令门.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-25:fill None -> '#7A8A9B'; footer-25:font-size None -> '14'; text[12]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 26_三次口令门代码拆解.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-26:fill None -> '#7A8A9B'; footer-26:font-size None -> '14'; text[50]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
    [WARN] Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id="code-card"> x=82.0, y=218.0..239.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
 
 [WARN] 27_三次口令门_运行验证.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (134 change(s)); examples: code-initial:font-family None -> 'Consolas, Microsoft YaHei, monospace'; code-initial:font-size None -> '17'; text[50]:font-family 'Consolas, Microsoft YaHei, monospace' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+   [WARN] Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (3 attribute(s)); examples: task-1-button:data-pptx-bounds '68.0 128 372.0 62' -> '68 128 372 62'; task-2-button:data-pptx-bounds '454.0 128 372.0 62' -> '454 128 372 62'; task-3-button:data-pptx-bounds '840.0 128 372.0 62' -> '840 128 372 62' (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
-   [WARN] <text> (x=1026, y=76; text='① 选任务 → ② 看代码 → ③ 运行…') exceeds <g id="console-header"> data-pptx-bounds on the horizontal axis: content (813.2, 60.7)-(1238.8, 82.3), container (48.0, 30.0)-(1232.0, 112.0), overflow horizontal 0.6%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈23.6 px per mixed char at 18px incl. headroom; ≈50 chars fit in 1184 px
    [WARN] Detected 4 paragraph-like line run(s) split across sibling <text> elements (<g id="code-initial"> x=94.0, y=298.0..316.0, 2 lines; <g id="code-task-1"> x=94.0, y=298.0..316.0, 2 lines; <g id="code-task-2"> x=94.0, y=298.0..316.0, 2 lines; +1 more). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
 
 [WARN] 28_continue位置很重要.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-28:fill None -> '#7A8A9B'; footer-28:font-size None -> '14'; text[23]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 29_项目实施步骤.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-29:fill None -> '#7A8A9B'; footer-29:font-size None -> '14'; text[38]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 30_作品验收与展示.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-30:fill None -> '#7A8A9B'; footer-30:font-size None -> '14'; text[31]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 31_常见问题与处理.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-31:fill None -> '#7A8A9B'; footer-31:font-size None -> '14'; text[35]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
 
 [WARN] 32_离堂小结.svg - Passed (with warnings)
    viewBox: 0 0 1280 720
+   [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: footer-32:fill None -> '#7A8A9B'; footer-32:font-size None -> '14'; text[26]:fill '#7A8A9B' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
    [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
    [WARN] 1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id="...">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as "background" or "decoration"
 
@@ -145,12 +176,12 @@
 
 Total files: 32
   [OK] Fully passed: 0 (0%)
-  [WARN] With warnings: 31 (96%)
-  [ERROR] With errors: 1 (3%)
+  [WARN] With warnings: 32 (100%)
+  [ERROR] With errors: 0 (0%)
 
 Provenance categories:
-  blocking: 1          hard findings; gate also requires exit 0
-  introduced: 41       advisory; new or changed
+  blocking: 0          hard findings; gate also requires exit 0
+  introduced: 73       advisory; new or changed
   inherited: 0         informational; prototype-identical
   source-import: 0     informational; source-conversion loss
 
@@ -161,9 +192,6 @@ Provenance categories:
   Native objects: charts 0 | tables 0 | formulas 0
   Presets: (none)
   Largest image-frame share on image pages: 16.1%–100.0%
-
-Issue categories:
-  Other: 1
 
 Contextual values beyond spec_lock anchors (informational):
   Colors:
