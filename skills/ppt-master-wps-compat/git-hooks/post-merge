@@ -1,0 +1,2 @@
+#!/bin/sh
+python "C:/Users/Administrator/.codex/skills/ppt-master-wps-compat/scripts/maintain.py" sync

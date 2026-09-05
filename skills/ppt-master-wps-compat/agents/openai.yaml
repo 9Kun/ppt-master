@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Master WPS Compat"
+  short_description: "Persist and verify WPS-compatible PPT Master animations"
+  default_prompt: "Use the maintained PPT Master WPS compatibility layer for interactive animations."
