@@ -1,0 +1,66 @@
+name: Lesson06 official SVG gate
+
+on:
+  push:
+    branches:
+      - fix/lesson06-official-svg-gate
+
+permissions:
+  contents: write
+
+jobs:
+  repair-validate-export:
+    runs-on: ubuntu-latest
+    env:
+      PROJECT: projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Attribution guard first
+        run: python3 skills/ppt-master/scripts/attribution_guard.py
+
+      - name: Install PPT Master dependencies
+        run: python3 -m pip install -r skills/ppt-master/requirements.txt
+
+      - name: Repair canonical SVG source and animation schema
+        run: python3 .github/scripts/repair_lesson06_svg_gate.py
+
+      - name: Rebuild svg_final from canonical svg_output
+        run: python3 skills/ppt-master/scripts/finalize_svg.py "$PROJECT"
+
+      - name: Official SVG quality gate
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT"
+
+      - name: Export native PPTX after gate passes
+        run: python3 skills/ppt-master/scripts/svg_to_pptx.py "$PROJECT"
+
+      - name: Preserve P01-P04 exactly
+        shell: bash
+        run: |
+          git checkout HEAD -- "$PROJECT/svg_output/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_output/02_今天的120分钟.svg" \
+            "$PROJECT/svg_output/03_今天要带走什么.svg" \
+            "$PROJECT/svg_output/04_十题热身赛.svg" \
+            "$PROJECT/svg_final/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_final/02_今天的120分钟.svg" \
+            "$PROJECT/svg_final/03_今天要带走什么.svg" \
+            "$PROJECT/svg_final/04_十题热身赛.svg"
+
+      - name: Commit validated source and exported PPTX
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$PROJECT/animations.json" "$PROJECT/svg_output" "$PROJECT/svg_final" "$PROJECT/exports"
+          if [ -f "$PROJECT/validation/svg_quality_report.json" ]; then
+            git add "$PROJECT/validation/svg_quality_report.json"
+          fi
+          if git diff --cached --quiet; then
+            echo "No validated changes to commit"
+            exit 0
+          fi
+          git commit -m "fix(slides): pass official lesson06 SVG gate and export PPTX"
+          git push origin HEAD:fix/lesson06-official-svg-gate
