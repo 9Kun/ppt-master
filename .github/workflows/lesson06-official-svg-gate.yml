@@ -34,6 +34,9 @@ jobs:
       - name: Official SVG quality gate
         run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT"
 
+      - name: Canonical final release SVG gate
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT" --canonical-authoring --stage final --json
+
       - name: Export native PPTX after gate passes
         run: python3 skills/ppt-master/scripts/svg_to_pptx.py "$PROJECT"
 
