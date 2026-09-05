@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="cover" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#FFFDF5" />
+  <g id="hero-art" data-pptx-bounds="746 32 486 656">
+    <rect x="746" y="32" width="486" height="656" rx="48" fill="#FFF3D6" />
+    <image href="../images/hero_turtle_block_garden.png" x="746" y="32" width="486" height="656" preserveAspectRatio="xMidYMid meet" />
+    <rect x="1074" y="650" width="158" height="38" rx="19" fill="#2E9BFF" />
+    <text x="1153" y="676" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">120 分钟闯关</text>
+  </g>
+  <g id="corner-blocks" data-pptx-bounds="34 28 118 69">
+    <rect x="34" y="28" width="92" height="28" rx="14" fill="#2E9BFF" />
+    <rect x="104" y="48" width="48" height="48" rx="14" fill="#FF9F1C" />
+    <circle cx="64" cy="84" r="13" fill="#FF6FA5" />
+  </g>
+  <g id="course-tag" data-pptx-bounds="36 112 312 48">
+    <rect x="68" y="112" width="250" height="48" rx="24" fill="#E5F4FF" />
+    <text x="193" y="144" text-anchor="middle" font-size="22" font-weight="700" fill="#2E9BFF">PYTHON 应用课 · 第 06 课</text>
+  </g>
+  <g id="title-block" data-pptx-bounds="68 190 604 276">
+    <text x="68" y="246" font-size="54" font-weight="700" fill="#33415C">阶段测评</text>
+    <text x="68" y="318" font-size="54" font-weight="700" fill="#33415C">与复盘</text>
+    <rect x="68" y="352" width="566" height="7" rx="3.5" fill="#2E9BFF" />
+    <rect x="68" y="352" width="188" height="7" rx="3.5" fill="#FF9F1C" />
+    <text x="68" y="407" font-size="30" font-weight="700" fill="#FF6FA5">神奇海龟小画家</text>
+    <text x="68" y="452" font-size="24" fill="#667085">把学过的命令，拼成一朵会旋转的彩色花</text>
+  </g>
+  <g id="goal-card" data-pptx-bounds="68 506 604 118">
+    <rect x="68" y="506" width="604" height="118" rx="30" fill="#FFFFFF" stroke="#DDEBFA" stroke-width="2" />
+    <circle cx="122" cy="565" r="28" fill="#FFF3D6" />
+    <path d="M108 566 C108 552 120 543 132 549 C145 555 143 573 126 584 C118 579 108 573 108 566 Z" fill="#FF6FA5" />
+    <text x="168" y="553" font-size="20" font-weight="700" fill="#FF9F1C">今日终点</text>
+    <text x="168" y="589" font-size="28" font-weight="700" fill="#33415C">完成可展示、可署名的“小红花”</text>
+  </g>
+</svg>

@@ -1,0 +1,4095 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "628315a2dbb20cb5bee3c5dc7f1889d06a23c61d6077c8fa2d4158c58d84934c",
+    "file_count": 36,
+    "files": [
+      {
+        "file": "01_阶段测评与复盘.svg",
+        "sha256": "306ab00b59bf869077f7dfad5a8f5018f5600a3cee0a27e6407d86ee4fd52298"
+      },
+      {
+        "file": "02_今天的120分钟.svg",
+        "sha256": "a760e7a3b8472e681aeee513b5cdb684c74461701a386467c713e8dbe9d87f48"
+      },
+      {
+        "file": "03_今天要带走什么.svg",
+        "sha256": "47cd15359a90f8b41b0bad99e591eb31a245716cdfbbdc3eab29e5a20b48a690"
+      },
+      {
+        "file": "04_十题热身赛.svg",
+        "sha256": "bcde1d0ab6a0ca8400ab2d9429a7b622e5aa0c1f1121372e4216de9d5425675f"
+      },
+      {
+        "file": "05_抢答规则.svg",
+        "sha256": "f7d1f421d867a797befbe22c9448dc601e6c3d2f5b3e121931a8a2399bfadb20"
+      },
+      {
+        "file": "06_热身1-2_起步命令.svg",
+        "sha256": "74e89364cb517161c06105d764f46d44627b79c4de7f1c6557a54cc9228ed1a8"
+      },
+      {
+        "file": "07_热身3-4_重复动作.svg",
+        "sha256": "70cab37b3ed3e115e8112aaa4dd7cf33ba2fbdff5e4eb556ef76069c379dd18d"
+      },
+      {
+        "file": "08_热身5-6_位置导航.svg",
+        "sha256": "a36a414cd5872c2ccb021224207faf8ee82e354bdee519d1e913f18d0661df99"
+      },
+      {
+        "file": "09_热身7-8_颜色填充.svg",
+        "sha256": "a57c8aa493cf17be21668ad6067a41fea4bb5d8d392af48f3e892b5c33df9924"
+      },
+      {
+        "file": "10_热身9-10_背景与圆.svg",
+        "sha256": "d86438e1ed39b52a3263bf8bc2d467be0d983dd3daa90941b5a555cf1cb95fc2"
+      },
+      {
+        "file": "11_项目启动_送你一朵小红花.svg",
+        "sha256": "4172934f1024612b81f9e9536090bf1489b7185c59994f3706fecfb67f887c8d"
+      },
+      {
+        "file": "12_成功标准先看清.svg",
+        "sha256": "c8f244d8d42a3b5fd21031a668383953928acb258ffdb61a03ef400f6fa95945"
+      },
+      {
+        "file": "13_新命令小实验.svg",
+        "sha256": "4b5efe23d2778173bbec18e7fb8e2837ce68c0d753ddb832880fb7b85c896f40"
+      },
+      {
+        "file": "14_四盒命令工具箱.svg",
+        "sha256": "c702eb61625a2cbe785110a294283ce3bf995a3e3c681a6b18f2da7d953de7c9"
+      },
+      {
+        "file": "15_显示与隐藏海龟.svg",
+        "sha256": "06eb2ab50fa9b8fdec8f717d01a0ad78ae971f7d8a02193479d0e4f523afa1f0"
+      },
+      {
+        "file": "16_海龟显隐实验站.svg",
+        "sha256": "f8f581b8c4537763b8baae9e4fe21b67329c3b74fcf75dd8d070123efb2b1454"
+      },
+      {
+        "file": "17_给窗口起名字.svg",
+        "sha256": "f6ea182f30f25d40039d5e7b3f9505afec0f4a53773a59bf67f547aa0adfb413"
+      },
+      {
+        "file": "18_窗口标题实验站.svg",
+        "sha256": "b29e5c2067556dd66fe8233342ace48d0cfa5fb1590f3192740cb4250fab6968"
+      },
+      {
+        "file": "19_安全修改四步法.svg",
+        "sha256": "7445fd52f82cdd22afb3ac07d6c353ed7abc758f9698037c521854e5a2a7a3e5"
+      },
+      {
+        "file": "20_练习A_六片花瓣.svg",
+        "sha256": "0d3f91c33cca5d96732435fbba2fe923aeeaf725feddc6752ce457e0c8087dbc"
+      },
+      {
+        "file": "21_花瓣颜色实验站.svg",
+        "sha256": "62a7a9b602aa6de878e8a1d3fe2d4879475cabe2f3d2b1d2bbddd489c096e758"
+      },
+      {
+        "file": "22_八题选择挑战.svg",
+        "sha256": "6ef040a08e0dd0359966b25d16deada5b72f08c1dae77b8671065b86834d5825"
+      },
+      {
+        "file": "23_选择题1-2.svg",
+        "sha256": "c4d98d15cad16fe5262e0081e67adf52e91045f677c481da9836221e05c9adda"
+      },
+      {
+        "file": "24_选择题3-4.svg",
+        "sha256": "17b38697763694bc45e5f59a96a5a398e763695c99ee78fabcb5d180880c76a9"
+      },
+      {
+        "file": "25_选择题5-6.svg",
+        "sha256": "33155d3511979e6f9c43b8da15a0b86da8216e37a77901b37927181eb69368cc"
+      },
+      {
+        "file": "26_选择题7-8.svg",
+        "sha256": "ec5a55248a74aad771bb0bf8b0a8170027795fb0142fa6d432c599764e02976a"
+      },
+      {
+        "file": "27_课间保存站.svg",
+        "sha256": "03aaaec850a9e1237e44b1a005b33b335482acada9d17c99071710dc1ba3f7b5"
+      },
+      {
+        "file": "28_练习B_花心和花茎.svg",
+        "sha256": "3572fc13b35350a187587d9a2515de9608145d61ebd1e323711b36e44f8089fa"
+      },
+      {
+        "file": "29_花茎长度实验站.svg",
+        "sha256": "26c5ab4ae42c9eb143e7d7bcfbcea19b3e05198d4ddb26b16fe04a7fb2435c09"
+      },
+      {
+        "file": "30_微项目装配站.svg",
+        "sha256": "2ea49b2454b9a8a6938e8c0e73841791958d19c1ec043a5677ecc744f1210787"
+      },
+      {
+        "file": "31_完整作品代码地图.svg",
+        "sha256": "27c5252ba48102edae12f33e3b72368d243d9afb804e19c090e23eba13eebb18"
+      },
+      {
+        "file": "32_小红花作品实验站.svg",
+        "sha256": "f04b3c99e7d03a34e94d0e446659b75d36cc923e6d9a9dce64100a965eab26d2"
+      },
+      {
+        "file": "33_五步完成桌面画展.svg",
+        "sha256": "341c6dfd4200873f31263ebdc32686e734313165723684ab5f5156fa76a377a6"
+      },
+      {
+        "file": "34_作品验收与同伴建议.svg",
+        "sha256": "a84502b0025d3e22daf2256a60c9edaf25503839c30affd350b2a28deacf713f"
+      },
+      {
+        "file": "35_三个常见问题.svg",
+        "sha256": "9e21930ccaa9da70a52c252bf846d93820d54b73003b2c6b7a45a155d918ab82"
+      },
+      {
+        "file": "36_离堂小结.svg",
+        "sha256": "229fe4b03e670fe11df98800e4fd9063d0f1877d6b7c2674e7e730f7125b8adf"
+      }
+    ]
+  },
+  "summary": {
+    "total": 36,
+    "passed": 15,
+    "warnings": 11,
+    "errors": 12
+  },
+  "issue_types": {
+    "Other": 160,
+    "illustration_planned_image_invalid_status_error": 2
+  },
+  "categories": {
+    "blocking": {
+      "count": 162,
+      "issues": [
+        {
+          "file": "06_热身1-2_起步命令.svg",
+          "message": "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "06_热身1-2_起步命令.svg",
+          "message": "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "07_热身3-4_重复动作.svg",
+          "message": "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "07_热身3-4_重复动作.svg",
+          "message": "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "08_热身5-6_位置导航.svg",
+          "message": "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "08_热身5-6_位置导航.svg",
+          "message": "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "09_热身7-8_颜色填充.svg",
+          "message": "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "09_热身7-8_颜色填充.svg",
+          "message": "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "10_热身9-10_背景与圆.svg",
+          "message": "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "10_热身9-10_背景与圆.svg",
+          "message": "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"task-show-button\"> data-pptx-bounds overlaps <g id=\"task-show-hit\"> data-pptx-bounds by 540.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"task-hide-button\"> data-pptx-bounds overlaps <g id=\"task-hide-hit\"> data-pptx-bounds by 572.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"code-show-initial\"> data-pptx-bounds overlaps <g id=\"code-show-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"code-show-initial\"> data-pptx-bounds overlaps <g id=\"code-hide-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"code-show-state\"> data-pptx-bounds overlaps <g id=\"code-hide-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"run-show-button\"> data-pptx-bounds overlaps <g id=\"run-hide-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"run-show-button\"> data-pptx-bounds overlaps <g id=\"run-show-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"run-show-button\"> data-pptx-bounds overlaps <g id=\"run-hide-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"run-hide-button\"> data-pptx-bounds overlaps <g id=\"run-show-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"run-hide-button\"> data-pptx-bounds overlaps <g id=\"run-hide-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"run-show-hit\"> data-pptx-bounds overlaps <g id=\"run-hide-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-running\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"terminal-running\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"show-char-01\"> data-pptx-bounds overlaps <g id=\"hide-char-01\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"show-char-02\"> data-pptx-bounds overlaps <g id=\"hide-char-02\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"show-char-03\"> data-pptx-bounds overlaps <g id=\"hide-char-03\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "<g id=\"show-char-04\"> data-pptx-bounds overlaps <g id=\"hide-char-04\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"task-a-button\"> data-pptx-bounds overlaps <g id=\"task-a-hit\"> data-pptx-bounds by 352.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"task-b-button\"> data-pptx-bounds overlaps <g id=\"task-b-hit\"> data-pptx-bounds by 352.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"task-c-button\"> data-pptx-bounds overlaps <g id=\"task-c-hit\"> data-pptx-bounds by 400.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"code-a-initial\"> data-pptx-bounds overlaps <g id=\"code-a-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"code-a-initial\"> data-pptx-bounds overlaps <g id=\"code-b-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"code-a-initial\"> data-pptx-bounds overlaps <g id=\"code-c-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"code-a-state\"> data-pptx-bounds overlaps <g id=\"code-b-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"code-a-state\"> data-pptx-bounds overlaps <g id=\"code-c-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"code-b-state\"> data-pptx-bounds overlaps <g id=\"code-c-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-b-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-c-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-a-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-c-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-a-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-c-button\"> data-pptx-bounds overlaps <g id=\"run-a-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-c-button\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-c-button\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-a-hit\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-a-hit\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"run-b-hit\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-running\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"terminal-running\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-01\"> data-pptx-bounds overlaps <g id=\"out-b-01\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-01\"> data-pptx-bounds overlaps <g id=\"out-b-02\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-01\"> data-pptx-bounds overlaps <g id=\"out-c-01\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-02\"> data-pptx-bounds overlaps <g id=\"out-b-02\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-02\"> data-pptx-bounds overlaps <g id=\"out-b-03\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-02\"> data-pptx-bounds overlaps <g id=\"out-c-02\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-03\"> data-pptx-bounds overlaps <g id=\"out-b-03\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-03\"> data-pptx-bounds overlaps <g id=\"out-b-04\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-03\"> data-pptx-bounds overlaps <g id=\"out-c-03\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-04\"> data-pptx-bounds overlaps <g id=\"out-b-04\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-04\"> data-pptx-bounds overlaps <g id=\"out-b-05\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-04\"> data-pptx-bounds overlaps <g id=\"out-c-04\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-05\"> data-pptx-bounds overlaps <g id=\"out-b-05\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-05\"> data-pptx-bounds overlaps <g id=\"out-b-06\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-a-05\"> data-pptx-bounds overlaps <g id=\"out-c-05\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-b-01\"> data-pptx-bounds overlaps <g id=\"out-c-01\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-b-02\"> data-pptx-bounds overlaps <g id=\"out-c-01\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-b-02\"> data-pptx-bounds overlaps <g id=\"out-c-02\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-b-03\"> data-pptx-bounds overlaps <g id=\"out-c-02\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-b-03\"> data-pptx-bounds overlaps <g id=\"out-c-03\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-b-04\"> data-pptx-bounds overlaps <g id=\"out-c-03\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-b-04\"> data-pptx-bounds overlaps <g id=\"out-c-04\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-b-05\"> data-pptx-bounds overlaps <g id=\"out-c-04\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-b-05\"> data-pptx-bounds overlaps <g id=\"out-c-05\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "<g id=\"out-b-06\"> data-pptx-bounds overlaps <g id=\"out-c-05\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-run-red-hit\"> data-pptx-bounds overlaps <g id=\"p12-run-orange-hit\"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-run-red-hit\"> data-pptx-bounds overlaps <g id=\"p12-run-purple-hit\"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-run-orange-hit\"> data-pptx-bounds overlaps <g id=\"p12-run-purple-hit\"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"status-guide\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"status-running\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"status-done-new\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-red-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-red-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-red-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-orange-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-orange-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-orange-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-purple-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-purple-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-purple-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"preview-red\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"preview-orange\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"preview-purple\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"code-orange-state\"> data-pptx-bounds overlaps <g id=\"code-purple-state\"> data-pptx-bounds by 610.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"status-guide\"> data-pptx-bounds overlaps <g id=\"status-running\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"status-guide\"> data-pptx-bounds overlaps <g id=\"status-done-new\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"status-running\"> data-pptx-bounds overlaps <g id=\"status-done-new\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"out-red-line-1\"> data-pptx-bounds overlaps <g id=\"out-orange-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"out-red-line-1\"> data-pptx-bounds overlaps <g id=\"out-purple-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"out-red-line-2\"> data-pptx-bounds overlaps <g id=\"out-orange-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"out-red-line-2\"> data-pptx-bounds overlaps <g id=\"out-purple-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"out-red-line-3\"> data-pptx-bounds overlaps <g id=\"out-orange-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"out-red-line-3\"> data-pptx-bounds overlaps <g id=\"out-purple-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"out-orange-line-1\"> data-pptx-bounds overlaps <g id=\"out-purple-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"out-orange-line-2\"> data-pptx-bounds overlaps <g id=\"out-purple-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"out-orange-line-3\"> data-pptx-bounds overlaps <g id=\"out-purple-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"preview-red\"> data-pptx-bounds overlaps <g id=\"preview-orange\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"preview-red\"> data-pptx-bounds overlaps <g id=\"preview-purple\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "message": "<g id=\"preview-orange\"> data-pptx-bounds overlaps <g id=\"preview-purple\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-run-normal-hit\"> data-pptx-bounds overlaps <g id=\"p21-run-short-hit\"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-run-normal-hit\"> data-pptx-bounds overlaps <g id=\"p21-run-long-hit\"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-run-short-hit\"> data-pptx-bounds overlaps <g id=\"p21-run-long-hit\"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-status-guide\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-status-running\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-status-done\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-1\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-short\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-normal\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-long\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-3\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-preview-short\"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-preview-normal\"> data-pptx-bounds by 190.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 210.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"forward-short-state\"> data-pptx-bounds overlaps <g id=\"forward-long-state\"> data-pptx-bounds by 390.0px x 44.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"stem-status-guide\"> data-pptx-bounds overlaps <g id=\"stem-status-running\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"stem-status-guide\"> data-pptx-bounds overlaps <g id=\"stem-status-done\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"stem-status-running\"> data-pptx-bounds overlaps <g id=\"stem-status-done\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"stem-line-short\"> data-pptx-bounds overlaps <g id=\"stem-line-normal\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"stem-line-short\"> data-pptx-bounds overlaps <g id=\"stem-line-long\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"stem-line-normal\"> data-pptx-bounds overlaps <g id=\"stem-line-long\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"stem-line-3\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 12.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"stem-preview-short\"> data-pptx-bounds overlaps <g id=\"stem-preview-normal\"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"stem-preview-short\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "message": "<g id=\"stem-preview-normal\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-run-base-hit\"> data-pptx-bounds overlaps <g id=\"p23-run-sun-hit\"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-run-base-hit\"> data-pptx-bounds overlaps <g id=\"p23-run-violet-hit\"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-run-sun-hit\"> data-pptx-bounds overlaps <g id=\"p23-run-violet-hit\"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-status-guide\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-status-running\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-status-done\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-1\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-2\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-3\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-4\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-5\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-preview-base\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-preview-sun\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-preview-violet\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"full-code-sun-state\"> data-pptx-bounds overlaps <g id=\"full-code-violet-state\"> data-pptx-bounds by 650.0px x 82.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"full-status-guide\"> data-pptx-bounds overlaps <g id=\"full-status-running\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"full-status-guide\"> data-pptx-bounds overlaps <g id=\"full-status-done\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"full-status-running\"> data-pptx-bounds overlaps <g id=\"full-status-done\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"full-preview-base\"> data-pptx-bounds overlaps <g id=\"full-preview-sun\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"full-preview-base\"> data-pptx-bounds overlaps <g id=\"full-preview-violet\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "message": "<g id=\"full-preview-sun\"> data-pptx-bounds overlaps <g id=\"full-preview-violet\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+        },
+        {
+          "scope": "illustration",
+          "message": "mascot_turtle_new_commands_v2.png has invalid Status 'Ready'."
+        },
+        {
+          "scope": "illustration",
+          "message": "mascot_turtle_flower_workshop_v2.png has invalid Status 'Ready'."
+        }
+      ]
+    },
+    "introduced": {
+      "count": 16,
+      "issues": [
+        {
+          "file": "01_阶段测评与复盘.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "02_今天的120分钟.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "02_今天的120分钟.svg",
+          "message": "Detected 4 paragraph-like line run(s) split across sibling <text> elements (<g id=\"stage-1\"> x=98.0, y=378.0..404.0, 2 lines; <g id=\"stage-2\"> x=390.0, y=404.0..430.0, 2 lines; <g id=\"stage-3\"> x=682.0, y=378.0..404.0, 2 lines; +1 more). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "03_今天要带走什么.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "04_十题热身赛.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "05_抢答规则.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "11_项目启动_送你一朵小红花.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"question-card\"> x=94.0, y=478.0..558.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "12_成功标准先看清.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "12_成功标准先看清.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"check-explain\"> x=894.0, y=316.0..360.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "20_练习A_六片花瓣.svg",
+          "message": "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"logic\"> x=680.0, y=252.0..340.0, 3 lines; <g id=\"logic\"> x=672.0, y=524.0..560.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "31_完整作品代码地图.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"checklist\"> x=878.0, y=490.0..530.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "33_五步完成桌面画展.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "35_三个常见问题.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "35_三个常见问题.svg",
+          "message": "<text> (x=54, y=116; text='不要删掉全部重来') exceeds <g id=\"header\"> data-pptx-bounds on the vertical axis: content (54.0, 99.0)-(223.6, 123.0), container (54.0, 36.0)-(1174.0, 120.0), overflow horizontal 0.0%, vertical 3.6%; expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#2072B8": [
+        "03_今天要带走什么.svg",
+        "04_十题热身赛.svg",
+        "15_显示与隐藏海龟.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg",
+        "29_花茎长度实验站.svg"
+      ],
+      "#207A45": [
+        "03_今天要带走什么.svg",
+        "04_十题热身赛.svg",
+        "22_八题选择挑战.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg",
+        "28_练习B_花心和花茎.svg"
+      ],
+      "#2B3A55": [
+        "20_练习A_六片花瓣.svg",
+        "21_花瓣颜色实验站.svg",
+        "29_花茎长度实验站.svg",
+        "32_小红花作品实验站.svg"
+      ],
+      "#33415C": [
+        "11_项目启动_送你一朵小红花.svg",
+        "13_新命令小实验.svg",
+        "14_四盒命令工具箱.svg",
+        "15_显示与隐藏海龟.svg",
+        "17_给窗口起名字.svg",
+        "19_安全修改四步法.svg",
+        "20_练习A_六片花瓣.svg",
+        "21_花瓣颜色实验站.svg",
+        "22_八题选择挑战.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg",
+        "27_课间保存站.svg",
+        "28_练习B_花心和花茎.svg",
+        "29_花茎长度实验站.svg",
+        "30_微项目装配站.svg",
+        "31_完整作品代码地图.svg",
+        "32_小红花作品实验站.svg",
+        "34_作品验收与同伴建议.svg",
+        "36_离堂小结.svg"
+      ],
+      "#5A6B80": [
+        "02_今天的120分钟.svg",
+        "03_今天要带走什么.svg",
+        "04_十题热身赛.svg"
+      ],
+      "#65C466": [
+        "11_项目启动_送你一朵小红花.svg",
+        "14_四盒命令工具箱.svg",
+        "15_显示与隐藏海龟.svg",
+        "17_给窗口起名字.svg",
+        "19_安全修改四步法.svg",
+        "21_花瓣颜色实验站.svg",
+        "27_课间保存站.svg",
+        "28_练习B_花心和花茎.svg",
+        "29_花茎长度实验站.svg",
+        "30_微项目装配站.svg",
+        "31_完整作品代码地图.svg",
+        "32_小红花作品实验站.svg",
+        "34_作品验收与同伴建议.svg"
+      ],
+      "#667085": [
+        "13_新命令小实验.svg",
+        "14_四盒命令工具箱.svg",
+        "15_显示与隐藏海龟.svg",
+        "17_给窗口起名字.svg",
+        "19_安全修改四步法.svg",
+        "20_练习A_六片花瓣.svg",
+        "21_花瓣颜色实验站.svg",
+        "22_八题选择挑战.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg",
+        "29_花茎长度实验站.svg",
+        "30_微项目装配站.svg",
+        "31_完整作品代码地图.svg",
+        "32_小红花作品实验站.svg",
+        "34_作品验收与同伴建议.svg"
+      ],
+      "#9B7BFF": [
+        "21_花瓣颜色实验站.svg",
+        "31_完整作品代码地图.svg",
+        "32_小红花作品实验站.svg"
+      ],
+      "#9ED0FF": [
+        "20_练习A_六片花瓣.svg"
+      ],
+      "#A8D5FF": [
+        "16_海龟显隐实验站.svg"
+      ],
+      "#A9E7B8": [
+        "21_花瓣颜色实验站.svg",
+        "29_花茎长度实验站.svg",
+        "32_小红花作品实验站.svg"
+      ],
+      "#AFC7DC": [
+        "19_安全修改四步法.svg"
+      ],
+      "#B83E68": [
+        "03_今天要带走什么.svg",
+        "04_十题热身赛.svg",
+        "15_显示与隐藏海龟.svg",
+        "22_八题选择挑战.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg"
+      ],
+      "#B89AFF": [
+        "21_花瓣颜色实验站.svg",
+        "32_小红花作品实验站.svg"
+      ],
+      "#B96800": [
+        "03_今天要带走什么.svg",
+        "04_十题热身赛.svg"
+      ],
+      "#C8F0D4": [
+        "02_今天的120分钟.svg",
+        "04_十题热身赛.svg"
+      ],
+      "#D9C8FF": [
+        "21_花瓣颜色实验站.svg",
+        "32_小红花作品实验站.svg"
+      ],
+      "#D9E8F5": [
+        "11_项目启动_送你一朵小红花.svg",
+        "13_新命令小实验.svg",
+        "14_四盒命令工具箱.svg",
+        "15_显示与隐藏海龟.svg",
+        "17_给窗口起名字.svg",
+        "19_安全修改四步法.svg",
+        "20_练习A_六片花瓣.svg",
+        "21_花瓣颜色实验站.svg",
+        "22_八题选择挑战.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg",
+        "27_课间保存站.svg",
+        "28_练习B_花心和花茎.svg",
+        "29_花茎长度实验站.svg",
+        "30_微项目装配站.svg",
+        "31_完整作品代码地图.svg",
+        "32_小红花作品实验站.svg",
+        "34_作品验收与同伴建议.svg",
+        "36_离堂小结.svg"
+      ],
+      "#DDF1FF": [
+        "11_项目启动_送你一朵小红花.svg"
+      ],
+      "#DDF7E8": [
+        "22_八题选择挑战.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg",
+        "28_练习B_花心和花茎.svg"
+      ],
+      "#E5F4FF": [
+        "15_显示与隐藏海龟.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg",
+        "29_花茎长度实验站.svg"
+      ],
+      "#E9FBEF": [
+        "03_今天要带走什么.svg",
+        "04_十题热身赛.svg",
+        "05_抢答规则.svg",
+        "06_热身1-2_起步命令.svg",
+        "07_热身3-4_重复动作.svg",
+        "08_热身5-6_位置导航.svg",
+        "09_热身7-8_颜色填充.svg",
+        "10_热身9-10_背景与圆.svg",
+        "12_成功标准先看清.svg",
+        "29_花茎长度实验站.svg"
+      ],
+      "#EEF6FF": [
+        "17_给窗口起名字.svg",
+        "21_花瓣颜色实验站.svg",
+        "28_练习B_花心和花茎.svg",
+        "29_花茎长度实验站.svg",
+        "32_小红花作品实验站.svg"
+      ],
+      "#F7FAFC": [
+        "01_阶段测评与复盘.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg",
+        "28_练习B_花心和花茎.svg"
+      ],
+      "#F8FBFF": [
+        "16_海龟显隐实验站.svg",
+        "18_窗口标题实验站.svg",
+        "21_花瓣颜色实验站.svg"
+      ],
+      "#FF8FB5": [
+        "20_练习A_六片花瓣.svg"
+      ],
+      "#FF9DBC": [
+        "21_花瓣颜色实验站.svg",
+        "32_小红花作品实验站.svg"
+      ],
+      "#FFB2CA": [
+        "15_显示与隐藏海龟.svg",
+        "17_给窗口起名字.svg",
+        "20_练习A_六片花瓣.svg",
+        "28_练习B_花心和花茎.svg"
+      ],
+      "#FFB347": [
+        "21_花瓣颜色实验站.svg",
+        "32_小红花作品实验站.svg"
+      ],
+      "#FFB7D1": [
+        "16_海龟显隐实验站.svg"
+      ],
+      "#FFD0E1": [
+        "02_今天的120分钟.svg",
+        "03_今天要带走什么.svg",
+        "04_十题热身赛.svg"
+      ],
+      "#FFD36A": [
+        "15_显示与隐藏海龟.svg",
+        "17_给窗口起名字.svg",
+        "20_练习A_六片花瓣.svg",
+        "21_花瓣颜色实验站.svg",
+        "28_练习B_花心和花茎.svg",
+        "29_花茎长度实验站.svg",
+        "32_小红花作品实验站.svg"
+      ],
+      "#FFD9A6": [
+        "02_今天的120分钟.svg",
+        "03_今天要带走什么.svg",
+        "04_十题热身赛.svg"
+      ],
+      "#FFE2ED": [
+        "03_今天要带走什么.svg",
+        "04_十题热身赛.svg",
+        "05_抢答规则.svg",
+        "12_成功标准先看清.svg",
+        "16_海龟显隐实验站.svg",
+        "18_窗口标题实验站.svg",
+        "29_花茎长度实验站.svg",
+        "35_三个常见问题.svg"
+      ],
+      "#FFE3EC": [
+        "15_显示与隐藏海龟.svg",
+        "22_八题选择挑战.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg"
+      ],
+      "#FFF2DC": [
+        "01_阶段测评与复盘.svg",
+        "02_今天的120分钟.svg",
+        "03_今天要带走什么.svg",
+        "04_十题热身赛.svg",
+        "05_抢答规则.svg",
+        "06_热身1-2_起步命令.svg",
+        "07_热身3-4_重复动作.svg",
+        "08_热身5-6_位置导航.svg",
+        "09_热身7-8_颜色填充.svg",
+        "10_热身9-10_背景与圆.svg",
+        "12_成功标准先看清.svg",
+        "18_窗口标题实验站.svg",
+        "35_三个常见问题.svg"
+      ],
+      "#FFF3D6": [
+        "14_四盒命令工具箱.svg",
+        "19_安全修改四步法.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg",
+        "28_练习B_花心和花茎.svg",
+        "31_完整作品代码地图.svg",
+        "36_离堂小结.svg"
+      ]
+    },
+    "fonts": {
+      "Consolas, Microsoft YaHei, monospace": [
+        "18_窗口标题实验站.svg"
+      ],
+      "Consolas, monospace": [
+        "06_热身1-2_起步命令.svg",
+        "07_热身3-4_重复动作.svg",
+        "08_热身5-6_位置导航.svg",
+        "09_热身7-8_颜色填充.svg",
+        "10_热身9-10_背景与圆.svg",
+        "16_海龟显隐实验站.svg",
+        "18_窗口标题实验站.svg",
+        "21_花瓣颜色实验站.svg",
+        "29_花茎长度实验站.svg",
+        "32_小红花作品实验站.svg",
+        "35_三个常见问题.svg"
+      ],
+      "Microsoft YaHei, Segoe UI, sans-serif": [
+        "11_项目启动_送你一朵小红花.svg",
+        "13_新命令小实验.svg",
+        "14_四盒命令工具箱.svg",
+        "15_显示与隐藏海龟.svg",
+        "17_给窗口起名字.svg",
+        "19_安全修改四步法.svg",
+        "20_练习A_六片花瓣.svg",
+        "21_花瓣颜色实验站.svg",
+        "22_八题选择挑战.svg",
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg",
+        "27_课间保存站.svg",
+        "28_练习B_花心和花茎.svg",
+        "29_花茎长度实验站.svg",
+        "30_微项目装配站.svg",
+        "31_完整作品代码地图.svg",
+        "32_小红花作品实验站.svg",
+        "34_作品验收与同伴建议.svg",
+        "36_离堂小结.svg"
+      ]
+    },
+    "sizes": {
+      "118": [
+        "27_课间保存站.svg"
+      ],
+      "82": [
+        "36_离堂小结.svg"
+      ]
+    }
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 36,
+    "totals": {
+      "text_elements": 694,
+      "image_placements": 4,
+      "icons": 13,
+      "svg_geometry_elements": 697,
+      "preset_shapes": 0,
+      "page_frame_elements": 211,
+      "marker_uses": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 4,
+      "icons": 8,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "geometry_elements": {
+      "circle": 142,
+      "ellipse": 102,
+      "line": 14,
+      "path": 8,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 431
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": [
+      0.1493,
+      1.0
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [
+      {
+        "severity": "error",
+        "kind": "planned_image_invalid_status",
+        "message": "mascot_turtle_new_commands_v2.png has invalid Status 'Ready'."
+      },
+      {
+        "severity": "error",
+        "kind": "planned_image_invalid_status",
+        "message": "mascot_turtle_flower_workshop_v2.png has invalid Status 'Ready'."
+      }
+    ],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_阶段测评与复盘.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\01_阶段测评与复盘.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 1,
+            "files": [
+              "ref08_daxian_teacher_mascot_halfbody_v1.png"
+            ],
+            "max_frame_share": 0.182
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 11,
+              "circle": 10,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#F7FAFC",
+            "#FFF2DC"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "306ab00b59bf869077f7dfad5a8f5018f5600a3cee0a27e6407d86ee4fd52298"
+    },
+    {
+      "file": "02_今天的120分钟.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\02_今天的120分钟.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "Detected 4 paragraph-like line run(s) split across sibling <text> elements (<g id=\"stage-1\"> x=98.0, y=378.0..404.0, 2 lines; <g id=\"stage-2\"> x=390.0, y=404.0..430.0, 2 lines; <g id=\"stage-3\"> x=682.0, y=378.0..404.0, 2 lines; +1 more). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 1,
+            "files": [
+              "ref08_bg_route_blocks_v1.png"
+            ],
+            "max_frame_share": 1.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 5,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 3
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5A6B80",
+            "#C8F0D4",
+            "#FFD0E1",
+            "#FFD9A6",
+            "#FFF2DC"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "a760e7a3b8472e681aeee513b5cdb684c74461701a386467c713e8dbe9d87f48"
+    },
+    {
+      "file": "03_今天要带走什么.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\03_今天要带走什么.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 29,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 15,
+              "circle": 6,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 29,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2072B8",
+            "#207A45",
+            "#5A6B80",
+            "#B83E68",
+            "#B96800",
+            "#E9FBEF",
+            "#FFD0E1",
+            "#FFD9A6",
+            "#FFE2ED",
+            "#FFF2DC"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "47cd15359a90f8b41b0bad99e591eb31a245716cdfbbdc3eab29e5a20b48a690"
+    },
+    {
+      "file": "04_十题热身赛.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\04_十题热身赛.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 29,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 15,
+              "circle": 6,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 29,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2072B8",
+            "#207A45",
+            "#5A6B80",
+            "#B83E68",
+            "#B96800",
+            "#C8F0D4",
+            "#E9FBEF",
+            "#FFD0E1",
+            "#FFD9A6",
+            "#FFE2ED",
+            "#FFF2DC"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "bcde1d0ab6a0ca8400ab2d9429a7b622e5aa0c1f1121372e4216de9d5425675f"
+    },
+    {
+      "file": "05_抢答规则.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\05_抢答规则.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 8,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFE2ED",
+            "#FFF2DC"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "f7d1f421d867a797befbe22c9448dc601e6c3d2f5b3e121931a8a2399bfadb20"
+    },
+    {
+      "file": "06_热身1-2_起步命令.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\06_热身1-2_起步命令.svg",
+      "exists": true,
+      "errors": [
+        "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+      ],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 7,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFF2DC"
+          ],
+          "font_families": [
+            "Consolas, monospace"
+          ]
+        }
+      },
+      "passed": false,
+      "source_sha256": "74e89364cb517161c06105d764f46d44627b79c4de7f1c6557a54cc9228ed1a8"
+    },
+    {
+      "file": "07_热身3-4_重复动作.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\07_热身3-4_重复动作.svg",
+      "exists": true,
+      "errors": [
+        "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+      ],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 7,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFF2DC"
+          ],
+          "font_families": [
+            "Consolas, monospace"
+          ]
+        }
+      },
+      "passed": false,
+      "source_sha256": "70cab37b3ed3e115e8112aaa4dd7cf33ba2fbdff5e4eb556ef76069c379dd18d"
+    },
+    {
+      "file": "08_热身5-6_位置导航.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\08_热身5-6_位置导航.svg",
+      "exists": true,
+      "errors": [
+        "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+      ],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 7,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFF2DC"
+          ],
+          "font_families": [
+            "Consolas, monospace"
+          ]
+        }
+      },
+      "passed": false,
+      "source_sha256": "a36a414cd5872c2ccb021224207faf8ee82e354bdee519d1e913f18d0661df99"
+    },
+    {
+      "file": "09_热身7-8_颜色填充.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\09_热身7-8_颜色填充.svg",
+      "exists": true,
+      "errors": [
+        "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+      ],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 7,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFF2DC"
+          ],
+          "font_families": [
+            "Consolas, monospace"
+          ]
+        }
+      },
+      "passed": false,
+      "source_sha256": "a57c8aa493cf17be21668ad6067a41fea4bb5d8d392af48f3e892b5c33df9924"
+    },
+    {
+      "file": "10_热身9-10_背景与圆.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\10_热身9-10_背景与圆.svg",
+      "exists": true,
+      "errors": [
+        "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+      ],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 11,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 7,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFF2DC"
+          ],
+          "font_families": [
+            "Consolas, monospace"
+          ]
+        }
+      },
+      "passed": false,
+      "source_sha256": "d86438e1ed39b52a3263bf8bc2d467be0d983dd3daa90941b5a555cf1cb95fc2"
+    },
+    {
+      "file": "11_项目启动_送你一朵小红花.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\11_项目启动_送你一朵小红花.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"question-card\"> x=94.0, y=478.0..558.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 12,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#65C466",
+            "#D9E8F5",
+            "#DDF1FF"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "4172934f1024612b81f9e9536090bf1489b7185c59994f3706fecfb67f887c8d"
+    },
+    {
+      "file": "12_成功标准先看清.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\12_成功标准先看清.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"check-explain\"> x=894.0, y=316.0..360.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFE2ED",
+            "#FFF2DC"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "c8f244d8d42a3b5fd21031a668383953928acb258ffdb61a03ef400f6fa95945"
+    },
+    {
+      "file": "13_新命令小实验.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\13_新命令小实验.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 1,
+            "files": [
+              "mascot_turtle_new_commands_v2.png"
+            ],
+            "max_frame_share": 0.1493
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#667085",
+            "#D9E8F5"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "4b5efe23d2778173bbec18e7fb8e2837ce68c0d753ddb832880fb7b85c896f40"
+    },
+    {
+      "file": "14_四盒命令工具箱.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\14_四盒命令工具箱.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#65C466",
+            "#667085",
+            "#D9E8F5",
+            "#FFF3D6"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "c702eb61625a2cbe785110a294283ce3bf995a3e3c681a6b18f2da7d953de7c9"
+    },
+    {
+      "file": "15_显示与隐藏海龟.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\15_显示与隐藏海龟.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 2,
+              "ellipse": 12,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2072B8",
+            "#33415C",
+            "#65C466",
+            "#667085",
+            "#B83E68",
+            "#D9E8F5",
+            "#E5F4FF",
+            "#FFB2CA",
+            "#FFD36A",
+            "#FFE3EC"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "06eb2ab50fa9b8fdec8f717d01a0ad78ae971f7d8a02193479d0e4f523afa1f0"
+    },
+    {
+      "file": "16_海龟显隐实验站.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\16_海龟显隐实验站.svg",
+      "exists": true,
+      "errors": [
+        "<g id=\"task-show-button\"> data-pptx-bounds overlaps <g id=\"task-show-hit\"> data-pptx-bounds by 540.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"task-hide-button\"> data-pptx-bounds overlaps <g id=\"task-hide-hit\"> data-pptx-bounds by 572.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"code-show-initial\"> data-pptx-bounds overlaps <g id=\"code-show-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"code-show-initial\"> data-pptx-bounds overlaps <g id=\"code-hide-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"code-show-state\"> data-pptx-bounds overlaps <g id=\"code-hide-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-show-button\"> data-pptx-bounds overlaps <g id=\"run-hide-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-show-button\"> data-pptx-bounds overlaps <g id=\"run-show-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-show-button\"> data-pptx-bounds overlaps <g id=\"run-hide-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-hide-button\"> data-pptx-bounds overlaps <g id=\"run-show-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-hide-button\"> data-pptx-bounds overlaps <g id=\"run-hide-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-show-hit\"> data-pptx-bounds overlaps <g id=\"run-hide-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-running\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"terminal-running\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"show-char-01\"> data-pptx-bounds overlaps <g id=\"hide-char-01\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"show-char-02\"> data-pptx-bounds overlaps <g id=\"hide-char-02\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"show-char-03\"> data-pptx-bounds overlaps <g id=\"hide-char-03\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"show-char-04\"> data-pptx-bounds overlaps <g id=\"hide-char-04\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+      ],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 27,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 18,
+              "circle": 7,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 15,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 27,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#A8D5FF",
+            "#F8FBFF",
+            "#FFB7D1",
+            "#FFE2ED"
+          ],
+          "font_families": [
+            "Consolas, monospace"
+          ]
+        }
+      },
+      "passed": false,
+      "source_sha256": "f8f581b8c4537763b8baae9e4fe21b67329c3b74fcf75dd8d070123efb2b1454"
+    },
+    {
+      "file": "17_给窗口起名字.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\17_给窗口起名字.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 5,
+              "ellipse": 6,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 11,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#65C466",
+            "#667085",
+            "#D9E8F5",
+            "#EEF6FF",
+            "#FFB2CA",
+            "#FFD36A"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "f6ea182f30f25d40039d5e7b3f9505afec0f4a53773a59bf67f547aa0adfb413"
+    },
+    {
+      "file": "18_窗口标题实验站.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\18_窗口标题实验站.svg",
+      "exists": true,
+      "errors": [
+        "<g id=\"task-a-button\"> data-pptx-bounds overlaps <g id=\"task-a-hit\"> data-pptx-bounds by 352.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"task-b-button\"> data-pptx-bounds overlaps <g id=\"task-b-hit\"> data-pptx-bounds by 352.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"task-c-button\"> data-pptx-bounds overlaps <g id=\"task-c-hit\"> data-pptx-bounds by 400.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"code-a-initial\"> data-pptx-bounds overlaps <g id=\"code-a-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"code-a-initial\"> data-pptx-bounds overlaps <g id=\"code-b-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"code-a-initial\"> data-pptx-bounds overlaps <g id=\"code-c-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"code-a-state\"> data-pptx-bounds overlaps <g id=\"code-b-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"code-a-state\"> data-pptx-bounds overlaps <g id=\"code-c-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"code-b-state\"> data-pptx-bounds overlaps <g id=\"code-c-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-b-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-c-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-a-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-c-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-a-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-c-button\"> data-pptx-bounds overlaps <g id=\"run-a-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-c-button\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-c-button\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-a-hit\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-a-hit\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"run-b-hit\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-running\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"terminal-running\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-01\"> data-pptx-bounds overlaps <g id=\"out-b-01\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-01\"> data-pptx-bounds overlaps <g id=\"out-b-02\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-01\"> data-pptx-bounds overlaps <g id=\"out-c-01\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-02\"> data-pptx-bounds overlaps <g id=\"out-b-02\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-02\"> data-pptx-bounds overlaps <g id=\"out-b-03\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-02\"> data-pptx-bounds overlaps <g id=\"out-c-02\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-03\"> data-pptx-bounds overlaps <g id=\"out-b-03\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-03\"> data-pptx-bounds overlaps <g id=\"out-b-04\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-03\"> data-pptx-bounds overlaps <g id=\"out-c-03\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-04\"> data-pptx-bounds overlaps <g id=\"out-b-04\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-04\"> data-pptx-bounds overlaps <g id=\"out-b-05\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-04\"> data-pptx-bounds overlaps <g id=\"out-c-04\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-05\"> data-pptx-bounds overlaps <g id=\"out-b-05\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-05\"> data-pptx-bounds overlaps <g id=\"out-b-06\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-a-05\"> data-pptx-bounds overlaps <g id=\"out-c-05\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-b-01\"> data-pptx-bounds overlaps <g id=\"out-c-01\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-b-02\"> data-pptx-bounds overlaps <g id=\"out-c-01\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-b-02\"> data-pptx-bounds overlaps <g id=\"out-c-02\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-b-03\"> data-pptx-bounds overlaps <g id=\"out-c-02\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-b-03\"> data-pptx-bounds overlaps <g id=\"out-c-03\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-b-04\"> data-pptx-bounds overlaps <g id=\"out-c-03\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-b-04\"> data-pptx-bounds overlaps <g id=\"out-c-04\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-b-05\"> data-pptx-bounds overlaps <g id=\"out-c-04\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-b-05\"> data-pptx-bounds overlaps <g id=\"out-c-05\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-b-06\"> data-pptx-bounds overlaps <g id=\"out-c-05\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+      ],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 37,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 22,
+              "circle": 6,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 15,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, monospace",
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 37,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#F8FBFF",
+            "#FFE2ED",
+            "#FFF2DC"
+          ],
+          "font_families": [
+            "Consolas, Microsoft YaHei, monospace",
+            "Consolas, monospace"
+          ]
+        }
+      },
+      "passed": false,
+      "source_sha256": "b29e5c2067556dd66fe8233342ace48d0cfa5fb1590f3192740cb4250fab6968"
+    },
+    {
+      "file": "19_安全修改四步法.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\19_安全修改四步法.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 4,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 3
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#65C466",
+            "#667085",
+            "#AFC7DC",
+            "#D9E8F5",
+            "#FFF3D6"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "7445fd52f82cdd22afb3ac07d6c353ed7abc758f9698037c521854e5a2a7a3e5"
+    },
+    {
+      "file": "20_练习A_六片花瓣.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\20_练习A_六片花瓣.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"logic\"> x=680.0, y=252.0..340.0, 3 lines; <g id=\"logic\"> x=672.0, y=524.0..560.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 1,
+              "ellipse": 6,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2B3A55",
+            "#33415C",
+            "#667085",
+            "#9ED0FF",
+            "#D9E8F5",
+            "#FF8FB5",
+            "#FFB2CA",
+            "#FFD36A"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "0d3f91c33cca5d96732435fbba2fe923aeeaf725feddc6752ce457e0c8087dbc"
+    },
+    {
+      "file": "21_花瓣颜色实验站.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\21_花瓣颜色实验站.svg",
+      "exists": true,
+      "errors": [
+        "<g id=\"p12-run-red-hit\"> data-pptx-bounds overlaps <g id=\"p12-run-orange-hit\"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-run-red-hit\"> data-pptx-bounds overlaps <g id=\"p12-run-purple-hit\"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-run-orange-hit\"> data-pptx-bounds overlaps <g id=\"p12-run-purple-hit\"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"status-guide\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"status-running\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"status-done-new\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-red-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-red-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-red-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-orange-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-orange-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-orange-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-purple-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-purple-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-purple-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"preview-red\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"preview-orange\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"preview-purple\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"code-orange-state\"> data-pptx-bounds overlaps <g id=\"code-purple-state\"> data-pptx-bounds by 610.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"status-guide\"> data-pptx-bounds overlaps <g id=\"status-running\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"status-guide\"> data-pptx-bounds overlaps <g id=\"status-done-new\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"status-running\"> data-pptx-bounds overlaps <g id=\"status-done-new\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-red-line-1\"> data-pptx-bounds overlaps <g id=\"out-orange-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-red-line-1\"> data-pptx-bounds overlaps <g id=\"out-purple-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-red-line-2\"> data-pptx-bounds overlaps <g id=\"out-orange-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-red-line-2\"> data-pptx-bounds overlaps <g id=\"out-purple-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-red-line-3\"> data-pptx-bounds overlaps <g id=\"out-orange-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-red-line-3\"> data-pptx-bounds overlaps <g id=\"out-purple-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-orange-line-1\"> data-pptx-bounds overlaps <g id=\"out-purple-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-orange-line-2\"> data-pptx-bounds overlaps <g id=\"out-purple-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"out-orange-line-3\"> data-pptx-bounds overlaps <g id=\"out-purple-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"preview-red\"> data-pptx-bounds overlaps <g id=\"preview-orange\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"preview-red\"> data-pptx-bounds overlaps <g id=\"preview-purple\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"preview-orange\"> data-pptx-bounds overlaps <g id=\"preview-purple\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+      ],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 33,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 22,
+              "circle": 9,
+              "ellipse": 36,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 22,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Consolas, monospace",
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 33,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2B3A55",
+            "#33415C",
+            "#65C466",
+            "#667085",
+            "#9B7BFF",
+            "#A9E7B8",
+            "#B89AFF",
+            "#D9C8FF",
+            "#D9E8F5",
+            "#EEF6FF",
+            "#F8FBFF",
+            "#FF9DBC",
+            "#FFB347",
+            "#FFD36A"
+          ],
+          "font_families": [
+            "Consolas, monospace",
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": false,
+      "source_sha256": "62a7a9b602aa6de878e8a1d3fe2d4879475cabe2f3d2b1d2bbddd489c096e758"
+    },
+    {
+      "file": "22_八题选择挑战.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\22_八题选择挑战.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 8,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#207A45",
+            "#33415C",
+            "#667085",
+            "#B83E68",
+            "#D9E8F5",
+            "#DDF7E8",
+            "#FFE3EC"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "6ef040a08e0dd0359966b25d16deada5b72f08c1dae77b8671065b86834d5825"
+    },
+    {
+      "file": "23_选择题1-2.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\23_选择题1-2.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 31,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 26,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 14,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 31,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2072B8",
+            "#207A45",
+            "#33415C",
+            "#667085",
+            "#B83E68",
+            "#D9E8F5",
+            "#DDF7E8",
+            "#E5F4FF",
+            "#F7FAFC",
+            "#FFE3EC",
+            "#FFF3D6"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "c4d98d15cad16fe5262e0081e67adf52e91045f677c481da9836221e05c9adda"
+    },
+    {
+      "file": "24_选择题3-4.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\24_选择题3-4.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 31,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 26,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 14,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 31,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2072B8",
+            "#207A45",
+            "#33415C",
+            "#667085",
+            "#B83E68",
+            "#D9E8F5",
+            "#DDF7E8",
+            "#E5F4FF",
+            "#F7FAFC",
+            "#FFE3EC",
+            "#FFF3D6"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "17b38697763694bc45e5f59a96a5a398e763695c99ee78fabcb5d180880c76a9"
+    },
+    {
+      "file": "25_选择题5-6.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\25_选择题5-6.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 31,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 26,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 14,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 31,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2072B8",
+            "#207A45",
+            "#33415C",
+            "#667085",
+            "#B83E68",
+            "#D9E8F5",
+            "#DDF7E8",
+            "#E5F4FF",
+            "#F7FAFC",
+            "#FFE3EC",
+            "#FFF3D6"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "33155d3511979e6f9c43b8da15a0b86da8216e37a77901b37927181eb69368cc"
+    },
+    {
+      "file": "26_选择题7-8.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\26_选择题7-8.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 31,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 26,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 14,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 31,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2072B8",
+            "#207A45",
+            "#33415C",
+            "#667085",
+            "#B83E68",
+            "#D9E8F5",
+            "#DDF7E8",
+            "#E5F4FF",
+            "#F7FAFC",
+            "#FFE3EC",
+            "#FFF3D6"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "ec5a55248a74aad771bb0bf8b0a8170027795fb0142fa6d432c599764e02976a"
+    },
+    {
+      "file": "27_课间保存站.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\27_课间保存站.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 4,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#65C466",
+            "#D9E8F5"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "118": 1
+        }
+      },
+      "passed": true,
+      "source_sha256": "03aaaec850a9e1237e44b1a005b33b335482acada9d17c99071710dc1ba3f7b5"
+    },
+    {
+      "file": "28_练习B_花心和花茎.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\28_练习B_花心和花茎.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 18,
+              "circle": 1,
+              "ellipse": 6,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 9,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#207A45",
+            "#33415C",
+            "#65C466",
+            "#D9E8F5",
+            "#DDF7E8",
+            "#EEF6FF",
+            "#F7FAFC",
+            "#FFB2CA",
+            "#FFD36A",
+            "#FFF3D6"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "3572fc13b35350a187587d9a2515de9608145d61ebd1e323711b36e44f8089fa"
+    },
+    {
+      "file": "29_花茎长度实验站.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\29_花茎长度实验站.svg",
+      "exists": true,
+      "errors": [
+        "<g id=\"p21-run-normal-hit\"> data-pptx-bounds overlaps <g id=\"p21-run-short-hit\"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-run-normal-hit\"> data-pptx-bounds overlaps <g id=\"p21-run-long-hit\"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-run-short-hit\"> data-pptx-bounds overlaps <g id=\"p21-run-long-hit\"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-status-guide\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-status-running\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-status-done\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-1\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-short\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-normal\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-long\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-3\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-preview-short\"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-preview-normal\"> data-pptx-bounds by 190.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 210.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"forward-short-state\"> data-pptx-bounds overlaps <g id=\"forward-long-state\"> data-pptx-bounds by 390.0px x 44.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"stem-status-guide\"> data-pptx-bounds overlaps <g id=\"stem-status-running\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"stem-status-guide\"> data-pptx-bounds overlaps <g id=\"stem-status-done\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"stem-status-running\"> data-pptx-bounds overlaps <g id=\"stem-status-done\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"stem-line-short\"> data-pptx-bounds overlaps <g id=\"stem-line-normal\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"stem-line-short\"> data-pptx-bounds overlaps <g id=\"stem-line-long\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"stem-line-normal\"> data-pptx-bounds overlaps <g id=\"stem-line-long\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"stem-line-3\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 12.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"stem-preview-short\"> data-pptx-bounds overlaps <g id=\"stem-preview-normal\"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"stem-preview-short\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"stem-preview-normal\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+      ],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 22,
+              "circle": 6,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 14,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Consolas, monospace",
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2072B8",
+            "#2B3A55",
+            "#33415C",
+            "#65C466",
+            "#667085",
+            "#A9E7B8",
+            "#D9E8F5",
+            "#E5F4FF",
+            "#E9FBEF",
+            "#EEF6FF",
+            "#FFD36A",
+            "#FFE2ED"
+          ],
+          "font_families": [
+            "Consolas, monospace",
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": false,
+      "source_sha256": "26c5ab4ae42c9eb143e7d7bcfbcea19b3e05198d4ddb26b16fe04a7fb2435c09"
+    },
+    {
+      "file": "30_微项目装配站.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\30_微项目装配站.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 1,
+            "files": [
+              "mascot_turtle_flower_workshop_v2.png"
+            ],
+            "max_frame_share": 0.154
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#65C466",
+            "#667085",
+            "#D9E8F5"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "2ea49b2454b9a8a6938e8c0e73841791958d19c1ec043a5677ecc744f1210787"
+    },
+    {
+      "file": "31_完整作品代码地图.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\31_完整作品代码地图.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"checklist\"> x=878.0, y=490.0..530.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 27,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 6,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 27,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#65C466",
+            "#667085",
+            "#9B7BFF",
+            "#D9E8F5",
+            "#FFF3D6"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "27c5252ba48102edae12f33e3b72368d243d9afb804e19c090e23eba13eebb18"
+    },
+    {
+      "file": "32_小红花作品实验站.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\32_小红花作品实验站.svg",
+      "exists": true,
+      "errors": [
+        "<g id=\"p23-run-base-hit\"> data-pptx-bounds overlaps <g id=\"p23-run-sun-hit\"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-run-base-hit\"> data-pptx-bounds overlaps <g id=\"p23-run-violet-hit\"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-run-sun-hit\"> data-pptx-bounds overlaps <g id=\"p23-run-violet-hit\"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-status-guide\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-status-running\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-status-done\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-1\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-2\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-3\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-4\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-5\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-preview-base\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-preview-sun\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-preview-violet\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"full-code-sun-state\"> data-pptx-bounds overlaps <g id=\"full-code-violet-state\"> data-pptx-bounds by 650.0px x 82.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"full-status-guide\"> data-pptx-bounds overlaps <g id=\"full-status-running\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"full-status-guide\"> data-pptx-bounds overlaps <g id=\"full-status-done\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"full-status-running\"> data-pptx-bounds overlaps <g id=\"full-status-done\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"full-preview-base\"> data-pptx-bounds overlaps <g id=\"full-preview-sun\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"full-preview-base\"> data-pptx-bounds overlaps <g id=\"full-preview-violet\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance",
+        "<g id=\"full-preview-sun\"> data-pptx-bounds overlaps <g id=\"full-preview-violet\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+      ],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 35,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 21,
+              "circle": 6,
+              "ellipse": 36,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 19,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Consolas, monospace",
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 35,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2B3A55",
+            "#33415C",
+            "#65C466",
+            "#667085",
+            "#9B7BFF",
+            "#A9E7B8",
+            "#B89AFF",
+            "#D9C8FF",
+            "#D9E8F5",
+            "#EEF6FF",
+            "#FF9DBC",
+            "#FFB347",
+            "#FFD36A"
+          ],
+          "font_families": [
+            "Consolas, monospace",
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": false,
+      "source_sha256": "f04b3c99e7d03a34e94d0e446659b75d36cc923e6d9a9dce64100a965eab26d2"
+    },
+    {
+      "file": "33_五步完成桌面画展.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\33_五步完成桌面画展.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 5,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "341c6dfd4200873f31263ebdc32686e734313165723684ab5f5156fa76a377a6"
+    },
+    {
+      "file": "34_作品验收与同伴建议.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\34_作品验收与同伴建议.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 7,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#65C466",
+            "#667085",
+            "#D9E8F5"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "a84502b0025d3e22daf2256a60c9edaf25503839c30affd350b2a28deacf713f"
+    },
+    {
+      "file": "35_三个常见问题.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\35_三个常见问题.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "<text> (x=54, y=116; text='不要删掉全部重来') exceeds <g id=\"header\"> data-pptx-bounds on the vertical axis: content (54.0, 99.0)-(223.6, 123.0), container (54.0, 36.0)-(1174.0, 120.0), overflow horizontal 0.0%, vertical 3.6%; expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFE2ED",
+            "#FFF2DC"
+          ],
+          "font_families": [
+            "Consolas, monospace"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "9e21930ccaa9da70a52c252bf846d93820d54b73003b2c6b7a45a155d918ab82"
+    },
+    {
+      "file": "36_离堂小结.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\36_离堂小结.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#D9E8F5",
+            "#FFF3D6"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "82": 1
+        }
+      },
+      "passed": true,
+      "source_sha256": "229fe4b03e670fe11df98800e4fd9063d0f1877d6b7c2674e7e730f7125b8adf"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5"/>
+  <g id="header" data-pptx-bounds="58 38 660 82"><text x="58" y="86" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#203044">第一声：运行成功！</text></g>
+  <g id="terminal" data-pptx-bounds="90 128 1100 466"><rect x="90" y="128" width="1100" height="466" rx="34" fill="#17243A"/><image href="../images/hello_world_terminal_real.png" x="110" y="146" width="1060" height="448" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="result-meaning" data-pptx-bounds="90 610 520 76"><rect x="90" y="610" width="520" height="76" rx="24" fill="#EAF5FF"/><text x="120" y="640" font-size="20" font-weight="700" fill="#2E9BFF">第一行：Hello World!</text><text x="120" y="670" font-size="20" fill="#203044">就是程序输出的内容。</text></g>
+  <g id="return-meaning" data-pptx-bounds="630 610 560 76"><rect x="630" y="610" width="560" height="76" rx="24" fill="#E9FBEF"/><text x="660" y="640" font-size="20" font-weight="700" fill="#22C55E">return value 0</text><text x="660" y="670" font-size="20" fill="#203044">表示程序正常结束。</text></g>
+</svg>

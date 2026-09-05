@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5"/>
+  <rect id="top-band" data-pptx-role="decoration" x="0" y="0" width="1280" height="18" fill="#2E9BFF"/>
+  <g id="page-header" data-pptx-bounds="48 34 1184 92">
+    <rect x="48" y="44" width="52" height="52" rx="18" fill="#2E9BFF"/><text x="74" y="79" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">✓</text>
+    <text x="120" y="82" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#203044">今天要带走什么</text>
+    <text x="122" y="114" font-size="20" fill="#2E9BFF">看得见的五项通关能力</text>
+    <rect x="1010" y="48" width="192" height="46" rx="23" fill="#EAF5FF"/>
+    <text x="1106" y="78" text-anchor="middle" font-size="18" font-weight="700" fill="#2E9BFF">三项目标 · 两项表现</text>
+  </g>
+  <g id="goal-1" data-pptx-bounds="48 140 384 230">
+    <rect x="48" y="140" width="384" height="230" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2"/>
+    <circle cx="92" cy="186" r="24" fill="#2E9BFF"/><text x="92" y="193" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="126" y="194" font-size="24" font-weight="700" fill="#203044">综合旧命令</text>
+    <text x="76" y="246" font-size="20" fill="#5A6B80">移动 · 转向 · 循环 · 坐标</text>
+    <rect x="76" y="286" width="328" height="52" rx="18" fill="#EAF5FF"/>
+    <text x="104" y="320" font-size="20" font-weight="700" fill="#2072B8">颜色、填充和圆也能组合</text>
+  </g>
+  <g id="goal-2" data-pptx-bounds="448 140 384 230">
+    <rect x="448" y="140" width="384" height="230" rx="30" fill="#FFFFFF" stroke="#FFD9A6" stroke-width="2"/>
+    <circle cx="492" cy="186" r="24" fill="#FF9F1C"/><text x="492" y="193" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="526" y="194" font-size="24" font-weight="700" fill="#203044">认识新命令</text>
+    <text x="476" y="246" font-family="Consolas, Courier New, monospace" font-size="19" fill="#5A6B80">showturtle() · hideturtle()</text>
+    <rect x="476" y="286" width="328" height="52" rx="18" fill="#FFF2DC"/>
+    <text x="504" y="320" font-family="Consolas, Courier New, monospace" font-size="20" font-weight="700" fill="#B96800">screen.title()</text>
+  </g>
+  <g id="goal-3" data-pptx-bounds="848 140 384 230">
+    <rect x="848" y="140" width="384" height="230" rx="30" fill="#FFFFFF" stroke="#FFD0E1" stroke-width="2"/>
+    <circle cx="892" cy="186" r="24" fill="#FF6FA5"/><text x="892" y="193" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="926" y="194" font-size="24" font-weight="700" fill="#203044">完成小红花</text>
+    <text x="876" y="246" font-size="20" fill="#5A6B80">花瓣 · 花心 · 花茎</text>
+    <rect x="876" y="286" width="328" height="52" rx="18" fill="#FFE2ED"/>
+    <text x="904" y="320" font-size="20" font-weight="700" fill="#B83E68">能运行，也能说明修改</text>
+  </g>
+  <g id="goal-4" data-pptx-bounds="48 400 384 230">
+    <rect x="48" y="400" width="384" height="230" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2"/>
+    <circle cx="92" cy="446" r="24" fill="#2E9BFF"/><text x="92" y="453" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="126" y="454" font-size="24" font-weight="700" fill="#203044">会小步测试</text>
+    <text x="76" y="506" font-size="20" fill="#5A6B80">一次只改一处</text>
+    <rect x="76" y="546" width="328" height="52" rx="18" fill="#E9FBEF"/>
+    <text x="104" y="580" font-size="20" font-weight="700" fill="#207A45">改完马上运行验证</text>
+  </g>
+  <g id="goal-5" data-pptx-bounds="448 400 384 230">
+    <rect x="448" y="400" width="384" height="230" rx="30" fill="#FFFFFF" stroke="#FFD9A6" stroke-width="2"/>
+    <circle cx="492" cy="446" r="24" fill="#FF9F1C"/><text x="492" y="453" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="526" y="454" font-size="24" font-weight="700" fill="#203044">会保存与展示</text>
+    <text x="476" y="506" font-size="20" fill="#5A6B80">作品有名字，作者有说明</text>
+    <rect x="476" y="546" width="328" height="52" rx="18" fill="#FFF2DC"/>
+    <text x="504" y="580" font-family="Consolas, Courier New, monospace" font-size="18" font-weight="700" fill="#B96800">lesson06_red_flower.py</text>
+  </g>
+  <g id="goal-rule" data-pptx-bounds="848 400 384 230">
+    <rect x="848" y="400" width="384" height="230" rx="30" fill="#FFF2DC" stroke="#FFD9A6" stroke-width="2"/>
+    <circle cx="892" cy="448" r="28" fill="#FFFFFF"/><text x="892" y="457" text-anchor="middle" font-size="26" fill="#FF9F1C">★</text>
+    <text x="930" y="456" font-size="21" font-weight="700" fill="#B96800">通关标准</text>
+    <text x="876" y="510" font-size="18" fill="#203044">能运行：没有报错；</text>
+    <text x="876" y="542" font-size="18" fill="#203044">有结构：花瓣、花心、花茎；</text>
+    <text x="876" y="574" font-size="18" fill="#5A6B80">会解释：说清自己改了哪里。</text>
+  </g>
+</svg>

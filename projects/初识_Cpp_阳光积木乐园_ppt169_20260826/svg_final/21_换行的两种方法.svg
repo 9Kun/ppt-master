@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="52 34 900 82">
+    <text x="52" y="82" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#203044">用 endl 输出多行信息</text>
+  </g>
+  <g id="newline-route" data-pptx-bounds="52 144 736 212">
+    <rect x="52" y="144" width="736" height="212" rx="38" fill="#EAF5FF" />
+    <rect x="84" y="174" width="164" height="56" rx="24" fill="#2E9BFF" />
+    <text x="166" y="212" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">第一行</text>
+    <text x="84" y="288" font-family="Consolas" font-size="26" font-weight="700" fill="#203044">cout &lt;&lt; "Hello" &lt;&lt; endl;</text>
+  </g>
+  <g id="endl-route" data-pptx-bounds="52 386 736 212">
+    <rect x="52" y="386" width="736" height="212" rx="38" fill="#FFF0D6" />
+    <rect x="84" y="416" width="164" height="56" rx="24" fill="#FF9F1C" />
+    <text x="166" y="454" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">第二行</text>
+    <text x="84" y="530" font-family="Consolas" font-size="26" font-weight="700" fill="#203044">cout &lt;&lt; "World!" &lt;&lt; endl;</text>
+    <text x="84" y="570" font-size="22" fill="#FF9F1C">endl 写在引号外，表示“换行”。</text>
+  </g>
+  <g id="shared-terminal" data-pptx-bounds="832 144 396 454">
+    <rect x="832" y="144" width="396" height="454" rx="38" fill="#17243A" />
+    <text x="1030" y="208" text-anchor="middle" font-size="22" font-weight="700" fill="#EAF5FF">终端输出</text>
+    <text x="930" y="328" font-family="Consolas" font-size="44" font-weight="700" fill="#FFFFFF">Hello</text>
+    <text x="930" y="402" font-family="Consolas" font-size="44" font-weight="700" fill="#FFFFFF">World!</text>
+    <rect x="916" y="430" width="28" height="8" rx="4" fill="#22C55E" />
+    <text x="1030" y="526" text-anchor="middle" font-size="22" fill="#EAF5FF">每个 endl 换一次行</text>
+  </g>
+  <text x="640" y="662" text-anchor="middle" font-size="22" font-weight="700" fill="#203044">一条信息一行，结果更整齐。</text>
+</svg>

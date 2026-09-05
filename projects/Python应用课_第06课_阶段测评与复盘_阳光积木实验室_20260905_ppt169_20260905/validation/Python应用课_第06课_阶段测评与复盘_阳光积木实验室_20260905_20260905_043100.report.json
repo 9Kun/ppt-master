@@ -1,0 +1,1148 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "failed",
+  "output": {
+    "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\exports\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_20260905_043100.pptx",
+    "bytes": 6420752
+  },
+  "source": {
+    "svg_slide_count": 36,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "1448926e0298e7b84ef9586602e2ed0cbd14535a7271c07d91d2304aaa519956",
+      "file_count": 36,
+      "files": [
+        {
+          "file": "01_阶段测评与复盘.svg",
+          "sha256": "6befdd4e1a0d4f621320e846ea302af0e2d79b4528426648dc4a8d0a3f044a0b"
+        },
+        {
+          "file": "02_今天的120分钟.svg",
+          "sha256": "a65e48e6f83dc3e97b7e0469ba85f079655e58e750bfea3535e3c17d17efd4fc"
+        },
+        {
+          "file": "03_今天要带走什么.svg",
+          "sha256": "0c9b3553d4a6333114608f1b24400d7f6a7a77b7e7fa4535bd4a929a84aa37a9"
+        },
+        {
+          "file": "04_十题热身赛.svg",
+          "sha256": "eb4019c0728849ced30b8bf502eeb3b54fed75fe5ea244d522fe6155b7559541"
+        },
+        {
+          "file": "05_抢答规则.svg",
+          "sha256": "f7d1f421d867a797befbe22c9448dc601e6c3d2f5b3e121931a8a2399bfadb20"
+        },
+        {
+          "file": "06_热身1-2_起步命令.svg",
+          "sha256": "74e89364cb517161c06105d764f46d44627b79c4de7f1c6557a54cc9228ed1a8"
+        },
+        {
+          "file": "07_热身3-4_重复动作.svg",
+          "sha256": "70cab37b3ed3e115e8112aaa4dd7cf33ba2fbdff5e4eb556ef76069c379dd18d"
+        },
+        {
+          "file": "08_热身5-6_位置导航.svg",
+          "sha256": "a36a414cd5872c2ccb021224207faf8ee82e354bdee519d1e913f18d0661df99"
+        },
+        {
+          "file": "09_热身7-8_颜色填充.svg",
+          "sha256": "a57c8aa493cf17be21668ad6067a41fea4bb5d8d392af48f3e892b5c33df9924"
+        },
+        {
+          "file": "10_热身9-10_背景与圆.svg",
+          "sha256": "d86438e1ed39b52a3263bf8bc2d467be0d983dd3daa90941b5a555cf1cb95fc2"
+        },
+        {
+          "file": "11_项目启动_送你一朵小红花.svg",
+          "sha256": "4172934f1024612b81f9e9536090bf1489b7185c59994f3706fecfb67f887c8d"
+        },
+        {
+          "file": "12_成功标准先看清.svg",
+          "sha256": "c8f244d8d42a3b5fd21031a668383953928acb258ffdb61a03ef400f6fa95945"
+        },
+        {
+          "file": "13_新命令小实验.svg",
+          "sha256": "7b477f1718590b43150972a733b9e8e474354d813f2df42139a9aa4009e943ce"
+        },
+        {
+          "file": "14_四盒命令工具箱.svg",
+          "sha256": "c702eb61625a2cbe785110a294283ce3bf995a3e3c681a6b18f2da7d953de7c9"
+        },
+        {
+          "file": "15_显示与隐藏海龟.svg",
+          "sha256": "06eb2ab50fa9b8fdec8f717d01a0ad78ae971f7d8a02193479d0e4f523afa1f0"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "sha256": "f8f581b8c4537763b8baae9e4fe21b67329c3b74fcf75dd8d070123efb2b1454"
+        },
+        {
+          "file": "17_给窗口起名字.svg",
+          "sha256": "f6ea182f30f25d40039d5e7b3f9505afec0f4a53773a59bf67f547aa0adfb413"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "sha256": "b29e5c2067556dd66fe8233342ace48d0cfa5fb1590f3192740cb4250fab6968"
+        },
+        {
+          "file": "19_安全修改四步法.svg",
+          "sha256": "7445fd52f82cdd22afb3ac07d6c353ed7abc758f9698037c521854e5a2a7a3e5"
+        },
+        {
+          "file": "20_练习A_六片花瓣.svg",
+          "sha256": "0d3f91c33cca5d96732435fbba2fe923aeeaf725feddc6752ce457e0c8087dbc"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "sha256": "62a7a9b602aa6de878e8a1d3fe2d4879475cabe2f3d2b1d2bbddd489c096e758"
+        },
+        {
+          "file": "22_八题选择挑战.svg",
+          "sha256": "6ef040a08e0dd0359966b25d16deada5b72f08c1dae77b8671065b86834d5825"
+        },
+        {
+          "file": "23_选择题1-2.svg",
+          "sha256": "c4d98d15cad16fe5262e0081e67adf52e91045f677c481da9836221e05c9adda"
+        },
+        {
+          "file": "24_选择题3-4.svg",
+          "sha256": "17b38697763694bc45e5f59a96a5a398e763695c99ee78fabcb5d180880c76a9"
+        },
+        {
+          "file": "25_选择题5-6.svg",
+          "sha256": "33155d3511979e6f9c43b8da15a0b86da8216e37a77901b37927181eb69368cc"
+        },
+        {
+          "file": "26_选择题7-8.svg",
+          "sha256": "ec5a55248a74aad771bb0bf8b0a8170027795fb0142fa6d432c599764e02976a"
+        },
+        {
+          "file": "27_课间保存站.svg",
+          "sha256": "03aaaec850a9e1237e44b1a005b33b335482acada9d17c99071710dc1ba3f7b5"
+        },
+        {
+          "file": "28_练习B_花心和花茎.svg",
+          "sha256": "3572fc13b35350a187587d9a2515de9608145d61ebd1e323711b36e44f8089fa"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "sha256": "26c5ab4ae42c9eb143e7d7bcfbcea19b3e05198d4ddb26b16fe04a7fb2435c09"
+        },
+        {
+          "file": "30_微项目装配站.svg",
+          "sha256": "7a6c383e349dce3ca2c7a66b0e6af96dd260f19b04369762e6e640e3708570ef"
+        },
+        {
+          "file": "31_完整作品代码地图.svg",
+          "sha256": "27c5252ba48102edae12f33e3b72368d243d9afb804e19c090e23eba13eebb18"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "sha256": "f04b3c99e7d03a34e94d0e446659b75d36cc923e6d9a9dce64100a965eab26d2"
+        },
+        {
+          "file": "33_五步完成桌面画展.svg",
+          "sha256": "341c6dfd4200873f31263ebdc32686e734313165723684ab5f5156fa76a377a6"
+        },
+        {
+          "file": "34_作品验收与同伴建议.svg",
+          "sha256": "a84502b0025d3e22daf2256a60c9edaf25503839c30affd350b2a28deacf713f"
+        },
+        {
+          "file": "35_三个常见问题.svg",
+          "sha256": "9e21930ccaa9da70a52c252bf846d93820d54b73003b2c6b7a45a155d918ab82"
+        },
+        {
+          "file": "36_离堂小结.svg",
+          "sha256": "229fe4b03e670fe11df98800e4fd9063d0f1877d6b7c2674e7e730f7125b8adf"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 36,
+    "notes": 36,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "warning",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "failed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "warning"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\validation\\svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "1448926e0298e7b84ef9586602e2ed0cbd14535a7271c07d91d2304aaa519956",
+      "file_count": 36,
+      "files": [
+        {
+          "file": "01_阶段测评与复盘.svg",
+          "sha256": "6befdd4e1a0d4f621320e846ea302af0e2d79b4528426648dc4a8d0a3f044a0b"
+        },
+        {
+          "file": "02_今天的120分钟.svg",
+          "sha256": "a65e48e6f83dc3e97b7e0469ba85f079655e58e750bfea3535e3c17d17efd4fc"
+        },
+        {
+          "file": "03_今天要带走什么.svg",
+          "sha256": "0c9b3553d4a6333114608f1b24400d7f6a7a77b7e7fa4535bd4a929a84aa37a9"
+        },
+        {
+          "file": "04_十题热身赛.svg",
+          "sha256": "eb4019c0728849ced30b8bf502eeb3b54fed75fe5ea244d522fe6155b7559541"
+        },
+        {
+          "file": "05_抢答规则.svg",
+          "sha256": "f7d1f421d867a797befbe22c9448dc601e6c3d2f5b3e121931a8a2399bfadb20"
+        },
+        {
+          "file": "06_热身1-2_起步命令.svg",
+          "sha256": "74e89364cb517161c06105d764f46d44627b79c4de7f1c6557a54cc9228ed1a8"
+        },
+        {
+          "file": "07_热身3-4_重复动作.svg",
+          "sha256": "70cab37b3ed3e115e8112aaa4dd7cf33ba2fbdff5e4eb556ef76069c379dd18d"
+        },
+        {
+          "file": "08_热身5-6_位置导航.svg",
+          "sha256": "a36a414cd5872c2ccb021224207faf8ee82e354bdee519d1e913f18d0661df99"
+        },
+        {
+          "file": "09_热身7-8_颜色填充.svg",
+          "sha256": "a57c8aa493cf17be21668ad6067a41fea4bb5d8d392af48f3e892b5c33df9924"
+        },
+        {
+          "file": "10_热身9-10_背景与圆.svg",
+          "sha256": "d86438e1ed39b52a3263bf8bc2d467be0d983dd3daa90941b5a555cf1cb95fc2"
+        },
+        {
+          "file": "11_项目启动_送你一朵小红花.svg",
+          "sha256": "4172934f1024612b81f9e9536090bf1489b7185c59994f3706fecfb67f887c8d"
+        },
+        {
+          "file": "12_成功标准先看清.svg",
+          "sha256": "c8f244d8d42a3b5fd21031a668383953928acb258ffdb61a03ef400f6fa95945"
+        },
+        {
+          "file": "13_新命令小实验.svg",
+          "sha256": "7b477f1718590b43150972a733b9e8e474354d813f2df42139a9aa4009e943ce"
+        },
+        {
+          "file": "14_四盒命令工具箱.svg",
+          "sha256": "c702eb61625a2cbe785110a294283ce3bf995a3e3c681a6b18f2da7d953de7c9"
+        },
+        {
+          "file": "15_显示与隐藏海龟.svg",
+          "sha256": "06eb2ab50fa9b8fdec8f717d01a0ad78ae971f7d8a02193479d0e4f523afa1f0"
+        },
+        {
+          "file": "16_海龟显隐实验站.svg",
+          "sha256": "f8f581b8c4537763b8baae9e4fe21b67329c3b74fcf75dd8d070123efb2b1454"
+        },
+        {
+          "file": "17_给窗口起名字.svg",
+          "sha256": "f6ea182f30f25d40039d5e7b3f9505afec0f4a53773a59bf67f547aa0adfb413"
+        },
+        {
+          "file": "18_窗口标题实验站.svg",
+          "sha256": "b29e5c2067556dd66fe8233342ace48d0cfa5fb1590f3192740cb4250fab6968"
+        },
+        {
+          "file": "19_安全修改四步法.svg",
+          "sha256": "7445fd52f82cdd22afb3ac07d6c353ed7abc758f9698037c521854e5a2a7a3e5"
+        },
+        {
+          "file": "20_练习A_六片花瓣.svg",
+          "sha256": "0d3f91c33cca5d96732435fbba2fe923aeeaf725feddc6752ce457e0c8087dbc"
+        },
+        {
+          "file": "21_花瓣颜色实验站.svg",
+          "sha256": "62a7a9b602aa6de878e8a1d3fe2d4879475cabe2f3d2b1d2bbddd489c096e758"
+        },
+        {
+          "file": "22_八题选择挑战.svg",
+          "sha256": "6ef040a08e0dd0359966b25d16deada5b72f08c1dae77b8671065b86834d5825"
+        },
+        {
+          "file": "23_选择题1-2.svg",
+          "sha256": "c4d98d15cad16fe5262e0081e67adf52e91045f677c481da9836221e05c9adda"
+        },
+        {
+          "file": "24_选择题3-4.svg",
+          "sha256": "17b38697763694bc45e5f59a96a5a398e763695c99ee78fabcb5d180880c76a9"
+        },
+        {
+          "file": "25_选择题5-6.svg",
+          "sha256": "33155d3511979e6f9c43b8da15a0b86da8216e37a77901b37927181eb69368cc"
+        },
+        {
+          "file": "26_选择题7-8.svg",
+          "sha256": "ec5a55248a74aad771bb0bf8b0a8170027795fb0142fa6d432c599764e02976a"
+        },
+        {
+          "file": "27_课间保存站.svg",
+          "sha256": "03aaaec850a9e1237e44b1a005b33b335482acada9d17c99071710dc1ba3f7b5"
+        },
+        {
+          "file": "28_练习B_花心和花茎.svg",
+          "sha256": "3572fc13b35350a187587d9a2515de9608145d61ebd1e323711b36e44f8089fa"
+        },
+        {
+          "file": "29_花茎长度实验站.svg",
+          "sha256": "26c5ab4ae42c9eb143e7d7bcfbcea19b3e05198d4ddb26b16fe04a7fb2435c09"
+        },
+        {
+          "file": "30_微项目装配站.svg",
+          "sha256": "7a6c383e349dce3ca2c7a66b0e6af96dd260f19b04369762e6e640e3708570ef"
+        },
+        {
+          "file": "31_完整作品代码地图.svg",
+          "sha256": "27c5252ba48102edae12f33e3b72368d243d9afb804e19c090e23eba13eebb18"
+        },
+        {
+          "file": "32_小红花作品实验站.svg",
+          "sha256": "f04b3c99e7d03a34e94d0e446659b75d36cc923e6d9a9dce64100a965eab26d2"
+        },
+        {
+          "file": "33_五步完成桌面画展.svg",
+          "sha256": "341c6dfd4200873f31263ebdc32686e734313165723684ab5f5156fa76a377a6"
+        },
+        {
+          "file": "34_作品验收与同伴建议.svg",
+          "sha256": "a84502b0025d3e22daf2256a60c9edaf25503839c30affd350b2a28deacf713f"
+        },
+        {
+          "file": "35_三个常见问题.svg",
+          "sha256": "9e21930ccaa9da70a52c252bf846d93820d54b73003b2c6b7a45a155d918ab82"
+        },
+        {
+          "file": "36_离堂小结.svg",
+          "sha256": "229fe4b03e670fe11df98800e4fd9063d0f1877d6b7c2674e7e730f7125b8adf"
+        }
+      ]
+    },
+    "summary": {
+      "total": 36,
+      "passed": 16,
+      "warnings": 10,
+      "errors": 10
+    },
+    "categories": {
+      "blocking": {
+        "count": 160,
+        "issues": [
+          {
+            "file": "06_热身1-2_起步命令.svg",
+            "message": "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "06_热身1-2_起步命令.svg",
+            "message": "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "07_热身3-4_重复动作.svg",
+            "message": "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "07_热身3-4_重复动作.svg",
+            "message": "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "08_热身5-6_位置导航.svg",
+            "message": "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "08_热身5-6_位置导航.svg",
+            "message": "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "09_热身7-8_颜色填充.svg",
+            "message": "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "09_热身7-8_颜色填充.svg",
+            "message": "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "10_热身9-10_背景与圆.svg",
+            "message": "<g id=\"answer-q1\"> data-pptx-bounds overlaps <g id=\"reveal-q1-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "10_热身9-10_背景与圆.svg",
+            "message": "<g id=\"answer-q2\"> data-pptx-bounds overlaps <g id=\"reveal-q2-hit\"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"task-show-button\"> data-pptx-bounds overlaps <g id=\"task-show-hit\"> data-pptx-bounds by 540.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"task-hide-button\"> data-pptx-bounds overlaps <g id=\"task-hide-hit\"> data-pptx-bounds by 572.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"code-show-initial\"> data-pptx-bounds overlaps <g id=\"code-show-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"code-show-initial\"> data-pptx-bounds overlaps <g id=\"code-hide-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"code-show-state\"> data-pptx-bounds overlaps <g id=\"code-hide-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"run-show-button\"> data-pptx-bounds overlaps <g id=\"run-hide-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"run-show-button\"> data-pptx-bounds overlaps <g id=\"run-show-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"run-show-button\"> data-pptx-bounds overlaps <g id=\"run-hide-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"run-hide-button\"> data-pptx-bounds overlaps <g id=\"run-show-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"run-hide-button\"> data-pptx-bounds overlaps <g id=\"run-hide-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"run-show-hit\"> data-pptx-bounds overlaps <g id=\"run-hide-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-running\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"terminal-running\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"show-char-01\"> data-pptx-bounds overlaps <g id=\"hide-char-01\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"show-char-02\"> data-pptx-bounds overlaps <g id=\"hide-char-02\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"show-char-03\"> data-pptx-bounds overlaps <g id=\"hide-char-03\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "<g id=\"show-char-04\"> data-pptx-bounds overlaps <g id=\"hide-char-04\"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"task-a-button\"> data-pptx-bounds overlaps <g id=\"task-a-hit\"> data-pptx-bounds by 352.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"task-b-button\"> data-pptx-bounds overlaps <g id=\"task-b-hit\"> data-pptx-bounds by 352.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"task-c-button\"> data-pptx-bounds overlaps <g id=\"task-c-hit\"> data-pptx-bounds by 400.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"code-a-initial\"> data-pptx-bounds overlaps <g id=\"code-a-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"code-a-initial\"> data-pptx-bounds overlaps <g id=\"code-b-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"code-a-initial\"> data-pptx-bounds overlaps <g id=\"code-c-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"code-a-state\"> data-pptx-bounds overlaps <g id=\"code-b-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"code-a-state\"> data-pptx-bounds overlaps <g id=\"code-c-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"code-b-state\"> data-pptx-bounds overlaps <g id=\"code-c-state\"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-b-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-c-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-a-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-a-button\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-c-button\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-a-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-b-button\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-c-button\"> data-pptx-bounds overlaps <g id=\"run-a-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-c-button\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-c-button\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-a-hit\"> data-pptx-bounds overlaps <g id=\"run-b-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-a-hit\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"run-b-hit\"> data-pptx-bounds overlaps <g id=\"run-c-hit\"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-running\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"terminal-guide\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"terminal-running\"> data-pptx-bounds overlaps <g id=\"terminal-done\"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-01\"> data-pptx-bounds overlaps <g id=\"out-b-01\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-01\"> data-pptx-bounds overlaps <g id=\"out-b-02\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-01\"> data-pptx-bounds overlaps <g id=\"out-c-01\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-02\"> data-pptx-bounds overlaps <g id=\"out-b-02\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-02\"> data-pptx-bounds overlaps <g id=\"out-b-03\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-02\"> data-pptx-bounds overlaps <g id=\"out-c-02\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-03\"> data-pptx-bounds overlaps <g id=\"out-b-03\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-03\"> data-pptx-bounds overlaps <g id=\"out-b-04\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-03\"> data-pptx-bounds overlaps <g id=\"out-c-03\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-04\"> data-pptx-bounds overlaps <g id=\"out-b-04\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-04\"> data-pptx-bounds overlaps <g id=\"out-b-05\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-04\"> data-pptx-bounds overlaps <g id=\"out-c-04\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-05\"> data-pptx-bounds overlaps <g id=\"out-b-05\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-05\"> data-pptx-bounds overlaps <g id=\"out-b-06\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-a-05\"> data-pptx-bounds overlaps <g id=\"out-c-05\"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-b-01\"> data-pptx-bounds overlaps <g id=\"out-c-01\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-b-02\"> data-pptx-bounds overlaps <g id=\"out-c-01\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-b-02\"> data-pptx-bounds overlaps <g id=\"out-c-02\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-b-03\"> data-pptx-bounds overlaps <g id=\"out-c-02\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-b-03\"> data-pptx-bounds overlaps <g id=\"out-c-03\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-b-04\"> data-pptx-bounds overlaps <g id=\"out-c-03\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-b-04\"> data-pptx-bounds overlaps <g id=\"out-c-04\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-b-05\"> data-pptx-bounds overlaps <g id=\"out-c-04\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-b-05\"> data-pptx-bounds overlaps <g id=\"out-c-05\"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "<g id=\"out-b-06\"> data-pptx-bounds overlaps <g id=\"out-c-05\"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-run-red-hit\"> data-pptx-bounds overlaps <g id=\"p12-run-orange-hit\"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-run-red-hit\"> data-pptx-bounds overlaps <g id=\"p12-run-purple-hit\"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-run-orange-hit\"> data-pptx-bounds overlaps <g id=\"p12-run-purple-hit\"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"status-guide\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"status-running\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"status-done-new\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-red-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-red-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-red-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-orange-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-orange-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-orange-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-purple-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-purple-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"out-purple-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"preview-red\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"preview-orange\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"p12-console-cover\"> data-pptx-bounds overlaps <g id=\"preview-purple\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"code-orange-state\"> data-pptx-bounds overlaps <g id=\"code-purple-state\"> data-pptx-bounds by 610.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"status-guide\"> data-pptx-bounds overlaps <g id=\"status-running\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"status-guide\"> data-pptx-bounds overlaps <g id=\"status-done-new\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"status-running\"> data-pptx-bounds overlaps <g id=\"status-done-new\"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"out-red-line-1\"> data-pptx-bounds overlaps <g id=\"out-orange-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"out-red-line-1\"> data-pptx-bounds overlaps <g id=\"out-purple-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"out-red-line-2\"> data-pptx-bounds overlaps <g id=\"out-orange-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"out-red-line-2\"> data-pptx-bounds overlaps <g id=\"out-purple-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"out-red-line-3\"> data-pptx-bounds overlaps <g id=\"out-orange-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"out-red-line-3\"> data-pptx-bounds overlaps <g id=\"out-purple-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"out-orange-line-1\"> data-pptx-bounds overlaps <g id=\"out-purple-line-1\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"out-orange-line-2\"> data-pptx-bounds overlaps <g id=\"out-purple-line-2\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"out-orange-line-3\"> data-pptx-bounds overlaps <g id=\"out-purple-line-3\"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"preview-red\"> data-pptx-bounds overlaps <g id=\"preview-orange\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"preview-red\"> data-pptx-bounds overlaps <g id=\"preview-purple\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "21_花瓣颜色实验站.svg",
+            "message": "<g id=\"preview-orange\"> data-pptx-bounds overlaps <g id=\"preview-purple\"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-run-normal-hit\"> data-pptx-bounds overlaps <g id=\"p21-run-short-hit\"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-run-normal-hit\"> data-pptx-bounds overlaps <g id=\"p21-run-long-hit\"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-run-short-hit\"> data-pptx-bounds overlaps <g id=\"p21-run-long-hit\"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-status-guide\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-status-running\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-status-done\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-1\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-short\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-normal\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-long\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-line-3\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-preview-short\"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-preview-normal\"> data-pptx-bounds by 190.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"p21-console-cover\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 210.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"forward-short-state\"> data-pptx-bounds overlaps <g id=\"forward-long-state\"> data-pptx-bounds by 390.0px x 44.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"stem-status-guide\"> data-pptx-bounds overlaps <g id=\"stem-status-running\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"stem-status-guide\"> data-pptx-bounds overlaps <g id=\"stem-status-done\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"stem-status-running\"> data-pptx-bounds overlaps <g id=\"stem-status-done\"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"stem-line-short\"> data-pptx-bounds overlaps <g id=\"stem-line-normal\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"stem-line-short\"> data-pptx-bounds overlaps <g id=\"stem-line-long\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"stem-line-normal\"> data-pptx-bounds overlaps <g id=\"stem-line-long\"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"stem-line-3\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 12.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"stem-preview-short\"> data-pptx-bounds overlaps <g id=\"stem-preview-normal\"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"stem-preview-short\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "29_花茎长度实验站.svg",
+            "message": "<g id=\"stem-preview-normal\"> data-pptx-bounds overlaps <g id=\"stem-preview-long\"> data-pptx-bounds by 190.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-run-base-hit\"> data-pptx-bounds overlaps <g id=\"p23-run-sun-hit\"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-run-base-hit\"> data-pptx-bounds overlaps <g id=\"p23-run-violet-hit\"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-run-sun-hit\"> data-pptx-bounds overlaps <g id=\"p23-run-violet-hit\"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-status-guide\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-status-running\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-status-done\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-1\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-2\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-3\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-4\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-line-5\"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-preview-base\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-preview-sun\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"p23-console-cover\"> data-pptx-bounds overlaps <g id=\"full-preview-violet\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"full-code-sun-state\"> data-pptx-bounds overlaps <g id=\"full-code-violet-state\"> data-pptx-bounds by 650.0px x 82.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"full-status-guide\"> data-pptx-bounds overlaps <g id=\"full-status-running\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"full-status-guide\"> data-pptx-bounds overlaps <g id=\"full-status-done\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"full-status-running\"> data-pptx-bounds overlaps <g id=\"full-status-done\"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"full-preview-base\"> data-pptx-bounds overlaps <g id=\"full-preview-sun\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"full-preview-base\"> data-pptx-bounds overlaps <g id=\"full-preview-violet\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          },
+          {
+            "file": "32_小红花作品实验站.svg",
+            "message": "<g id=\"full-preview-sun\"> data-pptx-bounds overlaps <g id=\"full-preview-violet\"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance"
+          }
+        ]
+      },
+      "introduced": {
+        "count": 17,
+        "issues": [
+          {
+            "file": "02_今天的120分钟.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<image> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "03_今天要带走什么.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "03_今天要带走什么.svg",
+            "message": "<text> (x=914, y=446; text='保存为 lesson06_red_flo…') exceeds <g id=\"goal-project\"> data-pptx-bounds on the horizontal axis: content (914.0, 429.0)-(1234.1, 453.0), container (880.0, 164.0)-(1220.0, 524.0), overflow horizontal 4.2%, vertical 0.0%; expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈12.8 px per mixed char at 20px incl. headroom; ≈26 chars fit in 340 px"
+          },
+          {
+            "file": "03_今天要带走什么.svg",
+            "message": "Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id=\"goal-review\"> x=94.0, y=346.0..386.0, 2 lines; <g id=\"goal-new\"> x=504.0, y=318.0..398.0, 3 lines; <g id=\"goal-project\"> x=914.0, y=346.0..386.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "04_十题热身赛.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "04_十题热身赛.svg",
+            "message": "Image ../images/daxian_teacher_mascot_halfbody_v1.png is 1097x1434 and renders at 0.18x scale in a 264x252 meet frame; the source is 1.3 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+          },
+          {
+            "file": "05_抢答规则.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "11_项目启动_送你一朵小红花.svg",
+            "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"question-card\"> x=94.0, y=478.0..558.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "12_成功标准先看清.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "12_成功标准先看清.svg",
+            "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"check-explain\"> x=894.0, y=316.0..360.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "16_海龟显隐实验站.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "18_窗口标题实验站.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "20_练习A_六片花瓣.svg",
+            "message": "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"logic\"> x=680.0, y=252.0..340.0, 3 lines; <g id=\"logic\"> x=672.0, y=524.0..560.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "31_完整作品代码地图.svg",
+            "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"checklist\"> x=878.0, y=490.0..530.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "33_五步完成桌面画展.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "35_三个常见问题.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "35_三个常见问题.svg",
+            "message": "<text> (x=54, y=116; text='不要删掉全部重来') exceeds <g id=\"header\"> data-pptx-bounds on the vertical axis: content (54.0, 99.0)-(223.6, 123.0), container (54.0, 36.0)-(1174.0, 120.0), overflow horizontal 0.0%, vertical 3.6%; expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+          }
+        ]
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Consolas, Courier New, monospace",
+        "Consolas, Microsoft YaHei, monospace",
+        "Consolas, monospace",
+        "Microsoft YaHei, Arial, sans-serif",
+        "Microsoft YaHei, Segoe UI, sans-serif",
+        "YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": [
+        {
+          "stack": "YouYuan, Microsoft YaHei, sans-serif",
+          "role": "latin",
+          "typeface": "YouYuan"
+        },
+        {
+          "stack": "YouYuan, Microsoft YaHei, sans-serif",
+          "role": "ea",
+          "typeface": "YouYuan"
+        }
+      ]
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 6,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict-after-dangerous-normalization",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": "fade",
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\backup\\20260905_043100\\svg_output",
+  "conversion_trace_path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\validation\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_20260905_043100.trace.json"
+}

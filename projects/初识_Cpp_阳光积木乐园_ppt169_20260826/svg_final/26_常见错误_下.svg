@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="50 34 1100 84">
+    <!-- icon: tabler-filled/alert-triangle -->
+  <g transform="translate(50, 36) scale(2.16667)" fill="#FF6FA5">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+    <text x="122" y="82" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#203044">常见错误 · 符号要用英文并成对</text>
+  </g>
+  <g id="pair-maze" data-pptx-bounds="50 144 570 480">
+    <rect x="50" y="144" width="570" height="480" rx="40" fill="#EAF5FF" />
+    <text x="86" y="198" font-size="28" font-weight="700" fill="#2E9BFF">中文符号 ≠ 英文符号</text>
+    <rect x="86" y="234" width="498" height="126" rx="28" fill="#FFFFFF" />
+    <text x="335" y="282" text-anchor="middle" font-size="24" fill="#FF6FA5">中文：； ， （ ） “ ”</text>
+    <text x="335" y="330" text-anchor="middle" font-family="Consolas" font-size="24" font-weight="700" fill="#22C55E">英文：; , ( ) " "</text>
+    <text x="86" y="414" font-size="22" fill="#203044">写代码前先切换到英文输入法。</text>
+    <rect x="86" y="458" width="498" height="104" rx="26" fill="#17243A" />
+    <text x="335" y="520" text-anchor="middle" font-family="Consolas" font-size="22" font-weight="700" fill="#FFFFFF">cout &lt;&lt; "Hello";</text>
+  </g>
+  <g id="spelling-fixes" data-pptx-bounds="662 144 568 480">
+    <rect x="662" y="144" width="568" height="480" rx="40" fill="#FFF0D6" />
+    <text x="698" y="198" font-size="28" font-weight="700" fill="#FF9F1C">括号与引号要配成一对</text>
+    <rect x="698" y="234" width="492" height="104" rx="28" fill="#FFFFFF" />
+    <text x="944" y="300" text-anchor="middle" font-family="Consolas" font-size="34" font-weight="700" fill="#203044">( )　{ }　" "</text>
+    <text x="698" y="392" font-size="22" fill="#203044">引号里面还要显示引号时：</text>
+    <rect x="698" y="420" width="492" height="102" rx="26" fill="#17243A" />
+    <text x="944" y="480" text-anchor="middle" font-family="Consolas" font-size="20" font-weight="700" fill="#FFFFFF">cout &lt;&lt; "He said \"Hi\"";</text>
+    <text x="698" y="576" font-size="20" fill="#FF9F1C">从左到右数一数：每个“开门”都有“关门”。</text>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+请先判断哪个头文件负责输入输出。答案是 iostream，其中 io 表示 input 与 output，stream 表示信息流；有了它，程序才认识 cin 和 cout。

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="50 34 1100 84">
+    <use data-icon="tabler-filled/alert-triangle" x="50" y="36" width="52" height="52" fill="#FF6FA5" />
+    <text x="122" y="82" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#203044">常见错误 · 关键单词别写错</text>
+  </g>
+  <g id="display-box" data-pptx-bounds="58 148 1164 394">
+    <rect x="58" y="148" width="1164" height="394" rx="42" fill="#EAF5FF" />
+    <text x="94" y="202" font-size="24" font-weight="700" fill="#2E9BFF">电脑逐字符辨认，字母和数字不能“长得像就算对”</text>
+    <rect x="94" y="242" width="250" height="120" rx="28" fill="#FFFFFF" />
+    <text x="219" y="286" text-anchor="middle" font-family="Consolas" font-size="22" fill="#FF6FA5">mian</text>
+    <text x="219" y="334" text-anchor="middle" font-family="Consolas" font-size="28" font-weight="700" fill="#22C55E">main</text>
+    <rect x="374" y="242" width="250" height="120" rx="28" fill="#FFFFFF" />
+    <text x="499" y="286" text-anchor="middle" font-family="Consolas" font-size="22" fill="#FF6FA5">i0stream</text>
+    <text x="499" y="334" text-anchor="middle" font-family="Consolas" font-size="28" font-weight="700" fill="#22C55E">iostream</text>
+    <rect x="654" y="242" width="250" height="120" rx="28" fill="#FFFFFF" />
+    <text x="779" y="286" text-anchor="middle" font-family="Consolas" font-size="22" fill="#FF6FA5">print</text>
+    <text x="779" y="334" text-anchor="middle" font-family="Consolas" font-size="28" font-weight="700" fill="#22C55E">printf</text>
+    <rect x="934" y="242" width="250" height="120" rx="28" fill="#FFFFFF" />
+    <text x="1059" y="286" text-anchor="middle" font-family="Consolas" font-size="22" fill="#FF6FA5">end1</text>
+    <text x="1059" y="334" text-anchor="middle" font-family="Consolas" font-size="28" font-weight="700" fill="#22C55E">endl</text>
+    <text x="94" y="430" font-size="22" fill="#203044">mian → main　　i0stream → iostream</text>
+    <text x="94" y="484" font-size="22" fill="#203044">print → printf　　end1 → endl</text>
+  </g>
+  <g id="copy-route" data-pptx-bounds="190 584 900 76">
+    <rect x="190" y="584" width="900" height="76" rx="28" fill="#17243A" />
+    <text x="640" y="633" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">检查方法：对照模板，从第一个字符读到最后一个字符。</text>
+  </g>
+</svg>

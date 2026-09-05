@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="42 22 1196 78">
+    <text x="42" y="68" font-size="40" font-weight="700" fill="#33415C">花茎长度实验</text>
+    <text x="1218" y="65" text-anchor="end" font-size="18" fill="#667085">只改 forward 的数字</text>
+  </g>
+  <g id="tasks" data-pptx-bounds="42 106 1196 54" data-pptx-role="decoration">
+    <g id="stem-short" data-pptx-bounds="42 106 180 50">
+      <rect x="42" y="106" width="180" height="50" rx="20" fill="#FF6FA5" />
+      <text x="132" y="139" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">短 · 100</text>
+    </g>
+    <g id="stem-short-hit" data-pptx-bounds="42 106 180 50">
+      <rect x="42" y="106" width="180" height="50" rx="20" fill="#FFFFFF" fill-opacity="0.001" />
+    </g>
+    <g id="stem-normal" data-pptx-bounds="238 106 180 50">
+      <rect x="238" y="106" width="180" height="50" rx="20" fill="#2E9BFF" />
+      <text x="328" y="139" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">标准 · 140</text>
+    </g>
+    <g id="stem-normal-hit" data-pptx-bounds="238 106 180 50">
+      <rect x="238" y="106" width="180" height="50" rx="20" fill="#FFFFFF" fill-opacity="0.001" />
+    </g>
+    <g id="stem-long" data-pptx-bounds="434 106 180 50">
+      <rect x="434" y="106" width="180" height="50" rx="20" fill="#65C466" />
+      <text x="524" y="139" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">长 · 180</text>
+    </g>
+    <g id="stem-long-hit" data-pptx-bounds="434 106 180 50">
+      <rect x="434" y="106" width="180" height="50" rx="20" fill="#FFFFFF" fill-opacity="0.001" />
+    </g>
+  </g>
+  <g id="editor" data-pptx-bounds="42 180 640 456" data-pptx-role="decoration">
+    <rect x="42" y="180" width="640" height="456" rx="28" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <rect x="42" y="180" width="640" height="52" rx="28" fill="#EEF6FF" />
+    <text x="74" y="214" font-size="20" font-weight="700" fill="#33415C">stem.py</text>
+    <text x="74" y="282" font-family="Consolas, Courier New, monospace" font-size="22" fill="#33415C">t.dot(45, "yellow")</text>
+    <text x="74" y="328" font-family="Consolas, Courier New, monospace" font-size="22" fill="#33415C">t.setheading(270)</text>
+    <text x="74" y="374" font-family="Consolas, Courier New, monospace" font-size="22" fill="#33415C">t.pensize(8)</text>
+    <text x="74" y="420" font-family="Consolas, Courier New, monospace" font-size="22" fill="#33415C">t.pencolor("green")</text>
+    <g id="run-stem-hit" data-pptx-bounds="70 548 584 60">
+      <rect x="70" y="548" width="584" height="60" rx="22" fill="#FF9F1C" />
+      <text x="362" y="587" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">▶ 运行程序</text>
+      <rect x="70" y="548" width="584" height="60" rx="22" fill="#FFFFFF" fill-opacity="0.001" />
+    </g>
+  </g>
+  <g id="terminal" data-pptx-bounds="718 180 520 456" data-pptx-role="decoration">
+    <rect x="718" y="180" width="520" height="456" rx="28" fill="#2B3A55" />
+    <text x="752" y="224" font-size="20" font-weight="700" fill="#FFFFFF">终端 + 结果</text>
+    <g id="stem-output" data-pptx-bounds="752 250 440 116" font-family="Consolas, Courier New, monospace" font-size="18">
+      <text x="752" y="278" fill="#FFFFFF">设置方向：270°</text>
+      <text x="752" y="312" fill="#FFFFFF">设置画笔：绿色 / 8</text>
+      <text x="752" y="346" fill="#A9E7B8">绘制花茎：完成 ✓</text>
+    </g>
+  </g>
+  <g id="p21-task-short-hit" data-pptx-bounds="42 106 180 50">
+    <rect x="42" y="106" width="180" height="50" rx="20" fill="#FFFFFF" fill-opacity="0.001" />
+  </g>
+  <g id="p21-task-normal-hit" data-pptx-bounds="238 106 180 50">
+    <rect x="238" y="106" width="180" height="50" rx="20" fill="#FFFFFF" fill-opacity="0.001" />
+  </g>
+  <g id="p21-task-long-hit" data-pptx-bounds="434 106 180 50">
+    <rect x="434" y="106" width="180" height="50" rx="20" fill="#FFFFFF" fill-opacity="0.001" />
+  </g>
+  <g id="p21-run-normal-hit" data-pptx-bounds="70 548 584 60">
+    <rect x="70" y="548" width="584" height="60" rx="22" fill="#FFFFFF" fill-opacity="0.001" />
+  </g>
+  <g id="p21-run-short-hit" data-pptx-bounds="70 548 584 60">
+    <rect x="70" y="548" width="584" height="60" rx="22" fill="#FFFFFF" fill-opacity="0.001" />
+  </g>
+  <g id="p21-run-long-hit" data-pptx-bounds="70 548 584 60">
+    <rect x="70" y="548" width="584" height="60" rx="22" fill="#FFFFFF" fill-opacity="0.001" />
+  </g>
+  <g id="stem-result-short" data-pptx-bounds="154 690 2 2" transform="translate(978 438)">
+    <circle r="30" fill="#FFD36A" />
+    <line x1="0" y1="30" x2="0" y2="130" stroke="#65C466" stroke-width="14" stroke-linecap="round" />
+  </g>
+  <g id="stem-result-long" data-pptx-bounds="158 690 2 2" transform="translate(978 414)">
+    <circle r="30" fill="#FFD36A" />
+    <line x1="0" y1="30" x2="0" y2="210" stroke="#65C466" stroke-width="14" stroke-linecap="round" />
+  </g>
+  <g id="forward-140" data-pptx-bounds="70 444 390 44" data-pptx-role="decoration">
+    <rect x="70" y="444" width="390" height="44" rx="14" fill="#E5F4FF" />
+    <text x="82" y="474" font-family="Consolas, Courier New, monospace" font-size="22" fill="#2072B8">t.forward(140)</text>
+  </g>
+  <g id="stem-result" data-pptx-bounds="868 382 220 214" transform="translate(978 438)" data-pptx-role="decoration">
+    <circle r="30" fill="#FFD36A" />
+    <line x1="0" y1="30" x2="0" y2="176" stroke="#65C466" stroke-width="14" stroke-linecap="round" />
+  </g>
+  <g id="p21-console-cover" data-pptx-bounds="740 240 476 374">
+    <rect x="740" y="240" width="476" height="374" rx="20" fill="#2B3A55" />
+  </g>
+  <g id="forward-short-state" data-pptx-bounds="70 444 390 44"><rect x="70" y="444" width="390" height="44" rx="14" fill="#FFE2ED" /><text x="82" y="474" font-family="Consolas, monospace" font-size="22" fill="#FF6FA5">t.forward(100)</text></g>
+  <g id="forward-long-state" data-pptx-bounds="70 444 390 44"><rect x="70" y="444" width="390" height="44" rx="14" fill="#E9FBEF" /><text x="82" y="474" font-family="Consolas, monospace" font-size="22" fill="#22C55E">t.forward(180)</text></g>
+  <g id="stem-status-guide" data-pptx-bounds="810 584 330 30"><text x="975" y="606" text-anchor="middle" font-size="18" font-weight="700" fill="#2E9BFF">点击运行，观察花茎长度</text></g><g id="stem-status-running" data-pptx-bounds="810 584 330 30"><text x="975" y="606" text-anchor="middle" font-size="18" font-weight="700" fill="#FF9F1C">绘制中……</text></g><g id="stem-status-done" data-pptx-bounds="810 584 330 30"><text x="975" y="606" text-anchor="middle" font-size="18" font-weight="700" fill="#22C55E">长度对比完成</text></g>
+  <g id="stem-line-1" data-pptx-bounds="770 270 400 30"><text x="770" y="292" font-family="Consolas, monospace" font-size="18" fill="#FFFFFF">方向：270°</text></g><g id="stem-line-short" data-pptx-bounds="770 304 400 30"><text x="770" y="326" font-family="Consolas, monospace" font-size="18" fill="#FFFFFF">forward：100</text></g><g id="stem-line-normal" data-pptx-bounds="770 304 400 30"><text x="770" y="326" font-family="Consolas, monospace" font-size="18" fill="#FFFFFF">forward：140</text></g><g id="stem-line-long" data-pptx-bounds="770 304 400 30"><text x="770" y="326" font-family="Consolas, monospace" font-size="18" fill="#FFFFFF">forward：180</text></g><g id="stem-line-3" data-pptx-bounds="770 338 400 30"><text x="770" y="360" font-family="Consolas, monospace" font-size="18" fill="#A9E7B8">绘制完成 ✓</text></g>
+  <g id="stem-preview-short" data-pptx-bounds="880 386 190 160"><circle cx="975" cy="410" r="28" fill="#FFD36A" /><line x1="975" y1="438" x2="975" y2="518" stroke="#22C55E" stroke-width="14" stroke-linecap="round" /></g><g id="stem-preview-normal" data-pptx-bounds="880 376 190 180"><circle cx="975" cy="400" r="28" fill="#FFD36A" /><line x1="975" y1="428" x2="975" y2="548" stroke="#22C55E" stroke-width="14" stroke-linecap="round" /></g><g id="stem-preview-long" data-pptx-bounds="880 356 190 210"><circle cx="975" cy="380" r="28" fill="#FFD36A" /><line x1="975" y1="408" x2="975" y2="558" stroke="#22C55E" stroke-width="14" stroke-linecap="round" /></g>
+</svg>

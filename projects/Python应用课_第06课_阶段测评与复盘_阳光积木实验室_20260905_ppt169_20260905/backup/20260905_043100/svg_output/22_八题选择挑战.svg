@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="section" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <g id="title" data-pptx-bounds="70 70 1140 170">
+    <rect x="70" y="70" width="190" height="50" rx="25" fill="#FF9F1C" />
+    <text x="165" y="103" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">第三站</text>
+    <text x="70" y="188" font-size="54" font-weight="700" fill="#33415C">选择挑战</text>
+    <text x="70" y="232" font-size="24" fill="#667085">先思考 → 再点击 → 看颜色反馈和解析</text>
+  </g>
+  <g id="rules" data-pptx-bounds="70 306 742 254">
+    <rect x="70" y="306" width="742" height="254" rx="34" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <text x="110" y="364" font-size="28" font-weight="700" fill="#33415C">8 题 · 4 页</text>
+    <rect x="110" y="402" width="242" height="62" rx="24" fill="#DDF7E8" />
+    <text x="231" y="442" text-anchor="middle" font-size="22" font-weight="700" fill="#207A45">绿色 = 正确</text>
+    <rect x="378" y="402" width="242" height="62" rx="24" fill="#FFE3EC" />
+    <text x="499" y="442" text-anchor="middle" font-size="22" font-weight="700" fill="#B83E68">粉色 = 错误</text>
+    <text x="110" y="520" font-size="21" fill="#667085">每题一次点击：选项着色 + 解析出现</text>
+  </g>
+  <g id="trail" data-pptx-bounds="860 306 350 254">
+    <circle cx="900" cy="350" r="30" fill="#2E9BFF" />
+    <text x="900" y="359" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">1</text>
+    <circle cx="978" cy="350" r="30" fill="#2E9BFF" />
+    <text x="978" y="359" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">2</text>
+    <circle cx="1056" cy="350" r="30" fill="#2E9BFF" />
+    <text x="1056" y="359" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">3</text>
+    <circle cx="1134" cy="350" r="30" fill="#2E9BFF" />
+    <text x="1134" y="359" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">4</text>
+    <circle cx="900" cy="454" r="30" fill="#FF6FA5" />
+    <text x="900" y="463" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">5</text>
+    <circle cx="978" cy="454" r="30" fill="#FF6FA5" />
+    <text x="978" y="463" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">6</text>
+    <circle cx="1056" cy="454" r="30" fill="#FF6FA5" />
+    <text x="1056" y="463" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">7</text>
+    <circle cx="1134" cy="454" r="30" fill="#FF6FA5" />
+    <text x="1134" y="463" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">8</text>
+  </g>
+</svg>

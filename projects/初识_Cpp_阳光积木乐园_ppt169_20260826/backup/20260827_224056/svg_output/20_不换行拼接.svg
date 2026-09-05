@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="52 38 1000 90">
+    <text x="52" y="86" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#203044">想一想：两条 cout 会换行吗？</text>
+  </g>
+  <g id="cout-speaker" data-pptx-bounds="58 188 226 310">
+    <circle cx="171" cy="318" r="112" fill="#2E9BFF" />
+    <use data-icon="tabler-filled/device-speaker" x="113" y="260" width="116" height="116" fill="#FFFFFF" />
+    <text x="171" y="472" text-anchor="middle" font-family="Consolas" font-size="28" font-weight="700" fill="#2E9BFF">cout</text>
+  </g>
+  <g id="string-track" data-pptx-bounds="330 166 850 220">
+    <rect x="330" y="166" width="850" height="100" rx="28" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2" />
+    <text x="360" y="228" font-family="Consolas" font-size="28" font-weight="700" fill="#2E9BFF">cout &lt;&lt; "Hello";</text>
+    <rect x="330" y="286" width="850" height="100" rx="28" fill="#FFF0D6" />
+    <text x="360" y="348" font-family="Consolas" font-size="28" font-weight="700" fill="#FF9F1C">cout &lt;&lt; "World!";</text>
+  </g>
+  <g id="terminal-result" data-pptx-bounds="330 420 850 170">
+    <rect x="330" y="420" width="850" height="170" rx="34" fill="#17243A" />
+    <text x="374" y="468" font-size="20" fill="#EAF5FF">没有 endl，光标不会自动去下一行</text>
+    <text x="755" y="548" text-anchor="middle" font-family="Consolas" font-size="44" font-weight="700" fill="#FFFFFF">HelloWorld!</text>
+  </g>
+  <g id="conclusion" data-pptx-bounds="330 616 850 58">
+    <rect x="330" y="616" width="850" height="58" rx="22" fill="#FFE2ED" />
+    <text x="755" y="654" text-anchor="middle" font-size="22" font-weight="700" fill="#FF6FA5">结论：两条输出会“粘”在同一行。</text>
+  </g>
+</svg>

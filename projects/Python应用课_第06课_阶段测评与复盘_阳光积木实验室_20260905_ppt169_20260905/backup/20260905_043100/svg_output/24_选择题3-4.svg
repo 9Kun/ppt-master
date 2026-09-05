@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="54 28 1172 86">
+    <rect x="54" y="34" width="172" height="46" rx="23" fill="#FF9F1C" />
+    <text x="140" y="65" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">选择挑战</text>
+    <text x="254" y="72" font-size="38" font-weight="700" fill="#33415C">窗口与角度</text>
+    <text x="1226" y="68" text-anchor="end" font-size="18" fill="#667085">初始中性 · 点击后绿对粉错</text>
+  </g>
+  <g id="question-3" data-pptx-bounds="54 124 1172 246" data-pptx-role="decoration">
+    <rect x="54" y="124" width="1172" height="246" rx="30" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="96" cy="162" r="24" fill="#2E9BFF" />
+    <text x="96" y="170" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="132" y="171" font-size="24" font-weight="700" fill="#33415C">哪行代码能设置窗口标题？</text>
+    <rect x="82" y="196" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="98" y="225" font-size="18" fill="#33415C">A. screen.title("小红花画展")</text>
+    <rect x="366" y="196" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="382" y="225" font-size="18" fill="#33415C">B. t.title("小红花画展")</text>
+    <rect x="82" y="252" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="98" y="281" font-size="18" fill="#33415C">C. turtle.done()</text>
+    <rect x="366" y="252" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="382" y="281" font-size="18" fill="#33415C">D. screen.bgcolor()</text>
+    <rect x="676" y="196" width="510" height="100" rx="22" fill="#FFF3D6" />
+    <text x="931" y="236" text-anchor="middle" font-size="18" font-weight="700" fill="#FF9F1C">想好了吗？点击揭晓</text>
+    <text x="931" y="268" text-anchor="middle" font-size="17" fill="#667085">先说理由，再看解析</text>
+  </g>
+  <g id="state-q3" data-pptx-bounds="82 196 1104 100">
+    <rect x="82" y="196" width="264" height="44" rx="18" fill="#DDF7E8" />
+    <text x="98" y="225" font-size="18" font-weight="700" fill="#207A45">A. screen.title("小红花画展")</text>
+    <rect x="366" y="196" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="382" y="225" font-size="18" font-weight="700" fill="#B83E68">B. t.title("小红花画展")</text>
+    <rect x="82" y="252" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="98" y="281" font-size="18" font-weight="700" fill="#B83E68">C. turtle.done()</text>
+    <rect x="366" y="252" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="382" y="281" font-size="18" font-weight="700" fill="#B83E68">D. screen.bgcolor()</text>
+    <rect x="676" y="196" width="510" height="100" rx="22" fill="#E5F4FF" />
+    <text x="696" y="230" font-size="18" font-weight="700" fill="#2072B8">解析</text>
+    <text x="696" y="264" font-size="17" fill="#33415C">title() 属于窗口对象 screen，标题文字要放在引号里。</text>
+  </g>
+  <g id="reveal-q3-hit" data-pptx-bounds="66 690 2 2">
+    <rect x="676" y="196" width="510" height="100" rx="22" fill="#FFFFFF" fill-opacity="0.001" />
+  </g>
+  <g id="question-4" data-pptx-bounds="54 390 1172 246" data-pptx-role="decoration">
+    <rect x="54" y="390" width="1172" height="246" rx="30" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="96" cy="428" r="24" fill="#2E9BFF" />
+    <text x="96" y="436" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="132" y="437" font-size="24" font-weight="700" fill="#33415C">画六瓣花，每画一瓣后左转多少度？</text>
+    <rect x="82" y="462" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="98" y="491" font-size="18" fill="#33415C">A. 30°</text>
+    <rect x="366" y="462" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="382" y="491" font-size="18" fill="#33415C">B. 45°</text>
+    <rect x="82" y="518" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="98" y="547" font-size="18" fill="#33415C">C. 60°</text>
+    <rect x="366" y="518" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="382" y="547" font-size="18" fill="#33415C">D. 90°</text>
+    <rect x="676" y="462" width="510" height="100" rx="22" fill="#FFF3D6" />
+    <text x="931" y="502" text-anchor="middle" font-size="18" font-weight="700" fill="#FF9F1C">想好了吗？点击揭晓</text>
+    <text x="931" y="534" text-anchor="middle" font-size="17" fill="#667085">先说理由，再看解析</text>
+  </g>
+  <g id="state-q4" data-pptx-bounds="82 462 1104 100">
+    <rect x="82" y="462" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="98" y="491" font-size="18" font-weight="700" fill="#B83E68">A. 30°</text>
+    <rect x="366" y="462" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="382" y="491" font-size="18" font-weight="700" fill="#B83E68">B. 45°</text>
+    <rect x="82" y="518" width="264" height="44" rx="18" fill="#DDF7E8" />
+    <text x="98" y="547" font-size="18" font-weight="700" fill="#207A45">C. 60°</text>
+    <rect x="366" y="518" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="382" y="547" font-size="18" font-weight="700" fill="#B83E68">D. 90°</text>
+    <rect x="676" y="462" width="510" height="100" rx="22" fill="#E5F4FF" />
+    <text x="696" y="496" font-size="18" font-weight="700" fill="#2072B8">解析</text>
+    <text x="696" y="530" font-size="17" fill="#33415C">一圈 360° 平均分成 6 份：360 ÷ 6 = 60°。</text>
+  </g>
+  <g id="reveal-q4-hit" data-pptx-bounds="70 690 2 2">
+    <rect x="676" y="462" width="510" height="100" rx="22" fill="#FFFFFF" fill-opacity="0.001" />
+  </g>
+</svg>

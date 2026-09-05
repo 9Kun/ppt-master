@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "docx",
+  "source": {
+    "path": "D:/Data/Desktop/python应用课 15课 教学大纲+PPT/19课分教案/第06课_阶段测评与复盘.docx",
+    "name": "第06课_阶段测评与复盘.docx",
+    "suffix": ".docx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 38728
+  },
+  "outputs": {
+    "markdown": "第06课_阶段测评与复盘.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 210,
+    "char_count": 4411,
+    "heading_count": 18,
+    "table_count": 5,
+    "image_ref_count": 0,
+    "link_count": 0
+  },
+  "warnings": []
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="54 38 1172 92">
+    <text x="54" y="83" font-size="42" font-weight="700" fill="#33415C">先把命令放回工具箱</text>
+    <rect x="902" y="48" width="324" height="46" rx="23" fill="#FFF3D6" />
+    <text x="1064" y="78" text-anchor="middle" font-size="20" font-weight="700" fill="#FF9F1C">分类 → 更快选对命令</text>
+  </g>
+  <g id="tool-grid" data-pptx-bounds="54 156 1172 480">
+    <rect x="54" y="156" width="566" height="216" rx="32" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <rect x="78" y="180" width="118" height="48" rx="24" fill="#2E9BFF" />
+    <text x="137" y="212" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">移动</text>
+    <text x="84" y="278" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="700" fill="#33415C">forward()  ·  left()</text>
+    <text x="84" y="324" font-size="21" fill="#667085">setheading()</text>
+    <rect x="648" y="156" width="566" height="216" rx="32" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <rect x="672" y="180" width="118" height="48" rx="24" fill="#FF9F1C" />
+    <text x="731" y="212" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">重复</text>
+    <text x="678" y="278" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="700" fill="#33415C">for  ·  range()</text>
+    <text x="678" y="324" font-size="21" fill="#667085">让动作重复</text>
+    <rect x="54" y="402" width="566" height="216" rx="32" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <rect x="78" y="426" width="118" height="48" rx="24" fill="#65C466" />
+    <text x="137" y="458" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">位置</text>
+    <text x="84" y="524" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="700" fill="#33415C">goto()  ·  home()</text>
+    <text x="84" y="570" font-size="21" fill="#667085">去坐标 / 回原点</text>
+    <rect x="648" y="402" width="566" height="216" rx="32" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <rect x="672" y="426" width="118" height="48" rx="24" fill="#FF6FA5" />
+    <text x="731" y="458" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">装饰</text>
+    <text x="678" y="524" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="700" fill="#33415C">color()  ·  circle()</text>
+    <text x="678" y="570" font-size="21" fill="#667085">填充 / 背景 / 画圆</text>
+  </g>
+</svg>

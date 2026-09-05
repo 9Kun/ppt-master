@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="52 36 1050 80">
+    <text x="52" y="84" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#203044">一条 cout，也能连续输出三行</text>
+  </g>
+  <g id="code-lines" data-pptx-bounds="52 154 740 456">
+    <rect x="52" y="154" width="740" height="456" rx="38" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2" />
+    <circle cx="86" cy="188" r="8" fill="#FF6FA5" />
+    <circle cx="112" cy="188" r="8" fill="#FF9F1C" />
+    <circle cx="138" cy="188" r="8" fill="#22C55E" />
+    <rect x="84" y="236" width="676" height="250" rx="28" fill="#EAF5FF" />
+    <text x="112" y="300" font-family="Consolas" font-size="24" font-weight="700" fill="#2E9BFF">cout &lt;&lt; "Hello World!" &lt;&lt; endl</text>
+    <text x="182" y="372" font-family="Consolas" font-size="24" font-weight="700" fill="#FF9F1C">&lt;&lt; "123456" &lt;&lt; endl</text>
+    <text x="182" y="444" font-family="Consolas" font-size="24" font-weight="700" fill="#FF6FA5">&lt;&lt; "你好世界!";</text>
+    <text x="84" y="548" font-size="20" fill="#203044">同一条语句用多个 &lt;&lt; 接上内容和 endl。</text>
+  </g>
+  <g id="terminal-lines" data-pptx-bounds="836 154 392 456">
+    <rect x="836" y="154" width="392" height="456" rx="38" fill="#17243A" />
+    <text x="880" y="214" font-size="22" font-weight="700" fill="#EAF5FF">终端输出</text>
+    <text x="880" y="304" font-family="Consolas" font-size="30" font-weight="700" fill="#2E9BFF">Hello World!</text>
+    <text x="880" y="384" font-family="Consolas" font-size="30" font-weight="700" fill="#FF9F1C">123456</text>
+    <text x="880" y="464" font-family="Consolas" font-size="30" font-weight="700" fill="#FF6FA5">你好世界!</text>
+    <line x1="880" y1="512" x2="1184" y2="512" stroke="#2E9BFF" stroke-width="3" />
+    <text x="880" y="558" font-size="20" fill="#EAF5FF">一句代码，三行结果。</text>
+  </g>
+</svg>

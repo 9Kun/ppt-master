@@ -1,0 +1,181 @@
+{
+  "stage": "stage2",
+  "lang": "zh",
+  "recommend": {
+    "delivery_purpose": "balanced",
+    "mode": "custom",
+    "visual_style": "custom",
+    "image_strategy": "custom",
+    "image_usage": ["ai", "provided"],
+    "image_ai_path": "host-native",
+    "formula_policy": "text-only",
+    "generation_mode": "continuous"
+  },
+  "page_count": {
+    "value": "43（严格保留 P01–P43 与既定顺序）"
+  },
+  "image_notes": {
+    "value": "用户提供的大仙老师照片仅作为身份参考；用 AI 生成保留面部辨识特征、日常偏严肃着装的透明背景卡通吉祥物，复用于封面、三幕转场、控制台与关键提示页。其余视觉以原生 SVG 积木、代码终端和图标为主，不使用无关图库照片；图中不嵌入需编辑的文字。"
+  },
+  "proactive_speaker_notes": {
+    "value": true
+  },
+  "proactive_custom_animations": {
+    "value": true
+  },
+  "proactive_narration_audio": {
+    "value": false
+  },
+  "refine_spec": {
+    "value": false
+  },
+  "design_directions": {
+    "selected": 0,
+    "candidates": [
+      {
+        "id": "sunny-block-lab",
+        "name_zh": "阳光积木实验室",
+        "note_zh": "推荐方案。用大圆角积木卡、胶囊导航和层叠纸感把 43 页变成一条清晰的动手实验路线，孩子觉得好玩，家长能一眼读懂教学结构。",
+        "mode": "custom",
+        "mode_behavior_zh": "以 instructional 为唯一叙事基底，将三幕课程细化为“看见任务—拆开零件—跟做验证—独立闯关—回顾迁移”的循环；每页标题直接说清正在学什么，大仙老师负责提问、提醒和阶段路标，四个控制台复用页作为一致的动手实验站。",
+        "visual_style": "custom",
+        "visual_style_behavior_zh": "以 soft-rounded 负责大圆角卡片、胶囊页签、浅层阴影与舒适留白，以 paper-cut 负责积木块般的前后层次、切纸式章节舞台和少量触感纹理；代码框保持白色圆角终端与三色圆点，页面通过大色带、阶梯积木、超大编号和不对称主舞台变化节奏，避免整套课件退化为重复卡片网格。",
+        "icons": "tabler-filled",
+        "color": {
+          "name_zh": "阳光积木乐园",
+          "palette": {
+            "background": "#FFFDF5",
+            "secondary_bg": "#EAF5FF",
+            "primary": "#2E9BFF",
+            "accent": "#FF9F1C",
+            "secondary_accent": "#FF6FA5",
+            "body_text": "#203044"
+          }
+        },
+        "typography": {
+          "name_zh": "幼圆 + 微软雅黑",
+          "fixed": true,
+          "heading": {
+            "primary": "YouYuan",
+            "english": "Arial Rounded MT Bold",
+            "css": "YouYuan, 'Microsoft YaHei', sans-serif"
+          },
+          "body": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "'Microsoft YaHei', Arial, sans-serif"
+          },
+          "body_size": 24,
+          "sizes": {
+            "title": 44,
+            "subtitle": 32,
+            "annotation": 18
+          }
+        },
+        "image_strategy": {
+          "name_zh": "积木纸艺吉祥物",
+          "rendering": "custom",
+          "visual_zh": "清晰矢量轮廓与少量分层纸艺质感结合，老师形象可在投影中稳定识别。",
+          "mood_zh": "像一套精心制作的儿童科学馆导览角色：亲切、可靠、有一点手作温度。",
+          "behavior_zh": "由 vector-illustration 负责简洁可缩放的面部、姿态与服装轮廓，由 paper-cut 负责克制的层叠纸边、哑光材质和柔和投影；保持人物辨识度与自然比例，日常偏严肃着装，不幼儿化、不夸张大眼，背景透明，所有颜色服从当前演示文稿的角色色。"
+        }
+      },
+      {
+        "id": "code-adventure-trail",
+        "name_zh": "C++ 冒险路线图",
+        "note_zh": "把“电脑开口说话”设计成连续冒险关卡，手绘路线和老师串场更有故事感，适合主讲人带着孩子一路闯关。",
+        "mode": "custom",
+        "mode_behavior_zh": "融合 instructional 的先修—示范—跟练顺序与 narrative 的好奇—遇错—解锁—通关节奏；在既定 43 页顺序内，把 Hello World、换行、运算和图案依次变成四个能力关卡，转场页负责提升期待，练习页负责即时回报，最终清单把故事落到可继续完成的任务。",
+        "visual_style": "custom",
+        "visual_style_behavior_zh": "以 soft-rounded 保持大圆角卡、胶囊控制与稳定终端组件，以 sketch-notes 加入轻微手绘路线、虚线箭头、星点和教师批注；整体仍是整洁的数字积木界面，装饰只服务学习路径，留白充足、阴影极少，章节之间用路线推进和大号关卡标识改变画面重心。",
+        "icons": "phosphor-duotone",
+        "color": {
+          "name_zh": "阳光积木乐园",
+          "palette": {
+            "background": "#FFFDF5",
+            "secondary_bg": "#EAF5FF",
+            "primary": "#2E9BFF",
+            "accent": "#FF9F1C",
+            "secondary_accent": "#FF6FA5",
+            "body_text": "#203044"
+          }
+        },
+        "typography": {
+          "name_zh": "幼圆 + 微软雅黑",
+          "fixed": true,
+          "heading": {
+            "primary": "YouYuan",
+            "english": "Arial Rounded MT Bold",
+            "css": "YouYuan, 'Microsoft YaHei', sans-serif"
+          },
+          "body": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "'Microsoft YaHei', Arial, sans-serif"
+          },
+          "body_size": 24,
+          "sizes": {
+            "title": 44,
+            "subtitle": 32,
+            "annotation": 18
+          }
+        },
+        "image_strategy": {
+          "name_zh": "温暖动画课堂",
+          "rendering": "custom",
+          "visual_zh": "温柔动画式老师角色配合轻量手绘教学符号，强调表情和课堂动作。",
+          "mood_zh": "像周末亲子动画工作坊：有探索感，但始终由可信赖的老师掌舵。",
+          "behavior_zh": "由 fantasy-animation 提供柔和手绘轮廓、自然表情与轻微空间暖意，由 sketch-notes 提供扁平教学标记、少量纸面纹理和简洁批注感；保留老师真实身份特征与成人比例，避免梦幻背景抢戏，透明背景，服装日常偏严肃且利落。"
+        }
+      },
+      {
+        "id": "parent-child-mission-board",
+        "name_zh": "亲子任务指挥台",
+        "note_zh": "在孩子友好的积木界面中加入更清晰的家长信息条和练习状态，让现场教学与课后陪练拥有同一套导航。",
+        "mode": "custom",
+        "mode_behavior_zh": "融合 instructional 的逐步建构与 briefing 的可扫描参考结构：课堂主线始终按概念—例子—错误—练习推进，每个知识单元补充简短家长提示，知识梳理与综合精练保持平行字段和稳定定位，便于课后快速查找与陪练。",
+        "visual_style": "custom",
+        "visual_style_behavior_zh": "以 soft-rounded 维持儿童友好的圆角积木、胶囊页签和浅层界面，以 editorial 提供明确栏线、页眉标签、父母提示边注和更精准的代码说明层级；卡片只用于真正需要分组的信息，其他页面使用大面积留白、侧栏、通栏终端和超大关键词形成变化。",
+        "icons": "tabler-outline",
+        "color": {
+          "name_zh": "阳光积木乐园",
+          "palette": {
+            "background": "#FFFDF5",
+            "secondary_bg": "#EAF5FF",
+            "primary": "#2E9BFF",
+            "accent": "#FF9F1C",
+            "secondary_accent": "#FF6FA5",
+            "body_text": "#203044"
+          }
+        },
+        "typography": {
+          "name_zh": "幼圆 + 微软雅黑",
+          "fixed": true,
+          "heading": {
+            "primary": "YouYuan",
+            "english": "Arial Rounded MT Bold",
+            "css": "YouYuan, 'Microsoft YaHei', sans-serif"
+          },
+          "body": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "'Microsoft YaHei', Arial, sans-serif"
+          },
+          "body_size": 24,
+          "sizes": {
+            "title": 44,
+            "subtitle": 32,
+            "annotation": 18
+          }
+        },
+        "image_strategy": {
+          "name_zh": "编辑式矢量导师",
+          "rendering": "custom",
+          "visual_zh": "干净矢量人物与编辑式信息层级结合，老师更像课程主持人与可靠向导。",
+          "mood_zh": "像优质少儿编程杂志的课堂专栏：活泼但不喧闹，专业又容易亲近。",
+          "behavior_zh": "由 vector-illustration 负责清楚一致的矢量轮廓、投影可读性与小尺寸复用，由 editorial 负责克制留白、精确对齐和少量规则线感；人物保持真实辨识度与成人气质，使用日常偏严肃着装，背景透明，不加入图内文字和装饰性场景。"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="cover" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5"/>
+  <circle id="decor-blue-field" data-pptx-role="decoration" cx="716" cy="60" r="190" fill="#EAF5FF"/>
+  <circle id="decor-cream-field" data-pptx-role="decoration" cx="1206" cy="682" r="170" fill="#FFF2DC"/>
+  <g id="cover-eyebrow" data-pptx-bounds="62 52 430 58">
+    <rect x="62" y="52" width="430" height="58" rx="29" fill="#EAF5FF"/>
+    <circle cx="91" cy="81" r="16" fill="#FF9F1C"/><circle cx="91" cy="81" r="7" fill="#FFFFFF"/>
+    <text x="122" y="88" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" fill="#2E9BFF">神奇海龟小画家 · 第 06 课</text>
+  </g>
+  <g id="cover-title" data-pptx-bounds="62 130 668 222">
+    <text x="62" y="222" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="58" font-weight="700" fill="#203044">阶段测评与复盘</text>
+    <text x="62" y="292" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="32" font-weight="700" fill="#2E9BFF">把学过的命令拼成一朵会旋转的小红花</text>
+    <text x="62" y="342" font-size="24" fill="#203044">复习旧命令、学习新工具、运行验证，把代码拼成作品。</text>
+  </g>
+  <g id="ability-brick-review" data-pptx-bounds="62 382 194 76">
+    <rect x="62" y="382" width="194" height="76" rx="22" fill="#2E9BFF"/>
+    <circle cx="92" cy="420" r="13" fill="#FFFFFF" fill-opacity="0.35"/>
+    <text x="122" y="427" font-size="22" font-weight="700" fill="#FFFFFF">综合旧命令</text>
+  </g>
+  <g id="ability-brick-new" data-pptx-bounds="266 394 194 76">
+    <rect x="266" y="394" width="194" height="76" rx="22" fill="#FF9F1C"/>
+    <circle cx="296" cy="432" r="13" fill="#FFFFFF" fill-opacity="0.35"/>
+    <text x="326" y="439" font-size="22" font-weight="700" fill="#FFFFFF">学新命令</text>
+  </g>
+  <g id="ability-brick-project" data-pptx-bounds="470 382 194 76">
+    <rect x="470" y="382" width="194" height="76" rx="22" fill="#FF6FA5"/>
+    <circle cx="500" cy="420" r="13" fill="#FFFFFF" fill-opacity="0.35"/>
+    <text x="530" y="427" font-size="22" font-weight="700" fill="#FFFFFF">做小红花</text>
+  </g>
+  <g id="project-track" data-pptx-bounds="62 500 640 140">
+    <rect x="62" y="500" width="640" height="140" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2"/>
+    <circle cx="92" cy="526" r="7" fill="#FF6FA5"/><circle cx="116" cy="526" r="7" fill="#FF9F1C"/><circle cx="140" cy="526" r="7" fill="#22C55E"/>
+    <rect x="78" y="548" width="608" height="76" rx="20" fill="#F7FAFC"/>
+    <text x="92" y="592" font-family="Consolas, Courier New, monospace" font-size="22" font-weight="700" fill="#203044">lesson06_red_flower.py</text>
+    <rect x="554" y="560" width="112" height="50" rx="18" fill="#22C55E"/>
+    <text x="610" y="592" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="20" font-weight="700" fill="#FFFFFF">RUN ▶</text>
+  </g>
+  <g id="teacher-stage" data-pptx-bounds="748 88 478 580">
+    <rect x="748" y="88" width="478" height="580" rx="54" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2"/>
+    <rect x="782" y="116" width="362" height="106" rx="30" fill="#EAF5FF"/>
+    <text x="806" y="164" font-size="24" font-weight="700" fill="#203044">准备好了吗？</text>
+    <text x="806" y="202" font-size="22" fill="#2E9BFF">一起把命令拼成作品！</text>
+    <image href="../images/ref08_daxian_teacher_mascot_halfbody_v1.png" x="834" y="190" width="390" height="430" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="1012" y="556" width="194" height="54" rx="27" fill="#FF9F1C"/>
+    <text x="1109" y="591" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">大仙老师</text>
+  </g>
+</svg>

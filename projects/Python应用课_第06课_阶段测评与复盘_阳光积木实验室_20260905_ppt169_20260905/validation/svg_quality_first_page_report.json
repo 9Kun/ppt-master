@@ -1,0 +1,218 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "first-page",
+  "target": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "cf0172cc4957eeeb48fe16e8c9899d4a0233213ab844df1f5ef507f04a0afb1b",
+    "file_count": 1,
+    "files": [
+      {
+        "file": "01_阶段测评与复盘.svg",
+        "sha256": "c1eb2d9abaa8743fc66e24761cb02f256d7c6513ef57e07a4d10098df3e7c914"
+      }
+    ]
+  },
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "warnings": 1,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 1,
+      "issues": [
+        {
+          "file": "01_阶段测评与复盘.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (7 change(s)); examples: text[14]:font-family 'Microsoft YaHei, Segoe UI, sans-serif' -> None; text[16]:font-family 'Microsoft YaHei, Segoe UI, sans-serif' -> None; text[17]:font-family 'Microsoft YaHei, Segoe UI, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace` and rerun the final gate, or leave the explicit form)"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#33415C": [
+        "01_阶段测评与复盘.svg"
+      ],
+      "#667085": [
+        "01_阶段测评与复盘.svg"
+      ],
+      "#DDEBFA": [
+        "01_阶段测评与复盘.svg"
+      ],
+      "#E5F4FF": [
+        "01_阶段测评与复盘.svg"
+      ],
+      "#FFF3D6": [
+        "01_阶段测评与复盘.svg"
+      ]
+    },
+    "fonts": {
+      "Microsoft YaHei, Segoe UI, sans-serif": [
+        "01_阶段测评与复盘.svg"
+      ]
+    },
+    "sizes": {
+      "24": [
+        "01_阶段测评与复盘.svg"
+      ],
+      "54": [
+        "01_阶段测评与复盘.svg"
+      ]
+    }
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 1,
+    "totals": {
+      "text_elements": 8,
+      "image_placements": 1,
+      "icons": 0,
+      "svg_geometry_elements": 12,
+      "preset_shapes": 0,
+      "page_frame_elements": 0,
+      "marker_uses": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 1,
+      "icons": 0,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "geometry_elements": {
+      "circle": 2,
+      "ellipse": 0,
+      "line": 0,
+      "path": 1,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 9
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": [
+      0.3459,
+      0.3459
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_阶段测评与复盘.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\svg_output\\01_阶段测评与复盘.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (7 change(s)); examples: text[14]:font-family 'Microsoft YaHei, Segoe UI, sans-serif' -> None; text[16]:font-family 'Microsoft YaHei, Segoe UI, sans-serif' -> None; text[17]:font-family 'Microsoft YaHei, Segoe UI, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace` and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 1,
+            "files": [
+              "hero_turtle_block_garden.png"
+            ],
+            "max_frame_share": 0.3459
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Segoe UI, sans-serif"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#33415C",
+            "#667085",
+            "#DDEBFA",
+            "#E5F4FF",
+            "#FFF3D6"
+          ],
+          "font_families": [
+            "Microsoft YaHei, Segoe UI, sans-serif"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "24": 1,
+          "54": 2
+        }
+      },
+      "passed": true,
+      "source_sha256": "c1eb2d9abaa8743fc66e24761cb02f256d7c6513ef57e07a4d10098df3e7c914"
+    }
+  ]
+}

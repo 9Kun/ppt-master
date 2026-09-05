@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="50 34 1080 90">
+    <text x="50" y="82" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#203044">哪条语句能正确输出 apple？</text>
+    <use data-icon="tabler-filled/bulb" x="1080" y="44" width="50" height="50" fill="#FF9F1C" />
+  </g>
+  <g id="choice-a" data-pptx-bounds="70 154 510 154">
+    <rect x="70" y="154" width="510" height="154" rx="30" fill="#FFE2ED" />
+    <circle cx="122" cy="204" r="28" fill="#FF6FA5" />
+    <text x="122" y="214" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">A</text>
+    <text x="172" y="216" font-family="Consolas" font-size="22" fill="#203044">cout &lt; "apple";</text>
+    <text x="172" y="266" font-size="20" fill="#FF6FA5">少了一个 &lt;</text>
+  </g>
+  <g id="choice-b" data-pptx-bounds="700 154 510 154">
+    <rect x="700" y="154" width="510" height="154" rx="30" fill="#FFE2ED" />
+    <circle cx="752" cy="204" r="28" fill="#FF6FA5" />
+    <text x="752" y="214" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">B</text>
+    <text x="802" y="216" font-family="Consolas" font-size="22" fill="#203044">Cout &lt;&lt; "apple";</text>
+    <text x="802" y="266" font-size="20" fill="#FF6FA5">cout 必须小写</text>
+  </g>
+  <g id="choice-c" data-pptx-bounds="70 340 510 154">
+    <rect x="70" y="340" width="510" height="154" rx="30" fill="#E9FBEF" />
+    <circle cx="122" cy="390" r="28" fill="#22C55E" />
+    <text x="122" y="400" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">C</text>
+    <text x="172" y="402" font-family="Consolas" font-size="22" font-weight="700" fill="#203044">cout &lt;&lt; "apple";</text>
+    <text x="172" y="452" font-size="20" font-weight="700" fill="#22C55E">完全正确</text>
+  </g>
+  <g id="choice-d" data-pptx-bounds="700 340 510 154">
+    <rect x="700" y="340" width="510" height="154" rx="30" fill="#FFE2ED" />
+    <circle cx="752" cy="390" r="28" fill="#FF6FA5" />
+    <text x="752" y="400" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">D</text>
+    <text x="802" y="402" font-family="Consolas" font-size="22" fill="#203044">cout &lt;&lt; “apple”；</text>
+    <text x="802" y="452" font-size="20" fill="#FF6FA5">使用了中文符号</text>
+  </g>
+  <g id="detective-rule" data-pptx-bounds="170 560 940 92">
+    <rect x="170" y="560" width="940" height="92" rx="28" fill="#2E9BFF" />
+    <text x="640" y="618" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">答案 C：小写 cout + 两个 &lt; + 英文引号 + 英文分号</text>
+  </g>
+</svg>

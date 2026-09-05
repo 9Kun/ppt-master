@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="section" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5"/>
+  <rect id="top-band" data-pptx-role="decoration" x="0" y="0" width="1280" height="18" fill="#FF9F1C"/>
+  <g id="page-header" data-pptx-bounds="48 34 1184 92">
+    <rect x="48" y="44" width="52" height="52" rx="18" fill="#FF9F1C"/><text x="74" y="80" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">01</text>
+    <text x="120" y="82" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#203044">十题热身赛</text>
+    <text x="122" y="114" font-size="20" fill="#FF9F1C">五盒旧积木，马上开始抢答</text>
+    <rect x="1010" y="48" width="192" height="46" rx="23" fill="#FFF2DC"/>
+    <text x="1106" y="78" text-anchor="middle" font-size="18" font-weight="700" fill="#B96800">第一站 · 十二分钟</text>
+  </g>
+  <g id="tool-1" data-pptx-bounds="48 140 384 230">
+    <rect x="48" y="140" width="384" height="230" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2"/>
+    <circle cx="92" cy="186" r="24" fill="#2E9BFF"/><text x="92" y="193" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="126" y="194" font-size="24" font-weight="700" fill="#203044">移动与转向</text>
+    <text x="76" y="246" font-size="20" fill="#5A6B80">让海龟走起来、转起来</text>
+    <rect x="76" y="286" width="328" height="52" rx="18" fill="#EAF5FF"/>
+    <text x="104" y="320" font-family="Consolas, Courier New, monospace" font-size="20" font-weight="700" fill="#2072B8">forward() · left()</text>
+  </g>
+  <g id="tool-2" data-pptx-bounds="448 140 384 230">
+    <rect x="448" y="140" width="384" height="230" rx="30" fill="#FFFFFF" stroke="#FFD9A6" stroke-width="2"/>
+    <circle cx="492" cy="186" r="24" fill="#FF9F1C"/><text x="492" y="193" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="526" y="194" font-size="24" font-weight="700" fill="#203044">循环与次数</text>
+    <text x="476" y="246" font-size="20" fill="#5A6B80">把同一组动作重复执行</text>
+    <rect x="476" y="286" width="328" height="52" rx="18" fill="#FFF2DC"/>
+    <text x="504" y="320" font-family="Consolas, Courier New, monospace" font-size="20" font-weight="700" fill="#B96800">for · range()</text>
+  </g>
+  <g id="tool-3" data-pptx-bounds="848 140 384 230">
+    <rect x="848" y="140" width="384" height="230" rx="30" fill="#FFFFFF" stroke="#FFD0E1" stroke-width="2"/>
+    <circle cx="892" cy="186" r="24" fill="#FF6FA5"/><text x="892" y="193" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="926" y="194" font-size="24" font-weight="700" fill="#203044">坐标与回家</text>
+    <text x="876" y="246" font-size="20" fill="#5A6B80">去指定位置或回到原点</text>
+    <rect x="876" y="286" width="328" height="52" rx="18" fill="#FFE2ED"/>
+    <text x="904" y="320" font-family="Consolas, Courier New, monospace" font-size="20" font-weight="700" fill="#B83E68">goto() · home()</text>
+  </g>
+  <g id="tool-4" data-pptx-bounds="48 400 384 230">
+    <rect x="48" y="400" width="384" height="230" rx="30" fill="#FFFFFF" stroke="#C8F0D4" stroke-width="2"/>
+    <circle cx="92" cy="446" r="24" fill="#22C55E"/><text x="92" y="453" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="126" y="454" font-size="24" font-weight="700" fill="#203044">颜色与填充</text>
+    <text x="76" y="506" font-size="20" fill="#5A6B80">给线条和封闭图形上色</text>
+    <rect x="76" y="546" width="328" height="52" rx="18" fill="#E9FBEF"/>
+    <text x="104" y="580" font-family="Consolas, Courier New, monospace" font-size="18" font-weight="700" fill="#207A45">color() · begin_fill()</text>
+  </g>
+  <g id="tool-5" data-pptx-bounds="448 400 384 230">
+    <rect x="448" y="400" width="384" height="230" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2"/>
+    <circle cx="492" cy="446" r="24" fill="#2E9BFF"/><text x="492" y="453" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="526" y="454" font-size="24" font-weight="700" fill="#203044">背景与圆</text>
+    <text x="476" y="506" font-size="20" fill="#5A6B80">设置舞台，再画出圆形</text>
+    <rect x="476" y="546" width="328" height="52" rx="18" fill="#EAF5FF"/>
+    <text x="504" y="580" font-family="Consolas, Courier New, monospace" font-size="18" font-weight="700" fill="#2072B8">bgcolor() · circle()</text>
+  </g>
+  <g id="warmup-rule" data-pptx-bounds="848 400 384 230">
+    <rect x="848" y="400" width="384" height="230" rx="30" fill="#FFF2DC" stroke="#FFD9A6" stroke-width="2"/>
+    <circle cx="892" cy="448" r="28" fill="#FFFFFF"/><text x="892" y="457" text-anchor="middle" font-size="26" fill="#FF9F1C">★</text>
+    <text x="930" y="456" font-size="21" font-weight="700" fill="#B96800">热身玩法</text>
+    <text x="876" y="510" font-size="18" fill="#203044">先口答，再点击揭晓；</text>
+    <text x="876" y="542" font-size="18" fill="#203044">答错不扣分，马上完整修正；</text>
+    <text x="876" y="574" font-size="18" fill="#5A6B80">十颗星，十次唤醒记忆。</text>
+  </g>
+</svg>

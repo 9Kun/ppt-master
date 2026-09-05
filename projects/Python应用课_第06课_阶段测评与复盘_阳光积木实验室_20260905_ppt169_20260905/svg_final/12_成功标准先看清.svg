@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5"/>
+  <g id="header" data-pptx-bounds="54 38 1120 86"><text x="54" y="84" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="46" font-weight="700" fill="#203044">做完，还要能讲出来</text><text x="54" y="116" font-size="20" fill="#2E9BFF">三项都做到，才算作品验收通过</text></g>
+  <g id="check-run" data-pptx-bounds="70 170 350 328"><rect x="70" y="170" width="350" height="328" rx="34" fill="#EAF5FF"/><circle cx="128" cy="226" r="34" fill="#2E9BFF"/><!-- icon: tabler-filled/player-play -->
+  <g transform="translate(108, 206) scale(1.66667)" fill="#FFFFFF">
+    <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+  </g><text x="180" y="236" font-size="28" font-weight="700" fill="#203044">基础版能运行</text><text x="104" y="316" font-size="24" fill="#203044">没有语法错误</text><text x="104" y="360" font-size="24" fill="#203044">图形窗口能弹出</text><text x="104" y="430" font-size="20" fill="#60758A">先跑通，再个性化</text></g>
+  <g id="check-parts" data-pptx-bounds="465 150 350 348"><rect x="465" y="150" width="350" height="348" rx="34" fill="#FFF2DC"/><circle cx="523" cy="206" r="34" fill="#FF9F1C"/><!-- icon: tabler-filled/flower -->
+  <g transform="translate(503, 186) scale(1.66667)" fill="#FFFFFF">
+    <path d="M12 1a4 4 0 0 1 4 4l-.002 .055l.03 -.018a3.97 3.97 0 0 1 2.79 -.455l.237 .056a3.97 3.97 0 0 1 2.412 1.865a4.01 4.01 0 0 1 -1.455 5.461l-.068 .036l.071 .039a4.01 4.01 0 0 1 1.555 5.27l-.101 .186a3.97 3.97 0 0 1 -5.441 1.468l-.03 -.02l.002 .057a4 4 0 0 1 -3.8 3.995l-.2 .005a4 4 0 0 1 -4 -4l.001 -.056l-.029 .019a3.97 3.97 0 0 1 -2.79 .456l-.236 -.056a3.97 3.97 0 0 1 -2.413 -1.865a4.01 4.01 0 0 1 1.453 -5.46l.07 -.038l-.071 -.038a4.01 4.01 0 0 1 -1.555 -5.27l.1 -.187a3.97 3.97 0 0 1 5.444 -1.468l.026 .018v-.055a4 4 0 0 1 3.8 -3.995zm0 8a3 3 0 1 0 0 6a3 3 0 0 0 0 -6" />
+  </g><text x="575" y="216" font-size="28" font-weight="700" fill="#203044">三个部分齐全</text><text x="499" y="296" font-size="24" fill="#203044">花瓣　✓</text><text x="499" y="340" font-size="24" fill="#203044">花心　✓</text><text x="499" y="384" font-size="24" fill="#203044">花茎　✓</text><text x="499" y="452" font-size="20" fill="#60758A">缺一块，就回到对应代码段</text></g>
+  <g id="check-explain" data-pptx-bounds="860 170 350 328"><rect x="860" y="170" width="350" height="328" rx="34" fill="#FFE2ED"/><circle cx="918" cy="226" r="34" fill="#FF6FA5"/><!-- icon: tabler-filled/bulb -->
+  <g transform="translate(898, 206) scale(1.66667)" fill="#FFFFFF">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g><text x="970" y="236" font-size="28" font-weight="700" fill="#203044">说出修改点</text><text x="894" y="316" font-size="24" fill="#203044">我把＿＿改成＿＿</text><text x="894" y="360" font-size="24" fill="#203044">结果发生了＿＿</text><text x="894" y="430" font-size="20" fill="#60758A">会解释，才是真的会</text></g>
+  <g id="standard" data-pptx-bounds="190 554 900 68"><rect x="190" y="554" width="900" height="68" rx="26" fill="#E9FBEF"/><text x="640" y="598" text-anchor="middle" font-size="26" font-weight="700" fill="#22C55E">能运行　+　三部分完整　+　能指出修改处</text></g>
+</svg>

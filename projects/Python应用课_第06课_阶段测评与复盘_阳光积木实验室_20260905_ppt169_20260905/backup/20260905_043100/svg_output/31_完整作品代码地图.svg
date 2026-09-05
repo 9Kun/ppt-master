@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="54 32 1172 90">
+    <rect x="54" y="38" width="150" height="46" rx="23" fill="#65C466" />
+    <text x="129" y="69" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">PBL</text>
+    <text x="234" y="78" font-size="40" font-weight="700" fill="#33415C">把所有积木拼起来</text>
+  </g>
+  <g id="sequence" data-pptx-bounds="54 148 720 500">
+    <rect x="54" y="148" width="720" height="500" rx="32" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="96" cy="194" r="23" fill="#2E9BFF" />
+    <text x="96" y="202" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="132" y="198" font-size="24" font-weight="700" fill="#33415C">窗口</text>
+    <text x="270" y="198" font-family="Consolas, Courier New, monospace" font-size="20" fill="#667085">Screen / title / bgcolor</text>
+    <circle cx="96" cy="266" r="23" fill="#FF6FA5" />
+    <text x="96" y="274" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="132" y="270" font-size="24" font-weight="700" fill="#33415C">花瓣</text>
+    <text x="270" y="270" font-family="Consolas, Courier New, monospace" font-size="20" fill="#667085">循环 6 次</text>
+    <circle cx="96" cy="338" r="23" fill="#FF9F1C" />
+    <text x="96" y="346" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="132" y="342" font-size="24" font-weight="700" fill="#33415C">花心</text>
+    <text x="270" y="342" font-family="Consolas, Courier New, monospace" font-size="20" fill="#667085">dot(45, "yellow")</text>
+    <circle cx="96" cy="410" r="23" fill="#65C466" />
+    <text x="96" y="418" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="132" y="414" font-size="24" font-weight="700" fill="#33415C">花茎</text>
+    <text x="270" y="414" font-family="Consolas, Courier New, monospace" font-size="20" fill="#667085">270° / 绿色 / 140</text>
+    <circle cx="96" cy="482" r="23" fill="#9B7BFF" />
+    <text x="96" y="490" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="132" y="486" font-size="24" font-weight="700" fill="#33415C">收尾</text>
+    <text x="270" y="486" font-family="Consolas, Courier New, monospace" font-size="20" fill="#667085">hideturtle()</text>
+    <circle cx="96" cy="554" r="23" fill="#33415C" />
+    <text x="96" y="562" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">6</text>
+    <text x="132" y="558" font-size="24" font-weight="700" fill="#33415C">保持窗口</text>
+    <text x="270" y="558" font-family="Consolas, Courier New, monospace" font-size="20" fill="#667085">turtle.done()</text>
+  </g>
+  <g id="checklist" data-pptx-bounds="816 148 410 500">
+    <rect x="816" y="148" width="410" height="500" rx="32" fill="#2E9BFF" />
+    <text x="854" y="206" font-size="28" font-weight="700" fill="#FFFFFF">作品验收</text>
+    <text x="854" y="262" font-size="22" fill="#FFFFFF">✓ 程序能运行</text>
+    <text x="854" y="310" font-size="22" fill="#FFFFFF">✓ 花瓣、花心、花茎完整</text>
+    <text x="854" y="358" font-size="22" fill="#FFFFFF">✓ 能指出一处修改</text>
+    <rect x="850" y="402" width="342" height="188" rx="26" fill="#FFFFFF" opacity="0.16" />
+    <text x="878" y="446" font-size="20" font-weight="700" fill="#FFF3D6">只选 1–2 项修改</text>
+    <text x="878" y="490" font-size="20" fill="#FFFFFF">背景颜色 · 花瓣颜色</text>
+    <text x="878" y="530" font-size="20" fill="#FFFFFF">花茎长度 · 窗口标题</text>
+  </g>
+</svg>

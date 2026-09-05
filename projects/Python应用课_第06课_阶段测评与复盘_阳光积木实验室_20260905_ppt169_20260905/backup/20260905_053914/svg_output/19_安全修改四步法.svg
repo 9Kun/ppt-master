@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="54 36 1172 98">
+    <text x="54" y="82" font-size="42" font-weight="700" fill="#33415C">一次只改一处</text>
+    <text x="54" y="118" font-size="22" fill="#667085">小步测试：错误更容易定位，也更容易回退</text>
+  </g>
+  <g id="steps" data-pptx-bounds="54 186 1172 274">
+    <rect x="54" y="186" width="260" height="220" rx="32" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="104" cy="236" r="28" fill="#2E9BFF" />
+    <text x="104" y="246" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="184" y="320" text-anchor="middle" font-size="28" font-weight="700" fill="#33415C">运行基础版</text>
+    <path d="M314 296 h32 l-12 -12 m12 12 l-12 12" fill="none" stroke="#AFC7DC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="352" y="186" width="260" height="220" rx="32" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="402" cy="236" r="28" fill="#FF9F1C" />
+    <text x="402" y="246" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="482" y="320" text-anchor="middle" font-size="28" font-weight="700" fill="#33415C">只改一处</text>
+    <path d="M612 296 h32 l-12 -12 m12 12 l-12 12" fill="none" stroke="#AFC7DC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="650" y="186" width="260" height="220" rx="32" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="700" cy="236" r="28" fill="#FF6FA5" />
+    <text x="700" y="246" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="780" y="320" text-anchor="middle" font-size="28" font-weight="700" fill="#33415C">再次运行</text>
+    <path d="M910 296 h32 l-12 -12 m12 12 l-12 12" fill="none" stroke="#AFC7DC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="948" y="186" width="260" height="220" rx="32" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="998" cy="236" r="28" fill="#65C466" />
+    <text x="998" y="246" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="1078" y="320" text-anchor="middle" font-size="28" font-weight="700" fill="#33415C">确认后保存</text>
+  </g>
+  <g id="why" data-pptx-bounds="150 496 980 116">
+    <rect x="150" y="496" width="980" height="116" rx="34" fill="#FFF3D6" />
+    <text x="640" y="542" text-anchor="middle" font-size="20" font-weight="700" fill="#FF9F1C">如果刚才还能运行，现在报错了……</text>
+    <text x="640" y="582" text-anchor="middle" font-size="28" font-weight="700" fill="#33415C">只需检查刚刚改过的那一处</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="ending" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <g id="hero-word" data-pptx-bounds="70 64 1140 180" font-weight="700" text-anchor="middle">
+    <text x="640" y="154" font-size="82" fill="#2E9BFF">综合</text>
+    <text x="640" y="210" font-size="28" fill="#33415C">把命令变成作品，把修改变成方法</text>
+  </g>
+  <g id="recap" data-pptx-bounds="70 286 1140 208">
+    <rect x="70" y="286" width="360" height="208" rx="34" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="124" cy="342" r="28" fill="#2E9BFF" />
+    <text x="164" y="350" font-size="22" font-weight="700" fill="#2E9BFF">学会了</text>
+    <text x="250" y="422" text-anchor="middle" font-size="26" font-weight="700" fill="#33415C">组合已学命令</text>
+    <rect x="460" y="286" width="360" height="208" rx="34" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="514" cy="342" r="28" fill="#FF6FA5" />
+    <text x="554" y="350" font-size="22" font-weight="700" fill="#FF6FA5">完成了</text>
+    <text x="640" y="422" text-anchor="middle" font-size="26" font-weight="700" fill="#33415C">可署名的小红花</text>
+    <rect x="850" y="286" width="360" height="208" rx="34" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="904" cy="342" r="28" fill="#FF9F1C" />
+    <text x="944" y="350" font-size="22" font-weight="700" fill="#FF9F1C">带走了</text>
+    <text x="1030" y="422" text-anchor="middle" font-size="26" font-weight="700" fill="#33415C">一次只改一处</text>
+  </g>
+  <g id="debug-order" data-pptx-bounds="188 542 904 94">
+    <rect x="188" y="542" width="904" height="94" rx="30" fill="#FFF3D6" />
+    <text x="640" y="579" text-anchor="middle" font-size="20" font-weight="700" fill="#FF9F1C">下次遇到错误，先检查</text>
+    <text x="640" y="616" text-anchor="middle" font-size="26" font-weight="700" fill="#33415C">拼写 → 符号 → 缩进</text>
+  </g>
+</svg>

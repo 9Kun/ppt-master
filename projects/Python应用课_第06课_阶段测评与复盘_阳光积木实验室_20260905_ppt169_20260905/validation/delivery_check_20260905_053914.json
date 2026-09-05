@@ -1,0 +1,393 @@
+{
+  "schema": "ppt-master.pptx-delivery-check.v1",
+  "status": "passed-with-advisories",
+  "file": {
+    "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\\exports\\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_20260905_053914.pptx",
+    "bytes": 4795428
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "duplicate_parts": [],
+    "canonical_part_collisions": [],
+    "parts": {
+      "entries": 167,
+      "unique": 167,
+      "slides": 36,
+      "notes": 36,
+      "masters": 1,
+      "layouts": 1,
+      "media": 4
+    },
+    "relationships": {
+      "problems": []
+    }
+  },
+  "slides": {
+    "count": 36,
+    "hidden_count": 0,
+    "hidden": []
+  },
+  "fonts": {
+    "theme": {
+      "title": {
+        "latin": "Calibri",
+        "scripts": {
+          "Jpan": "ＭＳ Ｐゴシック",
+          "Hang": "맑은 고딕",
+          "Hans": "宋体",
+          "Hant": "新細明體"
+        }
+      },
+      "body": {
+        "latin": "Calibri",
+        "scripts": {
+          "Jpan": "ＭＳ Ｐゴシック",
+          "Hang": "맑은 고딕",
+          "Hans": "宋体",
+          "Hant": "新細明體"
+        }
+      }
+    },
+    "declared": {
+      "latin": [
+        {
+          "value": "Segoe UI",
+          "count": 310
+        },
+        {
+          "value": "Arial",
+          "count": 250
+        },
+        {
+          "value": "Consolas",
+          "count": 122
+        },
+        {
+          "value": "+mn-lt",
+          "count": 27
+        },
+        {
+          "value": "YouYuan",
+          "count": 12
+        },
+        {
+          "value": "Calibri",
+          "count": 4
+        },
+        {
+          "value": "+mj-lt",
+          "count": 1
+        }
+      ],
+      "ea": [
+        {
+          "value": "Microsoft YaHei",
+          "count": 481
+        },
+        {
+          "value": "Segoe UI",
+          "count": 83
+        },
+        {
+          "value": "Consolas",
+          "count": 79
+        },
+        {
+          "value": "Arial",
+          "count": 39
+        },
+        {
+          "value": "+mn-ea",
+          "count": 27
+        },
+        {
+          "value": "YouYuan",
+          "count": 12
+        },
+        {
+          "value": "+mj-ea",
+          "count": 1
+        }
+      ],
+      "cs": [
+        {
+          "value": "Segoe UI",
+          "count": 310
+        },
+        {
+          "value": "Arial",
+          "count": 250
+        },
+        {
+          "value": "Consolas",
+          "count": 122
+        },
+        {
+          "value": "+mn-cs",
+          "count": 27
+        },
+        {
+          "value": "YouYuan",
+          "count": 12
+        },
+        {
+          "value": "+mj-cs",
+          "count": 1
+        }
+      ]
+    },
+    "embedded_parts": [],
+    "portability_advisory_faces": [
+      "YouYuan"
+    ]
+  },
+  "media": {
+    "embedded_count": 4,
+    "external_count": 0,
+    "embedded": [
+      {
+        "part": "ppt/media/image_cb374d61e61c593f.png",
+        "kind": "image",
+        "content_type": "image/png",
+        "bytes": 1385923,
+        "compressed_bytes": 1368500,
+        "reference_count": 1,
+        "relationship_types": [
+          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        ]
+      },
+      {
+        "part": "ppt/media/image_547ec0d2362240f6.png",
+        "kind": "image",
+        "content_type": "image/png",
+        "bytes": 1206996,
+        "compressed_bytes": 1194782,
+        "reference_count": 1,
+        "relationship_types": [
+          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        ]
+      },
+      {
+        "part": "ppt/media/image_cedb1435b9835fba.png",
+        "kind": "image",
+        "content_type": "image/png",
+        "bytes": 1069363,
+        "compressed_bytes": 1053947,
+        "reference_count": 1,
+        "relationship_types": [
+          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        ]
+      },
+      {
+        "part": "ppt/media/image_fef12c5c504abb70.png",
+        "kind": "image",
+        "content_type": "image/png",
+        "bytes": 991049,
+        "compressed_bytes": 973968,
+        "reference_count": 1,
+        "relationship_types": [
+          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        ]
+      }
+    ],
+    "external": [],
+    "uncompressed_bytes": 4653331,
+    "archive_compressed_bytes": 4591197,
+    "share_of_archive": 0.957411,
+    "share_of_uncompressed_parts": 0.723496,
+    "top_contributors": [
+      {
+        "part": "ppt/media/image_cb374d61e61c593f.png",
+        "kind": "image",
+        "content_type": "image/png",
+        "bytes": 1385923,
+        "compressed_bytes": 1368500,
+        "reference_count": 1,
+        "relationship_types": [
+          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        ]
+      },
+      {
+        "part": "ppt/media/image_547ec0d2362240f6.png",
+        "kind": "image",
+        "content_type": "image/png",
+        "bytes": 1206996,
+        "compressed_bytes": 1194782,
+        "reference_count": 1,
+        "relationship_types": [
+          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        ]
+      },
+      {
+        "part": "ppt/media/image_cedb1435b9835fba.png",
+        "kind": "image",
+        "content_type": "image/png",
+        "bytes": 1069363,
+        "compressed_bytes": 1053947,
+        "reference_count": 1,
+        "relationship_types": [
+          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        ]
+      },
+      {
+        "part": "ppt/media/image_fef12c5c504abb70.png",
+        "kind": "image",
+        "content_type": "image/png",
+        "bytes": 991049,
+        "compressed_bytes": 973968,
+        "reference_count": 1,
+        "relationship_types": [
+          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        ]
+      }
+    ]
+  },
+  "motion": {
+    "transitions": {
+      "carrier_slide_count": 36,
+      "visual_effect_slide_count": 36,
+      "timed_advance_slide_count": 0,
+      "carrier_slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "visual_effect_slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "timed_advance_slides": [],
+      "effects": {
+        "fade": 36
+      }
+    },
+    "object_animations": {
+      "timing_slide_count": 20,
+      "object_animation_slide_count": 20,
+      "audio_timing_slide_count": 0,
+      "timing_slides": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        32,
+        33,
+        35
+      ],
+      "object_animation_slides": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        32,
+        33,
+        35
+      ],
+      "audio_timing_slides": []
+    }
+  },
+  "errors": [],
+  "advisories": [
+    {
+      "code": "font_portability",
+      "message": "Some fonts declared or referenced by the presentation are outside the common Office/OS portability set; target-system availability was not verified.",
+      "faces": [
+        "YouYuan"
+      ]
+    }
+  ]
+}

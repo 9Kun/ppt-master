@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="54 36 1172 92">
+    <rect x="54" y="42" width="190" height="48" rx="24" fill="#FF9F1C" />
+    <text x="149" y="74" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">项目挑战</text>
+    <text x="274" y="80" font-size="40" font-weight="700" fill="#33415C">怎样画一朵会旋转的彩色花？</text>
+  </g>
+  <g id="question-card" data-pptx-bounds="54 158 472 478">
+    <rect x="54" y="158" width="472" height="478" rx="34" fill="#2E9BFF" />
+    <text x="94" y="220" font-size="22" font-weight="700" fill="#DDF1FF">最终成果</text>
+    <text x="94" y="276" font-size="36" font-weight="700" fill="#FFFFFF">可展示、可署名</text>
+    <text x="94" y="328" font-size="36" font-weight="700" fill="#FFFFFF">的“小红花”</text>
+    <rect x="94" y="382" width="352" height="4" rx="2" fill="#FFFFFF" opacity="0.5" />
+    <text x="94" y="434" font-size="24" fill="#FFFFFF">成功标准</text>
+    <text x="94" y="478" font-size="22" fill="#FFFFFF">✓ 程序能运行</text>
+    <text x="94" y="518" font-size="22" fill="#FFFFFF">✓ 花瓣、花心、花茎完整</text>
+    <text x="94" y="558" font-size="22" fill="#FFFFFF">✓ 能指出自己的修改</text>
+  </g>
+  <g id="parts" data-pptx-bounds="564 158 662 478">
+    <rect x="564" y="158" width="662" height="94" rx="28" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <rect x="586" y="177" width="112" height="56" rx="20" fill="#FF6FA5" />
+    <text x="642" y="214" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">花瓣</text>
+    <text x="730" y="216" font-size="26" font-weight="700" fill="#33415C">6个圆 + 左转60°</text>
+    <rect x="564" y="270" width="662" height="94" rx="28" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <rect x="586" y="289" width="112" height="56" rx="20" fill="#FF9F1C" />
+    <text x="642" y="326" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">花心</text>
+    <text x="730" y="328" font-size="26" font-weight="700" fill="#33415C">dot(45, "yellow")</text>
+    <rect x="564" y="382" width="662" height="94" rx="28" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <rect x="586" y="401" width="112" height="56" rx="20" fill="#65C466" />
+    <text x="642" y="438" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">花茎</text>
+    <text x="730" y="440" font-size="26" font-weight="700" fill="#33415C">方向270° + forward</text>
+    <rect x="564" y="494" width="662" height="94" rx="28" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <rect x="586" y="513" width="112" height="56" rx="20" fill="#2E9BFF" />
+    <text x="642" y="550" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">名牌</text>
+    <text x="730" y="552" font-size="26" font-weight="700" fill="#33415C">screen.title()</text>
+  </g>
+</svg>

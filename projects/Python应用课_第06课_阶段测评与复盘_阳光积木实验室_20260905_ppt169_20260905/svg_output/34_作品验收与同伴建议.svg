@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="54 36 1172 94">
+    <text x="54" y="82" font-size="42" font-weight="700" fill="#33415C">让作品开口说话</text>
+    <text x="54" y="118" font-size="22" fill="#667085">展示 1 分钟 · 反馈 1 句话</text>
+  </g>
+  <g id="sentence-frame" data-pptx-bounds="54 160 690 476">
+    <rect x="54" y="160" width="690" height="476" rx="34" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <rect x="88" y="204" width="622" height="74" rx="24" fill="#2E9BFF" opacity="0.12" />
+    <circle cx="124" cy="241" r="20" fill="#2E9BFF" />
+    <text x="162" y="250" font-size="26" font-weight="700" fill="#33415C">我的作品是……</text>
+    <rect x="88" y="300" width="622" height="74" rx="24" fill="#FF9F1C" opacity="0.12" />
+    <circle cx="124" cy="337" r="20" fill="#FF9F1C" />
+    <text x="162" y="346" font-size="26" font-weight="700" fill="#33415C">我使用了……</text>
+    <rect x="88" y="396" width="622" height="74" rx="24" fill="#FF6FA5" opacity="0.12" />
+    <circle cx="124" cy="433" r="20" fill="#FF6FA5" />
+    <text x="162" y="442" font-size="26" font-weight="700" fill="#33415C">我修改了……</text>
+    <rect x="88" y="492" width="622" height="74" rx="24" fill="#65C466" opacity="0.12" />
+    <circle cx="124" cy="529" r="20" fill="#65C466" />
+    <text x="162" y="538" font-size="26" font-weight="700" fill="#33415C">下一次我想……</text>
+  </g>
+  <g id="peer-check" data-pptx-bounds="788 160 438 476">
+    <rect x="788" y="160" width="438" height="476" rx="34" fill="#2E9BFF" />
+    <text x="828" y="220" font-size="28" font-weight="700" fill="#FFFFFF">同伴反馈看三点</text>
+    <rect x="824" y="264" width="366" height="84" rx="24" fill="#FFFFFF" />
+    <circle cx="864" cy="306" r="20" fill="#65C466" />
+    <text x="864" y="314" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">✓</text>
+    <text x="902" y="296" font-size="22" font-weight="700" fill="#33415C">能运行</text>
+    <text x="902" y="326" font-size="17" fill="#667085">程序顺利打开</text>
+    <rect x="824" y="370" width="366" height="84" rx="24" fill="#FFFFFF" />
+    <circle cx="864" cy="412" r="20" fill="#65C466" />
+    <text x="864" y="420" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">✓</text>
+    <text x="902" y="402" font-size="22" font-weight="700" fill="#33415C">结构完整</text>
+    <text x="902" y="432" font-size="17" fill="#667085">花瓣、花心、花茎</text>
+    <rect x="824" y="476" width="366" height="84" rx="24" fill="#FFFFFF" />
+    <circle cx="864" cy="518" r="20" fill="#65C466" />
+    <text x="864" y="526" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">✓</text>
+    <text x="902" y="508" font-size="22" font-weight="700" fill="#33415C">能解释</text>
+    <text x="902" y="538" font-size="17" fill="#667085">说清自己改了什么</text>
+  </g>
+</svg>

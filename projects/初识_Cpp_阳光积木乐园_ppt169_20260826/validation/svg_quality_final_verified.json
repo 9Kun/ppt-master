@@ -1,0 +1,1514 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "D:\\Data\\Desktop\\PPT - master - test\\sources\\初识 C++\\projects\\初识_Cpp_阳光积木乐园_ppt169_20260826",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "6089f80f6203cd129417c3eb3c8700a52c3882aefc56f1f85b5d2b01e3dfb56c",
+    "file_count": 43,
+    "files": [
+      {
+        "file": "01_初识_Cpp.svg",
+        "sha256": "18607618caea64605271fa7a4f1bc277e6f039cb4d2be013b1e6a2d2ce9c8452"
+      },
+      {
+        "file": "02_今天的三幕课.svg",
+        "sha256": "7f931076e358130752bdf2af28d203087fae991870aa291609b098bbd0b4c0b6"
+      },
+      {
+        "file": "03_新知精学.svg",
+        "sha256": "d319e699f83b90b2f18e8cc315c86d8d1624fd698ced160f3998e2a3629284b1"
+      },
+      {
+        "file": "04_让电脑说_Hello_World.svg",
+        "sha256": "c002dabfd55cd432c90de7d81b002b1e26f1c69827e562de52afbbf613d9d8cd"
+      },
+      {
+        "file": "05_开发环境_Dev_Cpp.svg",
+        "sha256": "375df7470e70e3ea768cc9784887cd6338969ef9c19acbcd80275e17229279e5"
+      },
+      {
+        "file": "06_新建文件.svg",
+        "sha256": "5dd0bacdfd42eba200c98240523a31d22b4d63d8e971479e2d586d335ddfa13d"
+      },
+      {
+        "file": "07_写下完整程序.svg",
+        "sha256": "3127fc9976650dfb85e4af2feff261d620ef1fde90c3f3f3f4d4529fe11f7245"
+      },
+      {
+        "file": "08_保存编译运行.svg",
+        "sha256": "b204ce99c3ca1acc6f3b44664d8418dd59cb36dae7e44a212fb15c64a3940d37"
+      },
+      {
+        "file": "09_第一声_Hello_World.svg",
+        "sha256": "a1be8082a635b7eb400f874b8ff7379becb23fb2b68d57149cd10b685c7dbe0e"
+      },
+      {
+        "file": "10_交互控制台.svg",
+        "sha256": "98b4b3956a7688673fd3aee1ab6badcee0c7ce56367eedba276b2c7b658831c6"
+      },
+      {
+        "file": "11_课堂思考_cout.svg",
+        "sha256": "4ff5d9fef6c34ee9e640d11a2133ec157cf419f62bdd43f0d29671ab8b5275b0"
+      },
+      {
+        "file": "12_五要素积木.svg",
+        "sha256": "5d0e950f476aca011e9a01ca79e7c5efdcfdc70021512ec94e2bddeb8162135a"
+      },
+      {
+        "file": "13_cout_输出文字.svg",
+        "sha256": "90d353e9e48eb1ad3f6b1f8682846ac2e8863e0c79ce9d4a873d5ff90957a5ba"
+      },
+      {
+        "file": "14_cout_易错对比.svg",
+        "sha256": "89fe8d5001031b107b2fb6e94c41552a1a5141627fb9e8e066db0735c6778592"
+      },
+      {
+        "file": "15_图案工坊.svg",
+        "sha256": "1f0f5ee5f00904ae1b1fdc5e13ba057ecb38890eb79e992bd51d866c840bc659"
+      },
+      {
+        "file": "16_交互控制台_复用.svg",
+        "sha256": "50f001f44ede1108d9dc591e5e2f5c42501d952faa8ec2ba5b0432b1ae6ab777"
+      },
+      {
+        "file": "17_短句输出练习.svg",
+        "sha256": "9589182a50dc8f6c5b6310a6c3ab40fa0c953b9b333f8c2d1e439e084afa8548"
+      },
+      {
+        "file": "18_输出百分号.svg",
+        "sha256": "a405112fac9a4876cdb15807d56b77bd355a2b27932f7983f210f56b55713a01"
+      },
+      {
+        "file": "19_语法侦探.svg",
+        "sha256": "ddd16c3556eccca81fdb8f6f90d1740fc9f1c948633fb90e9b3d9ac051a7c125"
+      },
+      {
+        "file": "20_不换行拼接.svg",
+        "sha256": "26b91eecd7edba00971c1383fab672f87f7ac55a3a1ec6d97b6a0fcc5b54f1dc"
+      },
+      {
+        "file": "21_换行的两种方法.svg",
+        "sha256": "31d9d8df9f0ec89de4bcebcdc2d2002898da56e1723d35446fcf537ec1fd3ac0"
+      },
+      {
+        "file": "22_多条_cout.svg",
+        "sha256": "874a867dc0b89debbf1437ee8b7ae6b2c8c4123169f2f6c5fd93d3c933e76a82"
+      },
+      {
+        "file": "23_交互控制台_复用.svg",
+        "sha256": "440f3e5797f44d851588d81d503d1231f7c0265473a02489f87a9ed909ad64ee"
+      },
+      {
+        "file": "24_静夜思练习.svg",
+        "sha256": "94bb5521742967b7beb1b57410f9e451255f289263b9e822971dc25fa23186a0"
+      },
+      {
+        "file": "25_常见错误_上.svg",
+        "sha256": "d3c350a82cc8c8bb70bc3d3717290345f53e3aafef786f2e2795ddc294a62f7e"
+      },
+      {
+        "file": "26_常见错误_下.svg",
+        "sha256": "b9ae88da0552e5d3ee71bcf1e9bf9bbe51f64620cc585c48e15a59387086fc0a"
+      },
+      {
+        "file": "27_双引号里的_3加5.svg",
+        "sha256": "e457c124ba9938ac511f871f3a39f1507feceb444d2da1e2fccbd9b6a763c3f6"
+      },
+      {
+        "file": "28_盒外的_3加5.svg",
+        "sha256": "fc9645868186d3332c8deae2f5c43e65b1646300c0fcc678a6d0cb7dfb4516ae"
+      },
+      {
+        "file": "29_交互控制台_复用.svg",
+        "sha256": "440f3e5797f44d851588d81d503d1231f7c0265473a02489f87a9ed909ad64ee"
+      },
+      {
+        "file": "30_表达式小练习.svg",
+        "sha256": "f1376c4d083b4ed70a05875964a4fa2fc8adb8b9d053061a5b3144a546eaeb31"
+      },
+      {
+        "file": "31_挑战_1234乘5678.svg",
+        "sha256": "9ab657f52456e9078e4b745d992c020ae95ced97b9576f34a95e87ec20730a7d"
+      },
+      {
+        "file": "32_cout_画笔.svg",
+        "sha256": "49d633dcfc389bd43a2d08af9d8bfec1adb753920e58437c8fdf16286ebc38d9"
+      },
+      {
+        "file": "33_交互控制台_复用.svg",
+        "sha256": "440f3e5797f44d851588d81d503d1231f7c0265473a02489f87a9ed909ad64ee"
+      },
+      {
+        "file": "34_五星连珠.svg",
+        "sha256": "8fca15bb1cfc9b109e7a5f034c7a401a69dddc70bba59d4f9bda52273b5e2605"
+      },
+      {
+        "file": "35_智慧树_观察.svg",
+        "sha256": "e72271e6ac6dae30cf3205bcf1a55f8b13da7d0f226c4e9db96a363d1f169bf6"
+      },
+      {
+        "file": "36_智慧树_代码.svg",
+        "sha256": "055db6b639e3778accf47fdefae7258c827d5d926a568c05bdefff12ef23374b"
+      },
+      {
+        "file": "37_知识梳理.svg",
+        "sha256": "6cbb3682982d62d542394f9d25d42e2ffadb54a7601fdc7f2e9245f35f811866"
+      },
+      {
+        "file": "38_程序代码模板.svg",
+        "sha256": "6d99f8819e8e50555c8586e6c693c4e24c191e7915290214ea93bab2d1ddce4e"
+      },
+      {
+        "file": "39_关键词词典_上.svg",
+        "sha256": "aa2d30f8fe370a14dbf7cd572949192201557ab44a572d5d9adaf4d512e57090"
+      },
+      {
+        "file": "40_关键词词典_下.svg",
+        "sha256": "fced1ecbff2aaf7585a83ccafd616dad5a281990b4d514b96a1567b3970e0a8f"
+      },
+      {
+        "file": "41_综合精练.svg",
+        "sha256": "cca868dec922476115146228acb8bbb0e50f76d12682a7bd00e9987ca0b794d3"
+      },
+      {
+        "file": "42_亲子编程题清单.svg",
+        "sha256": "0b5853c918be3c93dcf4e4ad20cb97301809737b79b146d72601eee57c4c1e4c"
+      },
+      {
+        "file": "43_下节课再见.svg",
+        "sha256": "69d51e4d8b6870233da605622fcb838f97d57fc6ed06427a92d4e972db56aad9"
+      }
+    ]
+  },
+  "summary": {
+    "total": 43,
+    "passed": 0,
+    "warnings": 43,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 53,
+      "issues": [
+        {
+          "file": "01_初识_Cpp.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "02_今天的三幕课.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "03_新知精学.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "04_让电脑说_Hello_World.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "05_开发环境_Dev_Cpp.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "06_新建文件.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "07_写下完整程序.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "08_保存编译运行.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "09_第一声_Hello_World.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "10_交互控制台.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "10_交互控制台.svg",
+          "message": "Image ../images/daxian_teacher_mascot_kids-v2.png is 1024x1536 and renders at 0.20x scale in a 230x310 meet frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+        },
+        {
+          "file": "11_课堂思考_cout.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "11_课堂思考_cout.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"answer-explain\"> x=734.0, y=416.0..504.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "12_五要素积木.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "13_cout_输出文字.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "14_cout_易错对比.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "15_图案工坊.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "15_图案工坊.svg",
+          "message": "Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id=\"pattern-menu\"> x=88.0, y=488.0..526.0, 2 lines; <g id=\"pattern-code\"> x=490.0, y=488.0..526.0, 2 lines; <g id=\"pattern-terminal\"> x=930.0, y=488.0..526.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "15_图案工坊.svg",
+          "message": "7 ungrouped top-level Slide-local element(s) in svg_output (<rect> #3, <circle> #4, <circle> #5, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "16_交互控制台_复用.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "16_交互控制台_复用.svg",
+          "message": "Image ../images/daxian_teacher_mascot_kids-v2.png is 1024x1536 and renders at 0.20x scale in a 230x310 meet frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+        },
+        {
+          "file": "17_短句输出练习.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "18_输出百分号.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "19_语法侦探.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "20_不换行拼接.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "20_不换行拼接.svg",
+          "message": "2 ungrouped top-level Slide-local element(s) in svg_output (<rect> #6, <text> #7); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "21_换行的两种方法.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "21_换行的两种方法.svg",
+          "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<text> #6); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "22_多条_cout.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "23_交互控制台_复用.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "23_交互控制台_复用.svg",
+          "message": "Image ../images/daxian_teacher_mascot_kids-v2.png is 1024x1536 and renders at 0.20x scale in a 230x310 meet frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+        },
+        {
+          "file": "24_静夜思练习.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "25_常见错误_上.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "26_常见错误_下.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "27_双引号里的_3加5.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "28_盒外的_3加5.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "29_交互控制台_复用.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "29_交互控制台_复用.svg",
+          "message": "Image ../images/daxian_teacher_mascot_kids-v2.png is 1024x1536 and renders at 0.20x scale in a 230x310 meet frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+        },
+        {
+          "file": "30_表达式小练习.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "31_挑战_1234乘5678.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "32_cout_画笔.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "33_交互控制台_复用.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "33_交互控制台_复用.svg",
+          "message": "Image ../images/daxian_teacher_mascot_kids-v2.png is 1024x1536 and renders at 0.20x scale in a 230x310 meet frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+        },
+        {
+          "file": "34_五星连珠.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "35_智慧树_观察.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "36_智慧树_代码.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "37_知识梳理.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "38_程序代码模板.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "39_关键词词典_上.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "40_关键词词典_下.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "41_综合精练.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "42_亲子编程题清单.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        },
+        {
+          "file": "43_下节课再见.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#E9FBEF": [
+        "07_写下完整程序.svg",
+        "09_第一声_Hello_World.svg",
+        "13_cout_输出文字.svg",
+        "19_语法侦探.svg",
+        "39_关键词词典_上.svg",
+        "40_关键词词典_下.svg"
+      ],
+      "#FFE2ED": [
+        "07_写下完整程序.svg",
+        "08_保存编译运行.svg",
+        "12_五要素积木.svg",
+        "13_cout_输出文字.svg",
+        "14_cout_易错对比.svg",
+        "15_图案工坊.svg",
+        "18_输出百分号.svg",
+        "19_语法侦探.svg",
+        "20_不换行拼接.svg",
+        "30_表达式小练习.svg",
+        "39_关键词词典_上.svg",
+        "40_关键词词典_下.svg"
+      ],
+      "#FFF0D6": [
+        "07_写下完整程序.svg",
+        "08_保存编译运行.svg",
+        "13_cout_输出文字.svg",
+        "15_图案工坊.svg",
+        "20_不换行拼接.svg",
+        "21_换行的两种方法.svg",
+        "26_常见错误_下.svg",
+        "28_盒外的_3加5.svg",
+        "30_表达式小练习.svg",
+        "40_关键词词典_下.svg"
+      ]
+    },
+    "fonts": {
+      "Consolas": [
+        "19_语法侦探.svg",
+        "20_不换行拼接.svg",
+        "21_换行的两种方法.svg",
+        "22_多条_cout.svg",
+        "26_常见错误_下.svg",
+        "27_双引号里的_3加5.svg"
+      ]
+    },
+    "sizes": {
+      "400": [
+        "18_输出百分号.svg"
+      ],
+      "64": [
+        "34_五星连珠.svg"
+      ]
+    }
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_初识_Cpp.svg",
+      "path": "svg_output\\01_初识_Cpp.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "18607618caea64605271fa7a4f1bc277e6f039cb4d2be013b1e6a2d2ce9c8452"
+    },
+    {
+      "file": "02_今天的三幕课.svg",
+      "path": "svg_output\\02_今天的三幕课.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "7f931076e358130752bdf2af28d203087fae991870aa291609b098bbd0b4c0b6"
+    },
+    {
+      "file": "03_新知精学.svg",
+      "path": "svg_output\\03_新知精学.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "d319e699f83b90b2f18e8cc315c86d8d1624fd698ced160f3998e2a3629284b1"
+    },
+    {
+      "file": "04_让电脑说_Hello_World.svg",
+      "path": "svg_output\\04_让电脑说_Hello_World.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "c002dabfd55cd432c90de7d81b002b1e26f1c69827e562de52afbbf613d9d8cd"
+    },
+    {
+      "file": "05_开发环境_Dev_Cpp.svg",
+      "path": "svg_output\\05_开发环境_Dev_Cpp.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "375df7470e70e3ea768cc9784887cd6338969ef9c19acbcd80275e17229279e5"
+    },
+    {
+      "file": "06_新建文件.svg",
+      "path": "svg_output\\06_新建文件.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "5dd0bacdfd42eba200c98240523a31d22b4d63d8e971479e2d586d335ddfa13d"
+    },
+    {
+      "file": "07_写下完整程序.svg",
+      "path": "svg_output\\07_写下完整程序.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFE2ED",
+            "#FFF0D6"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "3127fc9976650dfb85e4af2feff261d620ef1fde90c3f3f3f4d4529fe11f7245"
+    },
+    {
+      "file": "08_保存编译运行.svg",
+      "path": "svg_output\\08_保存编译运行.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFE2ED",
+            "#FFF0D6"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "b204ce99c3ca1acc6f3b44664d8418dd59cb36dae7e44a212fb15c64a3940d37"
+    },
+    {
+      "file": "09_第一声_Hello_World.svg",
+      "path": "svg_output\\09_第一声_Hello_World.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "a1be8082a635b7eb400f874b8ff7379becb23fb2b68d57149cd10b685c7dbe0e"
+    },
+    {
+      "file": "10_交互控制台.svg",
+      "path": "svg_output\\10_交互控制台.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "Image ../images/daxian_teacher_mascot_kids-v2.png is 1024x1536 and renders at 0.20x scale in a 230x310 meet frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "98b4b3956a7688673fd3aee1ab6badcee0c7ce56367eedba276b2c7b658831c6"
+    },
+    {
+      "file": "11_课堂思考_cout.svg",
+      "path": "svg_output\\11_课堂思考_cout.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"answer-explain\"> x=734.0, y=416.0..504.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "4ff5d9fef6c34ee9e640d11a2133ec157cf419f62bdd43f0d29671ab8b5275b0"
+    },
+    {
+      "file": "12_五要素积木.svg",
+      "path": "svg_output\\12_五要素积木.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFE2ED"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "5d0e950f476aca011e9a01ca79e7c5efdcfdc70021512ec94e2bddeb8162135a"
+    },
+    {
+      "file": "13_cout_输出文字.svg",
+      "path": "svg_output\\13_cout_输出文字.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFE2ED",
+            "#FFF0D6"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "90d353e9e48eb1ad3f6b1f8682846ac2e8863e0c79ce9d4a873d5ff90957a5ba"
+    },
+    {
+      "file": "14_cout_易错对比.svg",
+      "path": "svg_output\\14_cout_易错对比.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFE2ED"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "89fe8d5001031b107b2fb6e94c41552a1a5141627fb9e8e066db0735c6778592"
+    },
+    {
+      "file": "15_图案工坊.svg",
+      "path": "svg_output\\15_图案工坊.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id=\"pattern-menu\"> x=88.0, y=488.0..526.0, 2 lines; <g id=\"pattern-code\"> x=490.0, y=488.0..526.0, 2 lines; <g id=\"pattern-terminal\"> x=930.0, y=488.0..526.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate.",
+        "7 ungrouped top-level Slide-local element(s) in svg_output (<rect> #3, <circle> #4, <circle> #5, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFE2ED",
+            "#FFF0D6"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "1f0f5ee5f00904ae1b1fdc5e13ba057ecb38890eb79e992bd51d866c840bc659"
+    },
+    {
+      "file": "16_交互控制台_复用.svg",
+      "path": "svg_output\\16_交互控制台_复用.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "Image ../images/daxian_teacher_mascot_kids-v2.png is 1024x1536 and renders at 0.20x scale in a 230x310 meet frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "50f001f44ede1108d9dc591e5e2f5c42501d952faa8ec2ba5b0432b1ae6ab777"
+    },
+    {
+      "file": "17_短句输出练习.svg",
+      "path": "svg_output\\17_短句输出练习.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "9589182a50dc8f6c5b6310a6c3ab40fa0c953b9b333f8c2d1e439e084afa8548"
+    },
+    {
+      "file": "18_输出百分号.svg",
+      "path": "svg_output\\18_输出百分号.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFE2ED"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "400": 1
+        }
+      },
+      "passed": true,
+      "source_sha256": "a405112fac9a4876cdb15807d56b77bd355a2b27932f7983f210f56b55713a01"
+    },
+    {
+      "file": "19_语法侦探.svg",
+      "path": "svg_output\\19_语法侦探.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFE2ED"
+          ],
+          "font_families": [
+            "Consolas"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "ddd16c3556eccca81fdb8f6f90d1740fc9f1c948633fb90e9b3d9ac051a7c125"
+    },
+    {
+      "file": "20_不换行拼接.svg",
+      "path": "svg_output\\20_不换行拼接.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "2 ungrouped top-level Slide-local element(s) in svg_output (<rect> #6, <text> #7); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFE2ED",
+            "#FFF0D6"
+          ],
+          "font_families": [
+            "Consolas"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "26b91eecd7edba00971c1383fab672f87f7ac55a3a1ec6d97b6a0fcc5b54f1dc"
+    },
+    {
+      "file": "21_换行的两种方法.svg",
+      "path": "svg_output\\21_换行的两种方法.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "1 ungrouped top-level Slide-local element(s) in svg_output (<text> #6); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFF0D6"
+          ],
+          "font_families": [
+            "Consolas"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "31d9d8df9f0ec89de4bcebcdc2d2002898da56e1723d35446fcf537ec1fd3ac0"
+    },
+    {
+      "file": "22_多条_cout.svg",
+      "path": "svg_output\\22_多条_cout.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "font_families": [
+            "Consolas"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "874a867dc0b89debbf1437ee8b7ae6b2c8c4123169f2f6c5fd93d3c933e76a82"
+    },
+    {
+      "file": "23_交互控制台_复用.svg",
+      "path": "svg_output\\23_交互控制台_复用.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "Image ../images/daxian_teacher_mascot_kids-v2.png is 1024x1536 and renders at 0.20x scale in a 230x310 meet frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "440f3e5797f44d851588d81d503d1231f7c0265473a02489f87a9ed909ad64ee"
+    },
+    {
+      "file": "24_静夜思练习.svg",
+      "path": "svg_output\\24_静夜思练习.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "94bb5521742967b7beb1b57410f9e451255f289263b9e822971dc25fa23186a0"
+    },
+    {
+      "file": "25_常见错误_上.svg",
+      "path": "svg_output\\25_常见错误_上.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "d3c350a82cc8c8bb70bc3d3717290345f53e3aafef786f2e2795ddc294a62f7e"
+    },
+    {
+      "file": "26_常见错误_下.svg",
+      "path": "svg_output\\26_常见错误_下.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFF0D6"
+          ],
+          "font_families": [
+            "Consolas"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "b9ae88da0552e5d3ee71bcf1e9bf9bbe51f64620cc585c48e15a59387086fc0a"
+    },
+    {
+      "file": "27_双引号里的_3加5.svg",
+      "path": "svg_output\\27_双引号里的_3加5.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "font_families": [
+            "Consolas"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "e457c124ba9938ac511f871f3a39f1507feceb444d2da1e2fccbd9b6a763c3f6"
+    },
+    {
+      "file": "28_盒外的_3加5.svg",
+      "path": "svg_output\\28_盒外的_3加5.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFF0D6"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "fc9645868186d3332c8deae2f5c43e65b1646300c0fcc678a6d0cb7dfb4516ae"
+    },
+    {
+      "file": "29_交互控制台_复用.svg",
+      "path": "svg_output\\29_交互控制台_复用.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "Image ../images/daxian_teacher_mascot_kids-v2.png is 1024x1536 and renders at 0.20x scale in a 230x310 meet frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "440f3e5797f44d851588d81d503d1231f7c0265473a02489f87a9ed909ad64ee"
+    },
+    {
+      "file": "30_表达式小练习.svg",
+      "path": "svg_output\\30_表达式小练习.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFE2ED",
+            "#FFF0D6"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "f1376c4d083b4ed70a05875964a4fa2fc8adb8b9d053061a5b3144a546eaeb31"
+    },
+    {
+      "file": "31_挑战_1234乘5678.svg",
+      "path": "svg_output\\31_挑战_1234乘5678.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "9ab657f52456e9078e4b745d992c020ae95ced97b9576f34a95e87ec20730a7d"
+    },
+    {
+      "file": "32_cout_画笔.svg",
+      "path": "svg_output\\32_cout_画笔.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "49d633dcfc389bd43a2d08af9d8bfec1adb753920e58437c8fdf16286ebc38d9"
+    },
+    {
+      "file": "33_交互控制台_复用.svg",
+      "path": "svg_output\\33_交互控制台_复用.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
+        "Image ../images/daxian_teacher_mascot_kids-v2.png is 1024x1536 and renders at 0.20x scale in a 230x310 meet frame; the source is 1.4 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "440f3e5797f44d851588d81d503d1231f7c0265473a02489f87a9ed909ad64ee"
+    },
+    {
+      "file": "34_五星连珠.svg",
+      "path": "svg_output\\34_五星连珠.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 0,
+        "sparse_typography_sizes": {
+          "64": 1
+        }
+      },
+      "passed": true,
+      "source_sha256": "8fca15bb1cfc9b109e7a5f034c7a401a69dddc70bba59d4f9bda52273b5e2605"
+    },
+    {
+      "file": "35_智慧树_观察.svg",
+      "path": "svg_output\\35_智慧树_观察.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "e72271e6ac6dae30cf3205bcf1a55f8b13da7d0f226c4e9db96a363d1f169bf6"
+    },
+    {
+      "file": "36_智慧树_代码.svg",
+      "path": "svg_output\\36_智慧树_代码.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "055db6b639e3778accf47fdefae7258c827d5d926a568c05bdefff12ef23374b"
+    },
+    {
+      "file": "37_知识梳理.svg",
+      "path": "svg_output\\37_知识梳理.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "6cbb3682982d62d542394f9d25d42e2ffadb54a7601fdc7f2e9245f35f811866"
+    },
+    {
+      "file": "38_程序代码模板.svg",
+      "path": "svg_output\\38_程序代码模板.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "6d99f8819e8e50555c8586e6c693c4e24c191e7915290214ea93bab2d1ddce4e"
+    },
+    {
+      "file": "39_关键词词典_上.svg",
+      "path": "svg_output\\39_关键词词典_上.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFE2ED"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "aa2d30f8fe370a14dbf7cd572949192201557ab44a572d5d9adaf4d512e57090"
+    },
+    {
+      "file": "40_关键词词典_下.svg",
+      "path": "svg_output\\40_关键词词典_下.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#E9FBEF",
+            "#FFE2ED",
+            "#FFF0D6"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "fced1ecbff2aaf7585a83ccafd616dad5a281990b4d514b96a1567b3970e0a8f"
+    },
+    {
+      "file": "41_综合精练.svg",
+      "path": "svg_output\\41_综合精练.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "cca868dec922476115146228acb8bbb0e50f76d12682a7bd00e9987ca0b794d3"
+    },
+    {
+      "file": "42_亲子编程题清单.svg",
+      "path": "svg_output\\42_亲子编程题清单.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "0b5853c918be3c93dcf4e4ad20cb97301809737b79b146d72601eee57c4c1e4c"
+    },
+    {
+      "file": "43_下节课再见.svg",
+      "path": "svg_output\\43_下节课再见.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "69d51e4d8b6870233da605622fcb838f97d57fc6ed06427a92d4e972db56aad9"
+    }
+  ]
+}

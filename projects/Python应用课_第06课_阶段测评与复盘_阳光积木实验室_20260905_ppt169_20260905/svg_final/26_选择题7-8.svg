@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <g id="header" data-pptx-bounds="54 28 1172 86">
+    <rect x="54" y="34" width="172" height="46" rx="23" fill="#FF9F1C" />
+    <text x="140" y="65" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">选择挑战</text>
+    <text x="254" y="72" font-size="38" font-weight="700" fill="#33415C">调试与综合</text>
+    <text x="1226" y="68" text-anchor="end" font-size="18" fill="#667085">初始中性 · 点击后绿对粉错</text>
+  </g>
+  <g id="question-7" data-pptx-bounds="54 124 1172 246" data-pptx-role="decoration">
+    <rect x="54" y="124" width="1172" height="246" rx="30" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="96" cy="162" r="24" fill="#2E9BFF" />
+    <text x="96" y="170" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">7</text>
+    <text x="132" y="171" font-size="24" font-weight="700" fill="#33415C">哪种修改方式更安全？</text>
+    <rect x="82" y="196" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="98" y="225" font-size="18" fill="#33415C">A. 一次改很多处</text>
+    <rect x="366" y="196" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="382" y="225" font-size="18" fill="#33415C">B. 改一处马上运行</text>
+    <rect x="82" y="252" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="98" y="281" font-size="18" fill="#33415C">C. 只改不运行</text>
+    <rect x="366" y="252" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="382" y="281" font-size="18" fill="#33415C">D. 报错就重写</text>
+    <rect x="676" y="196" width="510" height="100" rx="22" fill="#FFF3D6" />
+    <text x="931" y="236" text-anchor="middle" font-size="18" font-weight="700" fill="#FF9F1C">想好了吗？点击揭晓</text>
+    <text x="931" y="268" text-anchor="middle" font-size="17" fill="#667085">先说理由，再看解析</text>
+  </g>
+  <g id="state-q7" data-pptx-bounds="82 196 1104 100">
+    <rect x="82" y="196" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="98" y="225" font-size="18" font-weight="700" fill="#B83E68">A. 一次改很多处</text>
+    <rect x="366" y="196" width="264" height="44" rx="18" fill="#DDF7E8" />
+    <text x="382" y="225" font-size="18" font-weight="700" fill="#207A45">B. 改一处马上运行</text>
+    <rect x="82" y="252" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="98" y="281" font-size="18" font-weight="700" fill="#B83E68">C. 只改不运行</text>
+    <rect x="366" y="252" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="382" y="281" font-size="18" font-weight="700" fill="#B83E68">D. 报错就重写</text>
+    <rect x="676" y="196" width="510" height="100" rx="22" fill="#E5F4FF" />
+    <text x="696" y="230" font-size="18" font-weight="700" fill="#2072B8">解析</text>
+    <text x="696" y="264" font-size="17" fill="#33415C">一次只改一处并及时运行，最容易定位错误。</text>
+  </g>
+  <g id="reveal-q7-hit" data-pptx-bounds="82 690 2 2">
+    <rect x="676" y="196" width="510" height="100" rx="22" fill="#FFFFFF" fill-opacity="0.001" />
+  </g>
+  <g id="question-8" data-pptx-bounds="54 390 1172 246" data-pptx-role="decoration">
+    <rect x="54" y="390" width="1172" height="246" rx="30" fill="#FFFFFF" stroke="#D9E8F5" stroke-width="2" />
+    <circle cx="96" cy="428" r="24" fill="#2E9BFF" />
+    <text x="96" y="436" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">8</text>
+    <text x="132" y="437" font-size="24" font-weight="700" fill="#33415C">本课最重要的目标是什么？</text>
+    <rect x="82" y="462" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="98" y="491" font-size="18" fill="#33415C">A. 背下所有颜色</text>
+    <rect x="366" y="462" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="382" y="491" font-size="18" fill="#33415C">B. 综合命令完成作品</text>
+    <rect x="82" y="518" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="98" y="547" font-size="18" fill="#33415C">C. 把代码写得最长</text>
+    <rect x="366" y="518" width="264" height="44" rx="18" fill="#F7FAFC" stroke="#D9E8F5" stroke-width="2" />
+    <text x="382" y="547" font-size="18" fill="#33415C">D. 隐藏所有窗口</text>
+    <rect x="676" y="462" width="510" height="100" rx="22" fill="#FFF3D6" />
+    <text x="931" y="502" text-anchor="middle" font-size="18" font-weight="700" fill="#FF9F1C">想好了吗？点击揭晓</text>
+    <text x="931" y="534" text-anchor="middle" font-size="17" fill="#667085">先说理由，再看解析</text>
+  </g>
+  <g id="state-q8" data-pptx-bounds="82 462 1104 100">
+    <rect x="82" y="462" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="98" y="491" font-size="18" font-weight="700" fill="#B83E68">A. 背下所有颜色</text>
+    <rect x="366" y="462" width="264" height="44" rx="18" fill="#DDF7E8" />
+    <text x="382" y="491" font-size="18" font-weight="700" fill="#207A45">B. 综合命令完成作品</text>
+    <rect x="82" y="518" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="98" y="547" font-size="18" font-weight="700" fill="#B83E68">C. 把代码写得最长</text>
+    <rect x="366" y="518" width="264" height="44" rx="18" fill="#FFE3EC" />
+    <text x="382" y="547" font-size="18" font-weight="700" fill="#B83E68">D. 隐藏所有窗口</text>
+    <rect x="676" y="462" width="510" height="100" rx="22" fill="#E5F4FF" />
+    <text x="696" y="496" font-size="18" font-weight="700" fill="#2072B8">解析</text>
+    <text x="696" y="530" font-size="17" fill="#33415C">阶段复盘的重点是把已学命令组合成完整作品。</text>
+  </g>
+  <g id="reveal-q8-hit" data-pptx-bounds="86 690 2 2">
+    <rect x="676" y="462" width="510" height="100" rx="22" fill="#FFFFFF" fill-opacity="0.001" />
+  </g>
+</svg>

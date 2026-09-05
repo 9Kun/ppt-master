@@ -1,0 +1,93 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "first-page",
+  "target": "D:\\Data\\Desktop\\PPT - master - test\\sources\\初识 C++\\projects\\初识_Cpp_阳光积木乐园_ppt169_20260826",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "dbc56eab068a91645fe599d3bcb88bde95255d141bf11efa6ed578a417cf1a3c",
+    "file_count": 1,
+    "files": [
+      {
+        "file": "01_初识_Cpp.svg",
+        "sha256": "af24e28505b72637499e5b3ecd56b79a2ccfdaffbe68f71e864400961443ee29"
+      }
+    ]
+  },
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "warnings": 1,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 1,
+      "issues": [
+        {
+          "file": "01_初识_Cpp.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#FFEABB": [
+        "01_初识_Cpp.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {}
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_初识_Cpp.svg",
+      "path": "D:\\Data\\Desktop\\PPT - master - test\\sources\\初识 C++\\projects\\初识_Cpp_阳光积木乐园_ppt169_20260826\\svg_output\\01_初识_Cpp.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#FFEABB"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "af24e28505b72637499e5b3ecd56b79a2ccfdaffbe68f71e864400961443ee29"
+    }
+  ]
+}

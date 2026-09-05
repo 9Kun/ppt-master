@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="toc" font-family="Microsoft YaHei, Arial, sans-serif">
+  <image id="background" data-pptx-role="background" href="../images/ref08_bg_route_blocks_v1.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+  <g id="route-header" data-pptx-bounds="62 84 760 132">
+    <text x="62" y="152" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="58" font-weight="700" fill="#203044">本课路线</text>
+    <text x="64" y="200" font-size="24" fill="#2E9BFF">一百二十分钟，四关挑战，每一关都要动手验证。</text>
+  </g>
+  <g id="stage-1" data-pptx-bounds="72 296 260 130">
+    <rect x="72" y="296" width="260" height="130" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2" />
+    <circle cx="110" cy="330" r="22" fill="#2E9BFF" /><text x="110" y="337" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="140" y="338" font-size="24" font-weight="700" fill="#203044">十题热身</text>
+    <text x="98" y="378" font-size="17" fill="#5A6B80">十二分钟 · 唤醒旧命令</text>
+    <text x="98" y="404" font-size="17" fill="#5A6B80">先口答，再揭晓</text>
+  </g>
+  <g id="stage-2" data-pptx-bounds="364 322 260 130">
+    <rect x="364" y="322" width="260" height="130" rx="30" fill="#FFFFFF" stroke="#FFD9A6" stroke-width="2" />
+    <circle cx="402" cy="356" r="22" fill="#FF9F1C" /><text x="402" y="363" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="432" y="364" font-size="24" font-weight="700" fill="#203044">新命令实验</text>
+    <text x="390" y="404" font-size="17" fill="#5A6B80">四十三分钟 · 显隐海龟</text>
+    <text x="390" y="430" font-size="17" fill="#5A6B80">设置标题 · 花瓣实验</text>
+  </g>
+  <g id="stage-3" data-pptx-bounds="656 296 260 130">
+    <rect x="656" y="296" width="260" height="130" rx="30" fill="#FFFFFF" stroke="#FFD0E1" stroke-width="2" />
+    <circle cx="694" cy="330" r="22" fill="#FF6FA5" /><text x="694" y="337" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="724" y="338" font-size="24" font-weight="700" fill="#203044">选择挑战</text>
+    <text x="682" y="378" font-size="17" fill="#5A6B80">十分钟 · 八道题</text>
+    <text x="682" y="404" font-size="17" fill="#5A6B80">先想，再点击揭晓</text>
+  </g>
+  <g id="stage-4" data-pptx-bounds="948 322 280 130">
+    <rect x="948" y="322" width="280" height="130" rx="30" fill="#FFFFFF" stroke="#C8F0D4" stroke-width="2" />
+    <circle cx="986" cy="356" r="22" fill="#22C55E" /><text x="986" y="363" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="1016" y="364" font-size="24" font-weight="700" fill="#203044">作品工坊</text>
+    <text x="974" y="404" font-size="17" fill="#5A6B80">四十五分钟 · 运行修改</text>
+    <text x="974" y="430" font-size="17" fill="#5A6B80">完成展示与复盘</text>
+  </g>
+  <g id="route-connectors" data-pptx-role="decoration" data-pptx-bounds="330 340 622 62" fill="none" stroke-width="8" stroke-linecap="round">
+    <path d="M334 350 C350 350 350 378 362 378" stroke="#2E9BFF" />
+    <path d="M626 378 C642 378 642 350 654 350" stroke="#FF9F1C" />
+    <path d="M918 350 C934 350 934 378 946 378" stroke="#FF6FA5" />
+  </g>
+  <g id="goal-flag" data-pptx-bounds="948 486 280 60">
+    <rect x="948" y="486" width="280" height="60" rx="24" fill="#22C55E" />
+    <text x="1088" y="523" text-anchor="middle" font-size="19" font-weight="700" fill="#FFFFFF">今天做到：可署名小红花</text>
+  </g>
+  <g id="parent-tip" data-pptx-bounds="72 520 820 112">
+    <rect x="72" y="520" width="820" height="112" rx="30" fill="#FFFFFF" fill-opacity="0.94" stroke="#FFD9A6" stroke-width="2" />
+    <circle cx="118" cy="566" r="26" fill="#FFF2DC" /><text x="118" y="574" text-anchor="middle" font-size="24" font-weight="700" fill="#FF9F1C">★</text>
+    <text x="164" y="560" font-size="20" font-weight="700" fill="#FF9F1C">课堂提示</text>
+    <text x="164" y="596" font-size="19" fill="#203044">选择挑战后先保存文件，再休息十分钟；每次修改只动一处，马上运行验证。</text>
+  </g>
+</svg>

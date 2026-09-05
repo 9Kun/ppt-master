@@ -1,0 +1,88 @@
+{
+  "roles": {
+    "body": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 30.0,
+      "cjk_chars_per_100px": 3.1,
+      "latin_chars_per_100px": 6.5,
+      "longest_planned_line": {
+        "px": 1423.1,
+        "slide": "P14",
+        "text": "移动 forward/left · 重复 for/range · 位置 got…"
+      }
+    },
+    "title": {
+      "family": "YouYuan, Microsoft YaHei, sans-serif",
+      "size": 46.0,
+      "cjk_chars_per_100px": 2.1,
+      "latin_chars_per_100px": 4.2,
+      "longest_planned_line": {
+        "px": 682.6,
+        "slide": "P36",
+        "text": "今天，我把旧积木拼成了新作品"
+      }
+    },
+    "subtitle": {
+      "family": "YouYuan, Microsoft YaHei, sans-serif",
+      "size": 34.0,
+      "cjk_chars_per_100px": 2.8,
+      "latin_chars_per_100px": 5.7,
+      "longest_planned_line": {
+        "px": 1077.6,
+        "slide": "P09",
+        "text": "pencolor()/color() 管颜色，begin_fill()/end…"
+      }
+    },
+    "annotation": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 20.0,
+      "cjk_chars_per_100px": 4.7,
+      "latin_chars_per_100px": 9.7,
+      "longest_planned_line": null
+    },
+    "answer_emphasis": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 36.0,
+      "cjk_chars_per_100px": 2.6,
+      "latin_chars_per_100px": 5.4,
+      "longest_planned_line": null
+    },
+    "card_heading": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 28.0,
+      "cjk_chars_per_100px": 3.4,
+      "latin_chars_per_100px": 6.9,
+      "longest_planned_line": null
+    },
+    "chapter": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 60.0,
+      "cjk_chars_per_100px": 1.6,
+      "latin_chars_per_100px": 3.2,
+      "longest_planned_line": null
+    },
+    "chapter_number": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 176.0,
+      "cjk_chars_per_100px": 0.5,
+      "latin_chars_per_100px": 1.1,
+      "longest_planned_line": null
+    },
+    "code": {
+      "family": "Consolas, Courier New, monospace",
+      "size": 20.0,
+      "cjk_chars_per_100px": 4.7,
+      "latin_chars_per_100px": 9.7,
+      "longest_planned_line": null
+    },
+    "footer": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 16.0,
+      "cjk_chars_per_100px": 5.9,
+      "latin_chars_per_100px": 12.1,
+      "longest_planned_line": null
+    }
+  },
+  "source": "spec_lock.md",
+  "generated_at": "2026-09-04T19:50:52Z"
+}

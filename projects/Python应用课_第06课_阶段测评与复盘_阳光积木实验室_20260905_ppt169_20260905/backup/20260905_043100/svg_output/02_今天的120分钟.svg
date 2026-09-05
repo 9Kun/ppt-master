@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="toc" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+  <rect width="1280" height="720" fill="#FFFDF5" />
+  <image href="../images/bg_three_act_blocks_v1.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" opacity="0.08" />
+  <g id="header" data-pptx-bounds="54 36 1172 90">
+    <rect x="54" y="42" width="210" height="48" rx="24" fill="#2E9BFF" />
+    <text x="159" y="74" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">120 分钟路线图</text>
+    <text x="292" y="80" font-size="42" font-weight="700" fill="#33415C">今天的 120 分钟</text>
+  </g>
+  <g id="route" data-pptx-bounds="54 154 1172 374">
+    <path d="M154 336 H1118" stroke="#D9E8F5" stroke-width="14" stroke-linecap="round" />
+    <g>
+      <rect x="54" y="176" width="256" height="304" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2" />
+      <circle cx="108" cy="228" r="28" fill="#FF6FA5" />
+      <text x="108" y="238" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">1</text>
+      <text x="86" y="296" font-size="30" font-weight="700" fill="#33415C">知识抢答</text>
+      <text x="86" y="340" font-size="22" fill="#667085">10 题 · 12 分钟</text>
+      <text x="86" y="402" font-size="21" fill="#33415C">唤醒基础命令</text>
+    </g>
+    <g>
+      <rect x="348" y="176" width="256" height="304" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2" />
+      <circle cx="402" cy="228" r="28" fill="#2E9BFF" />
+      <text x="402" y="238" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">2</text>
+      <text x="380" y="296" font-size="30" font-weight="700" fill="#33415C">新知动手</text>
+      <text x="380" y="340" font-size="22" fill="#667085">43 分钟</text>
+      <text x="380" y="402" font-size="21" fill="#33415C">新命令 + 花瓣实验</text>
+    </g>
+    <g>
+      <rect x="642" y="176" width="256" height="304" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2" />
+      <circle cx="696" cy="228" r="28" fill="#FF9F1C" />
+      <text x="696" y="238" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">3</text>
+      <text x="674" y="296" font-size="30" font-weight="700" fill="#33415C">选择挑战</text>
+      <text x="674" y="340" font-size="22" fill="#667085">8 题 · 10 分钟</text>
+      <text x="674" y="402" font-size="21" fill="#33415C">先想，再点击揭晓</text>
+    </g>
+    <g>
+      <rect x="936" y="176" width="290" height="304" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2" />
+      <circle cx="990" cy="228" r="28" fill="#65C466" />
+      <text x="990" y="238" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">4</text>
+      <text x="968" y="296" font-size="30" font-weight="700" fill="#33415C">作品工坊</text>
+      <text x="968" y="340" font-size="22" fill="#667085">45 分钟</text>
+      <text x="968" y="402" font-size="21" fill="#33415C">运行、修改、展示</text>
+    </g>
+  </g>
+  <g id="break-note" data-pptx-bounds="322 548 636 80">
+    <rect x="322" y="548" width="636" height="80" rx="28" fill="#FFF3D6" />
+    <text x="640" y="582" text-anchor="middle" font-size="20" font-weight="700" fill="#FF9F1C">中场休息 · 10 分钟</text>
+    <text x="640" y="614" text-anchor="middle" font-size="22" fill="#33415C">选择挑战后先保存 .py，再休息眼睛</text>
+  </g>
+</svg>

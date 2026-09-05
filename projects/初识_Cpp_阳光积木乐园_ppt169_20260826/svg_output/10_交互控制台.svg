@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFDF5"/>
+  <rect id="console-top-band" data-pptx-role="decoration" x="0" y="0" width="1280" height="18" fill="#2E9BFF"/>
+  <g id="console-header" data-pptx-bounds="48 38 1202 76">
+    <use data-icon="tabler-filled/code-circle" x="48" y="42" width="54" height="54" fill="#2E9BFF"/>
+    <text x="120" y="76" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="36" font-weight="700" fill="#203044">Hello <tspan fill="#2E9BFF">C++ World</tspan></text>
+    <text x="120" y="106" font-size="20" fill="#2E9BFF">选一个任务，让 cout 开始工作！</text>
+    <rect x="820" y="46" width="412" height="54" rx="27" fill="#EAF5FF"/>
+    <text x="1026" y="80" text-anchor="middle" font-size="18" font-weight="700" fill="#203044">① 选任务　→　② 看代码　→　③ 运行　→　④ 看结果</text>
+  </g>
+  <g id="task-panel" data-pptx-bounds="48 126 1184 112"><rect x="48" y="126" width="1184" height="112" rx="30" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2"/></g>
+  <g id="task-example-button" data-pptx-bounds="68 146 352 72">
+    <rect x="68" y="146" width="352" height="72" rx="22" fill="#EAF5FF" stroke="#A8D5FF" stroke-width="2"/>
+    <circle cx="108" cy="182" r="22" fill="#2E9BFF"/><text x="108" y="190" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">▶</text>
+    <text x="150" y="190" font-size="22" font-weight="700" fill="#203044">运行示例代码</text><text x="390" y="190" text-anchor="end" font-size="18" fill="#2E9BFF">Hello!</text>
+  </g>
+  <g id="task-cn-button" data-pptx-bounds="440 146 352 72">
+    <rect x="440" y="146" width="352" height="72" rx="22" fill="#FFF2DC" stroke="#FFD08A" stroke-width="2"/>
+    <circle cx="480" cy="182" r="22" fill="#FF9F1C"/><text x="480" y="190" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">中</text>
+    <text x="522" y="190" font-size="22" font-weight="700" fill="#203044">让电脑说中文</text><text x="760" y="190" text-anchor="end" font-size="18" fill="#FF9F1C">你好!</text>
+  </g>
+  <g id="task-love-button" data-pptx-bounds="812 146 400 72">
+    <rect x="812" y="146" width="400" height="72" rx="22" fill="#FFE2ED" stroke="#FFB7D1" stroke-width="2"/>
+    <circle cx="852" cy="182" r="22" fill="#FF6FA5"/><text x="852" y="191" text-anchor="middle" font-size="28" font-weight="700" fill="#FFFFFF">❤</text>
+    <text x="894" y="190" font-size="22" font-weight="700" fill="#203044">❤ 表白程序</text><text x="1182" y="190" text-anchor="end" font-size="18" fill="#FF6FA5">I ❤ Coding!</text>
+  </g>
+  <g id="task-example-hit" data-pptx-bounds="68 146 352 72"><rect x="68" y="146" width="352" height="72" rx="22" fill="#FFFFFF" fill-opacity="0.001"/></g>
+  <g id="task-cn-hit" data-pptx-bounds="440 146 352 72"><rect x="440" y="146" width="352" height="72" rx="22" fill="#FFFFFF" fill-opacity="0.001"/></g>
+  <g id="task-love-hit" data-pptx-bounds="812 146 400 72"><rect x="812" y="146" width="400" height="72" rx="22" fill="#FFFFFF" fill-opacity="0.001"/></g>
+  <g id="code-editor-shell" data-pptx-bounds="48 258 700 404">
+    <rect x="48" y="258" width="700" height="404" rx="34" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="3"/>
+    <circle cx="82" cy="292" r="8" fill="#FF6FA5"/><circle cx="108" cy="292" r="8" fill="#FF9F1C"/><circle cx="134" cy="292" r="8" fill="#22C55E"/>
+    <text x="174" y="300" font-size="20" font-weight="700" fill="#203044">代码编辑器</text>
+    <rect x="72" y="320" width="652" height="246" rx="22" fill="#F8FBFF"/>
+    <text x="96" y="360" font-family="Consolas, Courier New, monospace" font-size="18" fill="#2E9BFF">#include &lt;iostream&gt;</text>
+    <text x="96" y="400" font-family="Consolas, Courier New, monospace" font-size="18" fill="#FF9F1C">using namespace std;</text>
+    <text x="96" y="440" font-family="Consolas, Courier New, monospace" font-size="18" fill="#203044">int main() {</text>
+    <rect x="86" y="456" width="620" height="54" rx="15" fill="#EAF5FF"/>
+    <text x="96" y="544" font-family="Consolas, Courier New, monospace" font-size="18" fill="#22C55E">return 0;</text>
+    <text x="96" y="580" font-family="Consolas, Courier New, monospace" font-size="18" fill="#203044">}</text>
+    <text x="76" y="640" font-size="18" fill="#2E9BFF">先读代码，再点击按钮观察终端 ✨</text>
+  </g>
+  <g id="code-cn-initial" data-pptx-bounds="102 458 590 50"><text x="112" y="490" font-family="Consolas, Microsoft YaHei, monospace" font-size="21" font-weight="700" fill="#FF6FA5">cout &lt;&lt; "你好，小小程序员！";</text></g>
+  <g id="code-example-state" data-pptx-bounds="102 458 590 50"><text x="112" y="490" font-family="Consolas, Courier New, monospace" font-size="21" font-weight="700" fill="#2E9BFF">cout &lt;&lt; "Hello, World!";</text></g>
+  <g id="code-cn-state" data-pptx-bounds="102 458 590 50"><text x="112" y="490" font-family="Consolas, Microsoft YaHei, monospace" font-size="21" font-weight="700" fill="#FF6FA5">cout &lt;&lt; "你好，小小程序员！";</text></g>
+  <g id="code-love-state" data-pptx-bounds="102 458 590 50"><text x="112" y="490" font-family="Consolas, Microsoft YaHei, monospace" font-size="21" font-weight="700" fill="#FF6FA5">cout &lt;&lt; "I ❤ Coding！";</text></g>
+  <g id="run-cn-initial" data-pptx-bounds="512 586 212 58"><rect x="512" y="586" width="212" height="58" rx="22" fill="#FF9F1C"/><text x="618" y="624" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">▶ 运行程序</text></g>
+  <g id="run-example-button" data-pptx-bounds="512 586 212 58"><rect x="512" y="586" width="212" height="58" rx="22" fill="#2E9BFF"/><text x="618" y="624" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">▶ 运行程序</text></g>
+  <g id="run-cn-button" data-pptx-bounds="512 586 212 58"><rect x="512" y="586" width="212" height="58" rx="22" fill="#FF9F1C"/><text x="618" y="624" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">▶ 运行程序</text></g>
+  <g id="run-love-button" data-pptx-bounds="512 586 212 58"><rect x="512" y="586" width="212" height="58" rx="22" fill="#FF6FA5"/><text x="618" y="624" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">▶ 运行程序</text></g>
+  <g id="terminal-shell" data-pptx-bounds="772 258 460 404">
+    <rect x="772" y="258" width="460" height="404" rx="34" fill="#EAF5FF"/><text x="808" y="302" font-size="24" font-weight="700" fill="#203044">终端输出</text>
+    <rect x="796" y="322" width="412" height="236" rx="26" fill="#17243A"/>
+    <circle cx="826" cy="352" r="7" fill="#FF6FA5"/><circle cx="850" cy="352" r="7" fill="#FF9F1C"/><circle cx="874" cy="352" r="7" fill="#22C55E"/>
+    <text x="900" y="358" font-size="18" font-weight="700" fill="#EAF5FF">终端输出</text><rect x="800" y="578" width="404" height="58" rx="20" fill="#FFFFFF"/>
+  </g>
+  <g id="terminal-guide-initial" data-pptx-bounds="820 586 364 42"><text x="1002" y="614" text-anchor="middle" font-size="19" font-weight="700" fill="#2E9BFF">点击运行，让电脑开口说话!</text></g>
+  <g id="terminal-guide-active" data-pptx-bounds="820 586 364 42"><text x="1002" y="614" text-anchor="middle" font-size="19" font-weight="700" fill="#2E9BFF">点击运行，让电脑开口说话!</text></g>
+  <g id="terminal-running" data-pptx-bounds="820 586 364 42"><text x="1002" y="614" text-anchor="middle" font-size="20" font-weight="700" fill="#FF9F1C">运行中...</text></g>
+  <g id="terminal-done" data-pptx-bounds="820 586 364 42"><text x="1002" y="614" text-anchor="middle" font-size="20" font-weight="700" fill="#22C55E">电脑说话了！！</text></g>
+  <g id="example-char-01" data-pptx-bounds="814 390 28 54"><text x="828" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">H</text></g>
+  <g id="example-char-02" data-pptx-bounds="842 390 28 54"><text x="856" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">e</text></g>
+  <g id="example-char-03" data-pptx-bounds="870 390 28 54"><text x="884" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">l</text></g>
+  <g id="example-char-04" data-pptx-bounds="898 390 28 54"><text x="912" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">l</text></g>
+  <g id="example-char-05" data-pptx-bounds="926 390 28 54"><text x="940" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">o</text></g>
+  <g id="example-char-06" data-pptx-bounds="954 390 28 54"><text x="968" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">,</text></g>
+  <g id="example-char-07" data-pptx-bounds="990 390 28 54"><text x="1004" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">W</text></g>
+  <g id="example-char-08" data-pptx-bounds="1018 390 28 54"><text x="1032" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">o</text></g>
+  <g id="example-char-09" data-pptx-bounds="1046 390 28 54"><text x="1060" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">r</text></g>
+  <g id="example-char-10" data-pptx-bounds="1074 390 28 54"><text x="1088" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">l</text></g>
+  <g id="example-char-11" data-pptx-bounds="1102 390 28 54"><text x="1116" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">d</text></g>
+  <g id="example-char-12" data-pptx-bounds="1130 390 28 54"><text x="1144" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#FFFFFF">!</text></g>
+  <g id="cn-char-01" data-pptx-bounds="822 390 40 54"><text x="842" y="428" text-anchor="middle" font-size="32" font-weight="700" fill="#FFFFFF">你</text></g>
+  <g id="cn-char-02" data-pptx-bounds="858 390 40 54"><text x="878" y="428" text-anchor="middle" font-size="32" font-weight="700" fill="#FFFFFF">好</text></g>
+  <g id="cn-char-03" data-pptx-bounds="894 390 40 54"><text x="914" y="428" text-anchor="middle" font-size="32" font-weight="700" fill="#FFFFFF">，</text></g>
+  <g id="cn-char-04" data-pptx-bounds="930 390 40 54"><text x="950" y="428" text-anchor="middle" font-size="32" font-weight="700" fill="#FFFFFF">小</text></g>
+  <g id="cn-char-05" data-pptx-bounds="966 390 40 54"><text x="986" y="428" text-anchor="middle" font-size="32" font-weight="700" fill="#FFFFFF">小</text></g>
+  <g id="cn-char-06" data-pptx-bounds="1002 390 40 54"><text x="1022" y="428" text-anchor="middle" font-size="32" font-weight="700" fill="#FFFFFF">程</text></g>
+  <g id="cn-char-07" data-pptx-bounds="1038 390 40 54"><text x="1058" y="428" text-anchor="middle" font-size="32" font-weight="700" fill="#FFFFFF">序</text></g>
+  <g id="cn-char-08" data-pptx-bounds="1074 390 40 54"><text x="1094" y="428" text-anchor="middle" font-size="32" font-weight="700" fill="#FFFFFF">员</text></g>
+  <g id="cn-char-09" data-pptx-bounds="1110 390 40 54"><text x="1130" y="428" text-anchor="middle" font-size="32" font-weight="700" fill="#FFFFFF">！</text></g>
+  <g id="love-char-01" data-pptx-bounds="828 390 34 54"><text x="845" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="31" font-weight="700" fill="#FFFFFF">I</text></g>
+  <g id="love-char-02" data-pptx-bounds="876 390 42 54"><text x="897" y="428" text-anchor="middle" font-size="32" font-weight="700" fill="#FF6FA5">❤</text></g>
+  <g id="love-char-03" data-pptx-bounds="934 390 34 54"><text x="951" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="31" font-weight="700" fill="#FFFFFF">C</text></g>
+  <g id="love-char-04" data-pptx-bounds="968 390 34 54"><text x="985" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="31" font-weight="700" fill="#FFFFFF">o</text></g>
+  <g id="love-char-05" data-pptx-bounds="1002 390 34 54"><text x="1019" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="31" font-weight="700" fill="#FFFFFF">d</text></g>
+  <g id="love-char-06" data-pptx-bounds="1036 390 34 54"><text x="1053" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="31" font-weight="700" fill="#FFFFFF">i</text></g>
+  <g id="love-char-07" data-pptx-bounds="1070 390 34 54"><text x="1087" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="31" font-weight="700" fill="#FFFFFF">n</text></g>
+  <g id="love-char-08" data-pptx-bounds="1104 390 34 54"><text x="1121" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="31" font-weight="700" fill="#FFFFFF">g</text></g>
+  <g id="love-char-09" data-pptx-bounds="1142 390 34 54"><text x="1159" y="428" text-anchor="middle" font-size="31" font-weight="700" fill="#FFFFFF">！</text></g>
+</svg>

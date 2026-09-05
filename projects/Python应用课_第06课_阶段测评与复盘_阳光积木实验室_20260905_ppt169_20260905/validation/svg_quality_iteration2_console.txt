@@ -1,0 +1,377 @@
+
+[SCAN] Checking 36 SVG file(s)...
+
+[WARN] 01_阶段测评与复盘.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
+
+[WARN] 02_今天的120分钟.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
+   [WARN] Detected 4 paragraph-like line run(s) split across sibling <text> elements (<g id="stage-1"> x=98.0, y=378.0..404.0, 2 lines; <g id="stage-2"> x=390.0, y=404.0..430.0, 2 lines; <g id="stage-3"> x=682.0, y=378.0..404.0, 2 lines; +1 more). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+
+[WARN] 03_今天要带走什么.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
+
+[WARN] 04_十题热身赛.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
+
+[WARN] 05_抢答规则.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
+
+[ERROR] 06_热身1-2_起步命令.svg - Failed
+   viewBox: 0 0 1280 720
+   [ERROR] <g id="answer-q1"> data-pptx-bounds overlaps <g id="reveal-q1-hit"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="answer-q2"> data-pptx-bounds overlaps <g id="reveal-q2-hit"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+
+[ERROR] 07_热身3-4_重复动作.svg - Failed
+   viewBox: 0 0 1280 720
+   [ERROR] <g id="answer-q1"> data-pptx-bounds overlaps <g id="reveal-q1-hit"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="answer-q2"> data-pptx-bounds overlaps <g id="reveal-q2-hit"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+
+[ERROR] 08_热身5-6_位置导航.svg - Failed
+   viewBox: 0 0 1280 720
+   [ERROR] <g id="answer-q1"> data-pptx-bounds overlaps <g id="reveal-q1-hit"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="answer-q2"> data-pptx-bounds overlaps <g id="reveal-q2-hit"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+
+[ERROR] 09_热身7-8_颜色填充.svg - Failed
+   viewBox: 0 0 1280 720
+   [ERROR] <g id="answer-q1"> data-pptx-bounds overlaps <g id="reveal-q1-hit"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="answer-q2"> data-pptx-bounds overlaps <g id="reveal-q2-hit"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+
+[ERROR] 10_热身9-10_背景与圆.svg - Failed
+   viewBox: 0 0 1280 720
+   [ERROR] <g id="answer-q1"> data-pptx-bounds overlaps <g id="reveal-q1-hit"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="answer-q2"> data-pptx-bounds overlaps <g id="reveal-q2-hit"> data-pptx-bounds by 484.0px x 112.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+
+[WARN] 11_项目启动_送你一朵小红花.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id="question-card"> x=94.0, y=478.0..558.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+
+[WARN] 12_成功标准先看清.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
+   [WARN] Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id="check-explain"> x=894.0, y=316.0..360.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+
+[OK] 13_新命令小实验.svg - Passed
+   viewBox: 0 0 1280 720
+
+[OK] 14_四盒命令工具箱.svg - Passed
+   viewBox: 0 0 1280 720
+
+[OK] 15_显示与隐藏海龟.svg - Passed
+   viewBox: 0 0 1280 720
+
+[ERROR] 16_海龟显隐实验站.svg - Failed
+   viewBox: 0 0 1280 720
+   [ERROR] <g id="task-show-button"> data-pptx-bounds overlaps <g id="task-show-hit"> data-pptx-bounds by 540.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="task-hide-button"> data-pptx-bounds overlaps <g id="task-hide-hit"> data-pptx-bounds by 572.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="code-show-initial"> data-pptx-bounds overlaps <g id="code-show-state"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="code-show-initial"> data-pptx-bounds overlaps <g id="code-hide-state"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="code-show-state"> data-pptx-bounds overlaps <g id="code-hide-state"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-show-button"> data-pptx-bounds overlaps <g id="run-hide-button"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-show-button"> data-pptx-bounds overlaps <g id="run-show-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-show-button"> data-pptx-bounds overlaps <g id="run-hide-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-hide-button"> data-pptx-bounds overlaps <g id="run-show-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-hide-button"> data-pptx-bounds overlaps <g id="run-hide-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-show-hit"> data-pptx-bounds overlaps <g id="run-hide-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="terminal-guide"> data-pptx-bounds overlaps <g id="terminal-running"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="terminal-guide"> data-pptx-bounds overlaps <g id="terminal-done"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="terminal-running"> data-pptx-bounds overlaps <g id="terminal-done"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="show-char-01"> data-pptx-bounds overlaps <g id="hide-char-01"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="show-char-02"> data-pptx-bounds overlaps <g id="hide-char-02"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="show-char-03"> data-pptx-bounds overlaps <g id="hide-char-03"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="show-char-04"> data-pptx-bounds overlaps <g id="hide-char-04"> data-pptx-bounds by 48.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
+
+[OK] 17_给窗口起名字.svg - Passed
+   viewBox: 0 0 1280 720
+
+[ERROR] 18_窗口标题实验站.svg - Failed
+   viewBox: 0 0 1280 720
+   [ERROR] <g id="task-a-button"> data-pptx-bounds overlaps <g id="task-a-hit"> data-pptx-bounds by 352.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="task-b-button"> data-pptx-bounds overlaps <g id="task-b-hit"> data-pptx-bounds by 352.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="task-c-button"> data-pptx-bounds overlaps <g id="task-c-hit"> data-pptx-bounds by 400.0px x 64.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="code-a-initial"> data-pptx-bounds overlaps <g id="code-a-state"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="code-a-initial"> data-pptx-bounds overlaps <g id="code-b-state"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="code-a-initial"> data-pptx-bounds overlaps <g id="code-c-state"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="code-a-state"> data-pptx-bounds overlaps <g id="code-b-state"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="code-a-state"> data-pptx-bounds overlaps <g id="code-c-state"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="code-b-state"> data-pptx-bounds overlaps <g id="code-c-state"> data-pptx-bounds by 590.0px x 48.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-a-button"> data-pptx-bounds overlaps <g id="run-b-button"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-a-button"> data-pptx-bounds overlaps <g id="run-c-button"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-a-button"> data-pptx-bounds overlaps <g id="run-a-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-a-button"> data-pptx-bounds overlaps <g id="run-b-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-a-button"> data-pptx-bounds overlaps <g id="run-c-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-b-button"> data-pptx-bounds overlaps <g id="run-c-button"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-b-button"> data-pptx-bounds overlaps <g id="run-a-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-b-button"> data-pptx-bounds overlaps <g id="run-b-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-b-button"> data-pptx-bounds overlaps <g id="run-c-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-c-button"> data-pptx-bounds overlaps <g id="run-a-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-c-button"> data-pptx-bounds overlaps <g id="run-b-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-c-button"> data-pptx-bounds overlaps <g id="run-c-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-a-hit"> data-pptx-bounds overlaps <g id="run-b-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-a-hit"> data-pptx-bounds overlaps <g id="run-c-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="run-b-hit"> data-pptx-bounds overlaps <g id="run-c-hit"> data-pptx-bounds by 220.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="terminal-guide"> data-pptx-bounds overlaps <g id="terminal-running"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="terminal-guide"> data-pptx-bounds overlaps <g id="terminal-done"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="terminal-running"> data-pptx-bounds overlaps <g id="terminal-done"> data-pptx-bounds by 364.0px x 40.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-01"> data-pptx-bounds overlaps <g id="out-b-01"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-01"> data-pptx-bounds overlaps <g id="out-b-02"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-01"> data-pptx-bounds overlaps <g id="out-c-01"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-02"> data-pptx-bounds overlaps <g id="out-b-02"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-02"> data-pptx-bounds overlaps <g id="out-b-03"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-02"> data-pptx-bounds overlaps <g id="out-c-02"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-03"> data-pptx-bounds overlaps <g id="out-b-03"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-03"> data-pptx-bounds overlaps <g id="out-b-04"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-03"> data-pptx-bounds overlaps <g id="out-c-03"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-04"> data-pptx-bounds overlaps <g id="out-b-04"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-04"> data-pptx-bounds overlaps <g id="out-b-05"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-04"> data-pptx-bounds overlaps <g id="out-c-04"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-05"> data-pptx-bounds overlaps <g id="out-b-05"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-05"> data-pptx-bounds overlaps <g id="out-b-06"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-a-05"> data-pptx-bounds overlaps <g id="out-c-05"> data-pptx-bounds by 46.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-b-01"> data-pptx-bounds overlaps <g id="out-c-01"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-b-02"> data-pptx-bounds overlaps <g id="out-c-01"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-b-02"> data-pptx-bounds overlaps <g id="out-c-02"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-b-03"> data-pptx-bounds overlaps <g id="out-c-02"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-b-03"> data-pptx-bounds overlaps <g id="out-c-03"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-b-04"> data-pptx-bounds overlaps <g id="out-c-03"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-b-04"> data-pptx-bounds overlaps <g id="out-c-04"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-b-05"> data-pptx-bounds overlaps <g id="out-c-04"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-b-05"> data-pptx-bounds overlaps <g id="out-c-05"> data-pptx-bounds by 24.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-b-06"> data-pptx-bounds overlaps <g id="out-c-05"> data-pptx-bounds by 22.0px x 52.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
+
+[OK] 19_安全修改四步法.svg - Passed
+   viewBox: 0 0 1280 720
+
+[WARN] 20_练习A_六片花瓣.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id="logic"> x=680.0, y=252.0..340.0, 3 lines; <g id="logic"> x=672.0, y=524.0..560.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+
+[ERROR] 21_花瓣颜色实验站.svg - Failed
+   viewBox: 0 0 1280 720
+   [ERROR] <g id="p12-run-red-hit"> data-pptx-bounds overlaps <g id="p12-run-orange-hit"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-run-red-hit"> data-pptx-bounds overlaps <g id="p12-run-purple-hit"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-run-orange-hit"> data-pptx-bounds overlaps <g id="p12-run-purple-hit"> data-pptx-bounds by 606.0px x 58.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="status-guide"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="status-running"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="status-done-new"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="out-red-line-1"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="out-red-line-2"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="out-red-line-3"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="out-orange-line-1"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="out-orange-line-2"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="out-orange-line-3"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="out-purple-line-1"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="out-purple-line-2"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="out-purple-line-3"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="preview-red"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="preview-orange"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p12-console-cover"> data-pptx-bounds overlaps <g id="preview-purple"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="code-orange-state"> data-pptx-bounds overlaps <g id="code-purple-state"> data-pptx-bounds by 610.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="status-guide"> data-pptx-bounds overlaps <g id="status-running"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="status-guide"> data-pptx-bounds overlaps <g id="status-done-new"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="status-running"> data-pptx-bounds overlaps <g id="status-done-new"> data-pptx-bounds by 334.0px x 34.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-red-line-1"> data-pptx-bounds overlaps <g id="out-orange-line-1"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-red-line-1"> data-pptx-bounds overlaps <g id="out-purple-line-1"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-red-line-2"> data-pptx-bounds overlaps <g id="out-orange-line-2"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-red-line-2"> data-pptx-bounds overlaps <g id="out-purple-line-2"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-red-line-3"> data-pptx-bounds overlaps <g id="out-orange-line-3"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-red-line-3"> data-pptx-bounds overlaps <g id="out-purple-line-3"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-orange-line-1"> data-pptx-bounds overlaps <g id="out-purple-line-1"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-orange-line-2"> data-pptx-bounds overlaps <g id="out-purple-line-2"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="out-orange-line-3"> data-pptx-bounds overlaps <g id="out-purple-line-3"> data-pptx-bounds by 380.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="preview-red"> data-pptx-bounds overlaps <g id="preview-orange"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="preview-red"> data-pptx-bounds overlaps <g id="preview-purple"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="preview-orange"> data-pptx-bounds overlaps <g id="preview-purple"> data-pptx-bounds by 254.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+
+[OK] 22_八题选择挑战.svg - Passed
+   viewBox: 0 0 1280 720
+
+[OK] 23_选择题1-2.svg - Passed
+   viewBox: 0 0 1280 720
+
+[OK] 24_选择题3-4.svg - Passed
+   viewBox: 0 0 1280 720
+
+[OK] 25_选择题5-6.svg - Passed
+   viewBox: 0 0 1280 720
+
+[OK] 26_选择题7-8.svg - Passed
+   viewBox: 0 0 1280 720
+
+[OK] 27_课间保存站.svg - Passed
+   viewBox: 0 0 1280 720
+
+[OK] 28_练习B_花心和花茎.svg - Passed
+   viewBox: 0 0 1280 720
+
+[ERROR] 29_花茎长度实验站.svg - Failed
+   viewBox: 0 0 1280 720
+   [ERROR] <g id="p21-run-normal-hit"> data-pptx-bounds overlaps <g id="p21-run-short-hit"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-run-normal-hit"> data-pptx-bounds overlaps <g id="p21-run-long-hit"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-run-short-hit"> data-pptx-bounds overlaps <g id="p21-run-long-hit"> data-pptx-bounds by 584.0px x 60.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-status-guide"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-status-running"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-status-done"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-line-1"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-line-short"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-line-normal"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-line-long"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-line-3"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-preview-short"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-preview-normal"> data-pptx-bounds by 190.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p21-console-cover"> data-pptx-bounds overlaps <g id="stem-preview-long"> data-pptx-bounds by 190.0px x 210.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="forward-short-state"> data-pptx-bounds overlaps <g id="forward-long-state"> data-pptx-bounds by 390.0px x 44.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="stem-status-guide"> data-pptx-bounds overlaps <g id="stem-status-running"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="stem-status-guide"> data-pptx-bounds overlaps <g id="stem-status-done"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="stem-status-running"> data-pptx-bounds overlaps <g id="stem-status-done"> data-pptx-bounds by 330.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="stem-line-short"> data-pptx-bounds overlaps <g id="stem-line-normal"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="stem-line-short"> data-pptx-bounds overlaps <g id="stem-line-long"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="stem-line-normal"> data-pptx-bounds overlaps <g id="stem-line-long"> data-pptx-bounds by 400.0px x 30.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="stem-line-3"> data-pptx-bounds overlaps <g id="stem-preview-long"> data-pptx-bounds by 190.0px x 12.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="stem-preview-short"> data-pptx-bounds overlaps <g id="stem-preview-normal"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="stem-preview-short"> data-pptx-bounds overlaps <g id="stem-preview-long"> data-pptx-bounds by 190.0px x 160.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="stem-preview-normal"> data-pptx-bounds overlaps <g id="stem-preview-long"> data-pptx-bounds by 190.0px x 180.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+
+[OK] 30_微项目装配站.svg - Passed
+   viewBox: 0 0 1280 720
+
+[WARN] 31_完整作品代码地图.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id="checklist"> x=878.0, y=490.0..530.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+
+[ERROR] 32_小红花作品实验站.svg - Failed
+   viewBox: 0 0 1280 720
+   [ERROR] <g id="p23-run-base-hit"> data-pptx-bounds overlaps <g id="p23-run-sun-hit"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-run-base-hit"> data-pptx-bounds overlaps <g id="p23-run-violet-hit"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-run-sun-hit"> data-pptx-bounds overlaps <g id="p23-run-violet-hit"> data-pptx-bounds by 644.0px x 56.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-status-guide"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-status-running"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-status-done"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-line-1"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-line-2"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-line-3"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-line-4"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-line-5"> data-pptx-bounds by 380.0px x 26.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-preview-base"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-preview-sun"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="p23-console-cover"> data-pptx-bounds overlaps <g id="full-preview-violet"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="full-code-sun-state"> data-pptx-bounds overlaps <g id="full-code-violet-state"> data-pptx-bounds by 650.0px x 82.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="full-status-guide"> data-pptx-bounds overlaps <g id="full-status-running"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="full-status-guide"> data-pptx-bounds overlaps <g id="full-status-done"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="full-status-running"> data-pptx-bounds overlaps <g id="full-status-done"> data-pptx-bounds by 360.0px x 28.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="full-preview-base"> data-pptx-bounds overlaps <g id="full-preview-sun"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="full-preview-base"> data-pptx-bounds overlaps <g id="full-preview-violet"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+   [ERROR] <g id="full-preview-sun"> data-pptx-bounds overlaps <g id="full-preview-violet"> data-pptx-bounds by 220.0px x 190.0px; keep ordinary direct-root module zones disjoint beyond the 1px tolerance
+
+[WARN] 33_五步完成桌面画展.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
+
+[OK] 34_作品验收与同伴建议.svg - Passed
+   viewBox: 0 0 1280 720
+
+[WARN] 35_三个常见问题.svg - Passed (with warnings)
+   viewBox: 0 0 1280 720
+   [WARN] Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif
+   [WARN] <text> (x=54, y=116; text='不要删掉全部重来') exceeds <g id="header"> data-pptx-bounds on the vertical axis: content (54.0, 99.0)-(223.6, 123.0), container (54.0, 36.0)-(1174.0, 120.0), overflow horizontal 0.0%, vertical 3.6%; expand the root module bounds into available non-overlapping space; otherwise reflow the text
+
+[OK] 36_离堂小结.svg - Passed
+   viewBox: 0 0 1280 720
+
+================================================================================
+[SUMMARY] Check Summary
+================================================================================
+
+Total files: 36
+  [OK] Fully passed: 15 (41%)
+  [WARN] With warnings: 11 (30%)
+  [ERROR] With errors: 12 (33%)
+
+Provenance categories:
+  blocking: 162        hard findings; gate also requires exit 0
+  introduced: 16       advisory; new or changed
+  inherited: 0         informational; prototype-identical
+  source-import: 0     informational; source-conversion loss
+
+[CARRIERS] Actual-use receipt (informational; not a quota)
+  Pages: 36 | text: 694 | images: 4 | icons: 13
+  Geometry: SVG elements 697 | native presets 0 | page-frame elements 211 | marker uses 0
+  Effects: inline emphasis 0 (pages 0) | gradients 0 (pages 0) | filters 0 (pages 0) | text effects 0 (pages 0)
+  Native objects: charts 0 | tables 0 | formulas 0
+  Presets: (none)
+  Largest image-frame share on image pages: 14.9%–100.0%
+
+Issue categories:
+  Other: 160
+  illustration_planned_image_invalid_status_error: 2
+
+Contextual values beyond spec_lock anchors (informational):
+  Colors:
+    #33415C  (21 files)
+    #D9E8F5  (21 files)
+    #667085  (17 files)
+    #65C466  (13 files)
+    #FFF2DC  (13 files)
+    #E9FBEF  (10 files)
+    #FFF3D6  (9 files)
+    #2072B8  (8 files)
+    #207A45  (8 files)
+    #B83E68  (8 files)
+    #FFE2ED  (8 files)
+    #FFD36A  (7 files)
+    #DDF7E8  (6 files)
+    #E5F4FF  (6 files)
+    #F7FAFC  (6 files)
+    #FFE3EC  (6 files)
+    #EEF6FF  (5 files)
+    #2B3A55  (4 files)
+    #FFB2CA  (4 files)
+    #5A6B80  (3 files)
+    #9B7BFF  (3 files)
+    #A9E7B8  (3 files)
+    #F8FBFF  (3 files)
+    #FFD0E1  (3 files)
+    #FFD9A6  (3 files)
+    #B89AFF  (2 files)
+    #B96800  (2 files)
+    #C8F0D4  (2 files)
+    #D9C8FF  (2 files)
+    #FF9DBC  (2 files)
+    #FFB347  (2 files)
+    #9ED0FF  (1 file)
+    #A8D5FF  (1 file)
+    #AFC7DC  (1 file)
+    #DDF1FF  (1 file)
+    #FF8FB5  (1 file)
+    #FFB7D1  (1 file)
+  Font families:
+    Microsoft YaHei, Segoe UI, sans-serif  (21 files)
+    Consolas, monospace  (11 files)
+    Consolas, Microsoft YaHei, monospace  (1 file)
+Note: contextual page paint, gradient/effect colors, and export-safe typefaces are allowed.
+      Add a spec_lock row only when a value becomes a recurring named semantic role.
+
+Typography sizes outside every declared role anchor ±2px (up to 2 occurrences are sparse; the 3rd is recurring):
+  118  (1 occurrences in 1 file; sparse)
+  82  (1 occurrences in 1 file; sparse)
+
+[IMAGES] Image resource checks
+  Errors (2):
+    [planned_image_invalid_status] mascot_turtle_new_commands_v2.png has invalid Status 'Ready'.
+    [planned_image_invalid_status] mascot_turtle_flower_workshop_v2.png has invalid Status 'Ready'.
+
+[TIP] Common fixes:
+  1. XML well-formedness: write typography as raw Unicode (—, ©, →, NBSP); escape XML reserved chars as &amp; &lt; &gt; &quot; &apos; — never use HTML named entities like &nbsp; &mdash; &copy;
+  2. viewBox issues: root viewBox is the canvas authority (see references/canvas-formats.md)
+  3. Paint recommendation: generated SVG prefers uppercase #RRGGBB plus channel-specific opacity; compatible alternatives remain non-blocking
+  4. foreignObject: Use <text> + <tspan> for manual line breaks
+  5. Font issues: use PPT-safe exported typefaces (e.g. Microsoft YaHei / Arial / Consolas)
+
+[REPORT] JSON quality report exported: D:\Data\Desktop\python应用课 15课 教学大纲+PPT\projects\Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905\validation\svg_quality_report.json
