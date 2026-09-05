@@ -98,10 +98,15 @@ if '| Chapter number | 180 |' not in design:
     design = design.replace(needle2, needle2 + '| Chapter number | 180 |\n| Section title | 56 |\n| Counter display | 70 |\n')
 design_path.write_text(design, encoding='utf-8')
 
-# 5) Final semantic/interaction repair pass. This is intentionally last: it owns the
-#    final authored state for reveal z-order, quiz answer coloring, P10-style consoles,
-#    P26/P27 readability, output sequencing, and content/interaction invariants.
+# 5) Final semantic/interaction repair pass. This owns the final teaching semantics,
+#    reveal z-order, quiz coloring, P10 console state machine and code readability.
 from agent_lesson12_repair import main as repair_lesson12
 repair_lesson12()
 
-print('postprocess + semantic repair complete')
+# 6) Normalize the current SVG quality contract after semantic rebuilding. Interaction
+#    overlays keep explicit bounds and use the structural overlap exemption that remains
+#    animatable through explicit animations.json sidecar rows.
+from agent_lesson12_contract_fix import main as fix_lesson12_contract
+fix_lesson12_contract()
+
+print('postprocess + semantic repair + root contract fix complete')
