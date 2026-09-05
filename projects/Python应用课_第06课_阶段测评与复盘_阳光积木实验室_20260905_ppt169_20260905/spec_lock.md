@@ -65,6 +65,8 @@
 ## images
 - teacher-mascot: images/ref08_daxian_teacher_mascot_halfbody_v1.png | source=user | crop=no-crop
 - route-background: images/ref08_bg_route_blocks_v1.png | source=user | crop=adaptive
+- p13-new-command-mascot: images/mascot_turtle_new_commands_v2.png | source=ai | crop=no-crop
+- p30-flower-workshop-mascot: images/mascot_turtle_flower_workshop_v2.png | source=ai | crop=no-crop
 
 ## page_rhythm
 - P01: anchor
