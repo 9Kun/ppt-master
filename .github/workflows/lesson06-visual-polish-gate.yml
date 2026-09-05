@@ -39,16 +39,23 @@ jobs:
           spec = project / "design_spec.md"
           text = spec.read_text(encoding="utf-8")
           rows = [
-              '| mascot_turtle_new_commands_v2.png | 1122 × 1402 | 0.80 | P13 新命令实验右侧海龟实验员 | transparent character cutout | 右侧圆形舞台内完整显示 | no-crop | ai | Existing | 项目内既有 AI 生成透明角色图 | none | content |',
-              '| mascot_turtle_flower_workshop_v2.png | 1122 × 1402 | 0.80 | P30 微项目装配右侧海龟工匠 | transparent character cutout | 右侧圆形舞台内完整显示 | no-crop | ai | Existing | 项目内既有 AI 生成透明角色图 | none | content |',
+              '| mascot_turtle_new_commands_v2.png | 1122 × 1402 | 0.80 | P13 新命令实验右侧海龟实验员 | transparent character cutout | 右侧圆形舞台内完整显示 | no-crop | ai | generated | 项目内既有 AI 生成透明角色图 | none | content |',
+              '| mascot_turtle_flower_workshop_v2.png | 1122 × 1402 | 0.80 | P30 微项目装配右侧海龟工匠 | transparent character cutout | 右侧圆形舞台内完整显示 | no-crop | ai | generated | 项目内既有 AI 生成透明角色图 | none | content |',
           ]
-          if all(row.split('|')[1].strip() in text for row in rows):
-              print('AI turtle asset rows already registered')
+          names = [row.split('|')[1].strip() for row in rows]
+          if all(name in text for name in names):
+              for name, row in zip(names, rows):
+                  lines = text.splitlines()
+                  text = '\n'.join(row if f'| {name} |' in line else line for line in lines)
+              if not text.endswith('\n'):
+                  text += '\n'
+              spec.write_text(text, encoding='utf-8')
+              print('Normalized AI turtle asset rows in Design Spec §VIII')
           else:
               anchor = '| ref08_bg_route_blocks_v1.png | 1672 × 941 | 1.78 | 本课路线的柔和积木背景 | full-page background | 全幅铺底，四关卡沿中轴排列 | adaptive | user | Existing | 从用户指定第08课项目只读复制，不复用原课程文字 | none | full_page |'
               if anchor not in text:
                   raise SystemExit('Design Spec image table anchor not found')
-              insertion = anchor + '\n' + '\n'.join(row for row in rows if row.split('|')[1].strip() not in text)
+              insertion = anchor + '\n' + '\n'.join(row for name, row in zip(names, rows) if name not in text)
               text = text.replace(anchor, insertion, 1)
               spec.write_text(text, encoding='utf-8')
               print('Registered AI turtle asset rows in Design Spec §VIII')
