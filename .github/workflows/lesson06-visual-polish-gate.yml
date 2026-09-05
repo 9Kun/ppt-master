@@ -1,0 +1,80 @@
+name: Lesson06 visual polish gate
+
+on:
+  push:
+    branches:
+      - fix/lesson06-interaction-visual-polish
+
+permissions:
+  contents: write
+
+jobs:
+  validate-render-export:
+    runs-on: ubuntu-latest
+    env:
+      PROJECT: projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Attribution guard first
+        run: python3 skills/ppt-master/scripts/attribution_guard.py
+
+      - name: Install PPT Master dependencies
+        run: |
+          python3 -m pip install -r skills/ppt-master/requirements.txt
+          python3 -m playwright install chromium
+
+      - name: Official SVG quality gate before visual review
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT"
+
+      - name: Start live preview server
+        shell: bash
+        run: |
+          python3 skills/ppt-master/scripts/svg_editor/server.py "$PROJECT" --no-browser > /tmp/lesson06-live-preview.log 2>&1 &
+          echo $! > /tmp/lesson06-live-preview.pid
+          sleep 3
+          cat /tmp/lesson06-live-preview.log || true
+
+      - name: Render targeted pages for visual review
+        run: python3 skills/ppt-master/scripts/visual_review.py "$PROJECT" --pages 06 07 08 09 10 13 15 23 24 25 26 30 35
+
+      - name: Rebuild svg_final from canonical svg_output
+        run: python3 skills/ppt-master/scripts/finalize_svg.py "$PROJECT"
+
+      - name: Canonical final release SVG gate
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT" --canonical-authoring --stage final --json
+
+      - name: Export native PPTX after gate passes
+        run: python3 skills/ppt-master/scripts/svg_to_pptx.py "$PROJECT"
+
+      - name: Preserve P01-P04 exactly
+        shell: bash
+        run: |
+          git checkout HEAD -- "$PROJECT/svg_output/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_output/02_今天的120分钟.svg" \
+            "$PROJECT/svg_output/03_今天要带走什么.svg" \
+            "$PROJECT/svg_output/04_十题热身赛.svg" \
+            "$PROJECT/svg_final/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_final/02_今天的120分钟.svg" \
+            "$PROJECT/svg_final/03_今天要带走什么.svg" \
+            "$PROJECT/svg_final/04_十题热身赛.svg"
+
+      - name: Commit validated output and PPTX
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$PROJECT/animations.json" "$PROJECT/design_spec.md" "$PROJECT/spec_lock.md" \
+            "$PROJECT/svg_output" "$PROJECT/svg_final" "$PROJECT/exports"
+          if [ -f "$PROJECT/validation/svg_quality_report.json" ]; then
+            git add "$PROJECT/validation/svg_quality_report.json"
+          fi
+          if git diff --cached --quiet; then
+            echo "No validated changes to commit"
+            exit 0
+          fi
+          git commit -m "fix(slides): validate visual polish and export lesson06"
+          git push origin HEAD:fix/lesson06-interaction-visual-polish
