@@ -4,7 +4,7 @@
   "target": "/home/runner/work/ppt-master/ppt-master/projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905",
   "source_fingerprint": {
     "algorithm": "sha256",
-    "digest": "559217390fa69cbee6b8b23332d3f43170003495b3eb87ff4a6b2ddf6b8a7db6",
+    "digest": "4df531a0a66939e828557ba5900109fad3e20d855985965407e7597fc3cc4fe4",
     "file_count": 36,
     "files": [
       {
@@ -29,23 +29,23 @@
       },
       {
         "file": "06_热身1-2_起步命令.svg",
-        "sha256": "574a667e270c81d122932467f35defba74dd3b82175815bb44aa8286614d5f47"
+        "sha256": "f797634dc6353041085d8fc999c4df5a8d70ab20828536fb9275393af6e2e6a9"
       },
       {
         "file": "07_热身3-4_重复动作.svg",
-        "sha256": "61446050530d2b3548e6be53c0d0573d64612197b457dd602d02892ffdde60e5"
+        "sha256": "6f2cb55de448bf1f0fc3478df56b963c40159475f3c18f6bc3036e43bd8189ac"
       },
       {
         "file": "08_热身5-6_位置导航.svg",
-        "sha256": "93ff0386c0a19cd1e42694c29bf4c30ca809925aafec9485c17da5426ba4b12f"
+        "sha256": "345a319374f0ec58a09dda262794ba6fd31a53e24b4d44fcbd56356c75662816"
       },
       {
         "file": "09_热身7-8_颜色填充.svg",
-        "sha256": "9d388f9412c3fbf935d91bbbddce282bdfc3e9a213e86d49cd26b268ca8d1212"
+        "sha256": "955d75fd9775b98f889b0fb069fe39f0f71383c31675a374092f18c8522747e8"
       },
       {
         "file": "10_热身9-10_背景与圆.svg",
-        "sha256": "0aa1e306be45bd48af5353c5d0c72f9606acc6eb020ee33a7f6150a5d556b484"
+        "sha256": "46d773f6b8844f7a2a309adb7846dd5f32bfb49387753e32cf8d877063060ad5"
       },
       {
         "file": "11_项目启动_送你一朵小红花.svg",
@@ -57,7 +57,7 @@
       },
       {
         "file": "13_新命令小实验.svg",
-        "sha256": "ddd0ef61ae5c3af8804c9eb0c16ab28fbb95539c8e6310fa1360aead002f1531"
+        "sha256": "f52531efff63b7a2d9fd984bbbc0c724f8cd04a03d335e215191e433eb7c66ae"
       },
       {
         "file": "14_四盒命令工具箱.svg",
@@ -65,7 +65,7 @@
       },
       {
         "file": "15_显示与隐藏海龟.svg",
-        "sha256": "fd7ae1071b56404cf1fa1081a113eb87431e98df262f01cfce66a810e5d44df1"
+        "sha256": "a6c5597266b7c1b6fd9b0f7ba74d78875435afce8819c752a45ec4177f6a576b"
       },
       {
         "file": "16_海龟显隐实验站.svg",
@@ -97,19 +97,19 @@
       },
       {
         "file": "23_选择题1-2.svg",
-        "sha256": "e4d1d24b92a7a67189ee90f87cf1be6884201b29b4974a1b792eabc0d8f0afd8"
+        "sha256": "4c744cd21de130e1a8cfa7a0e8da0fe34c52258d41671636c7253f362293cc01"
       },
       {
         "file": "24_选择题3-4.svg",
-        "sha256": "cc452afe888719055fbdbf5be27c0b4ca8b23f1251100a49b4dc4f994055befb"
+        "sha256": "5d168677dde262e30642bb6cf9558b648b4db02c976091c639d199020366677a"
       },
       {
         "file": "25_选择题5-6.svg",
-        "sha256": "fec5483344ca7e8c2db4102f49eb4f5959bf1dc0a654213db57c26be5e3570b3"
+        "sha256": "22c521515e8d13a9b465c86d1d70d24b6cb5ec0a34ecabd177031f27b23e1097"
       },
       {
         "file": "26_选择题7-8.svg",
-        "sha256": "977f478b2187892e3ad6e4747c84a96d2987a466698d8667c7c576f752b28697"
+        "sha256": "397bb55f40fb7d07ac266f18d44398628bd46d1e3a10e34cc16dcc31205a4415"
       },
       {
         "file": "27_课间保存站.svg",
@@ -125,7 +125,7 @@
       },
       {
         "file": "30_微项目装配站.svg",
-        "sha256": "7a5819af8a70295a62cec3ba51ccb0f44662843e85dcd76fa2e22b590b9b511d"
+        "sha256": "bbf2702f87427bd5954afd1bc2cdebe947eeb5d1bb98bef2f895e20cfa1319a3"
       },
       {
         "file": "31_完整作品代码地图.svg",
@@ -145,7 +145,7 @@
       },
       {
         "file": "35_三个常见问题.svg",
-        "sha256": "7c12aa7644a0004ffdee7d5c04cf4ead8493fbe7ffaacbf6b345166779ea6fac"
+        "sha256": "6a1292805fa0e239f93e23d77b89fba03ccacae2feac4f2a3b7125f1d961c803"
       },
       {
         "file": "36_离堂小结.svg",
@@ -166,7 +166,7 @@
       "issues": []
     },
     "introduced": {
-      "count": 105,
+      "count": 110,
       "issues": [
         {
           "file": "01_阶段测评与复盘.svg",
@@ -286,7 +286,7 @@
         },
         {
           "file": "13_新命令小实验.svg",
-          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (13 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (12 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
         },
         {
           "file": "13_新命令小实验.svg",
@@ -294,7 +294,7 @@
         },
         {
           "file": "13_新命令小实验.svg",
-          "message": "26 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          "message": "24 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
         },
         {
           "file": "14_四盒命令工具箱.svg",
@@ -310,7 +310,7 @@
         },
         {
           "file": "15_显示与隐藏海龟.svg",
-          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (8 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
         },
         {
           "file": "15_显示与隐藏海龟.svg",
@@ -318,7 +318,7 @@
         },
         {
           "file": "15_显示与隐藏海龟.svg",
-          "message": "18 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          "message": "16 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
         },
         {
           "file": "16_海龟显隐实验站.svg",
@@ -426,7 +426,7 @@
         },
         {
           "file": "23_选择题1-2.svg",
-          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (32 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (28 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
         },
         {
           "file": "23_选择题1-2.svg",
@@ -438,6 +438,10 @@
         },
         {
           "file": "24_选择题3-4.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (28 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "24_选择题3-4.svg",
           "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
         },
         {
@@ -446,11 +450,19 @@
         },
         {
           "file": "25_选择题5-6.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (28 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "25_选择题5-6.svg",
           "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
         },
         {
           "file": "25_选择题5-6.svg",
           "message": "54 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        },
+        {
+          "file": "26_选择题7-8.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (28 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
         },
         {
           "file": "26_选择题7-8.svg",
@@ -506,7 +518,7 @@
         },
         {
           "file": "30_微项目装配站.svg",
-          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (13 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (12 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
         },
         {
           "file": "30_微项目装配站.svg",
@@ -514,7 +526,11 @@
         },
         {
           "file": "30_微项目装配站.svg",
-          "message": "26 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          "message": "Image ../images/mascot_turtle_flower_workshop_v2.png is 1122x1402 and renders at 0.21x scale in a 240x312 meet frame; the source is 1.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset"
+        },
+        {
+          "file": "30_微项目装配站.svg",
+          "message": "24 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
         },
         {
           "file": "31_完整作品代码地图.svg",
@@ -570,11 +586,15 @@
         },
         {
           "file": "35_三个常见问题.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (19 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "35_三个常见问题.svg",
           "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
         },
         {
           "file": "35_三个常见问题.svg",
-          "message": "40 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          "message": "43 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
         },
         {
           "file": "36_离堂小结.svg",
@@ -604,7 +624,7 @@
   },
   "drift": {
     "colors": {
-      "#15803D": [
+      "#168A43": [
         "15_显示与隐藏海龟.svg"
       ],
       "#2072B8": [
@@ -629,12 +649,6 @@
       ],
       "#9B7BFF": [
         "21_花瓣颜色实验站.svg"
-      ],
-      "#A9D6FA": [
-        "23_选择题1-2.svg",
-        "24_选择题3-4.svg",
-        "25_选择题5-6.svg",
-        "26_选择题7-8.svg"
       ],
       "#AFC3D9": [
         "16_海龟显隐实验站.svg",
@@ -687,19 +701,6 @@
         "34_作品验收与同伴建议.svg",
         "35_三个常见问题.svg"
       ],
-      "#F4FAFF": [
-        "23_选择题1-2.svg",
-        "24_选择题3-4.svg",
-        "25_选择题5-6.svg",
-        "26_选择题7-8.svg",
-        "35_三个常见问题.svg"
-      ],
-      "#F59BAE": [
-        "23_选择题1-2.svg",
-        "24_选择题3-4.svg",
-        "25_选择题5-6.svg",
-        "26_选择题7-8.svg"
-      ],
       "#F7FAFC": [
         "01_阶段测评与复盘.svg"
       ],
@@ -721,6 +722,9 @@
       "#FFA54D": [
         "21_花瓣颜色实验站.svg",
         "32_小红花作品实验站.svg"
+      ],
+      "#FFB9D0": [
+        "15_显示与隐藏海龟.svg"
       ],
       "#FFCC71": [
         "16_海龟显隐实验站.svg",
@@ -789,12 +793,6 @@
         "35_三个常见问题.svg",
         "36_离堂小结.svg"
       ],
-      "#FFF0F2": [
-        "23_选择题1-2.svg",
-        "24_选择题3-4.svg",
-        "25_选择题5-6.svg",
-        "26_选择题7-8.svg"
-      ],
       "#FFF2DC": [
         "01_阶段测评与复盘.svg",
         "02_今天的120分钟.svg",
@@ -833,13 +831,11 @@
         "35_三个常见问题.svg",
         "36_离堂小结.svg"
       ],
-      "#FFF3F7": [
-        "35_三个常见问题.svg"
-      ],
       "#FFF7E8": [
-        "13_新命令小实验.svg",
-        "30_微项目装配站.svg",
-        "35_三个常见问题.svg"
+        "23_选择题1-2.svg",
+        "24_选择题3-4.svg",
+        "25_选择题5-6.svg",
+        "26_选择题7-8.svg"
       ]
     },
     "fonts": {},
@@ -849,10 +845,10 @@
     "scope": "informational-not-a-quota",
     "pages": 36,
     "totals": {
-      "text_elements": 918,
+      "text_elements": 886,
       "image_placements": 4,
       "icons": 0,
-      "svg_geometry_elements": 886,
+      "svg_geometry_elements": 896,
       "preset_shapes": 0,
       "page_frame_elements": 313,
       "marker_uses": 0,
@@ -874,13 +870,13 @@
       "text_effects": 0
     },
     "geometry_elements": {
-      "circle": 324,
+      "circle": 329,
       "ellipse": 0,
-      "line": 12,
-      "path": 3,
-      "polygon": 1,
+      "line": 14,
+      "path": 4,
+      "polygon": 2,
       "polyline": 0,
-      "rect": 546
+      "rect": 547
     },
     "preset_names": {},
     "native_objects": {
@@ -891,7 +887,7 @@
       "table": 0
     },
     "image_page_max_frame_share_range": [
-      0.1318,
+      0.0813,
       1.0
     ]
   },
@@ -1326,7 +1322,7 @@
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
         "text_elements": 19,
-        "tspan_elements": 4,
+        "tspan_elements": 6,
         "contextual_values": {
           "colors": [
             "#E9FBEF",
@@ -1336,7 +1332,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "574a667e270c81d122932467f35defba74dd3b82175815bb44aa8286614d5f47"
+      "source_sha256": "f797634dc6353041085d8fc999c4df5a8d70ab20828536fb9275393af6e2e6a9"
     },
     {
       "file": "07_热身3-4_重复动作.svg",
@@ -1396,7 +1392,7 @@
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
         "text_elements": 19,
-        "tspan_elements": 2,
+        "tspan_elements": 4,
         "contextual_values": {
           "colors": [
             "#E9FBEF",
@@ -1406,7 +1402,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "61446050530d2b3548e6be53c0d0573d64612197b457dd602d02892ffdde60e5"
+      "source_sha256": "6f2cb55de448bf1f0fc3478df56b963c40159475f3c18f6bc3036e43bd8189ac"
     },
     {
       "file": "08_热身5-6_位置导航.svg",
@@ -1466,7 +1462,7 @@
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
         "text_elements": 19,
-        "tspan_elements": 2,
+        "tspan_elements": 5,
         "contextual_values": {
           "colors": [
             "#E9FBEF",
@@ -1476,7 +1472,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "93ff0386c0a19cd1e42694c29bf4c30ca809925aafec9485c17da5426ba4b12f"
+      "source_sha256": "345a319374f0ec58a09dda262794ba6fd31a53e24b4d44fcbd56356c75662816"
     },
     {
       "file": "09_热身7-8_颜色填充.svg",
@@ -1536,7 +1532,7 @@
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
         "text_elements": 19,
-        "tspan_elements": 2,
+        "tspan_elements": 5,
         "contextual_values": {
           "colors": [
             "#E9FBEF",
@@ -1546,7 +1542,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "9d388f9412c3fbf935d91bbbddce282bdfc3e9a213e86d49cd26b268ca8d1212"
+      "source_sha256": "955d75fd9775b98f889b0fb069fe39f0f71383c31675a374092f18c8522747e8"
     },
     {
       "file": "10_热身9-10_背景与圆.svg",
@@ -1606,7 +1602,7 @@
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
         "text_elements": 19,
-        "tspan_elements": 2,
+        "tspan_elements": 5,
         "contextual_values": {
           "colors": [
             "#E9FBEF",
@@ -1616,7 +1612,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "0aa1e306be45bd48af5353c5d0c72f9606acc6eb020ee33a7f6150a5d556b484"
+      "source_sha256": "46d773f6b8844f7a2a309adb7846dd5f32bfb49387753e32cf8d877063060ad5"
     },
     {
       "file": "11_项目启动_送你一朵小红花.svg",
@@ -1764,20 +1760,20 @@
       "exists": true,
       "errors": [],
       "warnings": [
-        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (13 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (12 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
         "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
-        "26 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        "24 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 14,
+          "text_elements": 13,
           "images": {
             "placements": 1,
             "files": [
               "mascot_turtle_new_commands_v2.png"
             ],
-            "max_frame_share": 0.1318
+            "max_frame_share": 0.0813
           },
           "icons": 0,
           "effects": {
@@ -1788,7 +1784,7 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 6,
+              "rect": 5,
               "circle": 7,
               "ellipse": 0,
               "line": 0,
@@ -1817,18 +1813,17 @@
           "Microsoft YaHei, Arial, sans-serif",
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
-        "text_elements": 14,
-        "tspan_elements": 0,
+        "text_elements": 13,
+        "tspan_elements": 4,
         "contextual_values": {
           "colors": [
             "#FFE2ED",
-            "#FFF2DC",
-            "#FFF7E8"
+            "#FFF2DC"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "ddd0ef61ae5c3af8804c9eb0c16ab28fbb95539c8e6310fa1360aead002f1531"
+      "source_sha256": "f52531efff63b7a2d9fd984bbbc0c724f8cd04a03d335e215191e433eb7c66ae"
     },
     {
       "file": "14_四盒命令工具箱.svg",
@@ -1907,14 +1902,14 @@
       "exists": true,
       "errors": [],
       "warnings": [
-        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (8 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
         "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
-        "18 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        "16 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 11,
+          "text_elements": 9,
           "images": {
             "placements": 0,
             "files": [],
@@ -1959,11 +1954,12 @@
           "Microsoft YaHei, Arial, sans-serif",
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
-        "text_elements": 11,
+        "text_elements": 9,
         "tspan_elements": 0,
         "contextual_values": {
           "colors": [
-            "#15803D",
+            "#168A43",
+            "#FFB9D0",
             "#FFE26A",
             "#FFE2ED",
             "#FFF2DC"
@@ -1971,7 +1967,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "fd7ae1071b56404cf1fa1081a113eb87431e98df262f01cfce66a810e5d44df1"
+      "source_sha256": "a6c5597266b7c1b6fd9b0f7ba74d78875435afce8819c752a45ec4177f6a576b"
     },
     {
       "file": "16_海龟显隐实验站.svg",
@@ -2497,14 +2493,14 @@
       "exists": true,
       "errors": [],
       "warnings": [
-        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (32 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (28 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
         "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
         "54 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 33,
+          "text_elements": 29,
           "images": {
             "placements": 0,
             "files": [],
@@ -2548,22 +2544,19 @@
           "Microsoft YaHei, Arial, sans-serif",
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
-        "text_elements": 33,
-        "tspan_elements": 0,
+        "text_elements": 29,
+        "tspan_elements": 6,
         "contextual_values": {
           "colors": [
-            "#A9D6FA",
             "#E9FBEF",
-            "#F4FAFF",
-            "#F59BAE",
             "#FFE2ED",
-            "#FFF0F2",
-            "#FFF2DC"
+            "#FFF2DC",
+            "#FFF7E8"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "e4d1d24b92a7a67189ee90f87cf1be6884201b29b4974a1b792eabc0d8f0afd8"
+      "source_sha256": "4c744cd21de130e1a8cfa7a0e8da0fe34c52258d41671636c7253f362293cc01"
     },
     {
       "file": "24_选择题3-4.svg",
@@ -2571,13 +2564,14 @@
       "exists": true,
       "errors": [],
       "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (28 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
         "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
         "54 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 33,
+          "text_elements": 29,
           "images": {
             "placements": 0,
             "files": [],
@@ -2621,22 +2615,19 @@
           "Microsoft YaHei, Arial, sans-serif",
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
-        "text_elements": 33,
-        "tspan_elements": 0,
+        "text_elements": 29,
+        "tspan_elements": 6,
         "contextual_values": {
           "colors": [
-            "#A9D6FA",
             "#E9FBEF",
-            "#F4FAFF",
-            "#F59BAE",
             "#FFE2ED",
-            "#FFF0F2",
-            "#FFF2DC"
+            "#FFF2DC",
+            "#FFF7E8"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "cc452afe888719055fbdbf5be27c0b4ca8b23f1251100a49b4dc4f994055befb"
+      "source_sha256": "5d168677dde262e30642bb6cf9558b648b4db02c976091c639d199020366677a"
     },
     {
       "file": "25_选择题5-6.svg",
@@ -2644,13 +2635,14 @@
       "exists": true,
       "errors": [],
       "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (28 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
         "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
         "54 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 33,
+          "text_elements": 29,
           "images": {
             "placements": 0,
             "files": [],
@@ -2694,22 +2686,19 @@
           "Microsoft YaHei, Arial, sans-serif",
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
-        "text_elements": 33,
-        "tspan_elements": 0,
+        "text_elements": 29,
+        "tspan_elements": 6,
         "contextual_values": {
           "colors": [
-            "#A9D6FA",
             "#E9FBEF",
-            "#F4FAFF",
-            "#F59BAE",
             "#FFE2ED",
-            "#FFF0F2",
-            "#FFF2DC"
+            "#FFF2DC",
+            "#FFF7E8"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "fec5483344ca7e8c2db4102f49eb4f5959bf1dc0a654213db57c26be5e3570b3"
+      "source_sha256": "22c521515e8d13a9b465c86d1d70d24b6cb5ec0a34ecabd177031f27b23e1097"
     },
     {
       "file": "26_选择题7-8.svg",
@@ -2717,13 +2706,14 @@
       "exists": true,
       "errors": [],
       "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (28 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
         "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
         "54 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 33,
+          "text_elements": 29,
           "images": {
             "placements": 0,
             "files": [],
@@ -2767,22 +2757,19 @@
           "Microsoft YaHei, Arial, sans-serif",
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
-        "text_elements": 33,
-        "tspan_elements": 0,
+        "text_elements": 29,
+        "tspan_elements": 6,
         "contextual_values": {
           "colors": [
-            "#A9D6FA",
             "#E9FBEF",
-            "#F4FAFF",
-            "#F59BAE",
             "#FFE2ED",
-            "#FFF0F2",
-            "#FFF2DC"
+            "#FFF2DC",
+            "#FFF7E8"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "977f478b2187892e3ad6e4747c84a96d2987a466698d8667c7c576f752b28697"
+      "source_sha256": "397bb55f40fb7d07ac266f18d44398628bd46d1e3a10e34cc16dcc31205a4415"
     },
     {
       "file": "27_课间保存站.svg",
@@ -3016,20 +3003,21 @@
       "exists": true,
       "errors": [],
       "warnings": [
-        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (13 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (12 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
         "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
-        "26 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        "Image ../images/mascot_turtle_flower_workshop_v2.png is 1122x1402 and renders at 0.21x scale in a 240x312 meet frame; the source is 1.0 MiB — file-size advisory only, not an aspect-ratio warning; consider a smaller source asset",
+        "24 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 14,
+          "text_elements": 13,
           "images": {
             "placements": 1,
             "files": [
               "mascot_turtle_flower_workshop_v2.png"
             ],
-            "max_frame_share": 0.145
+            "max_frame_share": 0.0813
           },
           "icons": 0,
           "effects": {
@@ -3040,7 +3028,7 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 6,
+              "rect": 5,
               "circle": 7,
               "ellipse": 0,
               "line": 0,
@@ -3069,18 +3057,17 @@
           "Microsoft YaHei, Arial, sans-serif",
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
-        "text_elements": 14,
-        "tspan_elements": 0,
+        "text_elements": 13,
+        "tspan_elements": 4,
         "contextual_values": {
           "colors": [
             "#FFE2ED",
-            "#FFF2DC",
-            "#FFF7E8"
+            "#FFF2DC"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "7a5819af8a70295a62cec3ba51ccb0f44662843e85dcd76fa2e22b590b9b511d"
+      "source_sha256": "bbf2702f87427bd5954afd1bc2cdebe947eeb5d1bb98bef2f895e20cfa1319a3"
     },
     {
       "file": "31_完整作品代码地图.svg",
@@ -3378,13 +3365,14 @@
       "exists": true,
       "errors": [],
       "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (19 change(s)); examples: text[7]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[9]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None; text[11]:font-family 'Microsoft YaHei, Arial, sans-serif' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
         "Font stack exports non-PPT-safe typeface(s) to PPTX (latin=YouYuan, ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif",
-        "40 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+        "43 ungrouped top-level Slide-local element(s) in svg_output (<circle> #2, <circle> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
       ],
       "info": {
         "viewbox": "0 0 1280 720",
         "carrier_receipt": {
-          "text_elements": 32,
+          "text_elements": 20,
           "images": {
             "placements": 0,
             "files": [],
@@ -3399,13 +3387,13 @@
           },
           "geometry": {
             "svg_elements": {
-              "rect": 22,
-              "circle": 2,
+              "rect": 25,
+              "circle": 7,
               "ellipse": 0,
-              "line": 0,
+              "line": 2,
               "polyline": 0,
-              "polygon": 0,
-              "path": 0
+              "polygon": 1,
+              "path": 1
             },
             "preset_shapes": 0,
             "preset_names": {},
@@ -3425,25 +3413,21 @@
           }
         },
         "fonts": [
-          "Consolas, Courier New, monospace",
           "Microsoft YaHei, Arial, sans-serif",
           "YouYuan, Microsoft YaHei, sans-serif"
         ],
-        "text_elements": 32,
+        "text_elements": 20,
         "tspan_elements": 0,
         "contextual_values": {
           "colors": [
             "#E9FBEF",
-            "#F4FAFF",
             "#FFE2ED",
-            "#FFF2DC",
-            "#FFF3F7",
-            "#FFF7E8"
+            "#FFF2DC"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "7c12aa7644a0004ffdee7d5c04cf4ead8493fbe7ffaacbf6b345166779ea6fac"
+      "source_sha256": "6a1292805fa0e239f93e23d77b89fba03ccacae2feac4f2a3b7125f1d961c803"
     },
     {
       "file": "36_离堂小结.svg",
