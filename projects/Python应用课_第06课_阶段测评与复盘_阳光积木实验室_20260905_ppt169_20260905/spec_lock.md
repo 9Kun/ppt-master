@@ -46,6 +46,7 @@
 - annotation: 20
 - chapter: 60
 - code: 20
+- compact_code: 12.5
 - footer: 16
 - card_heading: 28
 - chapter_number: 176
@@ -64,8 +65,6 @@
 ## images
 - teacher-mascot: images/ref08_daxian_teacher_mascot_halfbody_v1.png | source=user | crop=no-crop
 - route-background: images/ref08_bg_route_blocks_v1.png | source=user | crop=adaptive
-- turtle-new-commands: images/mascot_turtle_new_commands_v2.png | source=ai | crop=no-crop
-- turtle-flower-workshop: images/mascot_turtle_flower_workshop_v2.png | source=ai | crop=no-crop
 
 ## page_rhythm
 - P01: anchor
