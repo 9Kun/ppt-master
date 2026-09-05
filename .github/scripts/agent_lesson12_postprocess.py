@@ -54,8 +54,9 @@ for svg_path in sorted(SVG_DIR.glob('*.svg')):
             child.set('data-pptx-role', 'decoration')
     tree.write(svg_path, encoding='utf-8', xml_declaration=False)
 
-# 3) Fix density/overflow cases without changing the lesson content.
-# P26: code_card starts at y=134; its first code line is y=228, then +34.
+# 3) Legacy density patches retained for reproducibility. The semantic repair pass below
+#    rebuilds P27 and restores P26 to projection-readable code sizes, so these are no
+#    longer the final authored state.
 p26 = SVG_DIR / '26_三次口令门代码拆解.svg'
 s = p26.read_text(encoding='utf-8')
 for i in range(20):
@@ -67,7 +68,6 @@ for i in range(20):
     )
 p26.write_text(s, encoding='utf-8')
 
-# P27: compact all code state rows to fit the editor pane.
 p27 = SVG_DIR / '27_三次口令门_运行验证.svg'
 s = p27.read_text(encoding='utf-8')
 for i in range(18):
@@ -79,7 +79,6 @@ for i in range(18):
     )
 p27.write_text(s, encoding='utf-8')
 
-# P31: shorten one long line inside its card while preserving the troubleshooting meaning.
 p31 = SVG_DIR / '31_常见问题与处理.svg'
 s = p31.read_text(encoding='utf-8').replace('先停止运行，再检查 tries/count 是否变化', '先停止，再检查计数是否变化')
 p31.write_text(s, encoding='utf-8')
@@ -99,4 +98,10 @@ if '| Chapter number | 180 |' not in design:
     design = design.replace(needle2, needle2 + '| Chapter number | 180 |\n| Section title | 56 |\n| Counter display | 70 |\n')
 design_path.write_text(design, encoding='utf-8')
 
-print('postprocess complete')
+# 5) Final semantic/interaction repair pass. This is intentionally last: it owns the
+#    final authored state for reveal z-order, quiz answer coloring, P10-style consoles,
+#    P26/P27 readability, output sequencing, and content/interaction invariants.
+from agent_lesson12_repair import main as repair_lesson12
+repair_lesson12()
+
+print('postprocess + semantic repair complete')
