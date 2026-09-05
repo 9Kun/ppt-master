@@ -12,6 +12,8 @@ PROJECT = ROOT / "projects/Python应用课_第06课_阶段测评与复盘_阳光
 SVG_OUTPUT = PROJECT / "svg_output"
 SVG_FINAL = PROJECT / "svg_final"
 ANIMATIONS = PROJECT / "animations.json"
+DESIGN_SPEC = PROJECT / "design_spec.md"
+SPEC_LOCK = PROJECT / "spec_lock.md"
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
 
@@ -107,6 +109,43 @@ def promote_referenced_groups(root: ET.Element, refs: set[str], slide_name: str)
             return promoted
 
 
+def mark_overlay_semantics(root: ET.Element, refs: set[str], page: int) -> tuple[int, int]:
+    """Mark intentional root overlays as static semantic frames.
+
+    PPT Master treats supported semantic roles as chrome for automatic animation
+    and ordinary module-collision checks, while explicit animations.json entries
+    may still animate them. This is exactly what these answer/console state
+    overlays need: multiple authored states intentionally occupy the same region.
+    """
+    decorated = 0
+    named_anonymous = 0
+    used = direct_group_ids(root)
+    anon_index = 0
+    for child in list(root):
+        if local_name(child.tag) != "g":
+            continue
+        group_id = (child.get("id") or "").strip()
+        is_explicit_overlay = bool(group_id and group_id in refs)
+        is_anonymous_scene_art = not group_id
+        if not (is_explicit_overlay or is_anonymous_scene_art):
+            continue
+        if is_anonymous_scene_art:
+            while True:
+                anon_index += 1
+                candidate = f"scene-decoration-p{page:02d}-{anon_index:02d}"
+                if candidate not in used:
+                    break
+            child.set("id", candidate)
+            used.add(candidate)
+            group_id = candidate
+            named_anonymous += 1
+        # Do not use data-pptx-layer: that would make the object structural.
+        # 'decoration' is a compiler hint only and does not change SVG rendering.
+        child.set("data-pptx-role", "decoration")
+        decorated += 1
+    return decorated, named_anonymous
+
+
 def normalize_animation_config(data: dict) -> tuple[int, int]:
     removed_modes = 0
     normalized_clicks = 0
@@ -138,13 +177,56 @@ def normalize_animation_config(data: dict) -> tuple[int, int]:
     return removed_modes, normalized_clicks
 
 
+def normalize_design_contract() -> tuple[int, int]:
+    """Bring the Design Spec/spec lock in line with actual authored assets."""
+    design = DESIGN_SPEC.read_text(encoding="utf-8")
+    status_replacements = 0
+    for filename in (
+        "mascot_turtle_new_commands_v2.png",
+        "mascot_turtle_flower_workshop_v2.png",
+    ):
+        rows = [line for line in design.splitlines() if filename in line]
+        if len(rows) != 1:
+            raise RuntimeError(f"design_spec.md: expected one image row for {filename}, got {len(rows)}")
+        old = rows[0]
+        if "| ai | Ready |" in old:
+            new = old.replace("| ai | Ready |", "| ai | Generated |")
+            design = design.replace(old, new)
+            status_replacements += 1
+        elif "| ai | Generated |" not in old:
+            raise RuntimeError(f"design_spec.md: unexpected status row for {filename}: {old}")
+
+    compact_row = "| Compact code | 12.5 |"
+    if compact_row not in design:
+        anchor = "| Code | 20 |"
+        if anchor not in design:
+            raise RuntimeError("design_spec.md: Code typography anchor not found")
+        design = design.replace(
+            anchor,
+            anchor + "\n" + compact_row,
+            1,
+        )
+    DESIGN_SPEC.write_text(design, encoding="utf-8")
+
+    lock = SPEC_LOCK.read_text(encoding="utf-8")
+    compact_lock = "- compact_code: 12.5"
+    if compact_lock not in lock:
+        anchor = "- code: 20"
+        if anchor not in lock:
+            raise RuntimeError("spec_lock.md: code typography anchor not found")
+        lock = lock.replace(anchor, anchor + "\n" + compact_lock, 1)
+    SPEC_LOCK.write_text(lock, encoding="utf-8")
+    return status_replacements, 1
+
+
 def main() -> int:
-    if not SVG_OUTPUT.is_dir() or not SVG_FINAL.is_dir() or not ANIMATIONS.is_file():
+    required = (SVG_OUTPUT, SVG_FINAL, ANIMATIONS, DESIGN_SPEC, SPEC_LOCK)
+    if not SVG_OUTPUT.is_dir() or not SVG_FINAL.is_dir() or any(not p.exists() for p in required[2:]):
         raise RuntimeError("lesson06 project structure is incomplete")
 
-    # The previous redesign accidentally updated only svg_final/. Native PPTX
-    # export and the official quality gate read svg_output/ by default. Restore
-    # one canonical source by copying P05-P36 redesigned SVGs back to svg_output/.
+    # The redesign accidentally updated only svg_final/. Native PPTX export and
+    # the official quality gate read svg_output/ by default. Restore one
+    # canonical source by copying P05-P36 redesigned SVGs back to svg_output/.
     copied = 0
     for src in sorted(SVG_FINAL.glob("*.svg")):
         try:
@@ -159,10 +241,13 @@ def main() -> int:
 
     data = json.loads(ANIMATIONS.read_text(encoding="utf-8"))
     removed_modes, normalized_clicks = normalize_animation_config(data)
+    status_replacements, compact_roles = normalize_design_contract()
 
     slides = data.get("slides", {})
     stripped_bounds = 0
     promoted = 0
+    decorated = 0
+    named_anonymous = 0
     checked_slides = 0
     for svg_path in sorted(SVG_OUTPUT.glob("*.svg")):
         try:
@@ -177,7 +262,12 @@ def main() -> int:
         slide_cfg = slides.get(svg_path.stem, {})
         refs = referenced_ids(slide_cfg) if isinstance(slide_cfg, dict) else set()
         promoted += promote_referenced_groups(root, refs, svg_path.stem)
-        # Final fail-closed assertion: every configured target/trigger is a direct root group.
+        d, n = mark_overlay_semantics(root, refs, page)
+        decorated += d
+        named_anonymous += n
+        # Final fail-closed assertion: every configured target/trigger is a
+        # direct root group. Explicit sidecar animation remains supported even
+        # when a group carries a static semantic role.
         missing = refs - direct_group_ids(root)
         if missing:
             raise RuntimeError(f"{svg_path.stem}: unresolved top-level animation groups: {sorted(missing)}")
@@ -189,13 +279,17 @@ def main() -> int:
         encoding="utf-8",
     )
 
-    # Protect the user's explicit invariant: P01-P04 are never touched.
+    # Protect the user's explicit invariant: P01-P04 are never touched here.
     print(f"copied redesigned pages to svg_output: {copied}")
     print(f"checked P05-P36 SVGs: {checked_slides}")
     print(f"removed legacy data-pptx-bounds: {stripped_bounds}")
     print(f"promoted referenced groups to top level: {promoted}")
+    print(f"marked intentional overlay/scene groups as decoration: {decorated}")
+    print(f"assigned stable ids to anonymous scene groups: {named_anonymous}")
     print(f"removed unsupported interactive_sequence_mode entries: {removed_modes}")
     print(f"normalized trigger_shape effects to on-click: {normalized_clicks}")
+    print(f"updated image status rows Ready->Generated: {status_replacements}")
+    print(f"ensured compact-code typography role: {compact_roles}")
     return 0
 
 

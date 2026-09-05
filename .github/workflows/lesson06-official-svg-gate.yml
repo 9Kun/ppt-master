@@ -54,7 +54,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "$PROJECT/animations.json" "$PROJECT/svg_output" "$PROJECT/svg_final" "$PROJECT/exports"
+          git add "$PROJECT/animations.json" "$PROJECT/design_spec.md" "$PROJECT/spec_lock.md" \
+            "$PROJECT/svg_output" "$PROJECT/svg_final" "$PROJECT/exports"
           if [ -f "$PROJECT/validation/svg_quality_report.json" ]; then
             git add "$PROJECT/validation/svg_quality_report.json"
           fi
