@@ -22,22 +22,28 @@ for slide_cfg in data.get('slides', {}).values():
 anim_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
 
 # 2) Normalize root structure. Anonymous helper groups are unwrapped back to static root
-#    primitives, matching the pipeline rule for framing/decorative atoms. Footer keeps bounds.
+#    primitives, matching the pipeline rule for framing/decorative atoms. Each promoted
+#    primitive gets a stable id because data-pptx-role requires one in the current gate.
 for svg_path in sorted(SVG_DIR.glob('*.svg')):
     tree = ET.parse(svg_path)
     root = tree.getroot()
+    helper_serial = 0
     for child in list(root):
         tag = child.tag.rsplit('}', 1)[-1]
         if tag != 'g':
             continue
         gid = child.get('id')
         if not gid:
+            helper_serial += 1
             idx = list(root).index(child)
             kids = list(child)
             root.remove(child)
-            for offset, kid in enumerate(kids):
+            for offset, kid in enumerate(kids, 1):
+                kid_tag = kid.tag.rsplit('}', 1)[-1]
+                if not kid.get('id'):
+                    kid.set('id', f'static-decoration-{helper_serial:02d}-{offset:02d}-{kid_tag}')
                 kid.set('data-pptx-role', 'decoration')
-                root.insert(idx + offset, kid)
+                root.insert(idx + offset - 1, kid)
         elif gid.startswith('footer-'):
             child.set('data-pptx-bounds', '48 674 1184 30')
             child.set('data-pptx-role', 'footer')
