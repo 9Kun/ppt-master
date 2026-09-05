@@ -50,11 +50,12 @@ jobs:
       - name: Render touched pages for visual review
         shell: bash
         run: |
+          rm -f "$PROJECT/live_preview/lock.json"
           python3 skills/ppt-master/scripts/svg_editor/server.py "$PROJECT" --no-browser >/tmp/lesson06-svg-server.log 2>&1 &
           SERVER_PID=$!
           trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
           SERVER_URL=""
-          for i in $(seq 1 30); do
+          for i in $(seq 1 60); do
             if [ -f "$PROJECT/live_preview/lock.json" ]; then
               PORT=$(python3 - <<'PY'
           import json
@@ -63,12 +64,22 @@ jobs:
           print(json.loads(p.read_text(encoding="utf-8"))["port"])
           PY
               )
-              SERVER_URL="http://127.0.0.1:${PORT}"
-              break
+              CANDIDATE="http://127.0.0.1:${PORT}"
+              if curl -fsS "$CANDIDATE/api/health" >/tmp/lesson06-health.json 2>/dev/null; then
+                cat /tmp/lesson06-health.json
+                SERVER_URL="$CANDIDATE"
+                break
+              fi
+            fi
+            if ! kill -0 "$SERVER_PID" 2>/dev/null; then
+              echo "live preview server exited before becoming healthy"
+              cat /tmp/lesson06-svg-server.log || true
+              exit 1
             fi
             sleep 1
           done
           if [ -z "$SERVER_URL" ]; then
+            echo "live preview server did not become healthy"
             cat /tmp/lesson06-svg-server.log || true
             exit 1
           fi
