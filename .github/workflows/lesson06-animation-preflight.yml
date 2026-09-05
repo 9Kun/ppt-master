@@ -1,20 +1,131 @@
-name: Lesson06 animation preflight
+name: Lesson06 WPS animation validation
 on:
   push:
     branches: [fix/lesson06-code-demo-wps-animations]
 permissions:
-  contents: read
+  contents: write
 jobs:
-  preflight:
+  validate-export:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+    env:
+      PROJECT: projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect patch points
+        with:
+          fetch-depth: 0
+      - name: Attribution guard first
+        run: python3 skills/ppt-master/scripts/attribution_guard.py
+      - name: Apply WPS animation patch
+        run: python3 tools/lesson06_wps_animation_patch.py
+      - name: Compile patched animation code
+        run: |
+          python3 -m py_compile \
+            skills/ppt-master/scripts/pptx_animations.py \
+            skills/ppt-master/scripts/svg_to_pptx/animation_config.py \
+            skills/ppt-master/scripts/svg_to_pptx/wps_compat.py \
+            skills/ppt-master/scripts/svg_to_pptx/pptx_package/builder.py
+      - name: Install PPT Master dependencies
+        run: python3 -m pip install -r skills/ppt-master/requirements.txt
+      - name: WPS serializer smoke test
         shell: bash
         run: |
-          echo '=== animation_config ==='
-          grep -n -E "slide_cfg|default_animation|unknown|allowed|valid.*field|groups" skills/ppt-master/scripts/svg_to_pptx/animation_config.py | tail -n 180
-          echo '=== builder settings ==='
-          grep -n -A90 -B10 "def _slide_animation_settings" skills/ppt-master/scripts/svg_to_pptx/pptx_package/builder.py
-          echo '=== generated validator ==='
-          grep -n -A220 -B10 "validate_generated_animation" skills/ppt-master/scripts/pptx_animations.py | tail -n 260
+          PYTHONPATH=skills/ppt-master/scripts python3 - <<'PY'
+          from xml.etree import ElementTree as ET
+          from pptx_animations import create_sequence_timing_xml
+          from svg_to_pptx.wps_compat import rewrite_interactive_sequences_for_wps
+          P='http://schemas.openxmlformats.org/presentationml/2006/main'
+          q=lambda t:f'{{{P}}}{t}'
+          targets=[
+            {'shape_id':1,'delay_ms':0,'effect':'entrance_appear','trigger':'on-click','trigger_shape_id':9},
+            {'shape_id':2,'delay_ms':120,'effect':'entrance_appear','trigger':'on-click','trigger_shape_id':9},
+            {'shape_id':3,'delay_ms':240,'effect':'entrance_appear','trigger':'on-click','trigger_shape_id':9},
+          ]
+          raw=create_sequence_timing_xml(targets, trigger='on-click')
+          fixed=rewrite_interactive_sequences_for_wps(raw)
+          root=ET.fromstring(f'<root xmlns:p="{P}">{fixed}</root>')
+          seqs=[n for n in root.iter(q('cTn')) if n.get('nodeType')=='interactiveSeq']
+          rows=[n for n in root.iter(q('cTn')) if n.get('presetClass')]
+          assert len(seqs)==1, len(seqs)
+          assert len(rows)==3, len(rows)
+          assert [r.get('nodeType') for r in rows]==['clickEffect']*3
+          print('WPS serializer smoke test: 1 trigger -> 1 interactiveSeq -> 3 timed rows')
+          PY
+      - name: Official SVG quality gate
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT"
+      - name: Rebuild canonical svg_final
+        run: python3 skills/ppt-master/scripts/finalize_svg.py "$PROJECT"
+      - name: Canonical final release gate
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT" --canonical-authoring --stage final --json
+      - name: Export new native PPTX
+        run: python3 skills/ppt-master/scripts/svg_to_pptx.py "$PROJECT"
+      - name: Verify WPS timing tree on all code-demo pages
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, zipfile
+          from collections import defaultdict
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+          project=Path('projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905')
+          cfg=json.loads((project/'animations.json').read_text(encoding='utf-8'))
+          affected=[]
+          expected_unique={}
+          for slide, scfg in cfg['slides'].items():
+              if (scfg.get('animation') or {}).get('interactive_sequence_mode')!='wps':
+                  continue
+              triggers=[]
+              for g in (scfg.get('groups') or {}).values():
+                  if not isinstance(g,dict): continue
+                  rows=g.get('effects') or ([g] if g.get('effect') else [])
+                  for row in rows:
+                      t=row.get('trigger_shape') if isinstance(row,dict) else None
+                      if t: triggers.append(t)
+              affected.append(slide)
+              expected_unique[slide]=len(dict.fromkeys(triggers))
+          expected=['16_海龟显隐实验站','18_窗口标题实验站','20_练习A_六片花瓣','21_花瓣颜色实验站','28_练习B_花心和花茎','29_花茎长度实验站','32_小红花作品实验站']
+          assert affected==expected, affected
+          pptx=max((project/'exports').glob('*.pptx'), key=lambda p:p.stat().st_mtime)
+          print('PPTX',pptx.name)
+          P='http://schemas.openxmlformats.org/presentationml/2006/main'; q=lambda t:f'{{{P}}}{t}'
+          with zipfile.ZipFile(pptx) as z:
+              for slide in affected:
+                  num=int(slide.split('_',1)[0])
+                  root=ET.fromstring(z.read(f'ppt/slides/slide{num}.xml'))
+                  seqs=[]
+                  for ctn in root.iter(q('cTn')):
+                      if ctn.get('nodeType')=='interactiveSeq':
+                          rows=[x for x in ctn.iter(q('cTn')) if x.get('presetClass')]
+                          seqs.append(rows)
+                  assert len(seqs)==expected_unique[slide], (slide,len(seqs),expected_unique[slide])
+                  assert any(len(rows)>1 for rows in seqs), (slide,[len(x) for x in seqs])
+                  print(slide, 'interactiveSeq=',len(seqs),'rows-per-seq=',[len(x) for x in seqs])
+          PY
+      - name: Restore untouched svg_final and verify P01-P04 unchanged
+        shell: bash
+        run: |
+          git checkout HEAD -- "$PROJECT/svg_final"
+          git diff --exit-code HEAD -- \
+            "$PROJECT/svg_output/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_output/02_今天的120分钟.svg" \
+            "$PROJECT/svg_output/03_今天要带走什么.svg" \
+            "$PROJECT/svg_output/04_十题热身赛.svg" \
+            "$PROJECT/svg_final/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_final/02_今天的120分钟.svg" \
+            "$PROJECT/svg_final/03_今天的120分钟.svg" \
+            "$PROJECT/svg_final/04_十题热身赛.svg"
+      - name: Commit validated animation fix and PPTX
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            skills/ppt-master/scripts/pptx_animations.py \
+            skills/ppt-master/scripts/svg_to_pptx/animation_config.py \
+            skills/ppt-master/scripts/svg_to_pptx/wps_compat.py \
+            skills/ppt-master/scripts/svg_to_pptx/pptx_package/builder.py \
+            "$PROJECT/animations.json" \
+            "$PROJECT/validation/svg_quality_report.json" \
+            "$PROJECT/exports"
+          git commit -m 'fix(slides): make lesson06 run previews autoplay in WPS'
+          git push origin HEAD:fix/lesson06-code-demo-wps-animations
