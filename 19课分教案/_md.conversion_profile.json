@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "docx",
+  "source": {
+    "path": "第02课_神奇画笔_Turtle.docx",
+    "name": "第02课_神奇画笔_Turtle.docx",
+    "suffix": ".docx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 38409
+  },
+  "outputs": {
+    "markdown": "_md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 194,
+    "char_count": 4287,
+    "heading_count": 18,
+    "table_count": 5,
+    "image_ref_count": 0,
+    "link_count": 0
+  },
+  "warnings": []
+}

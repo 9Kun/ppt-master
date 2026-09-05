@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "docx",
+  "source": {
+    "path": "第08课_收银员的苦恼.docx",
+    "name": "第08课_收银员的苦恼.docx",
+    "suffix": ".docx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 38793
+  },
+  "outputs": {
+    "markdown": "第08课_收银员的苦恼.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 193,
+    "char_count": 4312,
+    "heading_count": 18,
+    "table_count": 5,
+    "image_ref_count": 0,
+    "link_count": 0
+  },
+  "warnings": []
+}
