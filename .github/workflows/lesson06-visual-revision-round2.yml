@@ -32,7 +32,17 @@ jobs:
           sudo apt-get install -y fonts-noto-cjk
 
       - name: Apply requested visual revisions
-        run: python3 .github/scripts/revise_lesson06_visuals_round2.py
+        shell: bash
+        run: |
+          python3 .github/scripts/revise_lesson06_visuals_round2.py
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905/design_spec.md")
+          text = path.read_text(encoding="utf-8")
+          text = text.replace("| mascot_turtle_new_commands_v2.png | 1122 × 1402 | 0.80 | P13 新命令实验主题角色 | transparent character illustration | 右侧完整显示，放大镜与无字命令牌保持可见 | no-crop | ai | Existing |", "| mascot_turtle_new_commands_v2.png | 1122 × 1402 | 0.80 | P13 新命令实验主题角色 | transparent character illustration | 右侧完整显示，放大镜与无字命令牌保持可见 | no-crop | ai | Generated |")
+          text = text.replace("| mascot_turtle_flower_workshop_v2.png | 1122 × 1402 | 0.80 | P30 微项目装配主题角色 | transparent character illustration | 右侧完整显示海龟、工作台和积木花 | no-crop | ai | Existing |", "| mascot_turtle_flower_workshop_v2.png | 1122 × 1402 | 0.80 | P30 微项目装配主题角色 | transparent character illustration | 右侧完整显示海龟、工作台和积木花 | no-crop | ai | Generated |")
+          path.write_text(text, encoding="utf-8")
+          PY
 
       - name: Official SVG quality gate before visual review
         run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT"
