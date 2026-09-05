@@ -1,0 +1,1 @@
+PASS: WPS interactive pages preserve mode, trigger hit regions, restart=always and run-gated progressive outputs.
