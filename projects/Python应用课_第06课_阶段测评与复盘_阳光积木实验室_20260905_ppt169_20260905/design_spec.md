@@ -98,6 +98,7 @@
 | Annotation | 20 |
 | Chapter | 60 |
 | Code | 20 |
+| Compact code | 12.5 |
 | Footer | 16 |
 | Card heading | 28 |
 | Chapter number | 176 |
@@ -142,8 +143,6 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ref08_daxian_teacher_mascot_halfbody_v1.png | 1097 × 1434 | 0.76 | 封面右侧老师舞台 | transparent character cutout | 完整显示于右侧圆角舞台 | no-crop | user | Existing | 从用户指定第08课项目只读复制，只复用人物图片 | none | hero_page |
 | ref08_bg_route_blocks_v1.png | 1672 × 941 | 1.78 | 本课路线的柔和积木背景 | full-page background | 全幅铺底，四关卡沿中轴排列 | adaptive | user | Existing | 从用户指定第08课项目只读复制，不复用原课程文字 | none | full_page |
-| mascot_turtle_new_commands_v2.png | 1122 × 1402 | 0.80 | P13 新命令实验主题角色 | transparent character illustration | 右侧完整显示，放大镜与三块无字命令牌保持可见 | no-crop | ai | Ready | 内置 ImageGen 生成；透明背景，无文字与水印 | none | content_page |
-| mascot_turtle_flower_workshop_v2.png | 1122 × 1402 | 0.80 | P30 微项目装配主题角色 | transparent character illustration | 右侧完整显示海龟、工作台和积木花 | no-crop | ai | Ready | 内置 ImageGen 生成；透明背景，无文字与水印 | none | content_page |
 
 ## IX. Content Outline
 
