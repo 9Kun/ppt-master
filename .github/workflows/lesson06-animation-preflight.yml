@@ -1,76 +1,20 @@
 name: Lesson06 animation preflight
-
 on:
   push:
-    branches:
-      - fix/lesson06-code-demo-wps-animations
-
+    branches: [fix/lesson06-code-demo-wps-animations]
 permissions:
   contents: read
-
 jobs:
   preflight:
     runs-on: ubuntu-latest
-    env:
-      PROJECT: projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: PPT Master attribution guard
-        run: python3 skills/ppt-master/scripts/attribution_guard.py
-      - name: WPS compatibility status
-        continue-on-error: true
-        working-directory: skills/ppt-master-wps-compat
-        run: python scripts/maintain.py status
-      - name: Audit sidecar and package interactive sequences
+      - uses: actions/checkout@v4
+      - name: Inspect patch points
         shell: bash
         run: |
-          python3 - <<'PY'
-          import json, zipfile
-          from collections import defaultdict
-          from pathlib import Path
-          from xml.etree import ElementTree as ET
-          project = Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
-          cfg = json.loads((project / "animations.json").read_text(encoding="utf-8"))
-          affected = []
-          for slide, scfg in cfg.get("slides", {}).items():
-              counts = defaultdict(int)
-              for gid, gcfg in (scfg.get("groups", {}) or {}).items():
-                  effs = gcfg.get("effects") if isinstance(gcfg, dict) else None
-                  if effs is None and isinstance(gcfg, dict) and gcfg.get("effect"):
-                      effs = [gcfg]
-                  for row in effs or []:
-                      trig = row.get("trigger_shape")
-                      if trig and trig.startswith("run-"):
-                          counts[trig] += 1
-              if counts:
-                  affected.append(slide)
-                  print("SIDECAR", slide, dict(sorted(counts.items())))
-          print("AFFECTED", affected)
-
-          pptx = sorted((project / "exports").glob("*.pptx"))[-1]
-          print("PPTX", pptx.name)
-          P = "http://schemas.openxmlformats.org/presentationml/2006/main"
-          q = lambda tag: f"{{{P}}}{tag}"
-          with zipfile.ZipFile(pptx) as z:
-              for num in (16, 18, 20, 21, 28, 29, 32):
-                  root = ET.fromstring(z.read(f"ppt/slides/slide{num}.xml"))
-                  names = {}
-                  for n in root.iter(q("cNvPr")):
-                      try: names[int(n.get("id"))] = n.get("name") or ""
-                      except Exception: pass
-                  by_trigger = defaultdict(list)
-                  seq_total = 0
-                  for seq in root.iter(q("seq")):
-                      ctn = seq.find(q("cTn"))
-                      if ctn is None or ctn.get("nodeType") != "interactiveSeq":
-                          continue
-                      seq_total += 1
-                      sp = ctn.find(f"./{q('stCondLst')}//{q('spTgt')}")
-                      trigger_id = int(sp.get("spid")) if sp is not None and sp.get("spid", "").isdigit() else None
-                      rows = [row for row in ctn.iter(q("cTn")) if row.get("presetClass")]
-                      by_trigger[trigger_id].append(rows)
-                  print(f"PACKAGE slide{num}: total interactiveSeq={seq_total}")
-                  for sid, seqs in sorted(by_trigger.items(), key=lambda x: (-1 if x[0] is None else x[0])):
-                      print(f"  trigger-id={sid} name={names.get(sid, '?')!r} seqs={len(seqs)} rows-per-seq={[len(x) for x in seqs[:6]]}{'...' if len(seqs)>6 else ''}")
-          PY
+          echo '=== animation_config ==='
+          grep -n -E "slide_cfg|default_animation|unknown|allowed|valid.*field|groups" skills/ppt-master/scripts/svg_to_pptx/animation_config.py | tail -n 180
+          echo '=== builder settings ==='
+          grep -n -A90 -B10 "def _slide_animation_settings" skills/ppt-master/scripts/svg_to_pptx/pptx_package/builder.py
+          echo '=== generated validator ==='
+          grep -n -A220 -B10 "validate_generated_animation" skills/ppt-master/scripts/pptx_animations.py | tail -n 260
