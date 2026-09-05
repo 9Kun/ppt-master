@@ -30,6 +30,7 @@ jobs:
           from pathlib import Path
           project = Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
           cfg = json.loads((project / "animations.json").read_text(encoding="utf-8"))
+          affected = []
           for slide, scfg in cfg.get("slides", {}).items():
               groups = scfg.get("groups", {}) or {}
               rows = []
@@ -39,16 +40,57 @@ jobs:
                       effs = [gcfg]
                   for idx, row in enumerate(effs or []):
                       trig = row.get("trigger_shape")
-                      if trig and (trig.startswith("run-") or trig.startswith("task-")):
+                      if trig and trig.startswith("run-"):
                           rows.append((trig, row.get("order"), gid, idx, row.get("effect"), row.get("trigger"), row.get("delay"), row.get("duration")))
               if rows:
+                  affected.append(slide)
                   print(f"SLIDE {slide}")
-                  for item in sorted(rows, key=lambda x: ((x[0] or ''), x[1] or 0, x[2], x[3])):
-                      print("  ", item)
-                  stem = slide + ".svg"
-                  svg = project / "svg_output" / stem
-                  if svg.exists():
-                      text = svg.read_text(encoding="utf-8")
-                      ids = re.findall(r'<g\b[^>]*\bid="([^"]+)"', text)
-                      print("  GROUPS", ", ".join(i for i in ids if i.startswith(("run-","task-","preview-","term-","terminal-","status-","code-","editor-","canvas-"))))
+                  by_trigger = {}
+                  for item in rows:
+                      by_trigger.setdefault(item[0], []).append(item)
+                  for trig, items in sorted(by_trigger.items()):
+                      print(f"  {trig}: {len(items)} rows; orders={sorted({x[1] for x in items})}")
+          print("AFFECTED", affected)
+          PY
+      - name: Inspect exported PPTX timing tree
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re, zipfile
+          from collections import defaultdict
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+          project = Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
+          pptx = sorted((project / "exports").glob("*.pptx"))[-1]
+          print("PPTX", pptx.name)
+          P = "http://schemas.openxmlformats.org/presentationml/2006/main"
+          q = lambda tag: f"{{{P}}}{tag}"
+          with zipfile.ZipFile(pptx) as z:
+              for num in (16, 18, 20, 21, 28, 29, 32):
+                  root = ET.fromstring(z.read(f"ppt/slides/slide{num}.xml"))
+                  names = {}
+                  for n in root.iter(q("cNvPr")):
+                      try: names[int(n.get("id"))] = n.get("name") or ""
+                      except Exception: pass
+                  by_trigger = defaultdict(list)
+                  for seq in root.iter(q("seq")):
+                      ctn = seq.find(q("cTn"))
+                      if ctn is None or ctn.get("nodeType") != "interactiveSeq":
+                          continue
+                      st = ctn.find(q("stCondLst"))
+                      trigger_id = None
+                      if st is not None:
+                          sp = st.find(f".//{q('spTgt')}")
+                          if sp is not None and sp.get("spid", "").isdigit():
+                              trigger_id = int(sp.get("spid"))
+                      rows = []
+                      for row in ctn.iter(q("cTn")):
+                          if row.get("presetClass"):
+                              targets = [x.get("spid") for x in row.iter(q("spTgt")) if x.get("spid")]
+                              rows.append((row.get("id"), row.get("nodeType"), targets))
+                      by_trigger[(trigger_id, names.get(trigger_id, "?"))].append(rows)
+                  print(f"SLIDE {num}")
+                  for (sid, name), seqs in sorted(by_trigger.items(), key=lambda x: str(x[0])):
+                      if name.startswith(("run-", "task-")):
+                          print(f"  trigger {sid} {name}: {len(seqs)} interactiveSeq(s), row-counts={[len(x) for x in seqs]}")
           PY
