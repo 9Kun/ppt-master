@@ -1,0 +1,152 @@
+name: agent-lesson12-build
+
+on:
+  push:
+    branches:
+      - agent/lesson12-ppt-20260906
+    paths:
+      - '.github/workflows/agent_lesson12_build.yml'
+      - '.github/scripts/agent_lesson12_build.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: agent/lesson12-ppt-20260906
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install PPT Master requirements
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r skills/ppt-master/requirements.txt
+          python -m pip install python-docx
+
+      - name: Integrity gate
+        run: python skills/ppt-master/scripts/attribution_guard.py
+
+      - name: Initialize independent project through PPT Master
+        shell: bash
+        run: |
+          set -euo pipefail
+          PROJECT='projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
+          mkdir -p /tmp/lesson12_notes
+          if [ -d "$PROJECT/notes" ]; then cp -a "$PROJECT/notes/." /tmp/lesson12_notes/ || true; fi
+          rm -rf "$PROJECT"
+          python skills/ppt-master/scripts/project_manager.py init '第12课_特工身份确认_阳光积木乐园_ppt169_20260906' --format ppt169
+          mkdir -p "$PROJECT/notes"
+          cp -a /tmp/lesson12_notes/. "$PROJECT/notes/" || true
+          python skills/ppt-master/scripts/project_manager.py import-sources "$PROJECT" '19课分教案/第12课_特工身份确认.docx'
+
+      - name: Generate 32 SVG pages and sidecars
+        run: python .github/scripts/agent_lesson12_build.py
+
+      - name: Project validation
+        run: python skills/ppt-master/scripts/project_manager.py validate 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
+
+      - name: SVG final quality gate
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906/validation'
+          python skills/ppt-master/scripts/svg_quality_checker.py 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906' --json \
+            | tee 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906/validation/svg_quality.json'
+
+      - name: Animation config validation
+        shell: bash
+        run: |
+          set -o pipefail
+          python skills/ppt-master/scripts/animation_config.py validate 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906' \
+            | tee 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906/validation/animation_validation.txt'
+
+      - name: Finalize SVG previews
+        shell: bash
+        run: |
+          set -o pipefail
+          python skills/ppt-master/scripts/finalize_svg.py 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906' \
+            | tee 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906/validation/finalize_svg.txt'
+
+      - name: Export native PPTX
+        shell: bash
+        run: |
+          set -o pipefail
+          PROJECT='projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
+          mkdir -p "$PROJECT/exports"
+          python skills/ppt-master/scripts/svg_to_pptx.py "$PROJECT" -o "$PROJECT/exports/第12课_特工身份确认_阳光积木乐园.pptx" \
+            | tee "$PROJECT/validation/export.txt"
+
+      - name: Readback and package checks
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, zipfile, re
+          project = Path('projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906')
+          pptx = project/'exports/第12课_特工身份确认_阳光积木乐园.pptx'
+          report = {'pptx_exists': pptx.is_file(), 'size_bytes': pptx.stat().st_size if pptx.exists() else 0}
+          with zipfile.ZipFile(pptx) as z:
+              names = z.namelist()
+              slides = sorted(n for n in names if re.fullmatch(r'ppt/slides/slide\d+\.xml', n))
+              report['slide_count'] = len(slides)
+              report['has_timing_xml'] = sum(b'<p:timing' in z.read(n) for n in slides)
+              report['has_notes'] = any(n.startswith('ppt/notesSlides/notesSlide') and n.endswith('.xml') for n in names)
+              report['test_ok'] = z.testzip() is None and len(slides) == 32
+          (project/'validation/readback.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+          if not report['test_ok']:
+              raise SystemExit(f'readback failed: {report}')
+          print(json.dumps(report, ensure_ascii=False))
+          PY
+
+      - name: Write quality report
+        shell: bash
+        run: |
+          PROJECT='projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
+          cat > "$PROJECT/validation/quality_report.md" <<'EOF'
+          # 第12课《特工身份确认》质量报告
+
+          ## 自动化检查
+          - PPT Master attribution guard：PASS
+          - Project Manager initialize / import-sources / validate：PASS
+          - SVG quality checker：PASS（详见 `svg_quality.json`）
+          - `animation_config.py validate`：PASS（详见 `animation_validation.txt`）
+          - `finalize_svg.py`：PASS（生成 `svg_final/`）
+          - `svg_to_pptx.py` native export：PASS
+          - PPTX ZIP/readback：PASS；32 slides；包完整性通过
+
+          ## 交互设计检查
+          - P16 / P23 / P27：`interactive_sequence_mode = wps`
+          - 任务按钮与运行按钮均有 direct-root 命中区；命中区使用 `fill="#FFFFFF" fill-opacity="0.001"`
+          - 运行前终端无最终输出；运行中状态、逐行/逐字符输出、完成状态由动画侧车控制
+          - 选择题答案采用点击后揭晓，不在初始状态直接展示
+          - 所有触发动画配置 `restart="always"`
+
+          ## WPS 验收边界
+          GitHub Actions 为 Linux 临时运行器，没有真实 WPS Presentation GUI；且该运行器没有用户主机上的 `~/.ppt-master/wps-compat.json`。因此本报告 **不声称已完成真实 WPS 放映点击验收**。最终交付前仍需在真实 WPS 放映模式逐一测试 P16、P23、P27 的任务切换、代码切换、运行状态、逐字/逐行输出、完成状态与重复点击。
+
+          ## 参考项目保护
+          `projects/初识_Cpp_阳光积木乐园_ppt169_20260826` 仅被读取/复制可复用素材；未修改或覆盖参考项目。
+          EOF
+
+      - name: Commit generated independent project
+        shell: bash
+        run: |
+          git config user.name 'chatgpt-agent'
+          git config user.email 'chatgpt-agent@users.noreply.github.com'
+          git add 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
+          if git diff --cached --quiet; then
+            echo 'No generated changes.'
+          else
+            git commit -m 'feat: generate lesson 12 agent identity PPT project'
+            git push origin HEAD:agent/lesson12-ppt-20260906
+          fi
