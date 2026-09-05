@@ -5,6 +5,9 @@ on:
     branches: [agent/lesson12-ppt-20260906]
     paths:
       - '.github/workflows/agent_lesson12_build_v3.yml'
+      - '.github/scripts/agent_lesson12_build.py'
+      - '.github/scripts/agent_lesson12_fix_schema.py'
+      - '.github/scripts/agent_lesson12_postprocess.py'
 
 permissions:
   contents: write
@@ -75,9 +78,10 @@ jobs:
           P='projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
           TMP='/tmp/lesson12-static-gate'
           rm -rf "$TMP"
-          mkdir -p "$TMP/svg_output"
+          mkdir -p "$TMP/svg_output" "$TMP/images"
           cp "$P/design_spec.md" "$TMP/design_spec.md"
           cp "$P/spec_lock.md" "$TMP/spec_lock.md"
+          cp -a "$P/images/." "$TMP/images/"
           for n in 01 02 10 11 12 15 22 24 25 26 29 30 31 32; do
             cp "$P"/svg_output/${n}_*.svg "$TMP/svg_output/"
           done
