@@ -1,0 +1,139 @@
+name: Lesson06 visual revision round2
+
+on:
+  push:
+    branches:
+      - fix/lesson06-visual-revision-round2
+
+permissions:
+  contents: write
+
+jobs:
+  revise-review-validate-export:
+    runs-on: ubuntu-latest
+    env:
+      PROJECT: projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Attribution guard first
+        run: python3 skills/ppt-master/scripts/attribution_guard.py
+
+      - name: Install PPT Master and visual review dependencies
+        shell: bash
+        run: |
+          python3 -m pip install -r skills/ppt-master/requirements.txt
+          python3 -m pip install playwright pillow
+          python3 -m playwright install chromium
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+
+      - name: Apply requested visual revisions
+        shell: bash
+        run: |
+          python3 .github/scripts/revise_lesson06_visuals_round2.py
+          sed -i 's/| ai | Existing |/| ai | Generated |/g' "$PROJECT/design_spec.md"
+
+      - name: Official SVG quality gate before visual review
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT"
+
+      - name: Start live preview server
+        shell: bash
+        run: |
+          python3 skills/ppt-master/scripts/svg_editor/server.py "$PROJECT" --no-browser >/tmp/lesson06-svg-server.log 2>&1 &
+          echo $! >/tmp/lesson06-svg-server.pid
+          for i in $(seq 1 30); do
+            if [ -f "$PROJECT/live_preview/lock.json" ]; then
+              cat "$PROJECT/live_preview/lock.json"
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/lesson06-svg-server.log || true
+          exit 1
+
+      - name: Render touched pages for visual review
+        run: |
+          python3 skills/ppt-master/scripts/visual_review.py "$PROJECT" --pages \
+            06 07 08 09 10 13 15 23 24 25 26 30 35
+
+      - name: Upload touched-page visual review renders
+        uses: actions/upload-artifact@v4
+        with:
+          name: lesson06-round2-visual-review
+          if-no-files-found: error
+          path: |
+            ${{ env.PROJECT }}/.preview/06_热身1-2_起步命令.png
+            ${{ env.PROJECT }}/.preview/07_热身3-4_重复动作.png
+            ${{ env.PROJECT }}/.preview/08_热身5-6_位置导航.png
+            ${{ env.PROJECT }}/.preview/09_热身7-8_颜色填充.png
+            ${{ env.PROJECT }}/.preview/10_热身9-10_背景与圆.png
+            ${{ env.PROJECT }}/.preview/13_新命令小实验.png
+            ${{ env.PROJECT }}/.preview/15_显示与隐藏海龟.png
+            ${{ env.PROJECT }}/.preview/23_选择题1-2.png
+            ${{ env.PROJECT }}/.preview/24_选择题3-4.png
+            ${{ env.PROJECT }}/.preview/25_选择题5-6.png
+            ${{ env.PROJECT }}/.preview/26_选择题7-8.png
+            ${{ env.PROJECT }}/.preview/30_微项目装配站.png
+            ${{ env.PROJECT }}/.preview/35_三个常见问题.png
+
+      - name: Rebuild svg_final from canonical svg_output
+        run: python3 skills/ppt-master/scripts/finalize_svg.py "$PROJECT"
+
+      - name: Canonical final release SVG gate
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT" --canonical-authoring --stage final --json
+
+      - name: Export new native PPTX
+        run: python3 skills/ppt-master/scripts/svg_to_pptx.py "$PROJECT"
+
+      - name: Restore every untouched SVG exactly
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import subprocess
+          from pathlib import Path
+          project = Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
+          touched = {
+              "06_热身1-2_起步命令.svg", "07_热身3-4_重复动作.svg", "08_热身5-6_位置导航.svg",
+              "09_热身7-8_颜色填充.svg", "10_热身9-10_背景与圆.svg", "13_新命令小实验.svg",
+              "15_显示与隐藏海龟.svg", "23_选择题1-2.svg", "24_选择题3-4.svg", "25_选择题5-6.svg",
+              "26_选择题7-8.svg", "30_微项目装配站.svg", "35_三个常见问题.svg",
+          }
+          for folder in ("svg_output", "svg_final"):
+              for path in sorted((project / folder).glob("*.svg")):
+                  if path.name not in touched:
+                      subprocess.run(["git", "checkout", "HEAD", "--", str(path)], check=True)
+          PY
+
+      - name: Verify P01-P04 unchanged
+        shell: bash
+        run: |
+          git diff --exit-code HEAD -- \
+            "$PROJECT/svg_output/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_output/02_今天的120分钟.svg" \
+            "$PROJECT/svg_output/03_今天要带走什么.svg" \
+            "$PROJECT/svg_output/04_十题热身赛.svg" \
+            "$PROJECT/svg_final/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_final/02_今天的120分钟.svg" \
+            "$PROJECT/svg_final/03_今天要带走什么.svg" \
+            "$PROJECT/svg_final/04_十题热身赛.svg"
+
+      - name: Commit validated project changes and PPTX
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$PROJECT/design_spec.md" "$PROJECT/spec_lock.md" "$PROJECT/animations.json" \
+            "$PROJECT/svg_output" "$PROJECT/svg_final" "$PROJECT/exports"
+          if [ -f "$PROJECT/validation/svg_quality_report.json" ]; then
+            git add "$PROJECT/validation/svg_quality_report.json"
+          fi
+          if git diff --cached --quiet; then
+            echo "No validated project changes to commit"
+            exit 0
+          fi
+          git commit -m "fix(slides): refine lesson06 quiz and review visuals"
+          git push origin HEAD:fix/lesson06-visual-revision-round2
