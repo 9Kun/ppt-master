@@ -1,0 +1,21 @@
+name: Lesson06 animation preflight
+
+on:
+  push:
+    branches:
+      - fix/lesson06-code-demo-wps-animations
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: PPT Master attribution guard
+        run: python3 skills/ppt-master/scripts/attribution_guard.py
+      - name: WPS compatibility status
+        working-directory: skills/ppt-master-wps-compat
+        run: python scripts/maintain.py status
