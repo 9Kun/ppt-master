@@ -1,0 +1,447 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed-with-warnings",
+  "output": {
+    "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第05课_多彩画笔大师_ppt169_20260830\\exports\\Python应用课_第05课_多彩画笔大师_WPS方向修正版_20260830_223137.pptx",
+    "bytes": 154532
+  },
+  "source": {
+    "svg_slide_count": 23,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "30dfde72dd5916cd48770dd76e3059cd151adeaee78a6fbb10621e8283904870",
+      "file_count": 23,
+      "files": [
+        {
+          "file": "01_封面_多彩画笔大师.svg",
+          "sha256": "ebd93b6d10a33edb7d076b625926a16b5c6b1c60bcfc35161e43e5427cf1f74a"
+        },
+        {
+          "file": "02_两小时彩色探险航线.svg",
+          "sha256": "3b49840a0972817e69926d2586d569d48c6c82ca9796fe8363dec7a956730399"
+        },
+        {
+          "file": "03_第4课知识抢答_1-5.svg",
+          "sha256": "bdf2c9bf0c17cd737e70225cce2ab7fc6c5e37b1d6c6c8f7b5f565ebc988b832"
+        },
+        {
+          "file": "04_第4课知识抢答_6-10.svg",
+          "sha256": "79f18aabdfccaedad52975498810edd86d9994742151cb23d274ce30863eff4c"
+        },
+        {
+          "file": "05_项目启动_海龟岛彩色徽章.svg",
+          "sha256": "890578e1afa465168f8fc2f1d01e68d7e76d57682295b0be5d45bc26170c77f9"
+        },
+        {
+          "file": "06_三位颜色管理员.svg",
+          "sha256": "bc20f278ef9611118a7f44cb8cd913b9632b61b72b6e184ea09cb340d1876399"
+        },
+        {
+          "file": "07_填充三明治.svg",
+          "sha256": "c7783587d38eab7418da0527c40abb7d579d1109a99b2e39f604ecefecfd9f6a"
+        },
+        {
+          "file": "08_背景和画笔粗细.svg",
+          "sha256": "abaac59b3d24742ea58242e5c1a8d04c3194116a7fc1d93d96234110ba8a59aa"
+        },
+        {
+          "file": "09_circle的两个数字.svg",
+          "sha256": "58d769f8dd880525d45907933473f3225272db0fc5502828034d36b6fe73be1c"
+        },
+        {
+          "file": "10_练习A_彩色圆.svg",
+          "sha256": "79cb16522b8a58f7c3791bcda5ad70ca2e7a70734c89d5f65f2ff546550d997d"
+        },
+        {
+          "file": "11_控制台_彩色圆实验站.svg",
+          "sha256": "735c014146f31918528d876c2d7992d7bc2a509c834ed15c1c1cf9c610e5a3f7"
+        },
+        {
+          "file": "12_选择闯关_1-2.svg",
+          "sha256": "711089c409958cf07ec5d8c405d19bf517ff1c39b7ce6afd34f4cf2a095f9ee4"
+        },
+        {
+          "file": "13_选择闯关_3-4.svg",
+          "sha256": "ed6775c244e317031a96bbdc1cfb99fb7e537a58c75972f369385c3c86392428"
+        },
+        {
+          "file": "14_选择闯关_5-6.svg",
+          "sha256": "161c17adc6fe533caa7d89646b1468e11625bc7bf04368a1a25284642f489108"
+        },
+        {
+          "file": "15_选择闯关_7-8.svg",
+          "sha256": "10b1e95123f39d65910f7a0860403a317f2e1ae385f67ed1dcfd9ec0c276cd0c"
+        },
+        {
+          "file": "16_课间休息.svg",
+          "sha256": "3190154710598cae913bbbd5fd04c61fdf402f4e84766ff57bd6a8a3ebcbcafb"
+        },
+        {
+          "file": "17_练习B_填充正方形.svg",
+          "sha256": "f71b99653c1e22203aa18cb88a41c99aea674456db0c465d967079632de4dabc"
+        },
+        {
+          "file": "18_控制台_填充正方形实验站.svg",
+          "sha256": "334b6092cc1dbd936ae835ac7ca179b431639b98a4d523c518a4cf506dd96dd1"
+        },
+        {
+          "file": "19_微项目_双层彩色徽章.svg",
+          "sha256": "ccd0008f2320042ec7dd1313f5f53d91e38db76eae1c0a39090a9ebbc298a028"
+        },
+        {
+          "file": "20_控制台_海龟岛徽章工坊.svg",
+          "sha256": "0535b3f64f4b8806108adf93dd59526904ae245c5ba97fe1ec2ff62e8c6170d6"
+        },
+        {
+          "file": "21_代码挑战_补一补再创造.svg",
+          "sha256": "e686e006098e5f429799be8f089274aa2cd7b8f7047ff438da8b4ec00ff3b54d"
+        },
+        {
+          "file": "22_易错警示_海龟修理站.svg",
+          "sha256": "2d95ae5ebc0951f34f0ef216113157d242c5d37763884ab4886b6cc14a112ccb"
+        },
+        {
+          "file": "23_作品验收_彩色徽章发布会.svg",
+          "sha256": "8bc734239f0a1628e8dd7d76d54db2f0e1457a6a6c8339a2f41da2cac43db0f2"
+        }
+      ]
+    }
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 23,
+    "notes": 23,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "quality_gate": "passed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "warning"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第05课_多彩画笔大师_ppt169_20260830\\validation\\svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "30dfde72dd5916cd48770dd76e3059cd151adeaee78a6fbb10621e8283904870",
+      "file_count": 23,
+      "files": [
+        {
+          "file": "01_封面_多彩画笔大师.svg",
+          "sha256": "ebd93b6d10a33edb7d076b625926a16b5c6b1c60bcfc35161e43e5427cf1f74a"
+        },
+        {
+          "file": "02_两小时彩色探险航线.svg",
+          "sha256": "3b49840a0972817e69926d2586d569d48c6c82ca9796fe8363dec7a956730399"
+        },
+        {
+          "file": "03_第4课知识抢答_1-5.svg",
+          "sha256": "bdf2c9bf0c17cd737e70225cce2ab7fc6c5e37b1d6c6c8f7b5f565ebc988b832"
+        },
+        {
+          "file": "04_第4课知识抢答_6-10.svg",
+          "sha256": "79f18aabdfccaedad52975498810edd86d9994742151cb23d274ce30863eff4c"
+        },
+        {
+          "file": "05_项目启动_海龟岛彩色徽章.svg",
+          "sha256": "890578e1afa465168f8fc2f1d01e68d7e76d57682295b0be5d45bc26170c77f9"
+        },
+        {
+          "file": "06_三位颜色管理员.svg",
+          "sha256": "bc20f278ef9611118a7f44cb8cd913b9632b61b72b6e184ea09cb340d1876399"
+        },
+        {
+          "file": "07_填充三明治.svg",
+          "sha256": "c7783587d38eab7418da0527c40abb7d579d1109a99b2e39f604ecefecfd9f6a"
+        },
+        {
+          "file": "08_背景和画笔粗细.svg",
+          "sha256": "abaac59b3d24742ea58242e5c1a8d04c3194116a7fc1d93d96234110ba8a59aa"
+        },
+        {
+          "file": "09_circle的两个数字.svg",
+          "sha256": "58d769f8dd880525d45907933473f3225272db0fc5502828034d36b6fe73be1c"
+        },
+        {
+          "file": "10_练习A_彩色圆.svg",
+          "sha256": "79cb16522b8a58f7c3791bcda5ad70ca2e7a70734c89d5f65f2ff546550d997d"
+        },
+        {
+          "file": "11_控制台_彩色圆实验站.svg",
+          "sha256": "735c014146f31918528d876c2d7992d7bc2a509c834ed15c1c1cf9c610e5a3f7"
+        },
+        {
+          "file": "12_选择闯关_1-2.svg",
+          "sha256": "711089c409958cf07ec5d8c405d19bf517ff1c39b7ce6afd34f4cf2a095f9ee4"
+        },
+        {
+          "file": "13_选择闯关_3-4.svg",
+          "sha256": "ed6775c244e317031a96bbdc1cfb99fb7e537a58c75972f369385c3c86392428"
+        },
+        {
+          "file": "14_选择闯关_5-6.svg",
+          "sha256": "161c17adc6fe533caa7d89646b1468e11625bc7bf04368a1a25284642f489108"
+        },
+        {
+          "file": "15_选择闯关_7-8.svg",
+          "sha256": "10b1e95123f39d65910f7a0860403a317f2e1ae385f67ed1dcfd9ec0c276cd0c"
+        },
+        {
+          "file": "16_课间休息.svg",
+          "sha256": "3190154710598cae913bbbd5fd04c61fdf402f4e84766ff57bd6a8a3ebcbcafb"
+        },
+        {
+          "file": "17_练习B_填充正方形.svg",
+          "sha256": "f71b99653c1e22203aa18cb88a41c99aea674456db0c465d967079632de4dabc"
+        },
+        {
+          "file": "18_控制台_填充正方形实验站.svg",
+          "sha256": "334b6092cc1dbd936ae835ac7ca179b431639b98a4d523c518a4cf506dd96dd1"
+        },
+        {
+          "file": "19_微项目_双层彩色徽章.svg",
+          "sha256": "ccd0008f2320042ec7dd1313f5f53d91e38db76eae1c0a39090a9ebbc298a028"
+        },
+        {
+          "file": "20_控制台_海龟岛徽章工坊.svg",
+          "sha256": "0535b3f64f4b8806108adf93dd59526904ae245c5ba97fe1ec2ff62e8c6170d6"
+        },
+        {
+          "file": "21_代码挑战_补一补再创造.svg",
+          "sha256": "e686e006098e5f429799be8f089274aa2cd7b8f7047ff438da8b4ec00ff3b54d"
+        },
+        {
+          "file": "22_易错警示_海龟修理站.svg",
+          "sha256": "2d95ae5ebc0951f34f0ef216113157d242c5d37763884ab4886b6cc14a112ccb"
+        },
+        {
+          "file": "23_作品验收_彩色徽章发布会.svg",
+          "sha256": "8bc734239f0a1628e8dd7d76d54db2f0e1457a6a6c8339a2f41da2cac43db0f2"
+        }
+      ]
+    },
+    "summary": {
+      "total": 23,
+      "passed": 0,
+      "warnings": 23,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 32,
+        "issues": [
+          {
+            "file": "01_封面_多彩画笔大师.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "02_两小时彩色探险航线.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "03_第4课知识抢答_1-5.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "04_第4课知识抢答_6-10.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "05_项目启动_海龟岛彩色徽章.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "05_项目启动_海龟岛彩色徽章.svg",
+            "message": "Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id=\"driving-question\"> x=88.0, y=266.0..304.0, 2 lines; <g id=\"goal-card\"> x=88.0, y=454.0..490.0, 2 lines; <g id=\"command-route\"> x=648.0, y=512.0..584.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "06_三位颜色管理员.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "07_填充三明治.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "07_填充三明治.svg",
+            "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"technical-fact\"> x=684.0, y=250.0..286.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "08_背景和画笔粗细.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "08_背景和画笔粗细.svg",
+            "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"background-stage\"> x=94.0, y=462.0..500.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "09_circle的两个数字.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "10_练习A_彩色圆.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "10_练习A_彩色圆.svg",
+            "message": "Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id=\"code-card\"> x=86.0, y=326.0..362.0, 2 lines; <g id=\"code-card\"> x=86.0, y=470.0..506.0, 2 lines; <g id=\"code-card\"> x=86.0, y=542.0..578.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "11_控制台_彩色圆实验站.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "11_控制台_彩色圆实验站.svg",
+            "message": "Detected 4 paragraph-like line run(s) split across sibling <text> elements (<g id=\"code-t1-initial\"> x=78.0, y=252.0..286.0, 2 lines; <g id=\"code-t1-initial\"> x=78.0, y=388.0..422.0, 2 lines; <g id=\"code-t1-state\"> x=78.0, y=304.0..340.0, 2 lines; +1 more). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "12_选择闯关_1-2.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "13_选择闯关_3-4.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "14_选择闯关_5-6.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "15_选择闯关_7-8.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "16_课间休息.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "17_练习B_填充正方形.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "17_练习B_填充正方形.svg",
+            "message": "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"code-card\"> x=88.0, y=216.0..252.0, 2 lines; <g id=\"code-card\"> x=116.0, y=418.0..454.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "18_控制台_填充正方形实验站.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "18_控制台_填充正方形实验站.svg",
+            "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"code-t1-initial\"> x=104.0, y=354.0..388.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "19_微项目_双层彩色徽章.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "19_微项目_双层彩色徽章.svg",
+            "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"starter-code\"> x=406.0, y=422.0..454.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "20_控制台_海龟岛徽章工坊.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "20_控制台_海龟岛徽章工坊.svg",
+            "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"code-t1-initial\"> x=78.0, y=340.0..370.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+          },
+          {
+            "file": "21_代码挑战_补一补再创造.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "22_易错警示_海龟修理站.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          },
+          {
+            "file": "23_作品验收_彩色徽章发布会.svg",
+            "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+          }
+        ]
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Consolas, Courier New, monospace",
+        "Microsoft YaHei, Arial, sans-serif",
+        "YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": [
+        {
+          "stack": "YouYuan, Microsoft YaHei, sans-serif",
+          "role": "ea",
+          "typeface": "YouYuan"
+        }
+      ]
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 0,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": "fade",
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": null,
+  "conversion_trace_path": null
+}

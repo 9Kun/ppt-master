@@ -93,8 +93,6 @@ temp_files/
 # MCP server auto-creates .playwright-mcp/ at CWD for snapshot/console logs
 .playwright-mcp/
 # Visual-review renderer writes per-project preview PNGs and the render lock
-projects/*/.preview/
-projects/*/.review/
 # Stray top-level screenshots created when MCP filename was a bare relative path
 # (the agreed convention is to always pass an absolute /tmp/... path)
 /probe-*.png
@@ -182,7 +180,6 @@ PERSONAL_NOTES.md
 # Projects directory - Work-in-progress projects (not version controlled)
 # Completed projects are published through the separate examples repository
 # Use cloud sync (iCloud/Dropbox) for backup and multi-device access
-projects/*
 !projects/README.md
 
 # Derived template review exports (local review only; never template input)

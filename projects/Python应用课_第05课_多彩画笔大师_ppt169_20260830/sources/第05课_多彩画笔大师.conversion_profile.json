@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "docx",
+  "source": {
+    "path": "D:/Data/Desktop/python应用课 15课 教学大纲+PPT/19课分教案/第05课_多彩画笔大师.docx",
+    "name": "第05课_多彩画笔大师.docx",
+    "suffix": ".docx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 38527
+  },
+  "outputs": {
+    "markdown": "第05课_多彩画笔大师.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 206,
+    "char_count": 4471,
+    "heading_count": 18,
+    "table_count": 5,
+    "image_ref_count": 0,
+    "link_count": 0
+  },
+  "warnings": []
+}

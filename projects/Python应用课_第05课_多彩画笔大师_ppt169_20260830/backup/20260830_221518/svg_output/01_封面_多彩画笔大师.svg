@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="cover" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs>
+    <linearGradient id="cover-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFCF1"/>
+      <stop offset="1" stop-color="#FFEFCB"/>
+    </linearGradient>
+    <linearGradient id="paint-ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2E9BFF"/>
+      <stop offset="0.52" stop-color="#FF6FA5"/>
+      <stop offset="1" stop-color="#FF9F1C"/>
+    </linearGradient>
+  </defs>
+  <rect id="page-bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="url(#cover-bg)"/>
+  <path id="top-ribbon" data-pptx-role="decoration" d="M0 0H1280V18H0Z" fill="url(#paint-ribbon)"/>
+
+  <g id="cover-copy" data-pptx-bounds="58 55 670 520">
+    <rect x="60" y="58" width="250" height="42" rx="21" fill="#EAF5FF"/>
+    <use data-icon="tabler-filled/palette" x="78" y="67" width="24" height="24" fill="#2E9BFF"/>
+    <text x="112" y="86" font-size="18" font-weight="700" fill="#2E9BFF">Python 应用课 · 第 05 课</text>
+    <text x="62" y="178" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="58" font-weight="700" fill="#203044">多彩画笔大师</text>
+    <text x="64" y="232" font-size="28" font-weight="700" fill="#FF9F1C">神奇海龟小画家 · 彩色徽章工坊</text>
+    <text x="64" y="286" font-size="24" fill="#203044">给海龟岛的徽章加上颜色、粗线和填充</text>
+    <rect x="62" y="326" width="594" height="108" rx="24" fill="#FFFFFF"/>
+    <rect x="62" y="326" width="12" height="108" rx="6" fill="#2E9BFF"/>
+    <text x="94" y="367" font-size="20" font-weight="700" fill="#2E9BFF">今天的升级挑战</text>
+    <text x="94" y="404" font-size="24" font-weight="700" fill="#203044">把普通黑线，变成有边框、有填充的彩色徽章！</text>
+    <g id="skill-pills">
+      <rect x="62" y="466" width="152" height="48" rx="24" fill="#EAF5FF"/>
+      <circle cx="90" cy="490" r="9" fill="#2E9BFF"/>
+      <text x="111" y="499" font-size="20" font-weight="700" fill="#203044">会配色</text>
+      <rect x="230" y="466" width="152" height="48" rx="24" fill="#FFE2ED"/>
+      <circle cx="258" cy="490" r="9" fill="#FF6FA5"/>
+      <text x="279" y="499" font-size="20" font-weight="700" fill="#203044">会填充</text>
+      <rect x="398" y="466" width="176" height="48" rx="24" fill="#FFF2DC"/>
+      <circle cx="426" cy="490" r="9" fill="#FF9F1C"/>
+      <text x="447" y="499" font-size="20" font-weight="700" fill="#203044">会改参数</text>
+    </g>
+  </g>
+
+  <g id="badge-stage" data-pptx-bounds="740 72 480 560">
+    <rect x="760" y="90" width="430" height="514" rx="56" fill="#FFFFFF"/>
+    <rect x="778" y="108" width="394" height="478" rx="46" fill="#EAF5FF"/>
+    <circle cx="975" cy="342" r="164" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="4"/>
+    <g id="badge-outer">
+      <circle cx="975" cy="342" r="132" fill="#FFE26A" stroke="#2E5EA8" stroke-width="14"/>
+      <circle cx="975" cy="342" r="91" fill="#FF9F1C" stroke="#E34F67" stroke-width="10"/>
+      <circle cx="975" cy="342" r="45" fill="#FFFDF5"/>
+      <use data-icon="tabler-filled/star" x="944" y="311" width="62" height="62" fill="#2E9BFF"/>
+    </g>
+    <g id="paint-dots">
+      <circle cx="838" cy="169" r="18" fill="#2E9BFF"/>
+      <circle cx="1115" cy="185" r="14" fill="#FF6FA5"/>
+      <circle cx="1127" cy="496" r="20" fill="#22C55E"/>
+      <circle cx="831" cy="520" r="13" fill="#FF9F1C"/>
+    </g>
+    <rect x="842" y="536" width="266" height="42" rx="21" fill="#17243A"/>
+    <text x="975" y="564" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="18" font-weight="700" fill="#FFFFFF">color → fill → badge</text>
+  </g>
+
+  <g id="paint-trail" data-pptx-bounds="584 516 260 142">
+    <path d="M594 610 C656 552 716 626 792 548" fill="none" stroke="url(#paint-ribbon)" stroke-width="18" stroke-linecap="round"/>
+    <use data-icon="tabler-filled/pencil" x="747" y="520" width="70" height="70" fill="#203044" transform="rotate(-22,782,555)"/>
+  </g>
+
+  <g id="footer" data-pptx-bounds="60 654 1160 30">
+    <text x="62" y="677" font-size="14" fill="#617187">120 分钟 · 复习 × 讲解 × 练习 × 编程作品</text>
+    <text x="1218" y="677" text-anchor="end" font-size="14" fill="#617187">05 / 彩色徽章工坊</text>
+  </g>
+</svg>

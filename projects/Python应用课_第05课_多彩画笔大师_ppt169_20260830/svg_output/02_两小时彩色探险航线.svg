@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="toc" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="page-bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFDF5"/>
+  <g id="header" data-pptx-bounds="50 38 1180 104">
+    <rect x="52" y="44" width="188" height="38" rx="19" fill="#EAF5FF"/>
+    <text x="146" y="70" text-anchor="middle" font-size="18" font-weight="700" fill="#2E9BFF">课堂探险航线</text>
+    <text x="52" y="120" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#203044">两小时彩色探险航线</text>
+    <rect x="1006" y="54" width="214" height="52" rx="26" fill="#17243A"/>
+    <text x="1113" y="88" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">合计 120 分钟</text>
+  </g>
+  <g id="route-spine" data-pptx-bounds="76 164 1128 84">
+    <line x1="138" y1="208" x2="1128" y2="208" stroke="#CFE5F8" stroke-width="18" stroke-linecap="round"/>
+    <line x1="138" y1="208" x2="430" y2="208" stroke="#2E9BFF" stroke-width="18" stroke-linecap="round"/>
+    <line x1="430" y1="208" x2="698" y2="208" stroke="#FF9F1C" stroke-width="18"/>
+    <line x1="698" y1="208" x2="930" y2="208" stroke="#FF6FA5" stroke-width="18"/>
+    <line x1="930" y1="208" x2="1128" y2="208" stroke="#22C55E" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <g id="stage-review" data-pptx-bounds="58 250 268 250">
+    <rect x="64" y="264" width="250" height="224" rx="30" fill="#EAF5FF"/>
+    <circle cx="108" cy="304" r="26" fill="#2E9BFF"/>
+    <text x="108" y="313" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="146" y="314" font-size="24" font-weight="700" fill="#203044">课前复习</text>
+    <text x="88" y="360" font-size="20" font-weight="700" fill="#2E9BFF">知识抢答 · 10 题</text>
+    <text x="88" y="399" font-size="18" fill="#203044">坐标、移动、方向</text>
+    <rect x="88" y="430" width="112" height="38" rx="19" fill="#2E9BFF"/>
+    <text x="144" y="456" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">15 分钟</text>
+  </g>
+  <g id="stage-learn" data-pptx-bounds="334 250 268 250">
+    <rect x="340" y="264" width="250" height="224" rx="30" fill="#FFF2DC"/>
+    <circle cx="384" cy="304" r="26" fill="#FF9F1C"/>
+    <text x="384" y="313" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="422" y="314" font-size="24" font-weight="700" fill="#203044">知识讲解</text>
+    <text x="364" y="360" font-size="20" font-weight="700" fill="#FF9F1C">颜色 × 填充 × 参数</text>
+    <text x="364" y="399" font-size="18" fill="#203044">先观察，再运行验证</text>
+    <rect x="364" y="430" width="112" height="38" rx="19" fill="#FF9F1C"/>
+    <text x="420" y="456" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">45 分钟</text>
+  </g>
+  <g id="stage-choice" data-pptx-bounds="610 250 268 250">
+    <rect x="616" y="264" width="250" height="224" rx="30" fill="#FFE2ED"/>
+    <circle cx="660" cy="304" r="26" fill="#FF6FA5"/>
+    <text x="660" y="313" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="698" y="314" font-size="24" font-weight="700" fill="#203044">选择练习</text>
+    <text x="640" y="360" font-size="20" font-weight="700" fill="#FF6FA5">本课选择题 · 8 题</text>
+    <text x="640" y="399" font-size="18" fill="#203044">判断命令、参数与结果</text>
+    <rect x="640" y="430" width="112" height="38" rx="19" fill="#FF6FA5"/>
+    <text x="696" y="456" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">20 分钟</text>
+  </g>
+  <g id="stage-project" data-pptx-bounds="886 250 330 250">
+    <rect x="892" y="264" width="322" height="224" rx="30" fill="#E9FBEF"/>
+    <circle cx="936" cy="304" r="26" fill="#22C55E"/>
+    <text x="936" y="313" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="974" y="314" font-size="24" font-weight="700" fill="#203044">拓展编程</text>
+    <text x="916" y="360" font-size="20" font-weight="700" fill="#22C55E">双层彩色徽章</text>
+    <text x="916" y="399" font-size="18" fill="#203044">补代码、运行、检查、展示</text>
+    <rect x="916" y="430" width="112" height="38" rx="19" fill="#22C55E"/>
+    <text x="972" y="456" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">40 分钟</text>
+  </g>
+  <g id="coach-tip" data-pptx-bounds="64 526 1150 126">
+    <rect x="64" y="536" width="1150" height="102" rx="26" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="2"/>
+    <use data-icon="tabler-filled/bulb" x="88" y="558" width="54" height="54" fill="#FF9F1C"/>
+    <text x="160" y="576" font-size="18" font-weight="700" fill="#FF9F1C">家长陪练句式</text>
+    <text x="160" y="611" font-size="24" font-weight="700" fill="#203044">“每运行一次，都请孩子说出改了什么、结果为什么变。”</text>
+    <rect x="976" y="552" width="210" height="68" rx="20" fill="#FFF2DC"/>
+    <text x="1081" y="579" text-anchor="middle" font-size="16" font-weight="700" fill="#FF9F1C">课间休息</text>
+    <text x="1081" y="607" text-anchor="middle" font-size="18" fill="#203044">65–75 分钟</text>
+  </g>
+</svg>

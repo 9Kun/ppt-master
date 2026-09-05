@@ -1,0 +1,3546 @@
+{
+  "version": 1,
+  "slides": {
+    "01_封面_多彩画笔大师": {
+      "groups": {
+        "badge-stage": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 1,
+          "duration": 0.22,
+          "delay": 0.04
+        },
+        "paint-trail": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 2,
+          "duration": 0.2,
+          "delay": 0.06
+        }
+      }
+    },
+    "02_两小时彩色探险航线": {
+      "groups": {
+        "route-spine": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 1,
+          "duration": 0.18,
+          "delay": 0.04
+        },
+        "stage-review": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 2,
+          "duration": 0.16,
+          "delay": 0.04
+        },
+        "stage-learn": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 3,
+          "duration": 0.16,
+          "delay": 0.04
+        },
+        "stage-choice": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 4,
+          "duration": 0.16,
+          "delay": 0.04
+        },
+        "stage-project": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 5,
+          "duration": 0.16,
+          "delay": 0.04
+        }
+      }
+    },
+    "03_第4课知识抢答_1-5": {
+      "groups": {
+        "answer-1": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 1,
+          "duration": 0.2
+        },
+        "answer-2": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 2,
+          "duration": 0.2
+        },
+        "answer-3": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 3,
+          "duration": 0.2
+        },
+        "answer-4": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 4,
+          "duration": 0.2
+        },
+        "answer-5": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 5,
+          "duration": 0.2
+        }
+      }
+    },
+    "04_第4课知识抢答_6-10": {
+      "groups": {
+        "answer-6": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 1,
+          "duration": 0.2
+        },
+        "answer-7": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 2,
+          "duration": 0.2
+        },
+        "answer-8": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 3,
+          "duration": 0.2
+        },
+        "answer-9": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 4,
+          "duration": 0.2
+        },
+        "answer-10": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 5,
+          "duration": 0.2
+        },
+        "quiz-champion": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 6,
+          "duration": 0.3
+        }
+      }
+    },
+    "07_填充三明治": {
+      "groups": {
+        "sandwich-stack": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 1,
+          "duration": 0.16,
+          "delay": 0.04
+        },
+        "technical-fact": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 2,
+          "duration": 0.16,
+          "delay": 0.04
+        },
+        "code-example": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 3,
+          "duration": 0.16,
+          "delay": 0.04
+        },
+        "error-tip": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 4,
+          "duration": 0.16,
+          "delay": 0.04
+        }
+      }
+    },
+    "12_选择闯关_1-2": {
+      "groups": {
+        "answer-1-correct": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 1,
+          "duration": 0.2
+        },
+        "answer-1-explain": {
+          "effect": "entrance_fade",
+          "trigger": "with-previous",
+          "order": 1,
+          "duration": 0.3
+        },
+        "answer-2-correct": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 2,
+          "duration": 0.2
+        },
+        "answer-2-explain": {
+          "effect": "entrance_fade",
+          "trigger": "with-previous",
+          "order": 2,
+          "duration": 0.3
+        }
+      }
+    },
+    "13_选择闯关_3-4": {
+      "groups": {
+        "answer-3-correct": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 1,
+          "duration": 0.2
+        },
+        "answer-3-explain": {
+          "effect": "entrance_fade",
+          "trigger": "with-previous",
+          "order": 1,
+          "duration": 0.3
+        },
+        "answer-4-correct": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 2,
+          "duration": 0.2
+        },
+        "answer-4-explain": {
+          "effect": "entrance_fade",
+          "trigger": "with-previous",
+          "order": 2,
+          "duration": 0.3
+        }
+      }
+    },
+    "14_选择闯关_5-6": {
+      "groups": {
+        "answer-5-correct": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 1,
+          "duration": 0.2
+        },
+        "answer-5-explain": {
+          "effect": "entrance_fade",
+          "trigger": "with-previous",
+          "order": 1,
+          "duration": 0.3
+        },
+        "answer-6-correct": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 2,
+          "duration": 0.2
+        },
+        "answer-6-explain": {
+          "effect": "entrance_fade",
+          "trigger": "with-previous",
+          "order": 2,
+          "duration": 0.3
+        }
+      }
+    },
+    "15_选择闯关_7-8": {
+      "groups": {
+        "answer-7-correct": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 1,
+          "duration": 0.2
+        },
+        "answer-7-explain": {
+          "effect": "entrance_fade",
+          "trigger": "with-previous",
+          "order": 1,
+          "duration": 0.3
+        },
+        "answer-8-correct": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 2,
+          "duration": 0.2
+        },
+        "answer-8-explain": {
+          "effect": "entrance_fade",
+          "trigger": "with-previous",
+          "order": 2,
+          "duration": 0.3
+        }
+      }
+    },
+    "22_易错警示_海龟修理站": {
+      "groups": {
+        "answer-1": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 1,
+          "duration": 0.2
+        },
+        "answer-2": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 2,
+          "duration": 0.2
+        },
+        "answer-3": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 3,
+          "duration": 0.2
+        },
+        "answer-4": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 4,
+          "duration": 0.2
+        },
+        "repair-rhyme": {
+          "effect": "entrance_fade",
+          "trigger": "on-click",
+          "order": 5,
+          "duration": 0.3
+        }
+      }
+    },
+    "23_作品验收_彩色徽章发布会": {
+      "groups": {
+        "acceptance-list": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 1,
+          "duration": 0.16,
+          "delay": 0.04
+        },
+        "showcase-script": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 2,
+          "duration": 0.16,
+          "delay": 0.04
+        },
+        "home-action": {
+          "effect": "entrance_fade",
+          "trigger": "after-previous",
+          "order": 3,
+          "duration": 0.16,
+          "delay": 0.04
+        }
+      }
+    },
+    "05_项目启动_海龟岛彩色徽章": {
+      "animation": {
+        "effect": "entrance_fade",
+        "trigger": "after-previous",
+        "duration": 0.16,
+        "stagger": 0.06
+      }
+    },
+    "06_三位颜色管理员": {
+      "animation": {
+        "effect": "entrance_fade",
+        "trigger": "after-previous",
+        "duration": 0.16,
+        "stagger": 0.06
+      }
+    },
+    "08_背景和画笔粗细": {
+      "animation": {
+        "effect": "entrance_fade",
+        "trigger": "after-previous",
+        "duration": 0.16,
+        "stagger": 0.06
+      }
+    },
+    "09_circle的两个数字": {
+      "animation": {
+        "effect": "entrance_fade",
+        "trigger": "after-previous",
+        "duration": 0.16,
+        "stagger": 0.06
+      }
+    },
+    "16_课间休息": {
+      "animation": {
+        "effect": "entrance_fade",
+        "trigger": "after-previous",
+        "duration": 0.16,
+        "stagger": 0.06
+      }
+    },
+    "11_控制台_彩色圆实验站": {
+      "interactive_sequence_mode": "wps",
+      "groups": {
+        "terminal-guide-initial": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 1,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 201,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 302,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 401,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "terminal-guide-active": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 2,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 202,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 313,
+              "delay": 0.1,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 413,
+              "delay": 0.1,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "terminal-running": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 3,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 91,
+              "delay": 2.84,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 203,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 291,
+              "delay": 2.84,
+              "duration": 0.05,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-seg-01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 10,
+              "delay": 0.18,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-seg-02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 11,
+              "delay": 0.6,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "down"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-seg-03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 12,
+              "delay": 1.02,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "left"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-seg-04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 13,
+              "delay": 1.44,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "up"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 40,
+              "delay": 1.86,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 41,
+              "delay": 1.96,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 42,
+              "delay": 2.06,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 43,
+              "delay": 2.16,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c05": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 44,
+              "delay": 2.26,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c06": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 45,
+              "delay": 2.36,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c07": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 46,
+              "delay": 2.46,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c08": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 47,
+              "delay": 2.56,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "done-t1": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 90,
+              "delay": 2.84,
+              "duration": 0.1,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-seg-01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 210,
+              "delay": 0.18,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-seg-02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 211,
+              "delay": 0.6,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "down"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-seg-03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 212,
+              "delay": 1.02,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "left"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-seg-04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 213,
+              "delay": 1.44,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "up"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 240,
+              "delay": 1.86,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 241,
+              "delay": 1.96,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 242,
+              "delay": 2.06,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 243,
+              "delay": 2.16,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c05": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 244,
+              "delay": 2.26,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c06": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 245,
+              "delay": 2.36,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c07": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 246,
+              "delay": 2.46,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c08": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 247,
+              "delay": 2.56,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "done-t2": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 290,
+              "delay": 2.84,
+              "duration": 0.1,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t1-hit": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 301,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 412,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-t1-initial": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 302,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 401,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t1-initial": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 302,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 401,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-t2-state": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 310,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t2-button": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 311,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t2-hit": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 312,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-t1-state": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 410,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t1-button": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 411,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        }
+      }
+    },
+    "18_控制台_填充正方形实验站": {
+      "interactive_sequence_mode": "wps",
+      "groups": {
+        "terminal-guide-initial": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 1,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 201,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 302,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 401,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "terminal-guide-active": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 2,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 202,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 313,
+              "delay": 0.1,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 413,
+              "delay": 0.1,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "terminal-running": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 3,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 91,
+              "delay": 3.02,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 203,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 291,
+              "delay": 3.02,
+              "duration": 0.05,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-seg-01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 10,
+              "delay": 0.18,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-seg-02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 11,
+              "delay": 0.6,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "down"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-seg-03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 12,
+              "delay": 1.02,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "left"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-seg-04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 13,
+              "delay": 1.44,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "up"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-fill": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 30,
+              "delay": 1.86,
+              "duration": 0.12,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 40,
+              "delay": 2.04,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 41,
+              "delay": 2.14,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 42,
+              "delay": 2.24,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 43,
+              "delay": 2.34,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c05": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 44,
+              "delay": 2.44,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c06": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 45,
+              "delay": 2.54,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c07": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 46,
+              "delay": 2.64,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-c08": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 47,
+              "delay": 2.74,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "done-t1": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 90,
+              "delay": 3.02,
+              "duration": 0.1,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-seg-01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 210,
+              "delay": 0.18,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-seg-02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 211,
+              "delay": 0.6,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "down"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-seg-03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 212,
+              "delay": 1.02,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "left"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-seg-04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 213,
+              "delay": 1.44,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "up"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-fill": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 230,
+              "delay": 1.86,
+              "duration": 0.12,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 240,
+              "delay": 2.04,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 241,
+              "delay": 2.14,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 242,
+              "delay": 2.24,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 243,
+              "delay": 2.34,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c05": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 244,
+              "delay": 2.44,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c06": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 245,
+              "delay": 2.54,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c07": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 246,
+              "delay": 2.64,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-c08": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 247,
+              "delay": 2.74,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "done-t2": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 290,
+              "delay": 3.02,
+              "duration": 0.1,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t1-hit": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 301,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 412,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-t1-initial": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 302,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 401,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t1-initial": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 302,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 401,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-t2-state": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 310,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t2-button": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 311,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t2-hit": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 312,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-t1-state": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 410,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t1-button": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 411,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        }
+      }
+    },
+    "20_控制台_海龟岛徽章工坊": {
+      "interactive_sequence_mode": "wps",
+      "groups": {
+        "terminal-guide-initial": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 1,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 201,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 302,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 401,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "terminal-guide-active": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 2,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 202,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 313,
+              "delay": 0.1,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 413,
+              "delay": 0.1,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "terminal-running": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 3,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 91,
+              "delay": 4.88,
+              "duration": 0.05,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 203,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 291,
+              "delay": 4.88,
+              "duration": 0.05,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-outer-01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 10,
+              "delay": 0.18,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-outer-02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 11,
+              "delay": 0.6,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "down"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-outer-03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 12,
+              "delay": 1.02,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "left"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-outer-04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 13,
+              "delay": 1.44,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "up"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-inner-01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 15,
+              "delay": 2.04,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-inner-02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 16,
+              "delay": 2.46,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "down"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-inner-03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 17,
+              "delay": 2.88,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "left"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-inner-04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 18,
+              "delay": 3.3,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "up"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-outer-fill": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 14,
+              "delay": 1.86,
+              "duration": 0.12,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t1-inner-fill": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 19,
+              "delay": 3.72,
+              "duration": 0.12,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-l1-c01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 40,
+              "delay": 3.9,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-l1-c02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 41,
+              "delay": 4.0,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-l1-c03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 42,
+              "delay": 4.1,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-l1-c04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 43,
+              "delay": 4.2,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-l2-c01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 44,
+              "delay": 4.3,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-l2-c02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 45,
+              "delay": 4.4,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-l2-c03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 46,
+              "delay": 4.5,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t1-l2-c04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 47,
+              "delay": 4.6,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "done-t1": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t1-hit",
+              "order": 90,
+              "delay": 4.88,
+              "duration": 0.1,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-outer-01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 210,
+              "delay": 0.18,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-outer-02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 211,
+              "delay": 0.6,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "down"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-outer-03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 212,
+              "delay": 1.02,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "left"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-outer-04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 213,
+              "delay": 1.44,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "up"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-inner-01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 215,
+              "delay": 2.04,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-inner-02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 216,
+              "delay": 2.46,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "down"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-inner-03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 217,
+              "delay": 2.88,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "left"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-inner-04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 218,
+              "delay": 3.3,
+              "duration": 0.36,
+              "restart": "always",
+              "effect_options": {
+                "direction": "up"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-outer-fill": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 214,
+              "delay": 1.86,
+              "duration": 0.12,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "canvas-t2-inner-fill": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 219,
+              "delay": 3.72,
+              "duration": 0.12,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-l1-c01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 240,
+              "delay": 3.9,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-l1-c02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 241,
+              "delay": 4.0,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-l1-c03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 242,
+              "delay": 4.1,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-l1-c04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 243,
+              "delay": 4.2,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-l2-c01": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 244,
+              "delay": 4.3,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-l2-c02": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 245,
+              "delay": 4.4,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-l2-c03": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 246,
+              "delay": 4.5,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "term-t2-l2-c04": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 247,
+              "delay": 4.6,
+              "duration": 0.08,
+              "restart": "always",
+              "effect_options": {
+                "direction": "right"
+              }
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "done-t2": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "run-t2-hit",
+              "order": 290,
+              "delay": 4.88,
+              "duration": 0.1,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t1-hit": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 301,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 412,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-t1-initial": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 302,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 401,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t1-initial": {
+          "effects": [
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 302,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 401,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-t2-state": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 310,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t2-button": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 311,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t2-hit": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 312,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 600,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "code-t1-state": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 410,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        },
+        "run-t1-button": {
+          "effects": [
+            {
+              "effect": "entrance_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t1-hit",
+              "order": 411,
+              "delay": 0.06,
+              "duration": 0.08,
+              "restart": "always"
+            },
+            {
+              "effect": "exit_appear",
+              "trigger": "on-click",
+              "trigger_shape": "task-t2-hit",
+              "order": 500,
+              "delay": 0.0,
+              "duration": 0.08,
+              "restart": "always"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

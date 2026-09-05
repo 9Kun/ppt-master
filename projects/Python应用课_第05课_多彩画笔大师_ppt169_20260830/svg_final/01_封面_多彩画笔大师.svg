@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="cover" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs>
+    <linearGradient id="cover-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFCF1"/>
+      <stop offset="1" stop-color="#FFEFCB"/>
+    </linearGradient>
+    <linearGradient id="paint-ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2E9BFF"/>
+      <stop offset="0.52" stop-color="#FF6FA5"/>
+      <stop offset="1" stop-color="#FF9F1C"/>
+    </linearGradient>
+  </defs>
+  <rect id="page-bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="url(#cover-bg)"/>
+  <path id="top-ribbon" data-pptx-role="decoration" d="M0 0H1280V18H0Z" fill="url(#paint-ribbon)"/>
+
+  <g id="cover-copy" data-pptx-bounds="58 55 670 520">
+    <rect x="60" y="58" width="250" height="42" rx="21" fill="#EAF5FF"/>
+    <!-- icon: tabler-filled/palette -->
+  <g transform="translate(78, 67)" fill="#2E9BFF">
+    <path d="M12 2c5.498 0 10 4.002 10 9c0 1.351 -.6 2.64 -1.654 3.576c-1.03 .914 -2.412 1.424 -3.846 1.424h-2.516a1 1 0 0 0 -.5 1.875a1 1 0 0 1 .194 .14a2.3 2.3 0 0 1 -1.597 3.99l-.156 -.009l.068 .004l-.273 -.004c-5.3 -.146 -9.57 -4.416 -9.716 -9.716l-.004 -.28c0 -5.523 4.477 -10 10 -10m-3.5 6.5a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2m8 0a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2m-4 -3a2 2 0 0 0 -1.995 1.85l-.005 .15a2 2 0 1 0 2 -2" />
+  </g>
+    <text x="112" y="86" font-size="18" font-weight="700" fill="#2E9BFF">Python 应用课 · 第 05 课</text>
+    <text x="62" y="178" font-family="YouYuan, Microsoft YaHei, sans-serif" font-size="58" font-weight="700" fill="#203044">多彩画笔大师</text>
+    <text x="64" y="232" font-size="28" font-weight="700" fill="#FF9F1C">神奇海龟小画家 · 彩色徽章工坊</text>
+    <text x="64" y="286" font-size="24" fill="#203044">给海龟岛的徽章加上颜色、粗线和填充</text>
+    <rect x="62" y="326" width="594" height="108" rx="24" fill="#FFFFFF"/>
+    <rect x="62" y="326" width="12" height="108" rx="6" fill="#2E9BFF"/>
+    <text x="94" y="367" font-size="20" font-weight="700" fill="#2E9BFF">今天的升级挑战</text>
+    <text x="94" y="404" font-size="24" font-weight="700" fill="#203044">把普通黑线，变成有边框、有填充的彩色徽章！</text>
+    <g id="skill-pills">
+      <rect x="62" y="466" width="152" height="48" rx="24" fill="#EAF5FF"/>
+      <circle cx="90" cy="490" r="9" fill="#2E9BFF"/>
+      <text x="111" y="499" font-size="20" font-weight="700" fill="#203044">会配色</text>
+      <rect x="230" y="466" width="152" height="48" rx="24" fill="#FFE2ED"/>
+      <circle cx="258" cy="490" r="9" fill="#FF6FA5"/>
+      <text x="279" y="499" font-size="20" font-weight="700" fill="#203044">会填充</text>
+      <rect x="398" y="466" width="176" height="48" rx="24" fill="#FFF2DC"/>
+      <circle cx="426" cy="490" r="9" fill="#FF9F1C"/>
+      <text x="447" y="499" font-size="20" font-weight="700" fill="#203044">会改参数</text>
+    </g>
+  </g>
+
+  <g id="badge-stage" data-pptx-bounds="740 72 480 560">
+    <rect x="760" y="90" width="430" height="514" rx="56" fill="#FFFFFF"/>
+    <rect x="778" y="108" width="394" height="478" rx="46" fill="#EAF5FF"/>
+    <circle cx="975" cy="342" r="164" fill="#FFFFFF" stroke="#CFE5F8" stroke-width="4"/>
+    <g id="badge-outer">
+      <circle cx="975" cy="342" r="132" fill="#FFE26A" stroke="#2E5EA8" stroke-width="14"/>
+      <circle cx="975" cy="342" r="91" fill="#FF9F1C" stroke="#E34F67" stroke-width="10"/>
+      <circle cx="975" cy="342" r="45" fill="#FFFDF5"/>
+      <!-- icon: tabler-filled/star -->
+  <g transform="translate(944, 311) scale(2.58333)" fill="#2E9BFF">
+    <path d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+  </g>
+    </g>
+    <g id="paint-dots">
+      <circle cx="838" cy="169" r="18" fill="#2E9BFF"/>
+      <circle cx="1115" cy="185" r="14" fill="#FF6FA5"/>
+      <circle cx="1127" cy="496" r="20" fill="#22C55E"/>
+      <circle cx="831" cy="520" r="13" fill="#FF9F1C"/>
+    </g>
+    <rect x="842" y="536" width="266" height="42" rx="21" fill="#17243A"/>
+    <text x="975" y="564" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="18" font-weight="700" fill="#FFFFFF">color → fill → badge</text>
+  </g>
+
+  <g id="paint-trail" data-pptx-bounds="584 516 260 142">
+    <path d="M594 610 C656 552 716 626 792 548" fill="none" stroke="url(#paint-ribbon)" stroke-width="18" stroke-linecap="round"/>
+    <!-- icon: tabler-filled/pencil -->
+  <g transform="rotate(-22,782,555)" fill="#203044">
+    <path d="M12.085 6.5l5.415 5.415l-8.793 8.792a1 1 0 0 1 -.707 .293h-4a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 .293 -.707zm5.406 -2.698a3.828 3.828 0 0 1 1.716 6.405l-.292 .293l-5.415 -5.415l.293 -.292a3.83 3.83 0 0 1 3.698 -.991" />
+  </g>
+  </g>
+
+  <g id="footer" data-pptx-bounds="60 654 1160 30">
+    <text x="62" y="677" font-size="14" fill="#617187">120 分钟 · 复习 × 讲解 × 练习 × 编程作品</text>
+    <text x="1218" y="677" text-anchor="end" font-size="14" fill="#617187">05 / 彩色徽章工坊</text>
+  </g>
+</svg>

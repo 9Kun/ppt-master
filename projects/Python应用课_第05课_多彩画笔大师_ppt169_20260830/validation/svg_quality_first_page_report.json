@@ -1,0 +1,187 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "first-page",
+  "target": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第05课_多彩画笔大师_ppt169_20260830",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "8ea24131c8107ca6f16876ac7f114991165336761435291751ad0503149cea02",
+    "file_count": 1,
+    "files": [
+      {
+        "file": "01_封面_多彩画笔大师.svg",
+        "sha256": "ebd93b6d10a33edb7d076b625926a16b5c6b1c60bcfc35161e43e5427cf1f74a"
+      }
+    ]
+  },
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "warnings": 1,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 1,
+      "issues": [
+        {
+          "file": "01_封面_多彩画笔大师.svg",
+          "message": "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#2E5EA8": [
+        "01_封面_多彩画笔大师.svg"
+      ],
+      "#617187": [
+        "01_封面_多彩画笔大师.svg"
+      ],
+      "#E34F67": [
+        "01_封面_多彩画笔大师.svg"
+      ],
+      "#FFE26A": [
+        "01_封面_多彩画笔大师.svg"
+      ],
+      "#FFEFCB": [
+        "01_封面_多彩画笔大师.svg"
+      ],
+      "#FFFCF1": [
+        "01_封面_多彩画笔大师.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 1,
+    "totals": {
+      "text_elements": 12,
+      "image_placements": 0,
+      "icons": 3,
+      "svg_geometry_elements": 23,
+      "preset_shapes": 0,
+      "page_frame_elements": 2,
+      "marker_uses": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 1,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0
+    },
+    "geometry_elements": {
+      "circle": 11,
+      "ellipse": 0,
+      "line": 0,
+      "path": 2,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 10
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_封面_多彩画笔大师.svg",
+      "path": "D:\\Data\\Desktop\\python应用课 15课 教学大纲+PPT\\projects\\Python应用课_第05课_多彩画笔大师_ppt169_20260830\\svg_output\\01_封面_多彩画笔大师.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Font stack exports non-PPT-safe typeface(s) to PPTX (ea=YouYuan): YouYuan, Microsoft YaHei, sans-serif"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 11,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 2
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Courier New, monospace",
+          "Microsoft YaHei, Arial, sans-serif",
+          "YouYuan, Microsoft YaHei, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#2E5EA8",
+            "#617187",
+            "#E34F67",
+            "#FFE26A",
+            "#FFEFCB",
+            "#FFFCF1"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "ebd93b6d10a33edb7d076b625926a16b5c6b1c60bcfc35161e43e5427cf1f74a"
+    }
+  ]
+}
