@@ -126,8 +126,8 @@ replace_once(
 )
 replace_once(
     builder,
-    "                        timing_xml = '\\\n' + create_sequence_timing_xml(\n                            seq_targets, duration=slide_animation_duration,\n                            trigger=slide_animation_trigger,\n                        )\n",
-    "                        interactive_sequence_mode = normalize_interactive_sequence_mode(\n                            slide_animation_cfg.get('interactive_sequence_mode', 'standard')\n                        )\n                        timing_body = create_sequence_timing_xml(\n                            seq_targets, duration=slide_animation_duration,\n                            trigger=slide_animation_trigger,\n                        )\n                        if interactive_sequence_mode == 'wps':\n                            timing_body = rewrite_interactive_sequences_for_wps(timing_body)\n                        timing_xml = '\\\n' + timing_body\n",
+    "                        timing_xml = '\\n' + create_sequence_timing_xml(\n                            seq_targets, duration=slide_animation_duration,\n                            trigger=slide_animation_trigger,\n                        )\n",
+    "                        interactive_sequence_mode = normalize_interactive_sequence_mode(\n                            slide_animation_cfg.get('interactive_sequence_mode', 'standard')\n                        )\n                        timing_body = create_sequence_timing_xml(\n                            seq_targets, duration=slide_animation_duration,\n                            trigger=slide_animation_trigger,\n                        )\n                        if interactive_sequence_mode == 'wps':\n                            timing_body = rewrite_interactive_sequences_for_wps(timing_body)\n                        timing_xml = '\\n' + timing_body\n",
 )
 replace_once(
     builder,
