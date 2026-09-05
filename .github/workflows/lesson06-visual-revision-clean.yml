@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  validate-review-export:
+  validate-export:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     env:
@@ -23,49 +23,11 @@ jobs:
       - name: Attribution guard first
         run: python3 skills/ppt-master/scripts/attribution_guard.py
 
-      - name: Install PPT Master and visual review dependencies
-        shell: bash
-        run: |
-          python3 -m pip install -r skills/ppt-master/requirements.txt
-          python3 -m pip install playwright pillow
-          python3 -m playwright install chromium
-          sudo apt-get update
-          sudo apt-get install -y fonts-noto-cjk
+      - name: Install PPT Master dependencies
+        run: python3 -m pip install -r skills/ppt-master/requirements.txt
 
       - name: Official SVG quality gate
         run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT"
-
-      - name: Render touched pages with live preview server
-        shell: bash
-        run: |
-          python3 skills/ppt-master/scripts/svg_editor/server.py "$PROJECT" --no-browser >/tmp/lesson06-svg-server.log 2>&1 &
-          SERVER_PID=$!
-          cleanup() { kill "$SERVER_PID" 2>/dev/null || true; }
-          trap cleanup EXIT
-          for i in $(seq 1 30); do
-            if [ -f "$PROJECT/live_preview/lock.json" ]; then
-              PORT=$(python3 -c "import json; print(json.load(open('$PROJECT/live_preview/lock.json'))['port'])")
-              SERVER_URL="http://127.0.0.1:$PORT"
-              for j in $(seq 1 30); do
-                if python3 -c "import urllib.request; urllib.request.urlopen('$SERVER_URL/api/health', timeout=1).read()" >/dev/null 2>&1; then
-                  python3 skills/ppt-master/scripts/visual_review.py "$PROJECT" --server-url "$SERVER_URL" --pages \
-                    06 07 08 09 10 13 15 23 24 25 26 30 35
-                  exit 0
-                fi
-                sleep 1
-              done
-            fi
-            sleep 1
-          done
-          cat /tmp/lesson06-svg-server.log || true
-          exit 1
-
-      - name: Upload visual review renders
-        uses: actions/upload-artifact@v4
-        with:
-          name: lesson06-clean-visual-review
-          if-no-files-found: error
-          path: ${{ env.PROJECT }}/.preview/*.png
 
       - name: Rebuild svg_final from canonical svg_output
         run: python3 skills/ppt-master/scripts/finalize_svg.py "$PROJECT"
