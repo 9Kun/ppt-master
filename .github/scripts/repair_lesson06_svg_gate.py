@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -16,6 +17,7 @@ DESIGN_SPEC = PROJECT / "design_spec.md"
 SPEC_LOCK = PROJECT / "spec_lock.md"
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
+TASK_BUTTON_RE = re.compile(r"^task-t\d+-button$")
 
 
 def local_name(tag: str) -> str:
@@ -145,6 +147,33 @@ def mark_overlay_semantics(root: ET.Element, refs: set[str], page: int) -> tuple
     return decorated, named_anonymous, bounded
 
 
+def bound_task_buttons(root: ET.Element, slide_name: str) -> int:
+    """Give each visible task selector a tight root-coordinate subcanvas.
+
+    These button groups are intentionally not animation targets themselves, so
+    they are not covered by mark_overlay_semantics(). The official gate still
+    requires every visible root <g> to declare data-pptx-bounds. Use the first
+    descendant rect as the authored button frame, which keeps sibling task
+    buttons non-overlapping instead of assigning a full-slide subcanvas.
+    """
+    bounded = 0
+    for child in list(root):
+        if local_name(child.tag) != "g":
+            continue
+        group_id = (child.get("id") or "").strip()
+        if not TASK_BUTTON_RE.fullmatch(group_id):
+            continue
+        frame = next((el for el in child.iter() if local_name(el.tag) == "rect"), None)
+        if frame is None:
+            raise RuntimeError(f"{slide_name}: {group_id} has no rect frame for bounds")
+        values = [frame.get(name) for name in ("x", "y", "width", "height")]
+        if any(value is None for value in values):
+            raise RuntimeError(f"{slide_name}: {group_id} rect lacks x/y/width/height")
+        child.set("data-pptx-bounds", " ".join(str(value) for value in values))
+        bounded += 1
+    return bounded
+
+
 def normalize_animation_config(data: dict) -> tuple[int, int]:
     removed_modes = 0
     normalized_clicks = 0
@@ -253,6 +282,7 @@ def main() -> int:
     decorated = 0
     named_anonymous = 0
     bounded = 0
+    task_buttons_bounded = 0
     checked_slides = 0
     for svg_path in sorted(SVG_OUTPUT.glob("*.svg")):
         try:
@@ -271,6 +301,7 @@ def main() -> int:
         decorated += d
         named_anonymous += n
         bounded += b
+        task_buttons_bounded += bound_task_buttons(root, svg_path.stem)
         missing = refs - direct_group_ids(root)
         if missing:
             raise RuntimeError(f"{svg_path.stem}: unresolved top-level animation groups: {sorted(missing)}")
@@ -289,6 +320,7 @@ def main() -> int:
     print(f"marked intentional overlay/scene groups as decoration: {decorated}")
     print(f"assigned stable ids to anonymous scene groups: {named_anonymous}")
     print(f"assigned full-canvas root bounds to overlay/scene groups: {bounded}")
+    print(f"assigned tight root bounds to task buttons: {task_buttons_bounded}")
     print(f"removed unsupported interactive_sequence_mode entries: {removed_modes}")
     print(f"normalized trigger_shape effects to on-click: {normalized_clicks}")
     print(f"removed unused mascot rows from Design Spec: {removed_design_rows}")
