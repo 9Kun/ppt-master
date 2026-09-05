@@ -1,0 +1,15 @@
+
+[DIR] Project: 第12课_特工身份确认_阳光积木乐园_ppt169_20260906
+[FILE] 32 SVG file(s)
+[1/3] Expanding icons + local use references...
+      No icons
+      No local use references
+[2/3] Aligning + embedding images...
+      5 image(s) aligned + embedded
+[3/3] Flattening text...
+      No processing needed
+
+[OK] Done!
+
+Next steps:
+  python scripts/svg_to_pptx.py "projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906"
