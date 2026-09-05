@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/agent_lesson12_build.yml'
       - '.github/scripts/agent_lesson12_build.py'
+      - '.github/scripts/agent_lesson12_fix_schema.py'
 
 permissions:
   contents: write
@@ -50,7 +51,9 @@ jobs:
           python skills/ppt-master/scripts/project_manager.py import-sources "$PROJECT" '19课分教案/第12课_特工身份确认.docx'
 
       - name: Generate 32 SVG pages and sidecars
-        run: python .github/scripts/agent_lesson12_build.py
+        run: |
+          python .github/scripts/agent_lesson12_build.py
+          python .github/scripts/agent_lesson12_fix_schema.py
 
       - name: Project validation
         run: python skills/ppt-master/scripts/project_manager.py validate 'projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906'
