@@ -43,7 +43,7 @@ def _fallback_bounds(gid: str) -> tuple[float, float, float, float]:
     if gid.startswith(('guide-', 'status-')):
         return (800, 576, 404, 62)
     if gid.startswith('out-'):
-        return (796, 320, 412, 220)
+        return (796, 320, 412, 238)
     return (0, 0, 1280, 720)
 
 
@@ -72,6 +72,35 @@ def _interactive_ids_for_slide(slide_cfg: dict) -> set[str]:
         if triggered:
             interactive.add(str(gid))
     return interactive
+
+
+def fix_console_fit() -> None:
+    # P16 task 2 has six output lines. The original 42px leading put line 6 at y=560,
+    # two pixels below the dark terminal panel (bottom=558). Repack just that six-line
+    # transcript to 34px leading so all text remains visibly inside the terminal.
+    p16 = SVG_DIR / '16_练习A_数到3停.svg'
+    tree = ET.parse(p16)
+    root = tree.getroot()
+    byid = {el.get('id'): el for el in root.iter() if el.get('id')}
+    for j in range(1, 7):
+        group = byid.get(f'out-2-line-{j:02d}')
+        if group is None:
+            continue
+        text = next((el for el in group.iter() if el.tag == Q + 'text'), None)
+        if text is not None:
+            text.set('y', str(350 + (j - 1) * 34))
+    tree.write(p16, encoding='utf-8', xml_declaration=False)
+
+    # The process pill is intentionally close to the right edge. Give its header module
+    # 8px more legal subcanvas instead of allowing a tiny 0.6% text-bounds warning.
+    for stem in ('16_练习A_数到3停', '23_练习B_答对就break', '27_三次口令门_运行验证'):
+        path = SVG_DIR / f'{stem}.svg'
+        tree = ET.parse(path)
+        root = tree.getroot()
+        header = next((el for el in list(root) if el.get('id') == 'console-header'), None)
+        if header is not None:
+            header.set('data-pptx-bounds', '48 30 1192 82')
+        tree.write(path, encoding='utf-8', xml_declaration=False)
 
 
 def normalize_svg_contracts() -> None:
@@ -151,15 +180,22 @@ def audit_root_groups() -> None:
             visible = ''.join(root.itertext())
             if '本模板循环至少执行一次' not in visible:
                 errors.append('P31: corrected loop wording missing')
+        if path.name == '16_练习A_数到3停.svg':
+            byid = {el.get('id'): el for el in root.iter() if el.get('id')}
+            last = byid.get('out-2-line-06')
+            text = next((el for el in last.iter() if el.tag == Q + 'text'), None) if last is not None else None
+            if text is None or _f(text.get('y')) > 528:
+                errors.append('P16: six-line terminal transcript still exceeds safe terminal area')
     report = PROJECT / 'validation' / 'root_contract_self_audit.txt'
     report.parent.mkdir(parents=True, exist_ok=True)
     if errors:
         report.write_text('\n'.join('ERROR ' + item for item in errors), encoding='utf-8')
         raise SystemExit('\n'.join(errors))
-    report.write_text('PASS: every direct-root group has bounds; interaction overlays use explicit structural overlap exemptions.\n', encoding='utf-8')
+    report.write_text('PASS: direct-root bounds, interaction overlap contract, P16 terminal fit and P31 copy all pass.\n', encoding='utf-8')
 
 
 def main() -> None:
+    fix_console_fit()
     normalize_svg_contracts()
     fix_p31_copy()
     declare_29px_display_role()
