@@ -21,15 +21,15 @@ PPT Master - SVG to native DrawingML PPTX Tool
   [Slide 2/32] 02_今天的任务路线.svg (Native)
   Converted 6 elements, skipped 0, promoted 1 background
   [Slide 3/32] 03_复习抢答规则.svg (Native)
-  Converted 12 elements, skipped 0, promoted 1 background
+  Converted 14 elements, skipped 0, promoted 1 background
   [Slide 4/32] 04_复习抢答_1_2.svg (Native)
-  Converted 12 elements, skipped 0, promoted 1 background
+  Converted 14 elements, skipped 0, promoted 1 background
   [Slide 5/32] 05_复习抢答_3_4.svg (Native)
-  Converted 12 elements, skipped 0, promoted 1 background
+  Converted 14 elements, skipped 0, promoted 1 background
   [Slide 6/32] 06_复习抢答_5_6.svg (Native)
-  Converted 12 elements, skipped 0, promoted 1 background
+  Converted 14 elements, skipped 0, promoted 1 background
   [Slide 7/32] 07_复习抢答_7_8.svg (Native)
-  Converted 12 elements, skipped 0, promoted 1 background
+  Converted 14 elements, skipped 0, promoted 1 background
   [Slide 8/32] 08_复习抢答_9_10.svg (Native)
   Converted 6 elements, skipped 0, promoted 1 background
   [Slide 9/32] 09_任务启动.svg (Native)
@@ -45,21 +45,21 @@ PPT Master - SVG to native DrawingML PPTX Tool
   [Slide 14/32] 14_continue跳过本轮.svg (Native)
   Converted 5 elements, skipped 0, promoted 1 background
   [Slide 15/32] 15_for和while怎么选.svg (Native)
-  Converted 30 elements, skipped 0, promoted 1 background
+  Converted 33 elements, skipped 0, promoted 1 background
   [Slide 16/32] 16_练习A_数到3停.svg (Native)
   Converted 6 elements, skipped 0, promoted 1 background
   [Slide 17/32] 17_易错_漏掉计数增加.svg (Native)
-  Converted 12 elements, skipped 0, promoted 1 background
+  Converted 14 elements, skipped 0, promoted 1 background
   [Slide 18/32] 18_本课选择题_1_2.svg (Native)
-  Converted 12 elements, skipped 0, promoted 1 background
+  Converted 14 elements, skipped 0, promoted 1 background
   [Slide 19/32] 19_本课选择题_3_4.svg (Native)
-  Converted 12 elements, skipped 0, promoted 1 background
+  Converted 14 elements, skipped 0, promoted 1 background
   [Slide 20/32] 20_本课选择题_5_6.svg (Native)
-  Converted 12 elements, skipped 0, promoted 1 background
+  Converted 14 elements, skipped 0, promoted 1 background
   [Slide 21/32] 21_本课选择题_7_8.svg (Native)
   Converted 3 elements, skipped 0, promoted 1 background
   [Slide 22/32] 22_break实战.svg (Native)
-  Converted 30 elements, skipped 0, promoted 1 background
+  Converted 33 elements, skipped 0, promoted 1 background
   [Slide 23/32] 23_练习B_答对就break.svg (Native)
   Converted 8 elements, skipped 0, promoted 1 background
   [Slide 24/32] 24_break执行路径.svg (Native)
@@ -67,7 +67,7 @@ PPT Master - SVG to native DrawingML PPTX Tool
   [Slide 25/32] 25_微项目三次口令门.svg (Native)
   Converted 7 elements, skipped 0, promoted 1 background
   [Slide 26/32] 26_三次口令门代码拆解.svg (Native)
-  Converted 38 elements, skipped 0, promoted 1 background
+  Converted 36 elements, skipped 0, promoted 1 background
   [Slide 27/32] 27_三次口令门_运行验证.svg (Native)
   Converted 6 elements, skipped 0, promoted 1 background
   [Slide 28/32] 28_continue位置很重要.svg (Native)
@@ -80,15 +80,12 @@ PPT Master - SVG to native DrawingML PPTX Tool
   Converted 7 elements, skipped 0, promoted 1 background
   [Slide 32/32] 32_离堂小结.svg (Native)
   Flat structure: project-owned Master + Blank Layout (10 stock layout(s), 2 stock content shape(s) removed, 6 system footer hook(s) retained)
-  Flat theme: 1 theme part(s), stock text defaults retained (no theme contract)
+  Flat theme: 1 theme part(s), 1 master text style(s)
 
 [Done] Saved: projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906/exports/第12课_特工身份确认_阳光积木乐园.pptx
-  Trace: projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906/validation/第12课_特工身份确认_阳光积木乐园.trace.json
   Slides: 32; unselected Layout prototype carriers: 0
-  [POSTFLIGHT] status=failed quality_gate=failed slides=32 warning_categories=4
-  [POSTFLIGHT][WARNING] quality_gate=failed
-  [POSTFLIGHT][WARNING] quality_introduced_warnings=38
+  [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=32 warning_categories=2
+  [POSTFLIGHT][WARNING] quality_introduced_warnings=73
   [POSTFLIGHT][WARNING] unsafe_exported_font_faces=2
-  [POSTFLIGHT][WARNING] dangerous_nonconforming_svg_export=enabled
   [PPTX] projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906/exports/第12课_特工身份确认_阳光积木乐园.pptx
   [REPORT] projects/第12课_特工身份确认_阳光积木乐园_ppt169_20260906/validation/第12课_特工身份确认_阳光积木乐园.report.json

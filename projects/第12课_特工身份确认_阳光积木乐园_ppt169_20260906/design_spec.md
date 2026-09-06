@@ -87,6 +87,8 @@
 | Subtitle | 26 |
 | Annotation | 18 |
 | Code | 18 |
+| Display accent / terminal char | 29 |
+| Dense console code | 17 |
 | Footer | 14 |
 | Chapter number | 180 |
 | Section title | 56 |
