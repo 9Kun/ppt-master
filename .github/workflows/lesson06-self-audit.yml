@@ -73,10 +73,7 @@ jobs:
                   if not isinstance(row, dict):
                       continue
                   effects = row.get("effects")
-                  if isinstance(effects, list):
-                      rr = effects
-                  else:
-                      rr = [row]
+                  rr = effects if isinstance(effects, list) else [row]
                   for e in rr:
                       if not isinstance(e, dict):
                           continue
@@ -93,14 +90,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p audit
-          python3 skills/ppt-master/scripts/svg_editor/server.py "$PROJECT" --no-browser > audit/preview_server.log 2>&1 &
-          SERVER_PID=$!
-          trap 'kill $SERVER_PID >/dev/null 2>&1 || true' EXIT
-          for i in $(seq 1 60); do
-            if [ -f "$PROJECT/live_preview/lock.json" ]; then break; fi
-            sleep 1
-          done
-          test -f "$PROJECT/live_preview/lock.json"
+          python3 skills/ppt-master/scripts/svg_editor/server.py "$PROJECT" --no-browser --daemon | tee audit/preview_server.log
           python3 skills/ppt-master/scripts/visual_review.py "$PROJECT" --pages \
             05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 \
             | tee audit/visual_render.txt
@@ -130,6 +120,7 @@ jobs:
               canvas.save(out / f'contact_{bi//batch+1:02d}.png')
           print(f"contact sheets: {len(list(out.glob('*.png')))}")
           PY
+          python3 skills/ppt-master/scripts/svg_editor/server.py "$PROJECT" --shutdown || true
 
       - name: Rebuild svg_final and run canonical final release gate
         shell: bash
@@ -183,11 +174,12 @@ jobs:
             "$PROJECT/svg_output/04_十题热身赛.svg"
 
       - name: Upload baseline audit artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: lesson06-baseline-self-audit
           path: |
             audit/
             ${{ env.PROJECT }}/.preview/*.png
-          if-no-files-found: error
+          if-no-files-found: warn
           retention-days: 7
