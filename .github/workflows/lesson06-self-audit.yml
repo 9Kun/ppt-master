@@ -6,14 +6,188 @@ on:
       - fix/lesson06-self-audit-20260906
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  attribution-guard:
+  baseline-audit:
     runs-on: ubuntu-24.04
+    env:
+      PROJECT: projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Attribution guard
         run: python3 skills/ppt-master/scripts/attribution_guard.py
+
+      - name: Record protected P01-P04 source hashes
+        shell: bash
+        run: |
+          mkdir -p audit
+          for d in svg_output svg_final; do
+            for n in 01_阶段测评与复盘.svg 02_今天的120分钟.svg 03_今天要带走什么.svg 04_十题热身赛.svg; do
+              git rev-parse "HEAD:$PROJECT/$d/$n" >> audit/protected-pages.sha
+            done
+          done
+
+      - name: WPS companion status
+        shell: bash
+        run: |
+          set +e
+          (
+            cd skills/ppt-master-wps-compat
+            python3 scripts/maintain.py status
+          ) > audit/wps_status.txt 2>&1
+          echo "exit_code=$?" >> audit/wps_status.txt
+          exit 0
+
+      - name: Install PPT Master and visual review dependencies
+        run: |
+          python3 -m pip install -r skills/ppt-master/requirements.txt
+          python3 -m pip install playwright
+          python3 -m playwright install chromium
+
+      - name: Official SVG quality gate
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT" | tee audit/ordinary_svg_gate.txt
+
+      - name: Validate animations and inventory triggers
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 skills/ppt-master/scripts/animation_config.py validate "$PROJECT" | tee audit/animation_validate.txt
+          python3 skills/ppt-master/scripts/animation_config.py list-groups "$PROJECT" > audit/animation_groups.txt
+          python3 - <<'PY' > audit/animation_inventory.txt
+          import json, pathlib
+          p = pathlib.Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
+          cfg = json.loads((p / "animations.json").read_text(encoding="utf-8"))
+          slides = cfg.get("slides", {})
+          for slide, spec in slides.items():
+              groups = spec.get("groups", {}) if isinstance(spec, dict) else {}
+              triggers = {}
+              rows = 0
+              for gid, row in groups.items():
+                  if not isinstance(row, dict):
+                      continue
+                  effects = row.get("effects")
+                  if isinstance(effects, list):
+                      rr = effects
+                  else:
+                      rr = [row]
+                  for e in rr:
+                      if not isinstance(e, dict):
+                          continue
+                      rows += 1
+                      trig = e.get("trigger_shape") or row.get("trigger_shape")
+                      if trig:
+                          triggers[trig] = triggers.get(trig, 0) + 1
+              if triggers:
+                  print(f"{slide}: rows={rows} triggers={triggers}")
+          PY
+
+      - name: Render P05-P36 for visual review
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p audit
+          python3 skills/ppt-master/scripts/svg_editor/server.py "$PROJECT" --no-browser > audit/preview_server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID >/dev/null 2>&1 || true' EXIT
+          for i in $(seq 1 60); do
+            if [ -f "$PROJECT/live_preview/lock.json" ]; then break; fi
+            sleep 1
+          done
+          test -f "$PROJECT/live_preview/lock.json"
+          python3 skills/ppt-master/scripts/visual_review.py "$PROJECT" --pages \
+            05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 \
+            | tee audit/visual_render.txt
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageDraw
+          project = Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
+          previews = sorted(project.joinpath('.preview').glob('*.png'))
+          previews = [p for p in previews if p.name[:2].isdigit() and 5 <= int(p.name[:2]) <= 36]
+          out = Path('audit/contact_sheets'); out.mkdir(parents=True, exist_ok=True)
+          thumb_w, thumb_h = 384, 216
+          label_h = 28
+          cols, rows = 2, 4
+          batch = cols * rows
+          for bi in range(0, len(previews), batch):
+              chunk = previews[bi:bi+batch]
+              canvas = Image.new('RGB', (cols*thumb_w, rows*(thumb_h+label_h)), 'white')
+              draw = ImageDraw.Draw(canvas)
+              for j, path in enumerate(chunk):
+                  img = Image.open(path).convert('RGB')
+                  img.thumbnail((thumb_w, thumb_h))
+                  x = (j % cols) * thumb_w + (thumb_w-img.width)//2
+                  y0 = (j // cols) * (thumb_h+label_h)
+                  y = y0 + (thumb_h-img.height)//2
+                  canvas.paste(img, (x,y))
+                  draw.text((8 + (j % cols)*thumb_w, y0+thumb_h+4), path.stem, fill='black')
+              canvas.save(out / f'contact_{bi//batch+1:02d}.png')
+          print(f"contact sheets: {len(list(out.glob('*.png')))}")
+          PY
+
+      - name: Rebuild svg_final and run canonical final release gate
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 skills/ppt-master/scripts/finalize_svg.py "$PROJECT" | tee audit/finalize_svg.txt
+          python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT" --canonical-authoring --stage final --json | tee audit/canonical_svg_gate.txt
+
+      - name: Export fresh native PPTX and verify WPS code-demo timing
+        shell: bash
+        run: |
+          set -euo pipefail
+          BEFORE=$(mktemp)
+          find "$PROJECT/exports" -maxdepth 1 -type f -name '*.pptx' -printf '%f\n' | sort > "$BEFORE"
+          python3 skills/ppt-master/scripts/svg_to_pptx.py "$PROJECT" | tee audit/export.txt
+          AFTER=$(mktemp)
+          find "$PROJECT/exports" -maxdepth 1 -type f -name '*.pptx' -printf '%f\n' | sort > "$AFTER"
+          NEW=$(comm -13 "$BEFORE" "$AFTER" | tail -n 1)
+          test -n "$NEW"
+          INPUT="$PROJECT/exports/$NEW"
+          FINAL="$INPUT"
+          if [ -f "$PROJECT/tools/wps_fix_code_demo_animations.py" ]; then
+            FINAL="$PROJECT/exports/${NEW%.pptx}_selfaudit_wps.pptx"
+            python3 "$PROJECT/tools/wps_fix_code_demo_animations.py" "$PROJECT" "$INPUT" --output "$FINAL" | tee audit/wps_patch.txt
+            python3 "$PROJECT/tools/wps_fix_code_demo_animations.py" "$PROJECT" "$FINAL" --check | tee audit/wps_check.txt
+          fi
+          echo "$FINAL" > audit/final_pptx_path.txt
+          python3 - "$FINAL" <<'PY' | tee audit/pptx_package_check.txt
+          import sys, zipfile
+          from pptx import Presentation
+          path=sys.argv[1]
+          with zipfile.ZipFile(path) as z:
+              bad=z.testzip()
+              assert bad is None, bad
+              slides=[n for n in z.namelist() if n.startswith('ppt/slides/slide') and n.endswith('.xml')]
+              assert len(slides)==36, len(slides)
+          prs=Presentation(path)
+          assert len(prs.slides)==36, len(prs.slides)
+          print(f"OK: {path}; slides=36")
+          PY
+          mkdir -p audit/final
+          cp "$FINAL" audit/final/
+
+      - name: Verify protected P01-P04 were not edited in source
+        shell: bash
+        run: |
+          git diff --exit-code HEAD -- \
+            "$PROJECT/svg_output/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_output/02_今天的120分钟.svg" \
+            "$PROJECT/svg_output/03_今天要带走什么.svg" \
+            "$PROJECT/svg_output/04_十题热身赛.svg"
+
+      - name: Upload baseline audit artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: lesson06-baseline-self-audit
+          path: |
+            audit/
+            ${{ env.PROJECT }}/.preview/*.png
+          if-no-files-found: error
+          retention-days: 7
