@@ -85,6 +85,43 @@ jobs:
                   print(f"{slide}: rows={rows} triggers={triggers}")
           PY
 
+      - name: Audit suspicious duplicate text coordinates on static pages
+        shell: bash
+        run: |
+          python3 - <<'PY' | tee audit/duplicate_text_coordinates.txt
+          import json, re
+          from collections import defaultdict
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+          p = Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
+          cfg = json.loads((p / "animations.json").read_text(encoding="utf-8"))
+          animated = set((cfg.get("slides") or {}).keys())
+          ns = {'s':'http://www.w3.org/2000/svg'}
+          findings = []
+          for f in sorted((p/'svg_output').glob('*.svg')):
+              m = re.match(r'^(\d+)_', f.stem)
+              if not m or int(m.group(1)) < 5 or f.stem in animated:
+                  continue
+              root = ET.parse(f).getroot()
+              seen = defaultdict(list)
+              for t in root.findall('.//s:text', ns):
+                  x=t.get('x'); y=t.get('y')
+                  if x is None or y is None: continue
+                  text=''.join(t.itertext()).strip()
+                  if not text: continue
+                  seen[(x,y)].append(text)
+              dup = {k:v for k,v in seen.items() if len(v) > 1}
+              if dup:
+                  findings.append((f.name, dup))
+          if not findings:
+              print('OK: no duplicate text coordinates on static P05-P36 pages')
+          else:
+              for name, dup in findings:
+                  print(name)
+                  for (x,y), vals in dup.items():
+                      print(f'  x={x} y={y}: {vals}')
+          PY
+
       - name: Render P05-P36 for visual review
         shell: bash
         run: |
@@ -94,6 +131,8 @@ jobs:
           python3 skills/ppt-master/scripts/visual_review.py "$PROJECT" --pages \
             05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 \
             | tee audit/visual_render.txt
+          mkdir -p audit/previews
+          cp "$PROJECT"/.preview/*.png audit/previews/ || true
           python3 - <<'PY'
           from pathlib import Path
           from PIL import Image, ImageDraw
@@ -178,8 +217,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: lesson06-baseline-self-audit
-          path: |
-            audit/
-            ${{ env.PROJECT }}/.preview/*.png
+          path: audit/
           if-no-files-found: warn
           retention-days: 7
