@@ -6,10 +6,10 @@ on:
       - fix/lesson06-self-audit-20260906
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  baseline-audit:
+  final-release:
     runs-on: ubuntu-24.04
     env:
       PROJECT: projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905
@@ -18,205 +18,137 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Attribution guard
+      - name: Attribution guard first
         run: python3 skills/ppt-master/scripts/attribution_guard.py
 
-      - name: Record protected P01-P04 source hashes
-        shell: bash
-        run: |
-          mkdir -p audit
-          for d in svg_output svg_final; do
-            for n in 01_阶段测评与复盘.svg 02_今天的120分钟.svg 03_今天要带走什么.svg 04_十题热身赛.svg; do
-              git rev-parse "HEAD:$PROJECT/$d/$n" >> audit/protected-pages.sha
-            done
-          done
-
-      - name: WPS companion status
-        shell: bash
-        run: |
-          set +e
-          (
-            cd skills/ppt-master-wps-compat
-            python3 scripts/maintain.py status
-          ) > audit/wps_status.txt 2>&1
-          echo "exit_code=$?" >> audit/wps_status.txt
-          exit 0
-
-      - name: Install PPT Master and visual review dependencies
-        run: |
-          python3 -m pip install -r skills/ppt-master/requirements.txt
-          python3 -m pip install playwright
-          python3 -m playwright install chromium
+      - name: Install PPT Master dependencies
+        run: python3 -m pip install -r skills/ppt-master/requirements.txt
 
       - name: Official SVG quality gate
-        shell: bash
-        run: |
-          set -o pipefail
-          python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT" | tee audit/ordinary_svg_gate.txt
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT"
 
-      - name: Validate animations and inventory triggers
-        shell: bash
-        run: |
-          set -o pipefail
-          python3 skills/ppt-master/scripts/animation_config.py validate "$PROJECT" | tee audit/animation_validate.txt
-          python3 skills/ppt-master/scripts/animation_config.py list-groups "$PROJECT" > audit/animation_groups.txt
-          python3 - <<'PY' > audit/animation_inventory.txt
-          import json, pathlib
-          p = pathlib.Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
-          cfg = json.loads((p / "animations.json").read_text(encoding="utf-8"))
-          slides = cfg.get("slides", {})
-          for slide, spec in slides.items():
-              groups = spec.get("groups", {}) if isinstance(spec, dict) else {}
-              triggers = {}
-              rows = 0
-              for gid, row in groups.items():
-                  if not isinstance(row, dict):
-                      continue
-                  effects = row.get("effects")
-                  rr = effects if isinstance(effects, list) else [row]
-                  for e in rr:
-                      if not isinstance(e, dict):
-                          continue
-                      rows += 1
-                      trig = e.get("trigger_shape") or row.get("trigger_shape")
-                      if trig:
-                          triggers[trig] = triggers.get(trig, 0) + 1
-              if triggers:
-                  print(f"{slide}: rows={rows} triggers={triggers}")
-          PY
+      - name: Validate custom animations
+        run: python3 skills/ppt-master/scripts/animation_config.py validate "$PROJECT"
 
-      - name: Audit suspicious duplicate text coordinates on static pages
-        shell: bash
-        run: |
-          python3 - <<'PY' | tee audit/duplicate_text_coordinates.txt
-          import json, re
-          from collections import defaultdict
-          from pathlib import Path
-          from xml.etree import ElementTree as ET
-          p = Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
-          cfg = json.loads((p / "animations.json").read_text(encoding="utf-8"))
-          animated = set((cfg.get("slides") or {}).keys())
-          ns = {'s':'http://www.w3.org/2000/svg'}
-          findings = []
-          for f in sorted((p/'svg_output').glob('*.svg')):
-              m = re.match(r'^(\d+)_', f.stem)
-              if not m or int(m.group(1)) < 5 or f.stem in animated:
-                  continue
-              root = ET.parse(f).getroot()
-              seen = defaultdict(list)
-              for t in root.findall('.//s:text', ns):
-                  x=t.get('x'); y=t.get('y')
-                  if x is None or y is None: continue
-                  text=''.join(t.itertext()).strip()
-                  if not text: continue
-                  seen[(x,y)].append(text)
-              dup = {k:v for k,v in seen.items() if len(v) > 1}
-              if dup:
-                  findings.append((f.name, dup))
-          if not findings:
-              print('OK: no duplicate text coordinates on static P05-P36 pages')
-          else:
-              for name, dup in findings:
-                  print(name)
-                  for (x,y), vals in dup.items():
-                      print(f'  x={x} y={y}: {vals}')
-          PY
-
-      - name: Render P05-P36 for visual review
+      - name: Rebuild svg_final
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p audit
-          python3 skills/ppt-master/scripts/svg_editor/server.py "$PROJECT" --no-browser --daemon | tee audit/preview_server.log
-          python3 skills/ppt-master/scripts/visual_review.py "$PROJECT" --pages \
-            05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 \
-            | tee audit/visual_render.txt
-          mkdir -p audit/previews
-          cp "$PROJECT"/.preview/*.png audit/previews/ || true
-          python3 - <<'PY'
-          from pathlib import Path
-          from PIL import Image, ImageDraw
-          project = Path("projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905")
-          previews = sorted(project.joinpath('.preview').glob('*.png'))
-          previews = [p for p in previews if p.name[:2].isdigit() and 5 <= int(p.name[:2]) <= 36]
-          out = Path('audit/contact_sheets'); out.mkdir(parents=True, exist_ok=True)
-          thumb_w, thumb_h = 384, 216
-          label_h = 28
-          cols, rows = 2, 4
-          batch = cols * rows
-          for bi in range(0, len(previews), batch):
-              chunk = previews[bi:bi+batch]
-              canvas = Image.new('RGB', (cols*thumb_w, rows*(thumb_h+label_h)), 'white')
-              draw = ImageDraw.Draw(canvas)
-              for j, path in enumerate(chunk):
-                  img = Image.open(path).convert('RGB')
-                  img.thumbnail((thumb_w, thumb_h))
-                  x = (j % cols) * thumb_w + (thumb_w-img.width)//2
-                  y0 = (j // cols) * (thumb_h+label_h)
-                  y = y0 + (thumb_h-img.height)//2
-                  canvas.paste(img, (x,y))
-                  draw.text((8 + (j % cols)*thumb_w, y0+thumb_h+4), path.stem, fill='black')
-              canvas.save(out / f'contact_{bi//batch+1:02d}.png')
-          print(f"contact sheets: {len(list(out.glob('*.png')))}")
-          PY
-          python3 skills/ppt-master/scripts/svg_editor/server.py "$PROJECT" --shutdown || true
+          python3 skills/ppt-master/scripts/finalize_svg.py "$PROJECT"
+          mkdir -p /tmp/lesson06-final
+          cp "$PROJECT/svg_final/12_成功标准先看清.svg" /tmp/lesson06-final/
+          cp "$PROJECT/svg_final/16_海龟显隐实验站.svg" /tmp/lesson06-final/
+          cp "$PROJECT/svg_final/34_作品验收与同伴建议.svg" /tmp/lesson06-final/
+          git checkout HEAD -- "$PROJECT/svg_final"
+          cp /tmp/lesson06-final/12_成功标准先看清.svg "$PROJECT/svg_final/"
+          cp /tmp/lesson06-final/16_海龟显隐实验站.svg "$PROJECT/svg_final/"
+          cp /tmp/lesson06-final/34_作品验收与同伴建议.svg "$PROJECT/svg_final/"
 
-      - name: Rebuild svg_final and run canonical final release gate
-        shell: bash
-        run: |
-          set -o pipefail
-          python3 skills/ppt-master/scripts/finalize_svg.py "$PROJECT" | tee audit/finalize_svg.txt
-          python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT" --canonical-authoring --stage final --json | tee audit/canonical_svg_gate.txt
+      - name: Canonical final release SVG gate
+        run: python3 skills/ppt-master/scripts/svg_quality_checker.py "$PROJECT" --canonical-authoring --stage final --json
 
-      - name: Export fresh native PPTX and verify WPS code-demo timing
+      - name: Export fresh native PPTX and apply WPS interaction serializer
         shell: bash
         run: |
           set -euo pipefail
           BEFORE=$(mktemp)
           find "$PROJECT/exports" -maxdepth 1 -type f -name '*.pptx' -printf '%f\n' | sort > "$BEFORE"
-          python3 skills/ppt-master/scripts/svg_to_pptx.py "$PROJECT" | tee audit/export.txt
+          python3 skills/ppt-master/scripts/svg_to_pptx.py "$PROJECT"
           AFTER=$(mktemp)
           find "$PROJECT/exports" -maxdepth 1 -type f -name '*.pptx' -printf '%f\n' | sort > "$AFTER"
           NEW=$(comm -13 "$BEFORE" "$AFTER" | tail -n 1)
           test -n "$NEW"
           INPUT="$PROJECT/exports/$NEW"
-          FINAL="$INPUT"
-          if [ -f "$PROJECT/tools/wps_fix_code_demo_animations.py" ]; then
-            FINAL="$PROJECT/exports/${NEW%.pptx}_selfaudit_wps.pptx"
-            python3 "$PROJECT/tools/wps_fix_code_demo_animations.py" "$PROJECT" "$INPUT" --output "$FINAL" | tee audit/wps_patch.txt
-            python3 "$PROJECT/tools/wps_fix_code_demo_animations.py" "$PROJECT" "$FINAL" --check | tee audit/wps_check.txt
-          fi
-          echo "$FINAL" > audit/final_pptx_path.txt
-          python3 - "$FINAL" <<'PY' | tee audit/pptx_package_check.txt
+          FINAL="$PROJECT/exports/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_20260906_自检修复_WPS.pptx"
+          python3 "$PROJECT/tools/wps_fix_code_demo_animations.py" "$PROJECT" "$INPUT" --output "$FINAL"
+          python3 "$PROJECT/tools/wps_fix_code_demo_animations.py" "$PROJECT" "$FINAL" --check
+          rm -f "$INPUT"
+          echo "FINAL_PPTX=$FINAL" >> "$GITHUB_ENV"
+
+      - name: Verify every click trigger is one interactive sequence
+        shell: bash
+        run: |
+          python3 - "$FINAL_PPTX" <<'PY'
+          import sys, zipfile
+          from collections import Counter
+          from xml.etree import ElementTree as ET
+          P='http://schemas.openxmlformats.org/presentationml/2006/main'
+          q=lambda n:f'{{{P}}}{n}'
+          bad=[]
+          with zipfile.ZipFile(sys.argv[1]) as z:
+              for n in range(5,37):
+                  root=ET.fromstring(z.read(f'ppt/slides/slide{n}.xml'))
+                  counts=Counter()
+                  for seq in root.iter(q('seq')):
+                      ctn=seq.find(q('cTn'))
+                      if ctn is None or ctn.get('nodeType')!='interactiveSeq':
+                          continue
+                      st=ctn.find(q('stCondLst'))
+                      if st is None: continue
+                      tgt=next(st.iter(q('spTgt')),None)
+                      if tgt is not None and tgt.get('spid'):
+                          counts[tgt.get('spid')]+=1
+                  repeated={k:v for k,v in counts.items() if v>1}
+                  if repeated: bad.append((n,repeated))
+          if bad:
+              raise SystemExit(f'repeated interactive sequences remain: {bad}')
+          print('OK: every P05-P36 click trigger has a single interactiveSeq')
+          PY
+
+      - name: Validate PPTX package
+        shell: bash
+        run: |
+          python3 - "$FINAL_PPTX" <<'PY'
           import sys, zipfile
           from pptx import Presentation
           path=sys.argv[1]
           with zipfile.ZipFile(path) as z:
-              bad=z.testzip()
-              assert bad is None, bad
+              assert z.testzip() is None
               slides=[n for n in z.namelist() if n.startswith('ppt/slides/slide') and n.endswith('.xml')]
               assert len(slides)==36, len(slides)
           prs=Presentation(path)
-          assert len(prs.slides)==36, len(prs.slides)
-          print(f"OK: {path}; slides=36")
+          assert len(prs.slides)==36
+          print(f'OK: native PPTX opens correctly; slides={len(prs.slides)}')
           PY
-          mkdir -p audit/final
-          cp "$FINAL" audit/final/
 
-      - name: Verify protected P01-P04 were not edited in source
+      - name: Hard-protect P01-P04 and all unrelated svg_output pages
         shell: bash
         run: |
+          set -euo pipefail
           git diff --exit-code HEAD -- \
             "$PROJECT/svg_output/01_阶段测评与复盘.svg" \
             "$PROJECT/svg_output/02_今天的120分钟.svg" \
             "$PROJECT/svg_output/03_今天要带走什么.svg" \
-            "$PROJECT/svg_output/04_十题热身赛.svg"
+            "$PROJECT/svg_output/04_十题热身赛.svg" \
+            "$PROJECT/svg_final/01_阶段测评与复盘.svg" \
+            "$PROJECT/svg_final/02_今天的120分钟.svg" \
+            "$PROJECT/svg_final/03_今天要带走什么.svg" \
+            "$PROJECT/svg_final/04_十题热身赛.svg"
+          python3 - <<'PY'
+          import subprocess
+          allowed={
+            '12_成功标准先看清.svg',
+            '16_海龟显隐实验站.svg',
+            '34_作品验收与同伴建议.svg',
+          }
+          project='projects/Python应用课_第06课_阶段测评与复盘_阳光积木实验室_20260905_ppt169_20260905/svg_output/'
+          out=subprocess.check_output(['git','diff','--name-only','HEAD','--',project],text=True)
+          bad=[p for p in out.splitlines() if p.rsplit('/',1)[-1] not in allowed]
+          if bad: raise SystemExit('unexpected svg_output changes: '+str(bad))
+          print('OK: only P12/P16/P34 changed in svg_output')
+          PY
 
-      - name: Upload baseline audit artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: lesson06-baseline-self-audit
-          path: audit/
-          if-no-files-found: warn
-          retention-days: 7
+      - name: Commit final synchronized pages and PPTX
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            "$PROJECT/svg_final/12_成功标准先看清.svg" \
+            "$PROJECT/svg_final/16_海龟显隐实验站.svg" \
+            "$PROJECT/svg_final/34_作品验收与同伴建议.svg" \
+            "$PROJECT/validation/svg_quality_report.json" \
+            "$FINAL_PPTX"
+          git commit -m "fix(slides): finalize lesson06 self-audit repairs"
+          git push origin HEAD:fix/lesson06-self-audit-20260906
